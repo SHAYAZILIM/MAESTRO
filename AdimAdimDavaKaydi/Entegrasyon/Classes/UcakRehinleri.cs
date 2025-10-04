@@ -1,0 +1,36 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace AdimAdimDavaKaydi.Entegrasyon.Classes
+{
+    public class UcakRehin
+    {
+        public string Aciklama { get; set; }
+
+        public string Adi { get; set; }
+
+        public string Cinsi { get; set; }
+
+        public string Durum { get; set; }
+
+        public string ReferanNo { get; set; }
+
+        public DateTime RehinTarihi { get; set; }
+
+        public string RehinTuru { get; set; }
+
+        public string SicilTescilNo { get; set; }
+
+        public string SicilYevmiyeNo { get; set; }
+
+        public List<Taraf> Taraflar { get; set; }
+
+        public string TescilNumarasi { get; set; }
+
+        public decimal Tutari { get; set; }
+
+        public string TutariParaBirimi { get; set; }
+
+        public string Yeddiemin { get; set; }
+    }
+}

@@ -1,0 +1,13 @@
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\Resources\DevExpress.XtraGrid.Appearances.xml
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\Resources\DevExpress.XtraVerticalGrid.Appearances.xml
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\Resources\DevExpress.XtraTreeList.Appearances.xml
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\AvpDllBelgeUtil.dll.config
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\AvpDllBelgeUtil.dll
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\AvpDllBelgeUtil.XmlSerializers.dll
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\BelgeUtil\obj\Release\EkDllBelgeUtil.csprojResolveAssemblyReference.cache
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\BelgeUtil\obj\Release\BelgeUtil.Stringler.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\BelgeUtil\obj\Release\BelgeUtil.frmErrorHandler.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\BelgeUtil\obj\Release\EkDllBelgeUtil.csproj.GenerateResource.Cache
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\BelgeUtil\obj\Release\AvpDllBelgeUtil.dll.licenses
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\BelgeUtil\obj\Release\AvpDllBelgeUtil.dll
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\BelgeUtil\obj\Release\AvpDllBelgeUtil.XmlSerializers.dll

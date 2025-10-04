@@ -1,0 +1,80 @@
+2014-04-03 21:12:40.7944 Hata 
+ Cannot access a disposed object.
+Object name: 'frmIcraDosyaKayit'. System.ObjectDisposedException ObjectDisposedException System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'frmIcraDosyaKayit'.
+   at System.Windows.Forms.Control.CreateHandle()
+   at System.Windows.Forms.Form.CreateHandle()
+   at DevExpress.XtraEditors.XtraForm.CreateHandle()
+   at System.Windows.Forms.Control.get_Handle()
+   at AdimAdimDavaKaydi.PaketKontrol.PaketFormHelper.GetPaketForm(Form form) in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AdimAdimDavaKaydi\PaketKontrol\PaketFormHelper.cs:line 95
+   at AdimAdimDavaKaydi.Forms.Icra.frmIcraDosyaKayit.myFoy_ColumnChanged(Object sender, AV001_TI_BIL_FOYEventArgs e) in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Forms\Icra\frmIcraDosyaKayit.cs:line 4528
+   at AvukatProLib2.Entities.AV001_TI_BIL_FOYEventHandler.Invoke(Object sender, AV001_TI_BIL_FOYEventArgs e)
+   at AvukatProLib2.Entities.AV001_TI_BIL_FOYBase.OnColumnChanged(AV001_TI_BIL_FOYColumn column, Object value)
+   at AvukatProLib2.Entities.AV001_TI_BIL_FOYBase.set_SON_HESAP_TARIHI(Nullable`1 value)
+   at AdimAdimDavaKaydi.IcraTakipForms._frmIcraTakip.SonHesapTarihiKontrolu(AV001_TI_BIL_FOY myFoy) in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AdimAdimDavaKaydi\IcraTakipForms\_frmIcraTakip.cs:line 1482
+   at AdimAdimDavaKaydi.UserControls.ucIcraHesapCetveli.ButtonClick() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AdimAdimDavaKaydi\UserControls\ucIcraHesapCetveli.cs:line 366
+   at AdimAdimDavaKaydi.UserControls.ucIcraHesapCetveli.simpleButton2_Click(Object sender, EventArgs e) in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AdimAdimDavaKaydi\UserControls\ucIcraHesapCetveli.cs:line 459
+   at System.Windows.Forms.Control.OnClick(EventArgs e)
+   at DevExpress.XtraEditors.BaseButton.OnClick(EventArgs e)
+   at DevExpress.XtraEditors.BaseButton.OnMouseUp(MouseEventArgs e)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at DevExpress.Utils.Controls.ControlBase.WndProc(Message& m)
+   at DevExpress.XtraEditors.BaseControl.WndProc(Message& msg)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam) Void CreateHandle()    at System.Windows.Forms.Control.CreateHandle()
+   at System.Windows.Forms.Form.CreateHandle()
+   at DevExpress.XtraEditors.XtraForm.CreateHandle()
+   at System.Windows.Forms.Control.get_Handle()
+   at AdimAdimDavaKaydi.PaketKontrol.PaketFormHelper.GetPaketForm(Form form) in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AdimAdimDavaKaydi\PaketKontrol\PaketFormHelper.cs:line 95
+   at AdimAdimDavaKaydi.Forms.Icra.frmIcraDosyaKayit.myFoy_ColumnChanged(Object sender, AV001_TI_BIL_FOYEventArgs e) in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Forms\Icra\frmIcraDosyaKayit.cs:line 4528
+   at AvukatProLib2.Entities.AV001_TI_BIL_FOYEventHandler.Invoke(Object sender, AV001_TI_BIL_FOYEventArgs e)
+   at AvukatProLib2.Entities.AV001_TI_BIL_FOYBase.OnColumnChanged(AV001_TI_BIL_FOYColumn column, Object value)
+   at AvukatProLib2.Entities.AV001_TI_BIL_FOYBase.set_SON_HESAP_TARIHI(Nullable`1 value)
+   at AdimAdimDavaKaydi.IcraTakipForms._frmIcraTakip.SonHesapTarihiKontrolu(AV001_TI_BIL_FOY myFoy) in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AdimAdimDavaKaydi\IcraTakipForms\_frmIcraTakip.cs:line 1482
+   at AdimAdimDavaKaydi.UserControls.ucIcraHesapCetveli.ButtonClick() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AdimAdimDavaKaydi\UserControls\ucIcraHesapCetveli.cs:line 366
+   at AdimAdimDavaKaydi.UserControls.ucIcraHesapCetveli.simpleButton2_Click(Object sender, EventArgs e) in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AdimAdimDavaKaydi\UserControls\ucIcraHesapCetveli.cs:line 459
+   at System.Windows.Forms.Control.OnClick(EventArgs e)
+   at DevExpress.XtraEditors.BaseButton.OnClick(EventArgs e)
+   at DevExpress.XtraEditors.BaseButton.OnMouseUp(MouseEventArgs e)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at DevExpress.Utils.Controls.ControlBase.WndProc(Message& m)
+   at DevExpress.XtraEditors.BaseControl.WndProc(Message& msg)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+2014-04-03 21:12:57.4241 Hata 
+ Cannot access a disposed object.
+Object name: 'frmIcraDosyaKayit'. System.ObjectDisposedException ObjectDisposedException System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'frmIcraDosyaKayit'.
+   at System.Windows.Forms.Control.CreateHandle()
+   at System.Windows.Forms.Form.CreateHandle()
+   at DevExpress.XtraEditors.XtraForm.CreateHandle()
+   at System.Windows.Forms.Control.get_Handle()
+   at AdimAdimDavaKaydi.PaketKontrol.PaketFormHelper.GetPaketForm(Form form) in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AdimAdimDavaKaydi\PaketKontrol\PaketFormHelper.cs:line 95
+   at AdimAdimDavaKaydi.Forms.Icra.frmIcraDosyaKayit.myFoy_ColumnChanged(Object sender, AV001_TI_BIL_FOYEventArgs e) in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Forms\Icra\frmIcraDosyaKayit.cs:line 4528
+   at AvukatProLib2.Entities.AV001_TI_BIL_FOYEventHandler.Invoke(Object sender, AV001_TI_BIL_FOYEventArgs e)
+   at AvukatProLib2.Entities.AV001_TI_BIL_FOYBase.OnColumnChanged(AV001_TI_BIL_FOYColumn column, Object value)
+   at AvukatProLib2.Entities.AV001_TI_BIL_FOYBase.set_ASIL_ALACAK(Decimal value)
+   at AvukatProLib.Hesap.FaizHelper.HesaplaAsilAlacak(AV001_TI_BIL_FOY mFoy) in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatProLib.Hesap\FaizHelper.cs:line 295
+   at AvukatProLib.Hesap.Hesap.Icra..ctor(AV001_TI_BIL_FOY foy, Boolean kaydedilsin) in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatProLib.Hesap\Hesap.cs:line 2138
+   at AvukatProLib.Hesap.Hesap.Icra..ctor(AV001_TI_BIL_FOY foy) in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatProLib.Hesap\Hesap.cs:line 2015
+   at AdimAdimDavaKaydi.UserControls.ucIcraHesapCetveli.<ButtonClick>b__4(Object s1, DoWorkEventArgs e1) in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AdimAdimDavaKaydi\UserControls\ucIcraHesapCetveli.cs:line 375
+   at System.ComponentModel.BackgroundWorker.OnDoWork(DoWorkEventArgs e)
+   at System.ComponentModel.BackgroundWorker.WorkerThreadStart(Object argument) Void CreateHandle()    at System.Windows.Forms.Control.CreateHandle()
+   at System.Windows.Forms.Form.CreateHandle()
+   at DevExpress.XtraEditors.XtraForm.CreateHandle()
+   at System.Windows.Forms.Control.get_Handle()
+   at AdimAdimDavaKaydi.PaketKontrol.PaketFormHelper.GetPaketForm(Form form) in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AdimAdimDavaKaydi\PaketKontrol\PaketFormHelper.cs:line 95
+   at AdimAdimDavaKaydi.Forms.Icra.frmIcraDosyaKayit.myFoy_ColumnChanged(Object sender, AV001_TI_BIL_FOYEventArgs e) in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Forms\Icra\frmIcraDosyaKayit.cs:line 4528
+   at AvukatProLib2.Entities.AV001_TI_BIL_FOYEventHandler.Invoke(Object sender, AV001_TI_BIL_FOYEventArgs e)
+   at AvukatProLib2.Entities.AV001_TI_BIL_FOYBase.OnColumnChanged(AV001_TI_BIL_FOYColumn column, Object value)
+   at AvukatProLib2.Entities.AV001_TI_BIL_FOYBase.set_ASIL_ALACAK(Decimal value)
+   at AvukatProLib.Hesap.FaizHelper.HesaplaAsilAlacak(AV001_TI_BIL_FOY mFoy) in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatProLib.Hesap\FaizHelper.cs:line 295
+   at AvukatProLib.Hesap.Hesap.Icra..ctor(AV001_TI_BIL_FOY foy, Boolean kaydedilsin) in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatProLib.Hesap\Hesap.cs:line 2138
+   at AvukatProLib.Hesap.Hesap.Icra..ctor(AV001_TI_BIL_FOY foy) in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatProLib.Hesap\Hesap.cs:line 2015
+   at AdimAdimDavaKaydi.UserControls.ucIcraHesapCetveli.<ButtonClick>b__4(Object s1, DoWorkEventArgs e1) in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AdimAdimDavaKaydi\UserControls\ucIcraHesapCetveli.cs:line 375
+   at System.ComponentModel.BackgroundWorker.OnDoWork(DoWorkEventArgs e)
+   at System.ComponentModel.BackgroundWorker.WorkerThreadStart(Object argument)

@@ -1,0 +1,10 @@
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBin\AvpDllRecordGenerator.dll
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBin\AvpDllRecordGenerator.pdb
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\Recordgenerator\RecordGenerator\obj\Debug\EkDllKayitOlusturucu.csprojResolveAssemblyReference.cache
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\Recordgenerator\RecordGenerator\obj\Debug\AvpDllRecordGenerator.dll
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\Recordgenerator\RecordGenerator\obj\Debug\AvpDllRecordGenerator.pdb
+D:\dogan\AdimAdimDavaKaydi\ProjectBin\AvpDllRecordGenerator.dll
+D:\dogan\AdimAdimDavaKaydi\ProjectBin\AvpDllRecordGenerator.pdb
+D:\dogan\AdimAdimDavaKaydi\Recordgenerator\RecordGenerator\obj\Debug\EkDllKayitOlusturucu.csprojResolveAssemblyReference.cache
+D:\dogan\AdimAdimDavaKaydi\Recordgenerator\RecordGenerator\obj\Debug\AvpDllRecordGenerator.dll
+D:\dogan\AdimAdimDavaKaydi\Recordgenerator\RecordGenerator\obj\Debug\AvpDllRecordGenerator.pdb

@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 15.75, 14.25" name="db">
+  <DataContextMoniker Name="/dbDataContext" />
+  <nestedChildShapes>
+    <classShape Id="65e618c0-56c8-4274-a6d4-f43309cdebe4" isExpanded="false" absoluteBounds="0.5, 1.625, 2, 0.45">
+      <DataClassMoniker Name="/dbDataContext/TI_KOD_MAL_CINS" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6105b0a0-d758-40f0-8d1a-3b9eb363d6d5" absoluteBounds="0.51499999999999968, 2.085, 1.9700000000000002, 2.508321126302083" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="72653a2c-3400-45ec-be83-470a1e0f794e" isExpanded="false" absoluteBounds="0.5, 2.75, 2, 0.45">
+      <DataClassMoniker Name="/dbDataContext/TI_KOD_MAL_TUR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f572febc-4e40-4e62-80db-afd3f8a9e9b1" absoluteBounds="0.51500000000000012, 3.21, 1.9700000000000002, 2.508321126302083" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="20a13b80-2cc3-4533-a1f1-226cdbaa6ee3" isExpanded="false" absoluteBounds="3, 1.375, 2, 0.45">
+      <DataClassMoniker Name="/dbDataContext/TI_KOD_MAL_KATEGORI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="64ca8323-debc-43b2-baa6-7d3f880d8ad9" absoluteBounds="3.015, 1.835, 1.9700000000000002, 2.015279134114583" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.5 : 2.75); (1.5 : 2.075)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/dbDataContext/TI_KOD_MAL_TUR/TI_KOD_MAL_TUR_TI_KOD_MAL_CINS" />
+      <nodes>
+        <classShapeMoniker Id="72653a2c-3400-45ec-be83-470a1e0f794e" />
+        <classShapeMoniker Id="65e618c0-56c8-4274-a6d4-f43309cdebe4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(3 : 1.725); (2.5 : 1.725)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/dbDataContext/TI_KOD_MAL_KATEGORI/TI_KOD_MAL_KATEGORI_TI_KOD_MAL_CINS" />
+      <nodes>
+        <classShapeMoniker Id="20a13b80-2cc3-4533-a1f1-226cdbaa6ee3" />
+        <classShapeMoniker Id="65e618c0-56c8-4274-a6d4-f43309cdebe4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4 : 1.825); (4 : 2.975); (2.5 : 2.975)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/dbDataContext/TI_KOD_MAL_KATEGORI/TI_KOD_MAL_KATEGORI_TI_KOD_MAL_TUR" />
+      <nodes>
+        <classShapeMoniker Id="20a13b80-2cc3-4533-a1f1-226cdbaa6ee3" />
+        <classShapeMoniker Id="72653a2c-3400-45ec-be83-470a1e0f794e" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="642872e1-d011-4ae2-8b02-a9eb594a2791" isExpanded="false" absoluteBounds="3.875, 0.5, 2, 0.45">
+      <DataClassMoniker Name="/dbDataContext/TA_KOD_ISLETIM_SIRASI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="08c70264-d767-4a73-bfcb-6d6d2c691ebc" absoluteBounds="3.8899999999999997, 0.96, 1.9700000000000002, 1.19354248046875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5c85ee44-4d3a-45bc-a429-653c8d2b7050" isExpanded="false" absoluteBounds="5.75, 2.375, 2, 0.45">
+      <DataClassMoniker Name="/dbDataContext/TD_KOD_DAVA_TALEP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bf4c0413-7f31-4ee9-bceb-35970976d42f" absoluteBounds="5.7650000000000006, 2.835, 1.9700000000000002, 2.17962646484375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="572f33c7-ba7d-4852-8af3-65ae1be21595" isExpanded="false" absoluteBounds="5.75, 3.125, 2.25, 0.45">
+      <DataClassMoniker Name="/dbDataContext/TD_KOD_HAZIRLIK_DURUM" />
+      <nestedChildShapes>
+        <elementListCompartment Id="affe0068-2ae7-4819-9fc6-363b9676d9a7" absoluteBounds="5.765, 3.585, 2.2199999999999998, 1.8509318033854165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1dc14570-110d-42d4-b2c2-e7c217c38c2c" isExpanded="false" absoluteBounds="5.75, 3.875, 2, 0.45">
+      <DataClassMoniker Name="/dbDataContext/TDI_KOD_ARAC_TIP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ca11d79a-c4a6-4a67-9d7d-358cb209775e" absoluteBounds="5.765, 4.335, 1.9700000000000002, 2.015279134114583" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c2de8ab4-a975-4eaa-8e02-1bc4cd0ede41" isExpanded="false" absoluteBounds="3.25, 4.125, 2, 0.45">
+      <DataClassMoniker Name="/dbDataContext/TDI_KOD_BANKA" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d0d2b1af-839d-4334-8a79-b3e194a3a663" absoluteBounds="3.2649999999999997, 4.585, 1.9700000000000002, 2.015279134114583" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0af6e64c-a10f-49ff-a9dc-70aeb2407729" isExpanded="false" absoluteBounds="3.375, 4.875, 2, 0.45">
+      <DataClassMoniker Name="/dbDataContext/TDI_KOD_BANKA_BOLGE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="989a1fc5-ea50-432b-a607-635214619578" absoluteBounds="3.3899999999999997, 5.335, 1.9700000000000002, 1.8509318033854165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1c311d25-f41a-4368-a5b0-e2a079f3af03" isExpanded="false" absoluteBounds="3, 3.5, 2.5, 0.45">
+      <DataClassMoniker Name="/dbDataContext/TDI_KOD_BANKA_KART_TIP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="48efd649-a0f2-4611-90d0-a50b006dd3aa" absoluteBounds="3.0149999999999997, 3.96, 2.4699999999999998, 1.8509318033854165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fc1fbf7c-b2fc-46af-830b-6e7080d7ae13" isExpanded="false" absoluteBounds="3.75, 5.625, 2, 0.45">
+      <DataClassMoniker Name="/dbDataContext/TDI_KOD_BANKA_SUBE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="043dab17-a767-4e8b-abb5-592e4722952f" absoluteBounds="3.765, 6.085, 1.9700000000000002, 3.65875244140625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.28125 : 4.575); (3.28125 : 5.85); (3.75 : 5.85)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dbDataContext/TDI_KOD_BANKA/TDI_KOD_BANKA_TDI_KOD_BANKA_SUBE" />
+      <nodes>
+        <classShapeMoniker Id="c2de8ab4-a975-4eaa-8e02-1bc4cd0ede41" />
+        <classShapeMoniker Id="fc1fbf7c-b2fc-46af-830b-6e7080d7ae13" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.5625 : 5.325); (4.5625 : 5.625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dbDataContext/TDI_KOD_BANKA_BOLGE/TDI_KOD_BANKA_BOLGE_TDI_KOD_BANKA_SUBE" />
+      <nodes>
+        <classShapeMoniker Id="0af6e64c-a10f-49ff-a9dc-70aeb2407729" />
+        <classShapeMoniker Id="fc1fbf7c-b2fc-46af-830b-6e7080d7ae13" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="738b139c-35d3-467f-a6a0-0142935f500a" isExpanded="false" absoluteBounds="5.875, 4.875, 2, 0.45">
+      <DataClassMoniker Name="/dbDataContext/TDI_KOD_DAVA_ADI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ed00cd34-b329-4dd6-8297-e949b4b3de0f" absoluteBounds="5.89, 5.335, 1.9700000000000002, 10.06829833984375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="67634f76-76b4-4375-bf94-caf421fa6447" isExpanded="false" absoluteBounds="5.875, 5.5, 2, 0.45">
+      <DataClassMoniker Name="/dbDataContext/TDI_KOD_FAIZ_TIP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="329915bd-221a-4a9b-9abc-0c1ad8d105e3" absoluteBounds="5.8900000000000006, 5.96, 1.9700000000000002, 2.17962646484375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ad10c4f7-012b-4fe5-abe4-234dfa93e0f8" isExpanded="false" absoluteBounds="5.875, 6.25, 2, 0.45">
+      <DataClassMoniker Name="/dbDataContext/TDI_KOD_FIRMA_TUR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6c54a8a1-b1c5-4da4-8ba2-8a48b9387582" absoluteBounds="5.89, 6.71, 1.9700000000000002, 1.8509318033854165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="35a36702-753b-40a1-8d23-c10645790803" isExpanded="false" absoluteBounds="5.875, 6.875, 2, 0.45">
+      <DataClassMoniker Name="/dbDataContext/TDI_KOD_FORM_LISTESI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cd966ebd-4ac8-4d8b-8a8d-09c566e6f64e" absoluteBounds="5.89, 7.335, 1.9700000000000002, 3.3300577799479165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7407a448-7c10-437c-a91d-6662cac14ea3" isExpanded="false" absoluteBounds="5.875, 7.5, 2, 0.45">
+      <DataClassMoniker Name="/dbDataContext/TDI_KOD_FOY_BIRIM" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8ec7807a-356a-4976-8798-53d48a77ba53" absoluteBounds="5.89, 7.9600000000000009, 1.9700000000000002, 1.8509318033854165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="37e7ec94-42e3-4019-b249-be608d446ac6" isExpanded="false" absoluteBounds="6, 9.25, 2, 0.45">
+      <DataClassMoniker Name="/dbDataContext/TDI_KOD_FOY_DURUM" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b177a720-5275-4f99-9b18-a0fc39d4a81a" absoluteBounds="6.015, 9.71, 1.9700000000000002, 1.8509318033854165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9e8679e7-afcf-4f35-9a40-30ec75d34cfd" isExpanded="false" absoluteBounds="8.75, 7, 2.125, 0.45">
+      <DataClassMoniker Name="/dbDataContext/TDI_KOD_FOY_OZEL_DURUM" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d597613f-7003-4cc4-903a-b9a6ad4cb4e4" absoluteBounds="8.765, 7.46, 2.0949999999999998, 2.17962646484375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="35052cfe-b872-43b7-8a38-38a325a47e14" isExpanded="false" absoluteBounds="8.625, 8.125, 2, 0.45">
+      <DataClassMoniker Name="/dbDataContext/TDI_KOD_FOY_YERI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f08ea255-fda9-4c00-b227-4c89c5e64282" absoluteBounds="8.64, 8.585, 1.9700000000000002, 2.17962646484375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(7.875 : 7.5); (8.75 : 7.45)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dbDataContext/TDI_KOD_FOY_BIRIM/TDI_KOD_FOY_BIRIM_TDI_KOD_FOY_OZEL_DURUM" />
+      <nodes>
+        <classShapeMoniker Id="7407a448-7c10-437c-a91d-6662cac14ea3" />
+        <classShapeMoniker Id="9e8679e7-afcf-4f35-9a40-30ec75d34cfd" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.875 : 7.95); (8.625 : 8.125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dbDataContext/TDI_KOD_FOY_BIRIM/TDI_KOD_FOY_BIRIM_TDI_KOD_FOY_YERI" />
+      <nodes>
+        <classShapeMoniker Id="7407a448-7c10-437c-a91d-6662cac14ea3" />
+        <classShapeMoniker Id="35052cfe-b872-43b7-8a38-38a325a47e14" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="0b00bda6-ee2b-4241-b9c9-99a9083701a2" isExpanded="false" absoluteBounds="0.5, 6.75, 2, 0.45">
+      <DataClassMoniker Name="/dbDataContext/TDI_KOD_IL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f5d2ea96-69ed-47f8-be23-ae8446edc472" absoluteBounds="0.515, 7.2100000000000009, 1.9700000000000002, 2.3439737955729165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="86ebefb2-2a35-4304-b5b7-7dc8807044bf" isExpanded="false" absoluteBounds="3.25, 6.75, 2, 0.45">
+      <DataClassMoniker Name="/dbDataContext/TDI_KOD_ILCE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4a73e9a4-bc70-4572-81dd-a6a3a567f1a5" absoluteBounds="3.265, 7.2100000000000009, 1.9700000000000002, 2.3439737955729165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.5 : 6.975); (2.79166666666667 : 6.975 : JumpStart); (2.95833333333333 : 6.975 : JumpEnd); (3.25 : 6.975)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/dbDataContext/TDI_KOD_IL/TDI_KOD_IL_TDI_KOD_ILCE" />
+      <nodes>
+        <classShapeMoniker Id="0b00bda6-ee2b-4241-b9c9-99a9083701a2" />
+        <classShapeMoniker Id="86ebefb2-2a35-4304-b5b7-7dc8807044bf" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="3b9c46a3-574c-4a19-98dd-c5a655e224ec" isExpanded="false" absoluteBounds="0.75, 8.75, 2, 0.45">
+      <DataClassMoniker Name="/dbDataContext/TDI_KOD_IS_TARAF" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b40e796c-49dc-4253-8383-0200e1f763ec" absoluteBounds="0.765, 9.21, 1.9700000000000002, 1.8509318033854165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1af192e2-9bf3-487c-a14c-b3b123d0755c" isExpanded="false" absoluteBounds="3, 8.375, 2.75, 0.45">
+      <DataClassMoniker Name="/dbDataContext/TDI_KOD_KIYMETLI_EVRAK_TARAF_TIP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e39d1c1a-7b97-4818-8160-d3e130ff4809" absoluteBounds="3.015, 8.835, 2.7199999999999998, 1.8509318033854165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0b5ef987-3a67-4a4a-ac27-96599cbda845" isExpanded="false" absoluteBounds="3.125, 9.125, 2, 0.45">
+      <DataClassMoniker Name="/dbDataContext/TDI_KOD_MESLEK" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0a2887ce-1463-4520-8461-860448c5a65d" absoluteBounds="3.14, 9.585, 1.9700000000000002, 1.8509318033854165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e59fbc17-188d-4725-ad2c-8f7976e4111f" isExpanded="false" absoluteBounds="11.375, 2.75, 3.5, 0.45">
+      <DataClassMoniker Name="/dbDataContext/TDI_KOD_MUHASEBE_HAREKET_ANA_KATEGORI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="76ab9bd6-b8df-4999-8a10-183809392e61" absoluteBounds="11.39, 3.21, 3.4699999999999998, 2.17962646484375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="be2cb0c9-91b3-4aaa-be01-5b3ed2e6d7b7" isExpanded="false" absoluteBounds="8.25, 1.5, 2, 0.45">
+      <DataClassMoniker Name="/dbDataContext/TDI_KOD_ODEME_TIP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="18798ffc-71f2-4710-96e8-33b56ab39da2" absoluteBounds="8.265, 1.96, 1.9700000000000002, 2.015279134114583" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c60183a1-1fbb-414f-826d-17093075ffd7" isExpanded="false" absoluteBounds="10.5, 1.5, 2.375, 0.45">
+      <DataClassMoniker Name="/dbDataContext/TDI_KOD_OZEL_TUTAR_KONU" />
+      <nestedChildShapes>
+        <elementListCompartment Id="666bad70-8c6d-4785-b25a-d171f559c156" absoluteBounds="10.515, 1.96, 2.3449999999999998, 1.8509318033854165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4ca7bc96-2135-49f9-b95a-1d2eb47b2d9b" isExpanded="false" absoluteBounds="13.5, 1.5, 2, 0.45">
+      <DataClassMoniker Name="/dbDataContext/TDI_KOD_POLICE_BRANS" />
+      <nestedChildShapes>
+        <elementListCompartment Id="03ed24e7-1619-40c7-bf21-4a35168ba38a" absoluteBounds="13.515, 1.9600000000000009, 1.9700000000000002, 1.8509318033854165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e49a5dfe-b088-4b62-97f1-a0b056c39780" isExpanded="false" absoluteBounds="6.125, 11.25, 2.5, 0.45">
+      <DataClassMoniker Name="/dbDataContext/TDI_KOD_SOZLESME_ALT_TIP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="07a2e29f-d639-410e-9132-b0e6bbbb5fa9" absoluteBounds="6.14, 11.71, 2.4699999999999998, 2.17962646484375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c2e7c470-7a50-4974-bcf8-f70711bf8f49" isExpanded="false" absoluteBounds="3.5, 11.25, 2.25, 0.45">
+      <DataClassMoniker Name="/dbDataContext/TDI_KOD_SOZLESME_DURUM" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6f37d2fa-0263-41f9-bf2d-6688c445892b" absoluteBounds="3.515, 11.71, 2.2199999999999998, 1.8509318033854165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="416cac5a-2b6c-40ae-b98e-e746e118135c" isExpanded="false" absoluteBounds="8.875, 11.625, 2, 0.45">
+      <DataClassMoniker Name="/dbDataContext/TDI_KOD_SOZLESME_OZEL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fe8ec38b-d57f-473e-bd24-667cf9d73d7c" absoluteBounds="8.89, 12.085, 1.9700000000000002, 1.8509318033854165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f8d97b34-fbc6-406a-8e42-f7fe418d3e55" isExpanded="false" absoluteBounds="0.5, 11.25, 2.75, 0.45">
+      <DataClassMoniker Name="/dbDataContext/TDI_KOD_SOZLESME_TARAF_SIFAT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="97a55f4f-7426-4695-8c5b-8baed25e42fd" absoluteBounds="0.515, 11.71, 2.7199999999999998, 1.8509318033854165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1e06b9f5-6e03-4fe6-8555-bdf0504fa91b" isExpanded="false" absoluteBounds="6, 9.875, 2, 0.45">
+      <DataClassMoniker Name="/dbDataContext/TDI_KOD_SOZLESME_TIP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="81fba587-bb47-4542-bb43-403bb908eda8" absoluteBounds="6.015, 10.335, 1.9700000000000002, 1.8509318033854165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(7.0625 : 10.325); (7.0625 : 11.25)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dbDataContext/TDI_KOD_SOZLESME_TIP/TDI_KOD_SOZLESME_TIP_TDI_KOD_SOZLESME_ALT_TIP" />
+      <nodes>
+        <classShapeMoniker Id="1e06b9f5-6e03-4fe6-8555-bdf0504fa91b" />
+        <classShapeMoniker Id="e49a5dfe-b088-4b62-97f1-a0b056c39780" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="1ba16667-6a19-4491-9c71-98996324d0af" isExpanded="false" absoluteBounds="8.5, 9.875, 2, 0.45">
+      <DataClassMoniker Name="/dbDataContext/TDI_KOD_SURE_OZEL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8f534a08-632c-402d-a77e-dbfffd58194c" absoluteBounds="8.515, 10.335, 1.9700000000000002, 1.8509318033854165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ba5a4ea6-d9aa-43a4-a87a-dff7839f6184" isExpanded="false" absoluteBounds="6, 8.5, 2.375, 0.45">
+      <DataClassMoniker Name="/dbDataContext/TDI_KOD_TAHSILAT_DURUM" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e6d11103-9b2b-4edb-86e2-27aa858aa147" absoluteBounds="6.015, 8.96, 2.3449999999999998, 2.17962646484375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6.97839484985192 : 7.95); (6.97839484985192 : 8.5)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dbDataContext/TDI_KOD_FOY_BIRIM/TDI_KOD_FOY_BIRIM_TDI_KOD_TAHSILAT_DURUM" />
+      <nodes>
+        <classShapeMoniker Id="7407a448-7c10-437c-a91d-6662cac14ea3" />
+        <classShapeMoniker Id="ba5a4ea6-d9aa-43a4-a87a-dff7839f6184" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="b4ac5c1d-7905-4ed3-af40-2c5dd7230331" isExpanded="false" absoluteBounds="0.625, 12.375, 2, 0.45">
+      <DataClassMoniker Name="/dbDataContext/TDIE_KOD_SABLON" />
+      <nestedChildShapes>
+        <elementListCompartment Id="229fd236-6556-4e97-8a16-72cf4f5a3cf2" absoluteBounds="0.64000000000000012, 12.835, 1.9700000000000002, 3.823099772135417" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1232e05c-306a-4dcd-850b-95f7da5204a6" isExpanded="false" absoluteBounds="3.25, 12.375, 2.5, 0.45">
+      <DataClassMoniker Name="/dbDataContext/TDIE_KOD_SABLON_ALT_KATEGORI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="da7ff476-3d63-4af5-9dc3-6f1376bb648a" absoluteBounds="3.265, 12.835, 2.4699999999999998, 2.3439737955729165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="84709053-64f8-4207-a341-9329dafefba4" isExpanded="false" absoluteBounds="8.75, 12.5, 2, 0.45">
+      <DataClassMoniker Name="/dbDataContext/TDIE_KOD_TARAF_SIFAT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cf5949d3-ebc3-4978-8a42-5c1fa86f94e1" absoluteBounds="8.765, 12.96, 1.9700000000000002, 3.16571044921875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="72dce31c-83b4-4e5f-8937-800de8e10c52" isExpanded="false" absoluteBounds="1.25, 13.5, 2, 0.45">
+      <DataClassMoniker Name="/dbDataContext/TI_KOD_ALACAK_NEDEN" />
+      <nestedChildShapes>
+        <elementListCompartment Id="160802b1-d349-4d9f-8c65-82827e0d4423" absoluteBounds="1.2650000000000001, 13.96, 1.9700000000000002, 3.001363118489583" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="05c32b2d-ba2c-49e3-84fb-c79ffd74cda6" isExpanded="false" absoluteBounds="3.75, 13.375, 2.625, 0.45">
+      <DataClassMoniker Name="/dbDataContext/TI_KOD_FOY_GELISME_ADIM" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bf14976d-88c4-4629-999a-5ecec5368da2" absoluteBounds="3.765, 13.835, 2.5949999999999998, 1.8509318033854165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="438eefb9-4766-43a2-a9e5-05b6241af6c1" isExpanded="false" absoluteBounds="0.5, 0.625, 2, 0.45">
+      <DataClassMoniker Name="/dbDataContext/IU_ID_BACKUP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c1ee0a4d-5752-443d-93b5-462ee1f6fb8b" absoluteBounds="0.51500000000000012, 1.085, 1.9700000000000002, 1.0291951497395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="567645d2-bb2c-4cb7-9125-01733035cc4b" isExpanded="false" absoluteBounds="5.625, 1.125, 2, 0.45">
+      <DataClassMoniker Name="/dbDataContext/TDI_KOD_TEBLIGAT_KONU" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1cba7602-43c1-43e9-99c4-d2c082100ed6" absoluteBounds="5.64, 1.585, 1.9700000000000002, 3.65875244140625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="79b50081-fca8-4d72-b739-97f6b88d922c" isExpanded="false" absoluteBounds="3.25, 7.75, 2, 0.45">
+      <DataClassMoniker Name="/dbDataContext/TDI_KOD_KREDI_GRUP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e50ea08f-ad4a-4aee-9d77-7539885d153e" absoluteBounds="3.265, 8.21, 1.9700000000000002, 2.3439737955729165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.25 : 4.575); (2.875 : 4.95); (2.875 : 7.375); (3.25 : 7.75)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dbDataContext/TDI_KOD_BANKA/TDI_KOD_BANKA_TDI_KOD_KREDI_GRUP" />
+      <nodes>
+        <classShapeMoniker Id="c2de8ab4-a975-4eaa-8e02-1bc4cd0ede41" />
+        <classShapeMoniker Id="79b50081-fca8-4d72-b739-97f6b88d922c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.875 : 7.85); (5.25 : 7.85)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/dbDataContext/TDI_KOD_FOY_BIRIM/TDI_KOD_FOY_BIRIM_TDI_KOD_KREDI_GRUP" />
+      <nodes>
+        <classShapeMoniker Id="7407a448-7c10-437c-a91d-6662cac14ea3" />
+        <classShapeMoniker Id="79b50081-fca8-4d72-b739-97f6b88d922c" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="72b5effb-a45c-44a5-922f-aa2dbec03ecd" isExpanded="false" absoluteBounds="11.5, 3.875, 3.375, 0.45">
+      <DataClassMoniker Name="/dbDataContext/TDI_KOD_MUHASEBE_HAREKET_ALT_KATEGORI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d61a1bd0-0540-4124-8ed4-2a076cfadcff" absoluteBounds="11.515, 4.335, 1.9700000000000002, 5.466573079427083" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(13.1875 : 3.2); (13.1875 : 3.875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/dbDataContext/TDI_KOD_MUHASEBE_HAREKET_ANA_KATEGORI/TDI_KOD_MUHASEBE_HAREKET_ANA_KATEGORI_TDI_KOD_MUHASEBE_HAREKET_ALT_KATEGORI" />
+      <nodes>
+        <classShapeMoniker Id="e59fbc17-188d-4725-ad2c-8f7976e4111f" />
+        <classShapeMoniker Id="72b5effb-a45c-44a5-922f-aa2dbec03ecd" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

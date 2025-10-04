@@ -1,0 +1,45 @@
+2016-02-02 15:41:59.8317 hata 
+ ConnectionString özelliði baþlatýlmamýþ. System.InvalidOperationException InvalidOperationException System.InvalidOperationException: ConnectionString özelliði baþlatýlmamýþ.
+   konum: System.Data.SqlClient.SqlConnection.PermissionDemand()
+   konum: System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   konum: System.Data.SqlClient.SqlConnection.Open()
+   konum: AvukatProLib.OzelKodReferans.OzelKodReferans.GetDavaOzelKodReferans(String connectionstring) d:\dogan\AdimAdimDavaKaydi\AvukatProLib\OzelKodReferans.cs içinde: satýr 813 Void PermissionDemand()    konum: System.Data.SqlClient.SqlConnection.PermissionDemand()
+   konum: System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   konum: System.Data.SqlClient.SqlConnection.Open()
+   konum: AvukatProLib.OzelKodReferans.OzelKodReferans.GetDavaOzelKodReferans(String connectionstring) d:\dogan\AdimAdimDavaKaydi\AvukatProLib\OzelKodReferans.cs içinde: satýr 813
+2016-02-02 15:41:59.8947 hata 
+ ConnectionString özelliði baþlatýlmamýþ. System.InvalidOperationException InvalidOperationException System.InvalidOperationException: ConnectionString özelliði baþlatýlmamýþ.
+   konum: System.Data.SqlClient.SqlConnection.PermissionDemand()
+   konum: System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   konum: System.Data.SqlClient.SqlConnection.Open()
+   konum: AvukatProLib.OzelKodReferans.OzelKodReferans.GetIcraOzelKodReferans(String connectionstring) d:\dogan\AdimAdimDavaKaydi\AvukatProLib\OzelKodReferans.cs içinde: satýr 905 Void PermissionDemand()    konum: System.Data.SqlClient.SqlConnection.PermissionDemand()
+   konum: System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   konum: System.Data.SqlClient.SqlConnection.Open()
+   konum: AvukatProLib.OzelKodReferans.OzelKodReferans.GetIcraOzelKodReferans(String connectionstring) d:\dogan\AdimAdimDavaKaydi\AvukatProLib\OzelKodReferans.cs içinde: satýr 905
+2016-02-02 15:41:59.8947 hata 
+ ConnectionString özelliði baþlatýlmamýþ. System.InvalidOperationException InvalidOperationException System.InvalidOperationException: ConnectionString özelliði baþlatýlmamýþ.
+   konum: System.Data.SqlClient.SqlConnection.PermissionDemand()
+   konum: System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   konum: System.Data.SqlClient.SqlConnection.Open()
+   konum: AvukatProLib.OzelKodReferans.OzelKodReferans.GetSorusturmaOzelKodReferans(String connectionstring) d:\dogan\AdimAdimDavaKaydi\AvukatProLib\OzelKodReferans.cs içinde: satýr 1052 Void PermissionDemand()    konum: System.Data.SqlClient.SqlConnection.PermissionDemand()
+   konum: System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   konum: System.Data.SqlClient.SqlConnection.Open()
+   konum: AvukatProLib.OzelKodReferans.OzelKodReferans.GetSorusturmaOzelKodReferans(String connectionstring) d:\dogan\AdimAdimDavaKaydi\AvukatProLib\OzelKodReferans.cs içinde: satýr 1052
+2016-02-02 15:41:59.9077 hata 
+ ConnectionString özelliði baþlatýlmamýþ. System.InvalidOperationException InvalidOperationException System.InvalidOperationException: ConnectionString özelliði baþlatýlmamýþ.
+   konum: System.Data.SqlClient.SqlConnection.PermissionDemand()
+   konum: System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   konum: System.Data.SqlClient.SqlConnection.Open()
+   konum: AvukatProLib.OzelKodReferans.OzelKodReferans.GetSozlesmeOzelKodReferans(String connectionstring) d:\dogan\AdimAdimDavaKaydi\AvukatProLib\OzelKodReferans.cs içinde: satýr 1128 Void PermissionDemand()    konum: System.Data.SqlClient.SqlConnection.PermissionDemand()
+   konum: System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   konum: System.Data.SqlClient.SqlConnection.Open()
+   konum: AvukatProLib.OzelKodReferans.OzelKodReferans.GetSozlesmeOzelKodReferans(String connectionstring) d:\dogan\AdimAdimDavaKaydi\AvukatProLib\OzelKodReferans.cs içinde: satýr 1128
+2016-02-02 15:41:59.9307 hata 
+ ConnectionString özelliði baþlatýlmamýþ. System.InvalidOperationException InvalidOperationException System.InvalidOperationException: ConnectionString özelliði baþlatýlmamýþ.
+   konum: System.Data.SqlClient.SqlConnection.PermissionDemand()
+   konum: System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   konum: System.Data.SqlClient.SqlConnection.Open()
+   konum: AvukatProLib.OzelKodReferans.OzelKodReferans.GetOrtakOzelKodReferans(String connectionstring) d:\dogan\AdimAdimDavaKaydi\AvukatProLib\OzelKodReferans.cs içinde: satýr 1365 Void PermissionDemand()    konum: System.Data.SqlClient.SqlConnection.PermissionDemand()
+   konum: System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   konum: System.Data.SqlClient.SqlConnection.Open()
+   konum: AvukatProLib.OzelKodReferans.OzelKodReferans.GetOrtakOzelKodReferans(String connectionstring) d:\dogan\AdimAdimDavaKaydi\AvukatProLib\OzelKodReferans.cs içinde: satýr 1365

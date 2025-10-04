@@ -1,0 +1,332 @@
+2016-02-08 13:48:54.7200 Hata 
+ AvukatProLib.CompInfo.CompInfoListGetir(System.String) System.MethodAccessException MethodAccessException System.MethodAccessException: AvukatProLib.CompInfo.CompInfoListGetir(System.String)
+   konum: AvukatProLib.Hesap.Hesap.Icra..ctor(AV001_TI_BIL_FOY foy, Boolean kaydedilsin)
+   konum: AvukatProLib.Hesap.Hesap.Icra..ctor(AV001_TI_BIL_FOY foy)
+   konum: AdimAdimDavaKaydi.Util.Uyap.UyapGenerator.WriteToFile(List`1 IcraDosyalari, String file) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Util\UyapHelper\Uyap\UyapGenerator2.cs içinde: satýr 83
+   konum: AdimAdimDavaKaydi.Util.Uyap.Helper.SaveUyap(List`1 myFoyList, frmAdimAdimEditoreGonder editor) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Util\UyapHelper\Helper.cs içinde: satýr 16
+   konum: AdimAdimDavaKaydi.Editor.Forms.frmAdimAdimEditoreGonder.wizardControl1_SelectedPageChanged(Object sender, WizardPageChangedEventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Editor\Forms\frmAdimAdimEditoreGonder.cs içinde: satýr 527
+   konum: DevExpress.XtraWizard.WizardControl.RaiseSelectedPageChanged(BaseWizardPage prevPage, BaseWizardPage page, Direction direction)
+   konum: DevExpress.XtraWizard.WizardControl.SetSelectedPageCore(BaseWizardPage prevPage, BaseWizardPage value, Direction direction)
+   konum: DevExpress.XtraWizard.WizardControl.set_SelectedPage(BaseWizardPage value)
+   konum: AdimAdimDavaKaydi.Editor.Forms.frmAdimAdimEditoreGonder.UyapSonSayfaGetir() d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Editor\Forms\frmAdimAdimEditoreGonder.cs içinde: satýr 156
+   konum: AdimAdimDavaKaydi.Util.Uyap.UyapGenerator.UyapGozdenGecir(List`1 IcraDosyalari, String file, Boolean geriBildirimYapilsin) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Util\UyapHelper\Uyap\UyapGenerator2.cs içinde: satýr 959
+   konum: AdimAdimDavaKaydi.Util.Uyap.Helper.CheckUyap(List`1 myFoyList, frmAdimAdimEditoreGonder editor) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Util\UyapHelper\Helper.cs içinde: satýr 24
+   konum: AdimAdimDavaKaydi.Editor.Forms.frmAdimAdimEditoreGonder.wizardControl1_SelectedPageChanged(Object sender, WizardPageChangedEventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Editor\Forms\frmAdimAdimEditoreGonder.cs içinde: satýr 591
+   konum: DevExpress.XtraWizard.WizardControl.RaiseSelectedPageChanged(BaseWizardPage prevPage, BaseWizardPage page, Direction direction)
+   konum: DevExpress.XtraWizard.WizardControl.SetSelectedPageCore(BaseWizardPage prevPage, BaseWizardPage value, Direction direction)
+   konum: DevExpress.XtraWizard.WizardControl.SetNextPage()
+   konum: DevExpress.XtraWizard.WizardControl.OnNextButtonClick(Object sender, EventArgs e)
+   konum: System.Windows.Forms.Control.OnClick(EventArgs e)
+   konum: DevExpress.XtraEditors.BaseButton.OnClick(EventArgs e)
+   konum: DevExpress.XtraEditors.BaseButton.OnMouseUp(MouseEventArgs e)
+   konum: System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   konum: System.Windows.Forms.Control.WndProc(Message& m)
+   konum: DevExpress.Utils.Controls.ControlBase.WndProc(Message& m)
+   konum: DevExpress.XtraEditors.BaseControl.WndProc(Message& msg)
+   konum: System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   konum: System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam) Void .ctor(AvukatProLib2.Entities.AV001_TI_BIL_FOY, Boolean)    konum: AvukatProLib.Hesap.Hesap.Icra..ctor(AV001_TI_BIL_FOY foy, Boolean kaydedilsin)
+   konum: AvukatProLib.Hesap.Hesap.Icra..ctor(AV001_TI_BIL_FOY foy)
+   konum: AdimAdimDavaKaydi.Util.Uyap.UyapGenerator.WriteToFile(List`1 IcraDosyalari, String file) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Util\UyapHelper\Uyap\UyapGenerator2.cs içinde: satýr 83
+   konum: AdimAdimDavaKaydi.Util.Uyap.Helper.SaveUyap(List`1 myFoyList, frmAdimAdimEditoreGonder editor) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Util\UyapHelper\Helper.cs içinde: satýr 16
+   konum: AdimAdimDavaKaydi.Editor.Forms.frmAdimAdimEditoreGonder.wizardControl1_SelectedPageChanged(Object sender, WizardPageChangedEventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Editor\Forms\frmAdimAdimEditoreGonder.cs içinde: satýr 527
+   konum: DevExpress.XtraWizard.WizardControl.RaiseSelectedPageChanged(BaseWizardPage prevPage, BaseWizardPage page, Direction direction)
+   konum: DevExpress.XtraWizard.WizardControl.SetSelectedPageCore(BaseWizardPage prevPage, BaseWizardPage value, Direction direction)
+   konum: DevExpress.XtraWizard.WizardControl.set_SelectedPage(BaseWizardPage value)
+   konum: AdimAdimDavaKaydi.Editor.Forms.frmAdimAdimEditoreGonder.UyapSonSayfaGetir() d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Editor\Forms\frmAdimAdimEditoreGonder.cs içinde: satýr 156
+   konum: AdimAdimDavaKaydi.Util.Uyap.UyapGenerator.UyapGozdenGecir(List`1 IcraDosyalari, String file, Boolean geriBildirimYapilsin) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Util\UyapHelper\Uyap\UyapGenerator2.cs içinde: satýr 959
+   konum: AdimAdimDavaKaydi.Util.Uyap.Helper.CheckUyap(List`1 myFoyList, frmAdimAdimEditoreGonder editor) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Util\UyapHelper\Helper.cs içinde: satýr 24
+   konum: AdimAdimDavaKaydi.Editor.Forms.frmAdimAdimEditoreGonder.wizardControl1_SelectedPageChanged(Object sender, WizardPageChangedEventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Editor\Forms\frmAdimAdimEditoreGonder.cs içinde: satýr 591
+   konum: DevExpress.XtraWizard.WizardControl.RaiseSelectedPageChanged(BaseWizardPage prevPage, BaseWizardPage page, Direction direction)
+   konum: DevExpress.XtraWizard.WizardControl.SetSelectedPageCore(BaseWizardPage prevPage, BaseWizardPage value, Direction direction)
+   konum: DevExpress.XtraWizard.WizardControl.SetNextPage()
+   konum: DevExpress.XtraWizard.WizardControl.OnNextButtonClick(Object sender, EventArgs e)
+   konum: System.Windows.Forms.Control.OnClick(EventArgs e)
+   konum: DevExpress.XtraEditors.BaseButton.OnClick(EventArgs e)
+   konum: DevExpress.XtraEditors.BaseButton.OnMouseUp(MouseEventArgs e)
+   konum: System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   konum: System.Windows.Forms.Control.WndProc(Message& m)
+   konum: DevExpress.Utils.Controls.ControlBase.WndProc(Message& m)
+   konum: DevExpress.XtraEditors.BaseControl.WndProc(Message& msg)
+   konum: System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   konum: System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+2016-02-08 13:54:21.1737 Hata 
+ AvukatProLib.CompInfo.CompInfoListGetir(System.String) System.MethodAccessException MethodAccessException System.MethodAccessException: AvukatProLib.CompInfo.CompInfoListGetir(System.String)
+   konum: AvukatProLib.Hesap.Hesap.Icra..ctor(AV001_TI_BIL_FOY foy, Boolean kaydedilsin)
+   konum: AvukatProLib.Hesap.Hesap.Icra..ctor(AV001_TI_BIL_FOY foy)
+   konum: AdimAdimDavaKaydi.Util.Uyap.UyapGenerator.WriteToFile(List`1 IcraDosyalari, String file) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Util\UyapHelper\Uyap\UyapGenerator2.cs içinde: satýr 83
+   konum: AdimAdimDavaKaydi.Util.Uyap.Helper.SaveUyap(List`1 myFoyList, frmAdimAdimEditoreGonder editor) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Util\UyapHelper\Helper.cs içinde: satýr 16
+   konum: AdimAdimDavaKaydi.Editor.Forms.frmAdimAdimEditoreGonder.wizardControl1_SelectedPageChanged(Object sender, WizardPageChangedEventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Editor\Forms\frmAdimAdimEditoreGonder.cs içinde: satýr 527
+   konum: DevExpress.XtraWizard.WizardControl.RaiseSelectedPageChanged(BaseWizardPage prevPage, BaseWizardPage page, Direction direction)
+   konum: DevExpress.XtraWizard.WizardControl.SetSelectedPageCore(BaseWizardPage prevPage, BaseWizardPage value, Direction direction)
+   konum: DevExpress.XtraWizard.WizardControl.set_SelectedPage(BaseWizardPage value)
+   konum: AdimAdimDavaKaydi.Editor.Forms.frmAdimAdimEditoreGonder.UyapSonSayfaGetir() d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Editor\Forms\frmAdimAdimEditoreGonder.cs içinde: satýr 156
+   konum: AdimAdimDavaKaydi.Util.Uyap.UyapGenerator.UyapGozdenGecir(List`1 IcraDosyalari, String file, Boolean geriBildirimYapilsin) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Util\UyapHelper\Uyap\UyapGenerator2.cs içinde: satýr 959
+   konum: AdimAdimDavaKaydi.Util.Uyap.Helper.CheckUyap(List`1 myFoyList, frmAdimAdimEditoreGonder editor) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Util\UyapHelper\Helper.cs içinde: satýr 24
+   konum: AdimAdimDavaKaydi.Editor.Forms.frmAdimAdimEditoreGonder.wizardControl1_SelectedPageChanged(Object sender, WizardPageChangedEventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Editor\Forms\frmAdimAdimEditoreGonder.cs içinde: satýr 591
+   konum: DevExpress.XtraWizard.WizardControl.RaiseSelectedPageChanged(BaseWizardPage prevPage, BaseWizardPage page, Direction direction)
+   konum: DevExpress.XtraWizard.WizardControl.SetSelectedPageCore(BaseWizardPage prevPage, BaseWizardPage value, Direction direction)
+   konum: DevExpress.XtraWizard.WizardControl.SetNextPage()
+   konum: DevExpress.XtraWizard.WizardControl.OnNextButtonClick(Object sender, EventArgs e)
+   konum: System.Windows.Forms.Control.OnClick(EventArgs e)
+   konum: DevExpress.XtraEditors.BaseButton.OnClick(EventArgs e)
+   konum: DevExpress.XtraEditors.BaseButton.OnMouseUp(MouseEventArgs e)
+   konum: System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   konum: System.Windows.Forms.Control.WndProc(Message& m)
+   konum: DevExpress.Utils.Controls.ControlBase.WndProc(Message& m)
+   konum: DevExpress.XtraEditors.BaseControl.WndProc(Message& msg)
+   konum: System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   konum: System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam) Void .ctor(AvukatProLib2.Entities.AV001_TI_BIL_FOY, Boolean)    konum: AvukatProLib.Hesap.Hesap.Icra..ctor(AV001_TI_BIL_FOY foy, Boolean kaydedilsin)
+   konum: AvukatProLib.Hesap.Hesap.Icra..ctor(AV001_TI_BIL_FOY foy)
+   konum: AdimAdimDavaKaydi.Util.Uyap.UyapGenerator.WriteToFile(List`1 IcraDosyalari, String file) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Util\UyapHelper\Uyap\UyapGenerator2.cs içinde: satýr 83
+   konum: AdimAdimDavaKaydi.Util.Uyap.Helper.SaveUyap(List`1 myFoyList, frmAdimAdimEditoreGonder editor) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Util\UyapHelper\Helper.cs içinde: satýr 16
+   konum: AdimAdimDavaKaydi.Editor.Forms.frmAdimAdimEditoreGonder.wizardControl1_SelectedPageChanged(Object sender, WizardPageChangedEventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Editor\Forms\frmAdimAdimEditoreGonder.cs içinde: satýr 527
+   konum: DevExpress.XtraWizard.WizardControl.RaiseSelectedPageChanged(BaseWizardPage prevPage, BaseWizardPage page, Direction direction)
+   konum: DevExpress.XtraWizard.WizardControl.SetSelectedPageCore(BaseWizardPage prevPage, BaseWizardPage value, Direction direction)
+   konum: DevExpress.XtraWizard.WizardControl.set_SelectedPage(BaseWizardPage value)
+   konum: AdimAdimDavaKaydi.Editor.Forms.frmAdimAdimEditoreGonder.UyapSonSayfaGetir() d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Editor\Forms\frmAdimAdimEditoreGonder.cs içinde: satýr 156
+   konum: AdimAdimDavaKaydi.Util.Uyap.UyapGenerator.UyapGozdenGecir(List`1 IcraDosyalari, String file, Boolean geriBildirimYapilsin) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Util\UyapHelper\Uyap\UyapGenerator2.cs içinde: satýr 959
+   konum: AdimAdimDavaKaydi.Util.Uyap.Helper.CheckUyap(List`1 myFoyList, frmAdimAdimEditoreGonder editor) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Util\UyapHelper\Helper.cs içinde: satýr 24
+   konum: AdimAdimDavaKaydi.Editor.Forms.frmAdimAdimEditoreGonder.wizardControl1_SelectedPageChanged(Object sender, WizardPageChangedEventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Editor\Forms\frmAdimAdimEditoreGonder.cs içinde: satýr 591
+   konum: DevExpress.XtraWizard.WizardControl.RaiseSelectedPageChanged(BaseWizardPage prevPage, BaseWizardPage page, Direction direction)
+   konum: DevExpress.XtraWizard.WizardControl.SetSelectedPageCore(BaseWizardPage prevPage, BaseWizardPage value, Direction direction)
+   konum: DevExpress.XtraWizard.WizardControl.SetNextPage()
+   konum: DevExpress.XtraWizard.WizardControl.OnNextButtonClick(Object sender, EventArgs e)
+   konum: System.Windows.Forms.Control.OnClick(EventArgs e)
+   konum: DevExpress.XtraEditors.BaseButton.OnClick(EventArgs e)
+   konum: DevExpress.XtraEditors.BaseButton.OnMouseUp(MouseEventArgs e)
+   konum: System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   konum: System.Windows.Forms.Control.WndProc(Message& m)
+   konum: DevExpress.Utils.Controls.ControlBase.WndProc(Message& m)
+   konum: DevExpress.XtraEditors.BaseControl.WndProc(Message& msg)
+   konum: System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   konum: System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+2016-02-08 13:54:35.6765 Hata 
+ 'C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Templates\tmpuyap.xml' dosyasý bulunamadý. System.IO.FileNotFoundException FileNotFoundException System.IO.FileNotFoundException: 'C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Templates\tmpuyap.xml' dosyasý bulunamadý.
+Dosya adý: 'C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Templates\tmpuyap.xml'
+   konum: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   konum: System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite)
+   konum: System.IO.File.Copy(String sourceFileName, String destFileName, Boolean overwrite)
+   konum: AdimAdimDavaKaydi.Editor.Forms.frmAdimAdimEditoreGonder.wizardControl1_FinishClick(Object sender, CancelEventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Editor\Forms\frmAdimAdimEditoreGonder.cs içinde: satýr 389
+   konum: DevExpress.XtraWizard.WizardControl.RaiseFinishClick()
+   konum: DevExpress.XtraWizard.WizardControl.OnFinishButtonClick(Object sender, EventArgs e)
+   konum: System.Windows.Forms.Control.OnClick(EventArgs e)
+   konum: DevExpress.XtraEditors.BaseButton.OnClick(EventArgs e)
+   konum: DevExpress.XtraEditors.BaseButton.OnMouseUp(MouseEventArgs e)
+   konum: System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   konum: System.Windows.Forms.Control.WndProc(Message& m)
+   konum: DevExpress.Utils.Controls.ControlBase.WndProc(Message& m)
+   konum: DevExpress.XtraEditors.BaseControl.WndProc(Message& msg)
+   konum: System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   konum: System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam) Void WinIOError(Int32, System.String)    konum: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   konum: System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite)
+   konum: System.IO.File.Copy(String sourceFileName, String destFileName, Boolean overwrite)
+   konum: AdimAdimDavaKaydi.Editor.Forms.frmAdimAdimEditoreGonder.wizardControl1_FinishClick(Object sender, CancelEventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Editor\Forms\frmAdimAdimEditoreGonder.cs içinde: satýr 389
+   konum: DevExpress.XtraWizard.WizardControl.RaiseFinishClick()
+   konum: DevExpress.XtraWizard.WizardControl.OnFinishButtonClick(Object sender, EventArgs e)
+   konum: System.Windows.Forms.Control.OnClick(EventArgs e)
+   konum: DevExpress.XtraEditors.BaseButton.OnClick(EventArgs e)
+   konum: DevExpress.XtraEditors.BaseButton.OnMouseUp(MouseEventArgs e)
+   konum: System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   konum: System.Windows.Forms.Control.WndProc(Message& m)
+   konum: DevExpress.Utils.Controls.ControlBase.WndProc(Message& m)
+   konum: DevExpress.XtraEditors.BaseControl.WndProc(Message& msg)
+   konum: System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   konum: System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+2016-02-08 13:55:01.8380 Hata 
+ 'C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Templates\tmpuyap.xml' dosyasý bulunamadý. System.IO.FileNotFoundException FileNotFoundException System.IO.FileNotFoundException: 'C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Templates\tmpuyap.xml' dosyasý bulunamadý.
+Dosya adý: 'C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Templates\tmpuyap.xml'
+   konum: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   konum: System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite)
+   konum: System.IO.File.Copy(String sourceFileName, String destFileName, Boolean overwrite)
+   konum: AdimAdimDavaKaydi.Editor.Forms.frmAdimAdimEditoreGonder.wizardControl1_FinishClick(Object sender, CancelEventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Editor\Forms\frmAdimAdimEditoreGonder.cs içinde: satýr 389
+   konum: DevExpress.XtraWizard.WizardControl.RaiseFinishClick()
+   konum: DevExpress.XtraWizard.WizardControl.OnFinishButtonClick(Object sender, EventArgs e)
+   konum: System.Windows.Forms.Control.OnClick(EventArgs e)
+   konum: DevExpress.XtraEditors.BaseButton.OnClick(EventArgs e)
+   konum: DevExpress.XtraEditors.BaseButton.OnMouseUp(MouseEventArgs e)
+   konum: System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   konum: System.Windows.Forms.Control.WndProc(Message& m)
+   konum: DevExpress.Utils.Controls.ControlBase.WndProc(Message& m)
+   konum: DevExpress.XtraEditors.BaseControl.WndProc(Message& msg)
+   konum: System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   konum: System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam) Void WinIOError(Int32, System.String)    konum: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   konum: System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite)
+   konum: System.IO.File.Copy(String sourceFileName, String destFileName, Boolean overwrite)
+   konum: AdimAdimDavaKaydi.Editor.Forms.frmAdimAdimEditoreGonder.wizardControl1_FinishClick(Object sender, CancelEventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Editor\Forms\frmAdimAdimEditoreGonder.cs içinde: satýr 389
+   konum: DevExpress.XtraWizard.WizardControl.RaiseFinishClick()
+   konum: DevExpress.XtraWizard.WizardControl.OnFinishButtonClick(Object sender, EventArgs e)
+   konum: System.Windows.Forms.Control.OnClick(EventArgs e)
+   konum: DevExpress.XtraEditors.BaseButton.OnClick(EventArgs e)
+   konum: DevExpress.XtraEditors.BaseButton.OnMouseUp(MouseEventArgs e)
+   konum: System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   konum: System.Windows.Forms.Control.WndProc(Message& m)
+   konum: DevExpress.Utils.Controls.ControlBase.WndProc(Message& m)
+   konum: DevExpress.XtraEditors.BaseControl.WndProc(Message& msg)
+   konum: System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   konum: System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+2016-02-08 14:09:54.4941 Hata 
+ AvukatProLib.CompInfo.CompInfoListGetir(System.String) System.MethodAccessException MethodAccessException System.MethodAccessException: AvukatProLib.CompInfo.CompInfoListGetir(System.String)
+   konum: AvukatProLib.Hesap.Hesap.Icra..ctor(AV001_TI_BIL_FOY foy, Boolean kaydedilsin)
+   konum: AvukatProLib.Hesap.Hesap.Icra..ctor(AV001_TI_BIL_FOY foy)
+   konum: AdimAdimDavaKaydi.Util.Uyap.UyapGenerator.WriteToFile(List`1 IcraDosyalari, String file) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Util\UyapHelper\Uyap\UyapGenerator2.cs içinde: satýr 83
+   konum: AdimAdimDavaKaydi.Util.Uyap.Helper.SaveUyap(List`1 myFoyList, frmAdimAdimEditoreGonder editor) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Util\UyapHelper\Helper.cs içinde: satýr 16
+   konum: AdimAdimDavaKaydi.Editor.Forms.frmAdimAdimEditoreGonder.wizardControl1_SelectedPageChanged(Object sender, WizardPageChangedEventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Editor\Forms\frmAdimAdimEditoreGonder.cs içinde: satýr 527
+   konum: DevExpress.XtraWizard.WizardControl.RaiseSelectedPageChanged(BaseWizardPage prevPage, BaseWizardPage page, Direction direction)
+   konum: DevExpress.XtraWizard.WizardControl.SetSelectedPageCore(BaseWizardPage prevPage, BaseWizardPage value, Direction direction)
+   konum: DevExpress.XtraWizard.WizardControl.set_SelectedPage(BaseWizardPage value)
+   konum: AdimAdimDavaKaydi.Editor.Forms.frmAdimAdimEditoreGonder.UyapSonSayfaGetir() d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Editor\Forms\frmAdimAdimEditoreGonder.cs içinde: satýr 156
+   konum: AdimAdimDavaKaydi.Util.Uyap.UyapGenerator.UyapGozdenGecir(List`1 IcraDosyalari, String file, Boolean geriBildirimYapilsin) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Util\UyapHelper\Uyap\UyapGenerator2.cs içinde: satýr 959
+   konum: AdimAdimDavaKaydi.Util.Uyap.Helper.CheckUyap(List`1 myFoyList, frmAdimAdimEditoreGonder editor) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Util\UyapHelper\Helper.cs içinde: satýr 24
+   konum: AdimAdimDavaKaydi.Editor.Forms.frmAdimAdimEditoreGonder.wizardControl1_SelectedPageChanged(Object sender, WizardPageChangedEventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Editor\Forms\frmAdimAdimEditoreGonder.cs içinde: satýr 591
+   konum: DevExpress.XtraWizard.WizardControl.RaiseSelectedPageChanged(BaseWizardPage prevPage, BaseWizardPage page, Direction direction)
+   konum: DevExpress.XtraWizard.WizardControl.SetSelectedPageCore(BaseWizardPage prevPage, BaseWizardPage value, Direction direction)
+   konum: DevExpress.XtraWizard.WizardControl.SetNextPage()
+   konum: DevExpress.XtraWizard.WizardControl.OnNextButtonClick(Object sender, EventArgs e)
+   konum: System.Windows.Forms.Control.OnClick(EventArgs e)
+   konum: DevExpress.XtraEditors.BaseButton.OnClick(EventArgs e)
+   konum: DevExpress.XtraEditors.BaseButton.OnMouseUp(MouseEventArgs e)
+   konum: System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   konum: System.Windows.Forms.Control.WndProc(Message& m)
+   konum: DevExpress.Utils.Controls.ControlBase.WndProc(Message& m)
+   konum: DevExpress.XtraEditors.BaseControl.WndProc(Message& msg)
+   konum: System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   konum: System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam) Void .ctor(AvukatProLib2.Entities.AV001_TI_BIL_FOY, Boolean)    konum: AvukatProLib.Hesap.Hesap.Icra..ctor(AV001_TI_BIL_FOY foy, Boolean kaydedilsin)
+   konum: AvukatProLib.Hesap.Hesap.Icra..ctor(AV001_TI_BIL_FOY foy)
+   konum: AdimAdimDavaKaydi.Util.Uyap.UyapGenerator.WriteToFile(List`1 IcraDosyalari, String file) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Util\UyapHelper\Uyap\UyapGenerator2.cs içinde: satýr 83
+   konum: AdimAdimDavaKaydi.Util.Uyap.Helper.SaveUyap(List`1 myFoyList, frmAdimAdimEditoreGonder editor) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Util\UyapHelper\Helper.cs içinde: satýr 16
+   konum: AdimAdimDavaKaydi.Editor.Forms.frmAdimAdimEditoreGonder.wizardControl1_SelectedPageChanged(Object sender, WizardPageChangedEventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Editor\Forms\frmAdimAdimEditoreGonder.cs içinde: satýr 527
+   konum: DevExpress.XtraWizard.WizardControl.RaiseSelectedPageChanged(BaseWizardPage prevPage, BaseWizardPage page, Direction direction)
+   konum: DevExpress.XtraWizard.WizardControl.SetSelectedPageCore(BaseWizardPage prevPage, BaseWizardPage value, Direction direction)
+   konum: DevExpress.XtraWizard.WizardControl.set_SelectedPage(BaseWizardPage value)
+   konum: AdimAdimDavaKaydi.Editor.Forms.frmAdimAdimEditoreGonder.UyapSonSayfaGetir() d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Editor\Forms\frmAdimAdimEditoreGonder.cs içinde: satýr 156
+   konum: AdimAdimDavaKaydi.Util.Uyap.UyapGenerator.UyapGozdenGecir(List`1 IcraDosyalari, String file, Boolean geriBildirimYapilsin) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Util\UyapHelper\Uyap\UyapGenerator2.cs içinde: satýr 959
+   konum: AdimAdimDavaKaydi.Util.Uyap.Helper.CheckUyap(List`1 myFoyList, frmAdimAdimEditoreGonder editor) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Util\UyapHelper\Helper.cs içinde: satýr 24
+   konum: AdimAdimDavaKaydi.Editor.Forms.frmAdimAdimEditoreGonder.wizardControl1_SelectedPageChanged(Object sender, WizardPageChangedEventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Editor\Forms\frmAdimAdimEditoreGonder.cs içinde: satýr 591
+   konum: DevExpress.XtraWizard.WizardControl.RaiseSelectedPageChanged(BaseWizardPage prevPage, BaseWizardPage page, Direction direction)
+   konum: DevExpress.XtraWizard.WizardControl.SetSelectedPageCore(BaseWizardPage prevPage, BaseWizardPage value, Direction direction)
+   konum: DevExpress.XtraWizard.WizardControl.SetNextPage()
+   konum: DevExpress.XtraWizard.WizardControl.OnNextButtonClick(Object sender, EventArgs e)
+   konum: System.Windows.Forms.Control.OnClick(EventArgs e)
+   konum: DevExpress.XtraEditors.BaseButton.OnClick(EventArgs e)
+   konum: DevExpress.XtraEditors.BaseButton.OnMouseUp(MouseEventArgs e)
+   konum: System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   konum: System.Windows.Forms.Control.WndProc(Message& m)
+   konum: DevExpress.Utils.Controls.ControlBase.WndProc(Message& m)
+   konum: DevExpress.XtraEditors.BaseControl.WndProc(Message& msg)
+   konum: System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   konum: System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+2016-02-08 14:42:25.1726 Hata 
+ Belirtilen atama geçerli deðil. System.InvalidCastException InvalidCastException System.InvalidCastException: Belirtilen atama geçerli deðil.
+   konum: AvukatProLib2.Data.Bases.per_TD_KOD_DAVA_TALEPProviderBaseCore.Fill(IDataReader reader, VList`1 rows, Int32 start, Int32 pageLength)
+   konum: AvukatProLib2.Data.SqlClient.Sqlper_TD_KOD_DAVA_TALEPProviderBase.GetAll(TransactionManager transactionManager, Int32 start, Int32 pageLength, Int32& count)
+   konum: AvukatProLib2.Data.Bases.EntityViewProviderBaseCore`1.GetAll(TransactionManager transactionManager, Int32 start, Int32 pageLength)
+   konum: AvukatProLib2.Data.Bases.EntityViewProviderBaseCore`1.GetAll(Int32 start, Int32 pageLength)
+   konum: AvukatProLib2.Data.Bases.EntityViewProviderBaseCore`1.GetAll()
+   konum: BelgeUtil.Inits.DavaTalepKodGetir_Enter(Object sender, EventArgs e) d:\dogan\AdimAdimDavaKaydi\BelgeUtil\Inits.cs içinde: satýr 3925
+   konum: BelgeUtil.Inits.DavaTalepKodGetir(RepositoryItemLookUpEdit rLue) d:\dogan\AdimAdimDavaKaydi\BelgeUtil\Inits.cs içinde: satýr 3910
+   konum: AdimAdimDavaKaydi.UserControls.ucSablonRapor.ucSablonRapor_Load(Object sender, EventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Editor\UserControls\ucSablonRapor.cs içinde: satýr 169
+   konum: System.Windows.Forms.UserControl.OnLoad(EventArgs e)
+   konum: DevExpress.XtraEditors.XtraUserControl.OnLoad(EventArgs e)
+   konum: System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   konum: System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   konum: System.Windows.Forms.Control.CreateControl()
+   konum: System.Windows.Forms.Control.SetVisibleCore(Boolean value)
+   konum: DevExpress.XtraWizard.BaseWizardPage.set_VisibleInternal(Boolean value)
+   konum: DevExpress.XtraWizard.WizardViewInfo.UpdatePagesBounds()
+   konum: DevExpress.XtraWizard.WizardViewInfo.UpdateSelectionPage()
+   konum: DevExpress.XtraWizard.WizardControl.UpdateSelectedPage(Boolean lockFocus)
+   konum: DevExpress.XtraWizard.WizardControl.SetSelectedPageCore(BaseWizardPage prevPage, BaseWizardPage value, Direction direction)
+   konum: DevExpress.XtraWizard.WizardControl.SetPreviousPage()
+   konum: DevExpress.XtraWizard.WizardControl.OnPrevButtonClick(Object sender, EventArgs e)
+   konum: System.Windows.Forms.Control.OnClick(EventArgs e)
+   konum: DevExpress.XtraEditors.BaseButton.OnClick(EventArgs e)
+   konum: DevExpress.XtraEditors.BaseButton.OnMouseUp(MouseEventArgs e)
+   konum: System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   konum: System.Windows.Forms.Control.WndProc(Message& m)
+   konum: DevExpress.Utils.Controls.ControlBase.WndProc(Message& m)
+   konum: DevExpress.XtraEditors.BaseControl.WndProc(Message& msg)
+   konum: System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   konum: System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam) AvukatProLib2.Entities.VList`1[AvukatProLib2.Entities.per_TD_KOD_DAVA_TALEP] Fill(System.Data.IDataReader, AvukatProLib2.Entities.VList`1[AvukatProLib2.Entities.per_TD_KOD_DAVA_TALEP], Int32, Int32)    konum: AvukatProLib2.Data.Bases.per_TD_KOD_DAVA_TALEPProviderBaseCore.Fill(IDataReader reader, VList`1 rows, Int32 start, Int32 pageLength)
+   konum: AvukatProLib2.Data.SqlClient.Sqlper_TD_KOD_DAVA_TALEPProviderBase.GetAll(TransactionManager transactionManager, Int32 start, Int32 pageLength, Int32& count)
+   konum: AvukatProLib2.Data.Bases.EntityViewProviderBaseCore`1.GetAll(TransactionManager transactionManager, Int32 start, Int32 pageLength)
+   konum: AvukatProLib2.Data.Bases.EntityViewProviderBaseCore`1.GetAll(Int32 start, Int32 pageLength)
+   konum: AvukatProLib2.Data.Bases.EntityViewProviderBaseCore`1.GetAll()
+   konum: BelgeUtil.Inits.DavaTalepKodGetir_Enter(Object sender, EventArgs e) d:\dogan\AdimAdimDavaKaydi\BelgeUtil\Inits.cs içinde: satýr 3925
+   konum: BelgeUtil.Inits.DavaTalepKodGetir(RepositoryItemLookUpEdit rLue) d:\dogan\AdimAdimDavaKaydi\BelgeUtil\Inits.cs içinde: satýr 3910
+   konum: AdimAdimDavaKaydi.UserControls.ucSablonRapor.ucSablonRapor_Load(Object sender, EventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Editor\UserControls\ucSablonRapor.cs içinde: satýr 169
+   konum: System.Windows.Forms.UserControl.OnLoad(EventArgs e)
+   konum: DevExpress.XtraEditors.XtraUserControl.OnLoad(EventArgs e)
+   konum: System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   konum: System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   konum: System.Windows.Forms.Control.CreateControl()
+   konum: System.Windows.Forms.Control.SetVisibleCore(Boolean value)
+   konum: DevExpress.XtraWizard.BaseWizardPage.set_VisibleInternal(Boolean value)
+   konum: DevExpress.XtraWizard.WizardViewInfo.UpdatePagesBounds()
+   konum: DevExpress.XtraWizard.WizardViewInfo.UpdateSelectionPage()
+   konum: DevExpress.XtraWizard.WizardControl.UpdateSelectedPage(Boolean lockFocus)
+   konum: DevExpress.XtraWizard.WizardControl.SetSelectedPageCore(BaseWizardPage prevPage, BaseWizardPage value, Direction direction)
+   konum: DevExpress.XtraWizard.WizardControl.SetPreviousPage()
+   konum: DevExpress.XtraWizard.WizardControl.OnPrevButtonClick(Object sender, EventArgs e)
+   konum: System.Windows.Forms.Control.OnClick(EventArgs e)
+   konum: DevExpress.XtraEditors.BaseButton.OnClick(EventArgs e)
+   konum: DevExpress.XtraEditors.BaseButton.OnMouseUp(MouseEventArgs e)
+   konum: System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   konum: System.Windows.Forms.Control.WndProc(Message& m)
+   konum: DevExpress.Utils.Controls.ControlBase.WndProc(Message& m)
+   konum: DevExpress.XtraEditors.BaseControl.WndProc(Message& msg)
+   konum: System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   konum: System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+2016-02-08 15:24:09.9589 Hata 
+ 'System.Data.DataRowView' türündeki nesne 'AvukatProLib.Arama.per_AV001_TI_BIL_ICRA_Arama' türüne atýlamadý. System.InvalidCastException InvalidCastException System.InvalidCastException: 'System.Data.DataRowView' türündeki nesne 'AvukatProLib.Arama.per_AV001_TI_BIL_ICRA_Arama' türüne atýlamadý.
+   konum: AdimAdimDavaKaydi.UserControls.ucIcraFoy.gridView1_DoubleClick(Object sender, EventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\UserControls\ucIcraFoy.cs içinde: satýr 492
+   konum: DevExpress.XtraGrid.Views.Base.BaseView.RaiseDoubleClick(EventArgs e)
+   konum: DevExpress.XtraGrid.Views.Base.Handler.BaseViewHandler.OnDoubleClick(MouseEventArgs e)
+   konum: DevExpress.XtraGrid.Views.Grid.Handler.GridHandler.OnDoubleClick(MouseEventArgs ev)
+   konum: DevExpress.Utils.Controls.BaseHandler.ProcessEvent(EventType etype, Object args)
+   konum: DevExpress.XtraGrid.Views.Base.Handler.BaseViewHandler.ProcessEvent(EventType etype, Object args)
+   konum: DevExpress.XtraGrid.GridControl.OnDoubleClick(EventArgs ev)
+   konum: System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   konum: System.Windows.Forms.Control.WndProc(Message& m)
+   konum: DevExpress.XtraEditors.Container.EditorContainer.WndProc(Message& m)
+   konum: DevExpress.XtraGrid.GridControl.WndProc(Message& m)
+   konum: System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   konum: System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam) Void gridView1_DoubleClick(System.Object, System.EventArgs)    konum: AdimAdimDavaKaydi.UserControls.ucIcraFoy.gridView1_DoubleClick(Object sender, EventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\UserControls\ucIcraFoy.cs içinde: satýr 492
+   konum: DevExpress.XtraGrid.Views.Base.BaseView.RaiseDoubleClick(EventArgs e)
+   konum: DevExpress.XtraGrid.Views.Base.Handler.BaseViewHandler.OnDoubleClick(MouseEventArgs e)
+   konum: DevExpress.XtraGrid.Views.Grid.Handler.GridHandler.OnDoubleClick(MouseEventArgs ev)
+   konum: DevExpress.Utils.Controls.BaseHandler.ProcessEvent(EventType etype, Object args)
+   konum: DevExpress.XtraGrid.Views.Base.Handler.BaseViewHandler.ProcessEvent(EventType etype, Object args)
+   konum: DevExpress.XtraGrid.GridControl.OnDoubleClick(EventArgs ev)
+   konum: System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   konum: System.Windows.Forms.Control.WndProc(Message& m)
+   konum: DevExpress.XtraEditors.Container.EditorContainer.WndProc(Message& m)
+   konum: DevExpress.XtraGrid.GridControl.WndProc(Message& m)
+   konum: System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   konum: System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+2016-02-08 15:24:20.6245 Hata 
+ 'System.Data.DataRowView' türündeki nesne 'AvukatProLib.Arama.per_AV001_TI_BIL_ICRA_Arama' türüne atýlamadý. System.InvalidCastException InvalidCastException System.InvalidCastException: 'System.Data.DataRowView' türündeki nesne 'AvukatProLib.Arama.per_AV001_TI_BIL_ICRA_Arama' türüne atýlamadý.
+   konum: AdimAdimDavaKaydi.UserControls.ucIcraFoy.gridView1_DoubleClick(Object sender, EventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\UserControls\ucIcraFoy.cs içinde: satýr 492
+   konum: DevExpress.XtraGrid.Views.Base.BaseView.RaiseDoubleClick(EventArgs e)
+   konum: DevExpress.XtraGrid.Views.Base.Handler.BaseViewHandler.OnDoubleClick(MouseEventArgs e)
+   konum: DevExpress.XtraGrid.Views.Grid.Handler.GridHandler.OnDoubleClick(MouseEventArgs ev)
+   konum: DevExpress.Utils.Controls.BaseHandler.ProcessEvent(EventType etype, Object args)
+   konum: DevExpress.XtraGrid.Views.Base.Handler.BaseViewHandler.ProcessEvent(EventType etype, Object args)
+   konum: DevExpress.XtraGrid.GridControl.OnDoubleClick(EventArgs ev)
+   konum: System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   konum: System.Windows.Forms.Control.WndProc(Message& m)
+   konum: DevExpress.XtraEditors.Container.EditorContainer.WndProc(Message& m)
+   konum: DevExpress.XtraGrid.GridControl.WndProc(Message& m)
+   konum: System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   konum: System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam) Void gridView1_DoubleClick(System.Object, System.EventArgs)    konum: AdimAdimDavaKaydi.UserControls.ucIcraFoy.gridView1_DoubleClick(Object sender, EventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\UserControls\ucIcraFoy.cs içinde: satýr 492
+   konum: DevExpress.XtraGrid.Views.Base.BaseView.RaiseDoubleClick(EventArgs e)
+   konum: DevExpress.XtraGrid.Views.Base.Handler.BaseViewHandler.OnDoubleClick(MouseEventArgs e)
+   konum: DevExpress.XtraGrid.Views.Grid.Handler.GridHandler.OnDoubleClick(MouseEventArgs ev)
+   konum: DevExpress.Utils.Controls.BaseHandler.ProcessEvent(EventType etype, Object args)
+   konum: DevExpress.XtraGrid.Views.Base.Handler.BaseViewHandler.ProcessEvent(EventType etype, Object args)
+   konum: DevExpress.XtraGrid.GridControl.OnDoubleClick(EventArgs ev)
+   konum: System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   konum: System.Windows.Forms.Control.WndProc(Message& m)
+   konum: DevExpress.XtraEditors.Container.EditorContainer.WndProc(Message& m)
+   konum: DevExpress.XtraGrid.GridControl.WndProc(Message& m)
+   konum: System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   konum: System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)

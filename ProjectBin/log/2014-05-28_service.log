@@ -1,0 +1,406 @@
+2014-05-28 09:11:05.9631 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 649 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 649
+2014-05-28 09:11:06.1731 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 09:11:06.1731 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 09:11:06.1731 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 09:11:06.1731 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 09:11:06.1811 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 09:11:06.1811 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 09:11:06.1811 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 09:11:06.1811 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 09:11:06.1811 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 09:11:06.1811 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 09:11:06.1811 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 09:11:06.1811 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 09:11:06.1811 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 09:11:06.1961 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 09:11:06.1961 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 09:11:06.1961 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 09:11:06.1961 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 09:11:06.1961 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 09:11:06.1961 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 09:11:06.1961 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 09:11:06.1961 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 09:11:06.1961 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 09:11:06.1961 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 09:11:06.1961 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 09:11:06.1961 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 09:11:06.1961 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 09:11:06.1961 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 09:11:06.1961 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 12:24:33.1048 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 649 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 649
+2014-05-28 12:24:33.6499 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 12:24:33.6519 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 12:24:33.6519 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 12:24:33.6519 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 12:24:33.6519 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 12:24:33.6519 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 12:24:33.6519 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 12:24:33.6519 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 12:24:33.6519 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 12:24:33.6519 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 12:24:33.6669 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 12:24:33.6669 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 12:24:33.6669 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 12:24:33.6669 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 12:24:33.6669 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 12:24:33.6669 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 12:24:33.6669 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 12:24:33.6669 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 12:24:33.6669 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 12:24:33.6829 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 12:24:33.6829 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 12:24:33.6829 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 12:24:33.6829 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 12:24:33.6829 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 12:24:33.6829 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 12:24:33.6829 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 12:24:33.6829 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784
+2014-05-28 12:24:33.6829 Serverside 
+ The parameter 'address' cannot be an empty string.
+Parameter name: address System.ArgumentException ArgumentException System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784 Void .ctor(System.String, System.String, System.Text.Encoding)    at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 784

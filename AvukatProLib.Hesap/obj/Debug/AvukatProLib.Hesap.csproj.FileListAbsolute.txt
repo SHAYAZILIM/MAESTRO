@@ -1,0 +1,30 @@
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatProLib.Hesap\obj\Debug\AvukatProLib.Hesap.csprojResolveAssemblyReference.cache
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatProLib.Hesap\obj\Debug\AvukatProLib.Hesap.Views.Resource1.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatProLib.Hesap\obj\Debug\AvukatProLib.Hesap.csproj.GenerateResource.Cache
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBin\AvukatProLib.Hesap.dll.config
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBin\AvukatProLib.Hesap.dll
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBin\AvukatProLib.Hesap.pdb
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatProLib.Hesap\obj\Debug\AvukatProLib.Hesap.dll
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatProLib.Hesap\obj\Debug\AvukatProLib.Hesap.pdb
+D:\dogan\AdimAdimDavaKaydi\ProjectBin\Resources\DevExpress.XtraGrid.Appearances.xml
+D:\dogan\AdimAdimDavaKaydi\ProjectBin\Resources\DevExpress.XtraVerticalGrid.Appearances.xml
+D:\dogan\AdimAdimDavaKaydi\ProjectBin\Resources\DevExpress.XtraTreeList.Appearances.xml
+D:\dogan\AdimAdimDavaKaydi\ProjectBin\AvukatProLib.Hesap.dll.config
+D:\dogan\AdimAdimDavaKaydi\ProjectBin\AvukatProLib.Hesap.dll
+D:\dogan\AdimAdimDavaKaydi\ProjectBin\AvukatProLib.Hesap.pdb
+D:\dogan\AdimAdimDavaKaydi\AvukatProLib.Hesap\obj\Debug\AvukatProLib.Hesap.csprojResolveAssemblyReference.cache
+D:\dogan\AdimAdimDavaKaydi\AvukatProLib.Hesap\obj\Debug\AvukatProLib.Hesap.Views.Resource1.resources
+D:\dogan\AdimAdimDavaKaydi\AvukatProLib.Hesap\obj\Debug\AvukatProLib.Hesap.csproj.GenerateResource.Cache
+D:\dogan\AdimAdimDavaKaydi\AvukatProLib.Hesap\obj\Debug\AvukatProLib.Hesap.dll
+D:\dogan\AdimAdimDavaKaydi\AvukatProLib.Hesap\obj\Debug\AvukatProLib.Hesap.pdb
+D:\emre adım adım\AdimAdimDavaKaydi\ProjectBin\Resources\DevExpress.XtraGrid.Appearances.xml
+D:\emre adım adım\AdimAdimDavaKaydi\ProjectBin\Resources\DevExpress.XtraVerticalGrid.Appearances.xml
+D:\emre adım adım\AdimAdimDavaKaydi\ProjectBin\Resources\DevExpress.XtraTreeList.Appearances.xml
+D:\emre adım adım\AdimAdimDavaKaydi\ProjectBin\AvukatProLib.Hesap.dll.config
+D:\emre adım adım\AdimAdimDavaKaydi\ProjectBin\AvukatProLib.Hesap.dll
+D:\emre adım adım\AdimAdimDavaKaydi\ProjectBin\AvukatProLib.Hesap.pdb
+D:\emre adım adım\AdimAdimDavaKaydi\AvukatProLib.Hesap\obj\Debug\AvukatProLib.Hesap.csprojResolveAssemblyReference.cache
+D:\emre adım adım\AdimAdimDavaKaydi\AvukatProLib.Hesap\obj\Debug\AvukatProLib.Hesap.Views.Resource1.resources
+D:\emre adım adım\AdimAdimDavaKaydi\AvukatProLib.Hesap\obj\Debug\AvukatProLib.Hesap.csproj.GenerateResource.Cache
+D:\emre adım adım\AdimAdimDavaKaydi\AvukatProLib.Hesap\obj\Debug\AvukatProLib.Hesap.dll
+D:\emre adım adım\AdimAdimDavaKaydi\AvukatProLib.Hesap\obj\Debug\AvukatProLib.Hesap.pdb

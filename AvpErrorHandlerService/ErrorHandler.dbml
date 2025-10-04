@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="AVP_MYS" Class="ErrorHandlerDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=89.19.25.138;Initial Catalog=AVP_MYS;User ID=AVP_NHA_NG" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="AVP_MYSConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.TMYS_EXE_SURUM" Member="TMYS_EXE_SURUMs">
+    <Type Name="TMYS_EXE_SURUM">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="SURUM" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="SURUM_NOTLARI" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="INDIRME_ADRESI" Type="System.String" DbType="NVarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="CIKIS_TARIHI" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="BIR_ONCEKI_SURUM_GEREKLI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="KAYIT_TARIHI" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="DURUM" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="DB_SURUM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="EUID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Association Name="TMYS_EXE_SURUM_TMYS_HATA_RAPORU" Member="TMYS_HATA_RAPORUs" OtherKey="EXE_SURUM_ID" Type="TMYS_HATA_RAPORU" />
+      <Association Name="TMYS_DB_SURUM_TMYS_EXE_SURUM" Member="TMYS_DB_SURUM" ThisKey="DB_SURUM_ID" Type="TMYS_DB_SURUM" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TMYS_DB_SURUM" Member="TMYS_DB_SURUMs">
+    <Type Name="TMYS_DB_SURUM">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="SURUM" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="SURUM_NOTLARI" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="INDIRME_ADRESI" Type="System.String" DbType="NVarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="CIKIS_TARIHI" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="BIR_ONCEKI_SURUM_GEREKLI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="KAYIT_TARIHI" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="DURUM" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="EUID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Association Name="TMYS_DB_SURUM_TMYS_EXE_SURUM" Member="TMYS_EXE_SURUMs" OtherKey="DB_SURUM_ID" Type="TMYS_EXE_SURUM" />
+      <Association Name="TMYS_DB_SURUM_TMYS_HATA_RAPORU" Member="TMYS_HATA_RAPORUs" OtherKey="DB_SURUM_ID" Type="TMYS_HATA_RAPORU" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TMYS_HATA_RAPORU" Member="TMYS_HATA_RAPORUs">
+    <Type Name="TMYS_HATA_RAPORU">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="KIMDEN" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="NE_ZAMAN" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="GONDEREN_EMAIL" Type="System.String" DbType="NVarChar(150) NOT NULL" CanBeNull="false" />
+      <Column Name="GONDEREN_NOTU" Type="System.String" DbType="NVarChar(250) NOT NULL" CanBeNull="false" />
+      <Column Name="HATA_RAPORU" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="EXE_SURUM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="KAYIT_TARIHI" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="DB_SURUM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DURUM" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Association Name="TMYS_DB_SURUM_TMYS_HATA_RAPORU" Member="TMYS_DB_SURUM" ThisKey="DB_SURUM_ID" Type="TMYS_DB_SURUM" IsForeignKey="true" />
+      <Association Name="TMYS_EXE_SURUM_TMYS_HATA_RAPORU" Member="TMYS_EXE_SURUM" ThisKey="EXE_SURUM_ID" Type="TMYS_EXE_SURUM" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

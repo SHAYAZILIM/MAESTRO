@@ -1,0 +1,30 @@
+[ERROR LOG V1]
+
+Time = 28.06.2014 13:01:12 
+Source = AdimAdimDavaKaydi.Is.frmIsSureOlcer (16839617)
+Version = 1.0.0.0 
+Culture = tr-TR 
+
+Exception:
+System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at System.Data.SqlTypes.SqlDateTime.FromTimeSpan(TimeSpan value)
+   at System.Data.SqlTypes.SqlDateTime.FromDateTime(DateTime value)
+   at System.Data.SqlClient.MetaType.FromDateTime(DateTime dateTime, Byte cb)
+   at System.Data.SqlClient.TdsParser.WriteValue(Object value, MetaType type, Byte scale, Int32 actualLength, Int32 encodingByteSize, Int32 offset, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(_SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Microsoft.Practices.EnterpriseLibrary.Data.Database.DoExecuteNonQuery(DbCommand command)
+   at Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteNonQuery(DbCommand command, DbTransaction transaction)
+   at AvukatProLib2.Data.Utility.ExecuteNonQuery(TransactionManager transactionManager, DbCommand dbCommand)
+   at AvukatProLib2.Data.SqlClient.SqlAV001_TDI_BIL_IS_TAMAMLANMA_SUREProviderBase.Insert(TransactionManager transactionManager, AV001_TDI_BIL_IS_TAMAMLANMA_SURE entity)
+   at AvukatProLib2.Data.Bases.EntityProviderBaseCore`2.Save(TransactionManager mgr, Entity entity)
+   at AvukatProLib2.Data.Bases.EntityProviderBase`2.Save(TransactionManager mgr, Entity entity)
+   at AvukatProLib2.Data.Bases.AV001_TDI_BIL_IS_TAMAMLANMA_SUREProviderBaseCore.DeepSave(TransactionManager transactionManager, AV001_TDI_BIL_IS_TAMAMLANMA_SURE entity, DeepSaveType deepSaveType, Type[] childTypes, DeepSession innerList)
+   at AvukatProLib2.Data.Bases.EntityProviderBaseCore`2.DeepSave(TransactionManager mgr, TList`1 entities, DeepSaveType deepSaveType, Type[] childTypes, DeepSession innerList)
+   at AvukatProLib2.Data.Bases.EntityProviderBaseCore`2.DeepSave(TransactionManager mgr, TList`1 entities, DeepSaveType deepSaveType, Type[] childTypes)
+   at AdimAdimDavaKaydi.Is.frmIsSureOlcer.frmIsSureOlcer_Button_Kaydet_Click(Object sender, EventArgs e) in d:\dogan\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Is\frmIsSureOlcer.cs:line 225
+[/ERROR LOG V1]
+

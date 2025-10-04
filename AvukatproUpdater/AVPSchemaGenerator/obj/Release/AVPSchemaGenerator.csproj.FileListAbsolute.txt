@@ -1,0 +1,3 @@
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\AVPSchemaGenerator.dll
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatproUpdater\AVPSchemaGenerator\obj\Release\AVPSchemaGenerator.csprojResolveAssemblyReference.cache
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatproUpdater\AVPSchemaGenerator\obj\Release\AVPSchemaGenerator.dll

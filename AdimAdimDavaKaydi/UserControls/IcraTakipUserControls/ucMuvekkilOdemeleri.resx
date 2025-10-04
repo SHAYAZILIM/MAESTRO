@@ -1,0 +1,681 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tutar.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rLueDovizID.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <assembly alias="DevExpress.Utils.v12.1" name="DevExpress.Utils.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="rLueDovizID.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="gridMuvekkilOdemeleri.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="gridMuvekkilOdemeleri.EmbeddedNavigator.CustomButtons" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="gridMuvekkilOdemeleri.EmbeddedNavigator.CustomButtons1" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="gridMuvekkilOdemeleri.EmbeddedNavigator.CustomButtons2" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gridMuvekkilOdemeleri.EmbeddedNavigator.CustomButtons3" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gridMuvekkilOdemeleri.EmbeddedNavigator.CustomButtons4" xml:space="preserve">
+    <value>Yeni Kayıt</value>
+  </data>
+  <data name="gridMuvekkilOdemeleri.EmbeddedNavigator.CustomButtons5" xml:space="preserve">
+    <value>FormAc</value>
+  </data>
+  <data name="gridMuvekkilOdemeleri.EmbeddedNavigator.CustomButtons6" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="gridMuvekkilOdemeleri.EmbeddedNavigator.CustomButtons7" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="gridMuvekkilOdemeleri.EmbeddedNavigator.CustomButtons8" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gridMuvekkilOdemeleri.EmbeddedNavigator.CustomButtons9" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gridMuvekkilOdemeleri.EmbeddedNavigator.CustomButtons10" xml:space="preserve">
+    <value>Düzenle</value>
+  </data>
+  <data name="gridMuvekkilOdemeleri.EmbeddedNavigator.CustomButtons11" xml:space="preserve">
+    <value>KaydıDuzenle</value>
+  </data>
+  <metadata name="MyRepository.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="rLueCariID.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rLueCariID.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="rLueOdemeYeriID.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rLueOdemeYeriID.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="rLueOdemeTipID.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rLueOdemeTipID.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="txtAciklama.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtAciklama.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="tarih.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tarih.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="rlueAlacakli.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rlueAlacakli.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="rlueBorclu.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rlueBorclu.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="gridMuvekkilOdemeleri.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="colODEYEN_CARI.Caption" xml:space="preserve">
+    <value>Ödeyen</value>
+  </data>
+  <data name="colODEYEN_CARI.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colODEYEN_CARI.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="colODEYEN_CARI.Width" type="System.Int32, mscorlib">
+    <value>101</value>
+  </data>
+  <data name="colODENEN_CARI.Caption" xml:space="preserve">
+    <value>Ödenen</value>
+  </data>
+  <data name="colODENEN_CARI.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colODENEN_CARI.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="colODENEN_CARI.Width" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="colODEME_TARIHI.Caption" xml:space="preserve">
+    <value>Ödeme T</value>
+  </data>
+  <data name="colODEME_TARIHI.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colODEME_TARIHI.VisibleIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="colODEME_TARIHI.Width" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="colODEME_TIP.Caption" xml:space="preserve">
+    <value>Ödeme Tip</value>
+  </data>
+  <data name="colODEME_TIP.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colODEME_TIP.VisibleIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="colODEME_TIP.Width" type="System.Int32, mscorlib">
+    <value>133</value>
+  </data>
+  <data name="colMIKTAR_DOVIZ.Caption" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="colMIKTAR_DOVIZ.CustomizationCaption" xml:space="preserve">
+    <value>Miktar Döviz Tipi</value>
+  </data>
+  <data name="colMIKTAR_DOVIZ.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colMIKTAR_DOVIZ.VisibleIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="colMIKTAR_DOVIZ.Width" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="colMIKTAR.Caption" xml:space="preserve">
+    <value>Miktar</value>
+  </data>
+  <data name="colMIKTAR.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colMIKTAR.VisibleIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="colACIKLAMA3.Caption" xml:space="preserve">
+    <value>Açıklama</value>
+  </data>
+  <data name="colACIKLAMA3.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colACIKLAMA3.VisibleIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="gwMukekkilOdeme.GroupPanelText" xml:space="preserve">
+    <value>Verileri Gruplamak İçin Başlıkları Buraya Sürükleyin</value>
+  </data>
+  <assembly alias="DevExpress.Data.v12.1" name="DevExpress.Data.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="gwMukekkilOdeme.GroupSummary" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Sum</value>
+  </data>
+  <data name="gwMukekkilOdeme.GroupSummary1" xml:space="preserve">
+    <value>MIKTAR</value>
+  </data>
+  <data name="gwMukekkilOdeme.GroupSummary2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gwMukekkilOdeme.NewItemRowText" xml:space="preserve">
+    <value>Yeni Kayıt Eklemek İçin Tıklayınız..</value>
+  </data>
+  <data name="gridMuvekkilOdemeleri.Size" type="System.Drawing.Size, System.Drawing">
+    <value>714, 493</value>
+  </data>
+  <data name="gridMuvekkilOdemeleri.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;gridMuvekkilOdemeleri.Name" xml:space="preserve">
+    <value>gridMuvekkilOdemeleri</value>
+  </data>
+  <data name="&gt;&gt;gridMuvekkilOdemeleri.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedGridControl, avpng, Version=1.1.5.43, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;gridMuvekkilOdemeleri.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gridMuvekkilOdemeleri.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="vGMuvekkilOdemeleri.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="vGMuvekkilOdemeleri.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 2</value>
+  </data>
+  <data name="vGMuvekkilOdemeleri.RowHeaderWidth" type="System.Int32, mscorlib">
+    <value>161</value>
+  </data>
+  <data name="rowODEYEN_CARI_ID.Name" xml:space="preserve">
+    <value>rowODEYEN_CARI_ID</value>
+  </data>
+  <data name="rowODEYEN_CARI_ID.Properties.Caption" xml:space="preserve">
+    <value>Ödeyen</value>
+  </data>
+  <data name="rowODENEN_CARI_ID.Name" xml:space="preserve">
+    <value>rowODENEN_CARI_ID</value>
+  </data>
+  <data name="rowODENEN_CARI_ID.Properties.Caption" xml:space="preserve">
+    <value>Ödenen</value>
+  </data>
+  <data name="rowBORCLU_ADINA_ODEYEN_CARI_ID.Name" xml:space="preserve">
+    <value>rowBORCLU_ADINA_ODEYEN_CARI_ID</value>
+  </data>
+  <data name="rowBORCLU_ADINA_ODEYEN_CARI_ID.Properties.Caption" xml:space="preserve">
+    <value>Borçlu Adına Ödeyen</value>
+  </data>
+  <data name="rowBORCLU_ADINA_ODENEN_CARI_ID.Name" xml:space="preserve">
+    <value>rowBORCLU_ADINA_ODENEN_CARI_ID</value>
+  </data>
+  <data name="rowBORCLU_ADINA_ODENEN_CARI_ID.Properties.Caption" xml:space="preserve">
+    <value>Borçlu Adına Ödenen</value>
+  </data>
+  <data name="rowrowODEME_YER_ID.Name" xml:space="preserve">
+    <value>rowrowODEME_YER_ID</value>
+  </data>
+  <data name="rowrowODEME_YER_ID.Properties.Caption" xml:space="preserve">
+    <value>Ödeme Yeri</value>
+  </data>
+  <data name="rowODEME_TARIHI.Name" xml:space="preserve">
+    <value>rowODEME_TARIHI</value>
+  </data>
+  <data name="rowODEME_TARIHI.Properties.Caption" xml:space="preserve">
+    <value>Ödeme T</value>
+  </data>
+  <data name="rowODEME_TIP_ID.Name" xml:space="preserve">
+    <value>rowODEME_TIP_ID</value>
+  </data>
+  <data name="rowODEME_TIP_ID.Properties.Caption" xml:space="preserve">
+    <value>Ödeme Tipi</value>
+  </data>
+  <data name="rowKIYMETLI_EVRAK_VADE_TARIHI.Name" xml:space="preserve">
+    <value>rowKIYMETLI_EVRAK_VADE_TARIHI</value>
+  </data>
+  <data name="rowKIYMETLI_EVRAK_VADE_TARIHI.Properties.Caption" xml:space="preserve">
+    <value>Evrak Vade T</value>
+  </data>
+  <data name="rowKIYMETLI_EVRAK_VADESINDE_ODENDI_MI.Name" xml:space="preserve">
+    <value>rowKIYMETLI_EVRAK_VADESINDE_ODENDI_MI</value>
+  </data>
+  <data name="rowKIYMETLI_EVRAK_VADESINDE_ODENDI_MI.Properties.Caption" xml:space="preserve">
+    <value>Vadesinde Ödendi mi</value>
+  </data>
+  <data name="mRowMIKTAR.Name" xml:space="preserve">
+    <value>mRowMIKTAR</value>
+  </data>
+  <data name="multiEditorRowProperties1.Caption" xml:space="preserve">
+    <value>Miktar</value>
+  </data>
+  <data name="rowACIKLAMA.Name" xml:space="preserve">
+    <value>rowACIKLAMA</value>
+  </data>
+  <data name="rowACIKLAMA.Properties.Caption" xml:space="preserve">
+    <value>Açıklama</value>
+  </data>
+  <data name="vGMuvekkilOdemeleri.Size" type="System.Drawing.Size, System.Drawing">
+    <value>710, 463</value>
+  </data>
+  <data name="vGMuvekkilOdemeleri.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;vGMuvekkilOdemeleri.Name" xml:space="preserve">
+    <value>vGMuvekkilOdemeleri</value>
+  </data>
+  <data name="&gt;&gt;vGMuvekkilOdemeleri.Type" xml:space="preserve">
+    <value>DevExpress.XtraVerticalGrid.VGridControl, DevExpress.XtraVerticalGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;vGMuvekkilOdemeleri.Parent" xml:space="preserve">
+    <value>panelControl1</value>
+  </data>
+  <data name="&gt;&gt;vGMuvekkilOdemeleri.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dnMuvekkilOdemeleri.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="dnMuvekkilOdemeleri.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 465</value>
+  </data>
+  <data name="dnMuvekkilOdemeleri.Size" type="System.Drawing.Size, System.Drawing">
+    <value>710, 26</value>
+  </data>
+  <data name="dnMuvekkilOdemeleri.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="dnMuvekkilOdemeleri.Text" xml:space="preserve">
+    <value>dataNavigatorExtended1</value>
+  </data>
+  <assembly alias="DevExpress.XtraEditors.v12.1" name="DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="dnMuvekkilOdemeleri.TextLocation" type="DevExpress.XtraEditors.NavigatorButtonsTextLocation, DevExpress.XtraEditors.v12.1">
+    <value>Center</value>
+  </data>
+  <data name="dnMuvekkilOdemeleri.TextStringFormat" xml:space="preserve">
+    <value>Kayıt {0} / {1}</value>
+  </data>
+  <data name="&gt;&gt;dnMuvekkilOdemeleri.Name" xml:space="preserve">
+    <value>dnMuvekkilOdemeleri</value>
+  </data>
+  <data name="&gt;&gt;dnMuvekkilOdemeleri.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.DataNavigatorExtended, avpng, Version=1.1.5.43, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;dnMuvekkilOdemeleri.Parent" xml:space="preserve">
+    <value>panelControl1</value>
+  </data>
+  <data name="&gt;&gt;dnMuvekkilOdemeleri.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panelControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panelControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>714, 493</value>
+  </data>
+  <data name="panelControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="panelControl1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;panelControl1.Name" xml:space="preserve">
+    <value>panelControl1</value>
+  </data>
+  <data name="&gt;&gt;panelControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelControl1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>35</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>714, 493</value>
+  </data>
+  <data name="&gt;&gt;tutar.Name" xml:space="preserve">
+    <value>tutar</value>
+  </data>
+  <data name="&gt;&gt;tutar.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemSpinEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rLueDovizID.Name" xml:space="preserve">
+    <value>rLueDovizID</value>
+  </data>
+  <data name="&gt;&gt;rLueDovizID.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;MyRepository.Name" xml:space="preserve">
+    <value>MyRepository</value>
+  </data>
+  <data name="&gt;&gt;MyRepository.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.PersistentRepository, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rLueCariID.Name" xml:space="preserve">
+    <value>rLueCariID</value>
+  </data>
+  <data name="&gt;&gt;rLueCariID.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rLueOdemeYeriID.Name" xml:space="preserve">
+    <value>rLueOdemeYeriID</value>
+  </data>
+  <data name="&gt;&gt;rLueOdemeYeriID.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rLueOdemeTipID.Name" xml:space="preserve">
+    <value>rLueOdemeTipID</value>
+  </data>
+  <data name="&gt;&gt;rLueOdemeTipID.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtAciklama.Name" xml:space="preserve">
+    <value>txtAciklama</value>
+  </data>
+  <data name="&gt;&gt;txtAciklama.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemMemoExEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;tarih.Name" xml:space="preserve">
+    <value>tarih</value>
+  </data>
+  <data name="&gt;&gt;tarih.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemDateEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rlueAlacakli.Name" xml:space="preserve">
+    <value>rlueAlacakli</value>
+  </data>
+  <data name="&gt;&gt;rlueAlacakli.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rlueBorclu.Name" xml:space="preserve">
+    <value>rlueBorclu</value>
+  </data>
+  <data name="&gt;&gt;rlueBorclu.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gwMukekkilOdeme.Name" xml:space="preserve">
+    <value>gwMukekkilOdeme</value>
+  </data>
+  <data name="&gt;&gt;gwMukekkilOdeme.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colODEYEN_CARI.Name" xml:space="preserve">
+    <value>colODEYEN_CARI</value>
+  </data>
+  <data name="&gt;&gt;colODEYEN_CARI.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colODENEN_CARI.Name" xml:space="preserve">
+    <value>colODENEN_CARI</value>
+  </data>
+  <data name="&gt;&gt;colODENEN_CARI.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colODEME_TARIHI.Name" xml:space="preserve">
+    <value>colODEME_TARIHI</value>
+  </data>
+  <data name="&gt;&gt;colODEME_TARIHI.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colODEME_TIP.Name" xml:space="preserve">
+    <value>colODEME_TIP</value>
+  </data>
+  <data name="&gt;&gt;colODEME_TIP.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colMIKTAR_DOVIZ.Name" xml:space="preserve">
+    <value>colMIKTAR_DOVIZ</value>
+  </data>
+  <data name="&gt;&gt;colMIKTAR_DOVIZ.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colMIKTAR.Name" xml:space="preserve">
+    <value>colMIKTAR</value>
+  </data>
+  <data name="&gt;&gt;colMIKTAR.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colACIKLAMA3.Name" xml:space="preserve">
+    <value>colACIKLAMA3</value>
+  </data>
+  <data name="&gt;&gt;colACIKLAMA3.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rowODEYEN_CARI_ID.Name" xml:space="preserve">
+    <value>rowODEYEN_CARI_ID</value>
+  </data>
+  <data name="&gt;&gt;rowODEYEN_CARI_ID.Type" xml:space="preserve">
+    <value>DevExpress.XtraVerticalGrid.Rows.EditorRow, DevExpress.XtraVerticalGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rowODENEN_CARI_ID.Name" xml:space="preserve">
+    <value>rowODENEN_CARI_ID</value>
+  </data>
+  <data name="&gt;&gt;rowODENEN_CARI_ID.Type" xml:space="preserve">
+    <value>DevExpress.XtraVerticalGrid.Rows.EditorRow, DevExpress.XtraVerticalGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rowBORCLU_ADINA_ODEYEN_CARI_ID.Name" xml:space="preserve">
+    <value>rowBORCLU_ADINA_ODEYEN_CARI_ID</value>
+  </data>
+  <data name="&gt;&gt;rowBORCLU_ADINA_ODEYEN_CARI_ID.Type" xml:space="preserve">
+    <value>DevExpress.XtraVerticalGrid.Rows.EditorRow, DevExpress.XtraVerticalGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rowBORCLU_ADINA_ODENEN_CARI_ID.Name" xml:space="preserve">
+    <value>rowBORCLU_ADINA_ODENEN_CARI_ID</value>
+  </data>
+  <data name="&gt;&gt;rowBORCLU_ADINA_ODENEN_CARI_ID.Type" xml:space="preserve">
+    <value>DevExpress.XtraVerticalGrid.Rows.EditorRow, DevExpress.XtraVerticalGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rowrowODEME_YER_ID.Name" xml:space="preserve">
+    <value>rowrowODEME_YER_ID</value>
+  </data>
+  <data name="&gt;&gt;rowrowODEME_YER_ID.Type" xml:space="preserve">
+    <value>DevExpress.XtraVerticalGrid.Rows.EditorRow, DevExpress.XtraVerticalGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rowODEME_TARIHI.Name" xml:space="preserve">
+    <value>rowODEME_TARIHI</value>
+  </data>
+  <data name="&gt;&gt;rowODEME_TARIHI.Type" xml:space="preserve">
+    <value>DevExpress.XtraVerticalGrid.Rows.EditorRow, DevExpress.XtraVerticalGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rowODEME_TIP_ID.Name" xml:space="preserve">
+    <value>rowODEME_TIP_ID</value>
+  </data>
+  <data name="&gt;&gt;rowODEME_TIP_ID.Type" xml:space="preserve">
+    <value>DevExpress.XtraVerticalGrid.Rows.EditorRow, DevExpress.XtraVerticalGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rowKIYMETLI_EVRAK_VADE_TARIHI.Name" xml:space="preserve">
+    <value>rowKIYMETLI_EVRAK_VADE_TARIHI</value>
+  </data>
+  <data name="&gt;&gt;rowKIYMETLI_EVRAK_VADE_TARIHI.Type" xml:space="preserve">
+    <value>DevExpress.XtraVerticalGrid.Rows.EditorRow, DevExpress.XtraVerticalGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rowKIYMETLI_EVRAK_VADESINDE_ODENDI_MI.Name" xml:space="preserve">
+    <value>rowKIYMETLI_EVRAK_VADESINDE_ODENDI_MI</value>
+  </data>
+  <data name="&gt;&gt;rowKIYMETLI_EVRAK_VADESINDE_ODENDI_MI.Type" xml:space="preserve">
+    <value>DevExpress.XtraVerticalGrid.Rows.EditorRow, DevExpress.XtraVerticalGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;mRowMIKTAR.Name" xml:space="preserve">
+    <value>mRowMIKTAR</value>
+  </data>
+  <data name="&gt;&gt;mRowMIKTAR.Type" xml:space="preserve">
+    <value>DevExpress.XtraVerticalGrid.Rows.MultiEditorRow, DevExpress.XtraVerticalGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rowACIKLAMA.Name" xml:space="preserve">
+    <value>rowACIKLAMA</value>
+  </data>
+  <data name="&gt;&gt;rowACIKLAMA.Type" xml:space="preserve">
+    <value>DevExpress.XtraVerticalGrid.Rows.EditorRow, DevExpress.XtraVerticalGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ucMuvekkilOdemeleri</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.BaseClasses.AvpXUserControl, avpng, Version=1.1.5.43, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

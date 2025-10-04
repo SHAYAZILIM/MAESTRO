@@ -1,0 +1,17 @@
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\Localization\Scheduler.tr-TR.resx
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\Asistan.exe.config
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\Asistan.exe
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\tr-TR\Asistan.resources.dll
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\Asistan\obj\Release\Asistan.csprojResolveAssemblyReference.cache
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\Asistan\obj\Release\Interop.SMSMakinesi.dll
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\Asistan\obj\Release\Asistan.csproj.ResolveComReference.cache
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\Asistan\obj\Release\Asistan.Ajanda.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\Asistan\obj\Release\Asistan.Asistan.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\Asistan\obj\Release\Asistan.AsistanTray.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\Asistan\obj\Release\Asistan.Properties.Resources.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\Asistan\obj\Release\LoginControl.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\Asistan\obj\Release\Asistan.Ajanda.tr-TR.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\Asistan\obj\Release\Asistan.csproj.GenerateResource.Cache
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\Asistan\obj\Release\Asistan.exe.licenses
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\Asistan\obj\Release\tr-TR\Asistan.resources.dll
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\Asistan\obj\Release\Asistan.exe

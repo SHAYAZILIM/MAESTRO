@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="C#" CodeBehind="LisansControl.asmx.cs" Class="AVPLisans.LisansControl" %>

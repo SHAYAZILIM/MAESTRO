@@ -1,0 +1,9 @@
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBin\AVPSchemaGenerator.dll
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBin\AVPSchemaGenerator.pdb
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatproUpdater\AVPSchemaGenerator\obj\Debug\AVPSchemaGenerator.dll
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatproUpdater\AVPSchemaGenerator\obj\Debug\AVPSchemaGenerator.pdb
+D:\dogan\AdimAdimDavaKaydi\ProjectBin\AVPSchemaGenerator.dll
+D:\dogan\AdimAdimDavaKaydi\ProjectBin\AVPSchemaGenerator.pdb
+D:\dogan\AdimAdimDavaKaydi\AvukatproUpdater\AVPSchemaGenerator\obj\Debug\AVPSchemaGenerator.dll
+D:\dogan\AdimAdimDavaKaydi\AvukatproUpdater\AVPSchemaGenerator\obj\Debug\AVPSchemaGenerator.pdb
+D:\dogan\AdimAdimDavaKaydi\AvukatproUpdater\AVPSchemaGenerator\obj\Debug\AVPSchemaGenerator.csprojResolveAssemblyReference.cache

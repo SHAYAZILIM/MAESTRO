@@ -1,0 +1,594 @@
+2014-04-04 00:00:00.9356 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 689 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 689
+2014-04-04 00:00:04.2288 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:00:07.3810 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:00:10.5601 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:00:13.7293 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:00:16.8895 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:00:20.0877 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:00:23.2499 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:00:26.4711 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:00:29.6492 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:00:32.8164 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:00:36.0156 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:00:39.2548 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:00:42.4610 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:00:45.6242 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:00:48.7973 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:00:51.9405 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:00:55.1617 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:00:58.3249 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:01:01.4521 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:01:04.6132 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:01:07.7544 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:01:10.9306 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:01:14.1198 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:01:17.3520 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:01:20.5251 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:01:23.6873 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:01:26.9095 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:01:30.0847 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:01:33.2219 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:01:36.4011 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:01:39.5812 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:02:00.6084 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 689 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 689
+2014-04-04 00:02:03.7836 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:02:06.9208 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:02:10.0820 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:02:13.2402 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:02:16.4303 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:02:19.6135 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:02:22.8217 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:02:26.0149 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:02:29.1771 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:02:32.3953 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:02:35.5744 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:02:38.7636 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:02:41.9998 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:02:45.1970 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:02:48.3862 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:02:51.5374 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:02:55.0146 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:02:58.1577 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:03:01.2919 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:03:04.5101 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:03:07.6843 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:03:10.8315 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:03:13.9816 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:03:17.1528 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:03:20.3170 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:03:23.4662 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:03:26.6504 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:03:29.8415 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:03:33.0377 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:03:36.2359 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:03:39.4121 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813
+2014-04-04 00:04:00.3333 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 689 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 689
+2014-04-04 00:04:03.4805 Serverside 
+ Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later. System.Net.Mail.SmtpException SmtpException System.Net.Mail.SmtpException: Error in processing. The server response was: Requested action aborted: This mail account has sent too many messages in a short amount of time. Please try later.
+   at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813 Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)    at System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ServerSideServices.BLL.AsistanIslemi() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\BLL.cs:line 813

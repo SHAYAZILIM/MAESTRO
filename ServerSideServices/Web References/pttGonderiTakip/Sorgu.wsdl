@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:intf="http://takip.ptt.gov.tr" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:impl="http://takip.ptt.gov.tr" targetNamespace="http://takip.ptt.gov.tr" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema xmlns="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://takip.ptt.gov.tr">
+      <xsd:complexType name="Input">
+        <xsd:sequence>
+          <xsd:element name="barkod" nillable="true" type="xsd:string" />
+          <xsd:element name="kullanici" nillable="true" type="xsd:string" />
+          <xsd:element name="sifre" nillable="true" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="input" type="impl:Input" />
+      <xsd:complexType name="OutputDongu">
+        <xsd:sequence>
+          <xsd:element name="IMERK" nillable="true" type="xsd:string" />
+          <xsd:element name="ISLEM" nillable="true" type="xsd:string" />
+          <xsd:element name="ITARIH" nillable="true" type="xsd:string" />
+          <xsd:element name="siraNo" nillable="true" type="xsd:int" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOfOutputDongu">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="item" type="impl:OutputDongu" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="OutputTum">
+        <xsd:sequence>
+          <xsd:element name="ALICI" nillable="true" type="xsd:string" />
+          <xsd:element name="BARNO" nillable="true" type="xsd:string" />
+          <xsd:element name="DEGKONUCR" nillable="true" type="xsd:string" />
+          <xsd:element name="EKHIZ" nillable="true" type="xsd:string" />
+          <xsd:element name="GONDEREN" nillable="true" type="xsd:string" />
+          <xsd:element name="GONUCR" nillable="true" type="xsd:string" />
+          <xsd:element name="GR" nillable="true" type="xsd:string" />
+          <xsd:element name="IMERK" nillable="true" type="xsd:string" />
+          <xsd:element name="ITARIH" nillable="true" type="xsd:string" />
+          <xsd:element name="ODSARUCR" nillable="true" type="xsd:string" />
+          <xsd:element name="TESALAN" nillable="true" type="xsd:string" />
+          <xsd:element name="VMERK" nillable="true" type="xsd:string" />
+          <xsd:element name="dongu" nillable="true" type="impl:ArrayOfOutputDongu" />
+          <xsd:element name="sonucAciklama" nillable="true" type="xsd:string" />
+          <xsd:element name="sonucKodu" nillable="true" type="xsd:int" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="gonderiSorguReturn" type="impl:OutputTum" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="gonderiSorguResponse">
+    <wsdl:part name="gonderiSorguReturn" element="impl:gonderiSorguReturn" />
+  </wsdl:message>
+  <wsdl:message name="gonderiSorguRequest">
+    <wsdl:part name="input" element="impl:input" />
+  </wsdl:message>
+  <wsdl:portType name="Sorgu">
+    <wsdl:operation name="gonderiSorgu" parameterOrder="input">
+      <wsdl:input name="gonderiSorguRequest" message="impl:gonderiSorguRequest" />
+      <wsdl:output name="gonderiSorguResponse" message="impl:gonderiSorguResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SorguSoapBinding" type="impl:Sorgu">
+    <wsdlsoap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="gonderiSorgu">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="gonderiSorguRequest">
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="gonderiSorguResponse">
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SorguService">
+    <wsdl:port name="Sorgu" binding="impl:SorguSoapBinding">
+      <wsdlsoap:address location="http://pttws.ptt.gov.tr/GonderiTakip/services/Sorgu" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

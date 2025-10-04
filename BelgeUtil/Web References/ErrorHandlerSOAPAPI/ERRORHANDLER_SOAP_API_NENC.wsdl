@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://update.soap.avukatpro.com/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://update.soap.avukatpro.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://update.soap.avukatpro.com/">
+      <s:element name="ErrorReport">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="from" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="fromName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="noteFromSender" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="errorDetail" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="exeVersionNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dbVersionNumber" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="errorSource" type="s:unsignedByte" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ErrorReportResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ErrorReportResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ErrorReportSoapIn">
+    <wsdl:part name="parameters" element="tns:ErrorReport" />
+  </wsdl:message>
+  <wsdl:message name="ErrorReportSoapOut">
+    <wsdl:part name="parameters" element="tns:ErrorReportResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ERRORHANDLER_SOAP_API_NENCSoap">
+    <wsdl:operation name="ErrorReport">
+      <wsdl:input message="tns:ErrorReportSoapIn" />
+      <wsdl:output message="tns:ErrorReportSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ERRORHANDLER_SOAP_API_NENCSoap" type="tns:ERRORHANDLER_SOAP_API_NENCSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ErrorReport">
+      <soap:operation soapAction="http://update.soap.avukatpro.com/ErrorReport" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ERRORHANDLER_SOAP_API_NENCSoap12" type="tns:ERRORHANDLER_SOAP_API_NENCSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ErrorReport">
+      <soap12:operation soapAction="http://update.soap.avukatpro.com/ErrorReport" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ERRORHANDLER_SOAP_API_NENC">
+    <wsdl:port name="ERRORHANDLER_SOAP_API_NENCSoap" binding="tns:ERRORHANDLER_SOAP_API_NENCSoap">
+      <soap:address location="http://192.9.0.145/Update/ERRORHANDLER_SOAP_API_NENC.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ERRORHANDLER_SOAP_API_NENCSoap12" binding="tns:ERRORHANDLER_SOAP_API_NENCSoap12">
+      <soap12:address location="http://192.9.0.145/Update/ERRORHANDLER_SOAP_API_NENC.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,6 @@
+D:\dogan\AdimAdimDavaKaydi\AVPMetre\obj\Debug\AVPMetre.csprojResolveAssemblyReference.cache
+D:\dogan\AdimAdimDavaKaydi\AVPMetre\obj\Debug\AVPMetre.Forms.frmIsKayitUfak.resources
+D:\dogan\AdimAdimDavaKaydi\AVPMetre\obj\Debug\AVPMetre.Properties.Resources.resources
+D:\dogan\AdimAdimDavaKaydi\AVPMetre\obj\Debug\AVPMetre.UserControls.ucIsKayitUfak.resources
+D:\dogan\AdimAdimDavaKaydi\AVPMetre\obj\Debug\AVPMetre.csproj.GenerateResource.Cache
+D:\dogan\AdimAdimDavaKaydi\AVPMetre\obj\Debug\AVPMetre.exe.licenses

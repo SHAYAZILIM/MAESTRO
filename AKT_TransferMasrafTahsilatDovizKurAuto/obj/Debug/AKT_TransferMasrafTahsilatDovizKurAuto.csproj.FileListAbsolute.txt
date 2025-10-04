@@ -1,0 +1,13 @@
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBin\AKT_TransferMasrafTahsilatDovizKurAuto.exe
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBin\AKT_TransferMasrafTahsilatDovizKurAuto.pdb
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AKT_TransferMasrafTahsilatDovizKurAuto\obj\Debug\AKT_TransferMasrafTahsilatDovizKurAuto.exe
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AKT_TransferMasrafTahsilatDovizKurAuto\obj\Debug\AKT_TransferMasrafTahsilatDovizKurAuto.pdb
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AKT_TransferMasrafTahsilatDovizKurAuto\obj\Debug\AKT_TransferMasrafTahsilatDovizKurAuto.csprojResolveAssemblyReference.cache
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBin\Resources\DevExpress.XtraGrid.Appearances.xml
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBin\Resources\DevExpress.XtraVerticalGrid.Appearances.xml
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBin\Resources\DevExpress.XtraTreeList.Appearances.xml
+D:\dogan\AdimAdimDavaKaydi\ProjectBin\AKT_TransferMasrafTahsilatDovizKurAuto.exe
+D:\dogan\AdimAdimDavaKaydi\ProjectBin\AKT_TransferMasrafTahsilatDovizKurAuto.pdb
+D:\dogan\AdimAdimDavaKaydi\AKT_TransferMasrafTahsilatDovizKurAuto\obj\Debug\AKT_TransferMasrafTahsilatDovizKurAuto.csprojResolveAssemblyReference.cache
+D:\dogan\AdimAdimDavaKaydi\AKT_TransferMasrafTahsilatDovizKurAuto\obj\Debug\AKT_TransferMasrafTahsilatDovizKurAuto.exe
+D:\dogan\AdimAdimDavaKaydi\AKT_TransferMasrafTahsilatDovizKurAuto\obj\Debug\AKT_TransferMasrafTahsilatDovizKurAuto.pdb

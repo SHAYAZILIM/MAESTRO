@@ -1,0 +1,8 @@
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\AVPSetLicence.exe.config
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\AVPSetLicence.exe
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AVPSetLicence\obj\Release\AVPSetLicence.csprojResolveAssemblyReference.cache
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AVPSetLicence\obj\Release\AVPSetLicence.frmLicenceWarning.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AVPSetLicence\obj\Release\AVPSetLicence.frmSetLicence.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AVPSetLicence\obj\Release\AVPSetLicence.csproj.GenerateResource.Cache
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AVPSetLicence\obj\Release\AVPSetLicence.exe.licenses
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AVPSetLicence\obj\Release\AVPSetLicence.exe

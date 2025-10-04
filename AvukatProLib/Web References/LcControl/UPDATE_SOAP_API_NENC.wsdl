@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://update.soap.avukatpro.com/" xmlns:s1="http://microsoft.com/wsdl/types/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://update.soap.avukatpro.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://update.soap.avukatpro.com/">
+      <s:import namespace="http://microsoft.com/wsdl/types/" />
+      <s:element name="CheckProductKey">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="productKey" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cmpId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckProductKeyResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CheckProductKeyResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckVersion">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="version" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckVersionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CheckVersionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDownloadAddressByEuid">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="euId" type="s1:guid" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDownloadAddressByEuidResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDownloadAddressByEuidResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://microsoft.com/wsdl/types/">
+      <s:simpleType name="guid">
+        <s:restriction base="s:string">
+          <s:pattern value="[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}" />
+        </s:restriction>
+      </s:simpleType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="CheckProductKeySoapIn">
+    <wsdl:part name="parameters" element="tns:CheckProductKey" />
+  </wsdl:message>
+  <wsdl:message name="CheckProductKeySoapOut">
+    <wsdl:part name="parameters" element="tns:CheckProductKeyResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckVersionSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckVersion" />
+  </wsdl:message>
+  <wsdl:message name="CheckVersionSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckVersionResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDownloadAddressByEuidSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDownloadAddressByEuid" />
+  </wsdl:message>
+  <wsdl:message name="GetDownloadAddressByEuidSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDownloadAddressByEuidResponse" />
+  </wsdl:message>
+  <wsdl:portType name="UPDATE_SOAP_API_NENCSoap">
+    <wsdl:operation name="CheckProductKey">
+      <wsdl:input message="tns:CheckProductKeySoapIn" />
+      <wsdl:output message="tns:CheckProductKeySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckVersion">
+      <wsdl:input message="tns:CheckVersionSoapIn" />
+      <wsdl:output message="tns:CheckVersionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDownloadAddressByEuid">
+      <wsdl:input message="tns:GetDownloadAddressByEuidSoapIn" />
+      <wsdl:output message="tns:GetDownloadAddressByEuidSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="UPDATE_SOAP_API_NENCSoap" type="tns:UPDATE_SOAP_API_NENCSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CheckProductKey">
+      <soap:operation soapAction="http://update.soap.avukatpro.com/CheckProductKey" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckVersion">
+      <soap:operation soapAction="http://update.soap.avukatpro.com/CheckVersion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDownloadAddressByEuid">
+      <soap:operation soapAction="http://update.soap.avukatpro.com/GetDownloadAddressByEuid" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="UPDATE_SOAP_API_NENCSoap12" type="tns:UPDATE_SOAP_API_NENCSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CheckProductKey">
+      <soap12:operation soapAction="http://update.soap.avukatpro.com/CheckProductKey" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckVersion">
+      <soap12:operation soapAction="http://update.soap.avukatpro.com/CheckVersion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDownloadAddressByEuid">
+      <soap12:operation soapAction="http://update.soap.avukatpro.com/GetDownloadAddressByEuid" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="UPDATE_SOAP_API_NENC">
+    <wsdl:port name="UPDATE_SOAP_API_NENCSoap" binding="tns:UPDATE_SOAP_API_NENCSoap">
+      <soap:address location="http://localhost/update/UPDATE_SOAP_API_NENC.asmx" />
+    </wsdl:port>
+    <wsdl:port name="UPDATE_SOAP_API_NENCSoap12" binding="tns:UPDATE_SOAP_API_NENCSoap12">
+      <soap12:address location="http://localhost/update/UPDATE_SOAP_API_NENC.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

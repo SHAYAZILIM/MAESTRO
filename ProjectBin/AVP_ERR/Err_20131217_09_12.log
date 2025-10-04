@@ -1,0 +1,18 @@
+[ERROR LOG V1]
+
+Time = 17.12.2013 21:12:33 
+Source = System.RuntimeType (133431480)
+Version = 1.0.0.0 
+Culture = tr-TR 
+
+Exception:
+System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at AvukatProLib2.Data.Bases.AV001_TI_BIL_FOYProviderBaseCore.DeepSave(TransactionManager transactionManager, AV001_TI_BIL_FOY entity, DeepSaveType deepSaveType, Type[] childTypes, DeepSession innerList)
+   at AvukatProLib2.Data.Bases.EntityProviderBaseCore`2.DeepSave(TransactionManager mgr, Entity entity, DeepSaveType deepSaveType, Type[] childTypes)
+   at AvukatProLib2.Data.Bases.EntityProviderBaseCore`2.DeepSave(TransactionManager mgr, Entity entity)
+   at AdimAdimDavaKaydi.IcraTakipForms._frmIcraTakip.FoyKaydet(AV001_TI_BIL_FOY foy) in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AdimAdimDavaKaydi\IcraTakipForms\_frmIcraTakip.cs:line 2067
+[/ERROR LOG V1]
+

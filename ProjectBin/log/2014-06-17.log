@@ -1,0 +1,44 @@
+2014-06-17 17:36:19.6625 Hata 
+ Could not load file or assembly 'Interop.WMPLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format. System.BadImageFormatException BadImageFormatException System.BadImageFormatException: Could not load file or assembly 'Interop.WMPLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.
+File name: 'Interop.WMPLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'
+   at AxWMPLib.AxWindowsMediaPlayer.AttachInterfaces()
+   at System.Windows.Forms.AxHost.GetOcxCreate()
+   at System.Windows.Forms.AxHost.TransitionUpTo(Int32 state)
+   at System.Windows.Forms.AxHost.CreateHandle()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.WmShowWindow(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at DevExpress.XtraEditors.XtraScrollableControl.WndProc(Message& m)
+   at DevExpress.Utils.Controls.PanelBase.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+=== Pre-bind state information ===
+LOG: User = YAZILIM2\AYKUTBASTUG
+LOG: DisplayName = Interop.WMPLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+ (Fully-specified)
+LOG: Appbase = file:///D:/dogan/AdimAdimDavaKaydi/ProjectBin/
+LOG: Initial PrivatePath = NULL
+Calling assembly : AxInterop.WMPLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: D:\dogan\AdimAdimDavaKaydi\ProjectBin\avpng.vshost.exe.Config
+LOG: Using machine configuration file from C:\Windows\Microsoft.NET\Framework64\v2.0.50727\config\machine.config.
+LOG: Policy not being applied to reference at this time (private, custom, partial, or location-based assembly bind).
+LOG: Attempting download of new URL file:///D:/dogan/AdimAdimDavaKaydi/ProjectBin/Interop.WMPLib.DLL.
+ERR: Failed to complete setup of assembly (hr = 0x8007000b). Probing terminated.
+ Void AttachInterfaces()    at AxWMPLib.AxWindowsMediaPlayer.AttachInterfaces()
+   at System.Windows.Forms.AxHost.GetOcxCreate()
+   at System.Windows.Forms.AxHost.TransitionUpTo(Int32 state)
+   at System.Windows.Forms.AxHost.CreateHandle()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.WmShowWindow(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at DevExpress.XtraEditors.XtraScrollableControl.WndProc(Message& m)
+   at DevExpress.Utils.Controls.PanelBase.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)

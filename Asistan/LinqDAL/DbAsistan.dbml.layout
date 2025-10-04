@@ -1,0 +1,515 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 14.75, 62.125" name="DbAsistan">
+  <DataContextMoniker Name="/DbAsistanDataContext" />
+  <nestedChildShapes>
+    <classShape Id="9c5654a0-5713-4af6-9164-9799b2b0c830" absoluteBounds="1.75, 9, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/DbAsistanDataContext/AV001_TDI_BIL_CARI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4b8dd6cf-5e95-447d-ab72-d6c6d201bdd5" absoluteBounds="1.7650000005960465, 9.46000000089407, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5e318308-f88b-4a9b-aafa-c18de485f648" absoluteBounds="4.5, 9.125, 2, 1.7708968098958344">
+      <DataClassMoniker Name="/DbAsistanDataContext/TDI_BIL_KULLANICI_LISTESI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="34424f58-d55f-471f-9225-a905eb6279a7" absoluteBounds="4.5150000005960464, 9.58500000089407, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.75 : 9.91959757450968); (4.5 : 9.91959757450968)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DbAsistanDataContext/AV001_TDI_BIL_CARI/AV001_TDI_BIL_CARI_TDI_BIL_KULLANICI_LISTESI" />
+      <nodes>
+        <classShapeMoniker Id="9c5654a0-5713-4af6-9164-9799b2b0c830" />
+        <classShapeMoniker Id="5e318308-f88b-4a9b-aafa-c18de485f648" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="c21e01e0-955f-4008-942a-bcdb64469dca" absoluteBounds="6.5, 27.25, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/DbAsistanDataContext/NN_IS_CARI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0adb3851-b567-40df-89b1-1f5e17db277f" absoluteBounds="6.5150000005960464, 27.71000000089407, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.75 : 10.7521926021588); (4.12634987883153 : 11.1285424809903); (5.88541666666667 : 11.1285424809903 : JumpStart); (6.05208333333333 : 11.1285424809903 : JumpEnd); (6.125 : 11.1285424809903); (6.125 : 26.875); (6.5 : 27.25)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DbAsistanDataContext/AV001_TDI_BIL_CARI/AV001_TDI_BIL_CARI_NN_IS_CARI" />
+      <nodes>
+        <classShapeMoniker Id="9c5654a0-5713-4af6-9164-9799b2b0c830" />
+        <classShapeMoniker Id="c21e01e0-955f-4008-942a-bcdb64469dca" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="52e06956-bdbc-4c43-aa47-9b067f956532" absoluteBounds="0.75, 26.625, 2, 7.3476383463541666">
+      <DataClassMoniker Name="/DbAsistanDataContext/AV001_TDI_BIL_I" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2e3f66f5-f40f-4691-9b27-66741a007a41" absoluteBounds="0.76499999999999968, 27.085, 1.9700000000000002, 6.7876383463541661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 28.002403157192); (6.5 : 28.002403157192)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DbAsistanDataContext/AV001_TDI_BIL_I/AV001_TDI_BIL_I_NN_IS_CARI" />
+      <nodes>
+        <classShapeMoniker Id="52e06956-bdbc-4c43-aa47-9b067f956532" />
+        <classShapeMoniker Id="c21e01e0-955f-4008-942a-bcdb64469dca" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="449530b6-ace7-4a4a-8859-db08d5fbf6a5" absoluteBounds="1, 12.5, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/DbAsistanDataContext/AV001_TDI_BIL_IS_TARAF" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c412dd7f-fae1-47b2-9c8d-4a1413e3cd85" absoluteBounds="1.0150000005960465, 12.96000000089407, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.375 : 10.9631982421875); (2.375 : 12.5)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DbAsistanDataContext/AV001_TDI_BIL_CARI/AV001_TDI_BIL_CARI_AV001_TDI_BIL_IS_TARAF" />
+      <nodes>
+        <classShapeMoniker Id="9c5654a0-5713-4af6-9164-9799b2b0c830" />
+        <classShapeMoniker Id="449530b6-ace7-4a4a-8859-db08d5fbf6a5" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="8b36a489-be8f-4f19-a515-055759fa5411" absoluteBounds="3.75, 12, 2, 4.2708154296875023">
+      <DataClassMoniker Name="/DbAsistanDataContext/AV001_TDI_BIL_HATIRLAT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b449aa91-ac77-4b8c-a019-9e205e94bcb7" absoluteBounds="3.7650000005960464, 12.46000000089407, 1.9700000000000002, 3.7108154296875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3 : 13.4815991210938); (3.75 : 13.4815991210938)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DbAsistanDataContext/AV001_TDI_BIL_IS_TARAF/AV001_TDI_BIL_IS_TARAF_AV001_TDI_BIL_HATIRLAT" />
+      <nodes>
+        <classShapeMoniker Id="449530b6-ace7-4a4a-8859-db08d5fbf6a5" />
+        <classShapeMoniker Id="8b36a489-be8f-4f19-a515-055759fa5411" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="52b9c2cf-1fe9-4d26-a0f6-83b3308487d5" absoluteBounds="3.5, 17.25, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/DbAsistanDataContext/NN_IS_ARAKARAR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="31ec3e25-2456-4f11-8db7-0262f85d30a1" absoluteBounds="3.5149999999999997, 17.71, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fc34b7c0-9b6d-440f-8e14-c12ec7cad7af" absoluteBounds="3.5, 19.125, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/DbAsistanDataContext/NN_IS_TEBLIGAT_MUHATAB" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1eb46983-f478-4753-9a28-fb63d9e3ad6b" absoluteBounds="3.5149999999999997, 19.585, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b1dbe3a7-3ec4-4d62-a664-696581333522" absoluteBounds="3.5, 21, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/DbAsistanDataContext/NN_IS_BELGE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4c0657e3-d730-4f85-9ee8-5a47f2dd9da8" absoluteBounds="3.5149999999999997, 21.46, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e936c128-9270-481c-b7fd-44885151994e" absoluteBounds="3.5, 22.875, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/DbAsistanDataContext/NN_IS_CELSE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2e51ce37-9b0e-48af-989e-699e5ed82e63" absoluteBounds="3.5149999999999997, 23.335, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="23d48a79-7e46-409b-b4d8-3705bd547c9b" absoluteBounds="3.5, 24.75, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/DbAsistanDataContext/NN_IS_DAVA_FOY" />
+      <nestedChildShapes>
+        <elementListCompartment Id="58fb011d-80a1-43ba-ae3a-e1325ed08332" absoluteBounds="3.5149999999999997, 25.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="46b7cf2a-e8b6-4c90-a53c-ae5d68052b09" absoluteBounds="3.5, 26.5, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/DbAsistanDataContext/NN_IS_DAVA_NEDEN" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d708a3df-0132-4c46-8449-c9b1fecd9dfc" absoluteBounds="3.5149999999999997, 26.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="501579d6-508a-4215-9ee1-d3cd9d17ef45" absoluteBounds="3.5, 28.375, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/DbAsistanDataContext/NN_IS_DAVA_TARAF" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d96d5d34-105f-47a6-9a69-40b49e978c68" absoluteBounds="3.5149999999999997, 28.835, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="85101583-5f46-4dbf-a02f-944ff0664984" absoluteBounds="3.5, 30.25, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/DbAsistanDataContext/NN_IS_GORUSME" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0491383c-b8c1-4540-a321-b54d8055aa19" absoluteBounds="3.5149999999999997, 30.71, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="69ee0227-fd48-4a34-bfc0-b4e623ebc347" absoluteBounds="3.5, 32.125, 2, 1.193992513020838">
+      <DataClassMoniker Name="/DbAsistanDataContext/NN_IS_HACIZ" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0f4cec78-0a14-45b9-afda-33b8b5f6c8d9" absoluteBounds="3.5149999999999997, 32.585, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b6a49e85-e0ed-4120-963f-04acb5384c7c" absoluteBounds="6.5, 25.25, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/DbAsistanDataContext/NN_IS_HATIRLATMA" />
+      <nestedChildShapes>
+        <elementListCompartment Id="68ad8437-9a9d-402a-afde-a093d0388b81" absoluteBounds="6.5150000000000006, 25.71, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f9f37112-04b4-4cc5-8b5f-6162c932cb49" absoluteBounds="3.5, 33.875, 2, 1.193992513020838">
+      <DataClassMoniker Name="/DbAsistanDataContext/NN_IS_HAZIRLIK" />
+      <nestedChildShapes>
+        <elementListCompartment Id="55f4bc53-8581-4ec4-8030-6e1201e05448" absoluteBounds="3.5149999999999997, 34.335, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="72a63948-e0b1-4232-95ba-c447bf9110cf" absoluteBounds="3.5, 35.75, 2, 1.193992513020838">
+      <DataClassMoniker Name="/DbAsistanDataContext/NN_IS_HAZIRLIK_TARAF" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a4d67984-79fe-4fa7-8e3c-0c0b88818bf2" absoluteBounds="3.5149999999999997, 36.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1053b288-6e67-4f17-b0b2-e5325fe4fdef" absoluteBounds="3.5, 37.625, 2, 1.193992513020838">
+      <DataClassMoniker Name="/DbAsistanDataContext/NN_IS_ICRA_FOY" />
+      <nestedChildShapes>
+        <elementListCompartment Id="27f3906e-d55c-4e8a-bfae-3b955088e5f6" absoluteBounds="3.5149999999999997, 38.085, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9ef5608b-bfda-4e7b-a7d7-251b28e78043" absoluteBounds="3.5, 39.5, 2, 1.193992513020838">
+      <DataClassMoniker Name="/DbAsistanDataContext/NN_IS_ICRA_TARAF" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a6234a19-d900-48a1-b117-dcc3fd5c949e" absoluteBounds="3.5149999999999997, 39.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b7571156-934a-4462-bbf5-d34786b3e98d" absoluteBounds="3.5, 41.25, 2, 1.193992513020838">
+      <DataClassMoniker Name="/DbAsistanDataContext/NN_IS_MESAJ" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cbad0179-24e7-4113-b44f-c3f38d4e437e" absoluteBounds="3.5149999999999997, 41.71, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d1af688c-1ccb-4258-8d6a-5fc6ef26b1bc" absoluteBounds="3.5, 43.125, 2, 1.193992513020838">
+      <DataClassMoniker Name="/DbAsistanDataContext/NN_IS_MUHASEBE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="09d13fbd-bf42-49da-a472-160034f13848" absoluteBounds="3.5149999999999997, 43.585, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="09a8a80f-5e2d-4fdf-9579-b8ea94f2fe3b" absoluteBounds="3.5, 45, 2, 1.193992513020838">
+      <DataClassMoniker Name="/DbAsistanDataContext/NN_IS_POLICE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ae5a6dbc-a961-420f-bb5d-b3b5701ada7a" absoluteBounds="3.5149999999999997, 45.46, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3eb4f53b-5156-4ef6-9ce8-0a4edc29476d" absoluteBounds="3.5, 46.875, 2, 1.193992513020838">
+      <DataClassMoniker Name="/DbAsistanDataContext/NN_IS_POLICE_HASAR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1aae075b-295b-417b-a409-a62ed9ea0621" absoluteBounds="3.5149999999999997, 47.335, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="75f3ce0b-df2b-44cd-8006-7db5281c5922" absoluteBounds="3.5, 48.75, 2, 1.193992513020838">
+      <DataClassMoniker Name="/DbAsistanDataContext/NN_IS_RUCU" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5962f7e7-2ece-417e-8c5b-ce995589949d" absoluteBounds="3.5149999999999997, 49.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1a4a5c86-0776-4787-9ba7-9d9c38e8cba8" absoluteBounds="3.5, 50.5, 2, 1.193992513020838">
+      <DataClassMoniker Name="/DbAsistanDataContext/NN_IS_RUCU_TARAF" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e9fbb45c-ffc6-4ed8-8f48-21c2b503de3f" absoluteBounds="3.5149999999999997, 50.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3123bb7a-6be6-4703-97bf-02d2181373e4" absoluteBounds="3.5, 52.375, 2, 1.193992513020838">
+      <DataClassMoniker Name="/DbAsistanDataContext/NN_IS_SATI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="eb09f14b-c11d-4398-a271-1d7cd95bd98e" absoluteBounds="3.5149999999999997, 52.835, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="90fa37a9-3b62-4ab8-9ea0-1fc03055760c" absoluteBounds="3.5, 54.25, 2, 1.193992513020838">
+      <DataClassMoniker Name="/DbAsistanDataContext/NN_IS_SOZLESME" />
+      <nestedChildShapes>
+        <elementListCompartment Id="046e6941-f4fc-45ba-8fb0-ec0866ae184b" absoluteBounds="3.5149999999999997, 54.71, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="eabba221-be31-4b95-b7db-444160b84faa" absoluteBounds="3.5, 56.125, 2, 1.193992513020838">
+      <DataClassMoniker Name="/DbAsistanDataContext/NN_IS_SOZLESME_TARAF" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4bafc291-1fe2-4521-91e4-f1ad0f2573bf" absoluteBounds="3.5149999999999997, 56.585, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="108ce01f-9103-4f40-afd2-e3cbb3c3c0db" absoluteBounds="3.5, 57.875, 2, 1.193992513020838">
+      <DataClassMoniker Name="/DbAsistanDataContext/NN_IS_TAAHHUT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9371f4f7-92cb-445e-bebf-af5a538405cc" absoluteBounds="3.5149999999999997, 58.335, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="efd5b33e-f0f3-4525-a6b6-976432378e2a" absoluteBounds="3.5, 59.75, 2, 1.193992513020838">
+      <DataClassMoniker Name="/DbAsistanDataContext/NN_IS_TEBLIGAT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2c2fdfdb-d86f-4e23-9ce2-15b594be59ac" absoluteBounds="3.5149999999999997, 60.209999999999994, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.375 : 26.625); (1.375 : 17.798076578776); (1.46354291666667 : 17.798076578776 : JumpStart); (1.63020958333333 : 17.798076578776 : JumpEnd); (1.85416666666667 : 17.798076578776 : JumpStart); (2.02083333333333 : 17.798076578776 : JumpEnd); (3.5 : 17.798076578776)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DbAsistanDataContext/AV001_TDI_BIL_I/AV001_TDI_BIL_I_NN_IS_ARAKARAR" />
+      <nodes>
+        <classShapeMoniker Id="52e06956-bdbc-4c43-aa47-9b067f956532" />
+        <classShapeMoniker Id="52b9c2cf-1fe9-4d26-a0f6-83b3308487d5" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.375 : 26.625); (2.375 : 19.673076578776); (3.5 : 19.673076578776)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DbAsistanDataContext/AV001_TDI_BIL_I/AV001_TDI_BIL_I_NN_IS_TEBLIGAT_MUHATAB" />
+      <nodes>
+        <classShapeMoniker Id="52e06956-bdbc-4c43-aa47-9b067f956532" />
+        <classShapeMoniker Id="fc34b7c0-9b6d-440f-8e14-c12ec7cad7af" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.7187525 : 26.625); (1.7187525 : 21.548076578776); (1.85416666666667 : 21.548076578776 : JumpStart); (2.02083333333333 : 21.548076578776 : JumpEnd); (2.29166666666667 : 21.548076578776 : JumpStart); (2.45833333333333 : 21.548076578776 : JumpEnd); (3.5 : 21.548076578776)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DbAsistanDataContext/AV001_TDI_BIL_I/AV001_TDI_BIL_I_NN_IS_BELGE" />
+      <nodes>
+        <classShapeMoniker Id="52e06956-bdbc-4c43-aa47-9b067f956532" />
+        <classShapeMoniker Id="b1dbe3a7-3ec4-4d62-a664-696581333522" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.0312475 : 26.625); (1.0312475 : 23.423076578776); (1.29166666666667 : 23.423076578776 : JumpStart); (1.45833333333333 : 23.423076578776 : JumpEnd); (1.46354291666667 : 23.423076578776 : JumpStart); (1.63020958333333 : 23.423076578776 : JumpEnd); (1.63541916666667 : 23.423076578776 : JumpStart); (1.80208583333333 : 23.423076578776 : JumpEnd); (1.85416666666667 : 23.423076578776 : JumpStart); (2.02083333333333 : 23.423076578776 : JumpEnd); (2.29166666666667 : 23.423076578776 : JumpStart); (2.45833333333333 : 23.423076578776 : JumpEnd); (3.5 : 23.423076578776)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DbAsistanDataContext/AV001_TDI_BIL_I/AV001_TDI_BIL_I_NN_IS_CELSE" />
+      <nodes>
+        <classShapeMoniker Id="52e06956-bdbc-4c43-aa47-9b067f956532" />
+        <classShapeMoniker Id="e936c128-9270-481c-b7fd-44885151994e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.5937525 : 26.625); (2.5937525 : 25.298076578776); (3.5 : 25.298076578776)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DbAsistanDataContext/AV001_TDI_BIL_I/AV001_TDI_BIL_I_NN_IS_DAVA_FOY" />
+      <nodes>
+        <classShapeMoniker Id="52e06956-bdbc-4c43-aa47-9b067f956532" />
+        <classShapeMoniker Id="23d48a79-7e46-409b-b4d8-3705bd547c9b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 27.110576578776); (3.5 : 27.110576578776)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DbAsistanDataContext/AV001_TDI_BIL_I/AV001_TDI_BIL_I_NN_IS_DAVA_NEDEN" />
+      <nodes>
+        <classShapeMoniker Id="52e06956-bdbc-4c43-aa47-9b067f956532" />
+        <classShapeMoniker Id="46b7cf2a-e8b6-4c90-a53c-ae5d68052b09" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 28.923076578776); (3.5 : 28.923076578776)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DbAsistanDataContext/AV001_TDI_BIL_I/AV001_TDI_BIL_I_NN_IS_DAVA_TARAF" />
+      <nodes>
+        <classShapeMoniker Id="52e06956-bdbc-4c43-aa47-9b067f956532" />
+        <classShapeMoniker Id="501579d6-508a-4215-9ee1-d3cd9d17ef45" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 30.798076578776); (3.5 : 30.798076578776)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DbAsistanDataContext/AV001_TDI_BIL_I/AV001_TDI_BIL_I_NN_IS_GORUSME" />
+      <nodes>
+        <classShapeMoniker Id="52e06956-bdbc-4c43-aa47-9b067f956532" />
+        <classShapeMoniker Id="85101583-5f46-4dbf-a02f-944ff0664984" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 32.5526338704427); (3.5 : 32.5526338704427)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DbAsistanDataContext/AV001_TDI_BIL_I/AV001_TDI_BIL_I_NN_IS_HACIZ" />
+      <nodes>
+        <classShapeMoniker Id="52e06956-bdbc-4c43-aa47-9b067f956532" />
+        <classShapeMoniker Id="69ee0227-fd48-4a34-bfc0-b4e623ebc347" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.65625 : 15.7257104497403); (5.65625 : 26.1274031575521); (6.5 : 26.1274031575521)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DbAsistanDataContext/AV001_TDI_BIL_HATIRLAT/AV001_TDI_BIL_HATIRLAT_NN_IS_HATIRLATMA" />
+      <nodes>
+        <classShapeMoniker Id="8b36a489-be8f-4f19-a515-055759fa5411" />
+        <classShapeMoniker Id="b6a49e85-e0ed-4120-963f-04acb5384c7c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.1562475 : 26.625); (2.1562475 : 26.2680306575521); (6.04166666666667 : 26.2680306575521 : JumpStart); (6.20833333333333 : 26.2680306575521 : JumpEnd); (6.5 : 26.2680306575521)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DbAsistanDataContext/AV001_TDI_BIL_I/AV001_TDI_BIL_I_NN_IS_HATIRLATMA" />
+      <nodes>
+        <classShapeMoniker Id="52e06956-bdbc-4c43-aa47-9b067f956532" />
+        <classShapeMoniker Id="b6a49e85-e0ed-4120-963f-04acb5384c7c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.2812525 : 32.9802677408854); (2.2812525 : 34.423076578776); (2.33073229166667 : 34.423076578776 : JumpStart); (2.49739895833333 : 34.423076578776 : JumpEnd); (3.5 : 34.423076578776)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DbAsistanDataContext/AV001_TDI_BIL_I/AV001_TDI_BIL_I_NN_IS_HAZIRLIK" />
+      <nodes>
+        <classShapeMoniker Id="52e06956-bdbc-4c43-aa47-9b067f956532" />
+        <classShapeMoniker Id="f9f37112-04b4-4cc5-8b5f-6162c932cb49" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.2187475 : 32.9802677408854); (1.2187475 : 36.298076578776); (1.79947979166667 : 36.298076578776 : JumpStart); (1.96614645833333 : 36.298076578776 : JumpEnd); (2.33073229166667 : 36.298076578776 : JumpStart); (2.49739895833333 : 36.298076578776 : JumpEnd); (2.62761104166667 : 36.298076578776 : JumpStart); (2.79427770833333 : 36.298076578776 : JumpEnd); (3.5 : 36.298076578776)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DbAsistanDataContext/AV001_TDI_BIL_I/AV001_TDI_BIL_I_NN_IS_HAZIRLIK_TARAF" />
+      <nodes>
+        <classShapeMoniker Id="52e06956-bdbc-4c43-aa47-9b067f956532" />
+        <classShapeMoniker Id="72a63948-e0b1-4232-95ba-c447bf9110cf" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.54687875 : 32.9802677408854); (2.54687875 : 38.173076578776); (2.62761104166667 : 38.173076578776 : JumpStart); (2.79427770833333 : 38.173076578776 : JumpEnd); (3.5 : 38.173076578776)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DbAsistanDataContext/AV001_TDI_BIL_I/AV001_TDI_BIL_I_NN_IS_ICRA_FOY" />
+      <nodes>
+        <classShapeMoniker Id="52e06956-bdbc-4c43-aa47-9b067f956532" />
+        <classShapeMoniker Id="1053b288-6e67-4f17-b0b2-e5325fe4fdef" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.01562625 : 32.9802677408854); (2.01562625 : 40.048076578776); (2.33073229166667 : 40.048076578776 : JumpStart); (2.49739895833333 : 40.048076578776 : JumpEnd); (2.62761104166667 : 40.048076578776 : JumpStart); (2.79427770833333 : 40.048076578776 : JumpEnd); (3.5 : 40.048076578776)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DbAsistanDataContext/AV001_TDI_BIL_I/AV001_TDI_BIL_I_NN_IS_ICRA_TARAF" />
+      <nodes>
+        <classShapeMoniker Id="52e06956-bdbc-4c43-aa47-9b067f956532" />
+        <classShapeMoniker Id="9ef5608b-bfda-4e7b-a7d7-251b28e78043" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.48437375 : 32.9802677408854); (1.48437375 : 41.798076578776); (1.53385354166667 : 41.798076578776 : JumpStart); (1.70052020833333 : 41.798076578776 : JumpEnd); (1.79947979166667 : 41.798076578776 : JumpStart); (1.96614645833333 : 41.798076578776 : JumpEnd); (2.06510604166667 : 41.798076578776 : JumpStart); (2.23177270833333 : 41.798076578776 : JumpEnd); (2.33073229166667 : 41.798076578776 : JumpStart); (2.49739895833333 : 41.798076578776 : JumpEnd); (2.59635854166667 : 41.798076578776 : JumpStart); (2.79427770833333 : 41.798076578776 : JumpEnd); (3.5 : 41.798076578776)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DbAsistanDataContext/AV001_TDI_BIL_I/AV001_TDI_BIL_I_NN_IS_MESAJ" />
+      <nodes>
+        <classShapeMoniker Id="52e06956-bdbc-4c43-aa47-9b067f956532" />
+        <classShapeMoniker Id="b7571156-934a-4462-bbf5-d34786b3e98d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(0.95312125 : 32.9802677408854); (0.95312125 : 43.673076578776); (1.00260104166667 : 43.673076578776 : JumpStart); (1.16926770833333 : 43.673076578776 : JumpEnd); (3.5 : 43.673076578776)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DbAsistanDataContext/AV001_TDI_BIL_I/AV001_TDI_BIL_I_NN_IS_MUHASEBE" />
+      <nodes>
+        <classShapeMoniker Id="52e06956-bdbc-4c43-aa47-9b067f956532" />
+        <classShapeMoniker Id="d1af688c-1ccb-4258-8d6a-5fc6ef26b1bc" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.679691875 : 32.9802677408854); (2.679691875 : 45.548076578776); (3.5 : 45.548076578776)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DbAsistanDataContext/AV001_TDI_BIL_I/AV001_TDI_BIL_I_NN_IS_POLICE" />
+      <nodes>
+        <classShapeMoniker Id="52e06956-bdbc-4c43-aa47-9b067f956532" />
+        <classShapeMoniker Id="09a8a80f-5e2d-4fdf-9579-b8ea94f2fe3b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.414065625 : 32.9802677408854); (2.414065625 : 47.423076578776); (3.5 : 47.423076578776)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DbAsistanDataContext/AV001_TDI_BIL_I/AV001_TDI_BIL_I_NN_IS_POLICE_HASAR" />
+      <nodes>
+        <classShapeMoniker Id="52e06956-bdbc-4c43-aa47-9b067f956532" />
+        <classShapeMoniker Id="3eb4f53b-5156-4ef6-9ce8-0a4edc29476d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.148439375 : 32.9802677408854); (2.148439375 : 49.298076578776); (2.62761104166667 : 49.298076578776 : JumpStart); (2.79427770833333 : 49.298076578776 : JumpEnd); (3.5 : 49.298076578776)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DbAsistanDataContext/AV001_TDI_BIL_I/AV001_TDI_BIL_I_NN_IS_RUCU" />
+      <nodes>
+        <classShapeMoniker Id="52e06956-bdbc-4c43-aa47-9b067f956532" />
+        <classShapeMoniker Id="75f3ce0b-df2b-44cd-8006-7db5281c5922" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.882813125 : 32.9802677408854); (1.882813125 : 51.048076578776); (3.5 : 51.048076578776)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DbAsistanDataContext/AV001_TDI_BIL_I/AV001_TDI_BIL_I_NN_IS_RUCU_TARAF" />
+      <nodes>
+        <classShapeMoniker Id="52e06956-bdbc-4c43-aa47-9b067f956532" />
+        <classShapeMoniker Id="1a4a5c86-0776-4787-9ba7-9d9c38e8cba8" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.617186875 : 32.9802677408854); (1.617186875 : 52.923076578776); (2.62761104166667 : 52.923076578776 : JumpStart); (2.79427770833333 : 52.923076578776 : JumpEnd); (3.5 : 52.923076578776)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DbAsistanDataContext/AV001_TDI_BIL_I/AV001_TDI_BIL_I_NN_IS_SATI" />
+      <nodes>
+        <classShapeMoniker Id="52e06956-bdbc-4c43-aa47-9b067f956532" />
+        <classShapeMoniker Id="3123bb7a-6be6-4703-97bf-02d2181373e4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.351560625 : 32.9802677408854); (1.351560625 : 54.798076578776); (2.62761104166667 : 54.798076578776 : JumpStart); (2.79427770833333 : 54.798076578776 : JumpEnd); (3.5 : 54.798076578776)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DbAsistanDataContext/AV001_TDI_BIL_I/AV001_TDI_BIL_I_NN_IS_SOZLESME" />
+      <nodes>
+        <classShapeMoniker Id="52e06956-bdbc-4c43-aa47-9b067f956532" />
+        <classShapeMoniker Id="90fa37a9-3b62-4ab8-9ea0-1fc03055760c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.085934375 : 32.9802677408854); (1.085934375 : 56.673076578776); (3.5 : 56.673076578776)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DbAsistanDataContext/AV001_TDI_BIL_I/AV001_TDI_BIL_I_NN_IS_SOZLESME_TARAF" />
+      <nodes>
+        <classShapeMoniker Id="52e06956-bdbc-4c43-aa47-9b067f956532" />
+        <classShapeMoniker Id="eabba221-be31-4b95-b7db-444160b84faa" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(0.820308125 : 32.9802677408854); (0.820308125 : 58.423076578776); (3.5 : 58.423076578776)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DbAsistanDataContext/AV001_TDI_BIL_I/AV001_TDI_BIL_I_NN_IS_TAAHHUT" />
+      <nodes>
+        <classShapeMoniker Id="52e06956-bdbc-4c43-aa47-9b067f956532" />
+        <classShapeMoniker Id="108ce01f-9103-4f40-afd2-e3cbb3c3c0db" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.710944375 : 32.9802677408854); (2.710944375 : 60.298076578776); (3.5 : 60.298076578776)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DbAsistanDataContext/AV001_TDI_BIL_I/AV001_TDI_BIL_I_NN_IS_TEBLIGAT" />
+      <nodes>
+        <classShapeMoniker Id="52e06956-bdbc-4c43-aa47-9b067f956532" />
+        <classShapeMoniker Id="efd5b33e-f0f3-4525-a6b6-976432378e2a" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="0cee3f70-dd50-47a9-a517-a2a4c9e4248d" absoluteBounds="7.25, 8.625, 2, 2.9247054036458326">
+      <DataClassMoniker Name="/DbAsistanDataContext/TDIE_BIL_KULLANICI_GENEL_AYAR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a1222a7f-35b6-4ba6-8219-a79cc355734a" absoluteBounds="7.2650000000000006, 9.085, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6.5 : 9.91959757450968); (7.25 : 9.91959757450968)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DbAsistanDataContext/TDI_BIL_KULLANICI_LISTESI/TDI_BIL_KULLANICI_LISTESI_TDIE_BIL_KULLANICI_GENEL_AYAR" />
+      <nodes>
+        <classShapeMoniker Id="5e318308-f88b-4a9b-aafa-c18de485f648" />
+        <classShapeMoniker Id="0cee3f70-dd50-47a9-a517-a2a4c9e4248d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.9375 : 26.625); (1.9375 : 14.4631982421875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DbAsistanDataContext/AV001_TDI_BIL_I/AV001_TDI_BIL_I_AV001_TDI_BIL_IS_TARAF" />
+      <nodes>
+        <classShapeMoniker Id="52e06956-bdbc-4c43-aa47-9b067f956532" />
+        <classShapeMoniker Id="449530b6-ace7-4a4a-8859-db08d5fbf6a5" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="386ca42d-2477-44d0-9a88-ca5627edea92" absoluteBounds="6.5, 11.625, 2, 4.0785139973958326">
+      <DataClassMoniker Name="/DbAsistanDataContext/TDI_KOD_ADLI_BIRIM_ADLIYE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="23782ad4-70f2-4865-9846-492b0104af9e" absoluteBounds="6.515, 12.085, 1.9700000000000002, 3.518513997395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6.5 : 11.83593875); (6.20833333333333 : 11.83593875 : JumpStart); (5.99479416666667 : 11.83593875 : JumpEnd); (2.45833333333333 : 11.83593875 : JumpStart); (2.29166666666667 : 11.83593875 : JumpEnd); (0.84375 : 11.83593875); (0.84375 : 26.625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DbAsistanDataContext/TDI_KOD_ADLI_BIRIM_ADLIYE/TDI_KOD_ADLI_BIRIM_ADLIYE_AV001_TDI_BIL_I" />
+      <nodes>
+        <classShapeMoniker Id="386ca42d-2477-44d0-9a88-ca5627edea92" />
+        <classShapeMoniker Id="52e06956-bdbc-4c43-aa47-9b067f956532" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.96875 : 10.7141951490194); (5.96875 : 11.6718725); (5.99479416666667 : 11.6718725 : JumpStart); (6.20833333333333 : 11.6718725 : JumpEnd); (6.5 : 11.6718725)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DbAsistanDataContext/TDI_BIL_KULLANICI_LISTESI/TDI_BIL_KULLANICI_LISTESI_TDI_KOD_ADLI_BIRIM_ADLIYE" />
+      <nodes>
+        <classShapeMoniker Id="5e318308-f88b-4a9b-aafa-c18de485f648" />
+        <classShapeMoniker Id="386ca42d-2477-44d0-9a88-ca5627edea92" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="a3dc9784-9338-403e-9678-0f35d6ec60c8" absoluteBounds="9.125, 11.75, 2, 3.6939111328125005">
+      <DataClassMoniker Name="/DbAsistanDataContext/TDI_KOD_ADLI_BIRIM_GOREV" />
+      <nestedChildShapes>
+        <elementListCompartment Id="130c2811-bacc-4f3d-a78a-eb32eacc4c1c" absoluteBounds="9.14, 12.21, 1.9700000000000002, 3.1339111328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(10.125 : 14.9826684570313); (10.125 : 29.860576578776); (2.75 : 29.860576578776)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DbAsistanDataContext/TDI_KOD_ADLI_BIRIM_GOREV/TDI_KOD_ADLI_BIRIM_GOREV_AV001_TDI_BIL_I" />
+      <nodes>
+        <classShapeMoniker Id="a3dc9784-9338-403e-9678-0f35d6ec60c8" />
+        <classShapeMoniker Id="52e06956-bdbc-4c43-aa47-9b067f956532" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.5 : 9.91959757450968); (7 : 9.91959757450968); (7 : 11.4502791341146); (10.125 : 11.4502791341146); (10.125 : 11.75)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DbAsistanDataContext/TDI_BIL_KULLANICI_LISTESI/TDI_BIL_KULLANICI_LISTESI_TDI_KOD_ADLI_BIRIM_GOREV" />
+      <nodes>
+        <classShapeMoniker Id="5e318308-f88b-4a9b-aafa-c18de485f648" />
+        <classShapeMoniker Id="a3dc9784-9338-403e-9678-0f35d6ec60c8" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="329d1fcd-41b5-482d-a025-18670c444b96" absoluteBounds="6.5, 15.75, 2, 2.73240397135417">
+      <DataClassMoniker Name="/DbAsistanDataContext/TDI_KOD_ADLI_BIRIM_NO" />
+      <nestedChildShapes>
+        <elementListCompartment Id="678c3555-1fba-4653-a68f-37b45713762f" absoluteBounds="6.515, 16.21, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6.5 : 16.46875); (6.20833333333333 : 16.46875 : JumpStart); (6.04166666666667 : 16.46875 : JumpEnd); (5.73958333333333 : 16.46875 : JumpStart); (5.57291666666667 : 16.46875 : JumpEnd); (2.02083333333333 : 16.46875 : JumpStart); (1.85416666666667 : 16.46875 : JumpEnd); (1.54687625 : 16.46875); (1.54687625 : 26.625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DbAsistanDataContext/TDI_KOD_ADLI_BIRIM_NO/TDI_KOD_ADLI_BIRIM_NO_AV001_TDI_BIL_I" />
+      <nodes>
+        <classShapeMoniker Id="329d1fcd-41b5-482d-a025-18670c444b96" />
+        <classShapeMoniker Id="52e06956-bdbc-4c43-aa47-9b067f956532" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.0781275 : 10.7141951490194); (6.0781275 : 16.0781225); (6.5 : 16.0781225)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DbAsistanDataContext/TDI_BIL_KULLANICI_LISTESI/TDI_BIL_KULLANICI_LISTESI_TDI_KOD_ADLI_BIRIM_NO" />
+      <nodes>
+        <classShapeMoniker Id="5e318308-f88b-4a9b-aafa-c18de485f648" />
+        <classShapeMoniker Id="329d1fcd-41b5-482d-a025-18670c444b96" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="7f937ee5-7e88-4117-964b-d94294b3f887" absoluteBounds="12.5, 8.25, 2, 6.9630354817708326">
+      <DataClassMoniker Name="/DbAsistanDataContext/TDI_KOD_MUHASEBE_HAREKET_ALT_KATEGORI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="979ebfbb-36d4-4cfa-96f6-87df8fa36689" absoluteBounds="12.515, 8.71, 1.9700000000000002, 6.403035481770833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(13.5 : 14.2765730794271); (13.5 : 31.735576578776); (2.75 : 31.735576578776)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DbAsistanDataContext/TDI_KOD_MUHASEBE_HAREKET_ALT_KATEGORI/TDI_KOD_MUHASEBE_HAREKET_ALT_KATEGORI_AV001_TDI_BIL_I" />
+      <nodes>
+        <classShapeMoniker Id="7f937ee5-7e88-4117-964b-d94294b3f887" />
+        <classShapeMoniker Id="52e06956-bdbc-4c43-aa47-9b067f956532" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.28125 : 10.7141951490194); (6.28125 : 11.3565291341146); (12.5 : 11.3565291341146)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DbAsistanDataContext/TDI_BIL_KULLANICI_LISTESI/TDI_BIL_KULLANICI_LISTESI_TDI_KOD_MUHASEBE_HAREKET_ALT_KATEGORI" />
+      <nodes>
+        <classShapeMoniker Id="5e318308-f88b-4a9b-aafa-c18de485f648" />
+        <classShapeMoniker Id="7f937ee5-7e88-4117-964b-d94294b3f887" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="a0a97931-2c55-4e3f-839a-7bf1f40e8069" isExpanded="false" absoluteBounds="0.5, 61.375, 2, 0.45">
+      <DataClassMoniker Name="/DbAsistanDataContext/per_AV001_TDI_BIL_IS_Asistan" />
+      <nestedChildShapes>
+        <elementListCompartment Id="18d11dd2-4790-40d3-af77-8f8f8cacda3d" absoluteBounds="0.515, 61.835, 1.9700000000000002, 4.4800211588541661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

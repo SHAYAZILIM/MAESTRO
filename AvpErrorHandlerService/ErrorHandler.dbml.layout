@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="ErrorHandler">
+  <DataContextMoniker Name="/ErrorHandlerDataContext" />
+  <nestedChildShapes>
+    <classShape Id="5930639e-7356-47c3-b5c9-19d9d9c07f89" absoluteBounds="4.125, 0.875, 2, 2.4109318033854166">
+      <DataClassMoniker Name="/ErrorHandlerDataContext/TMYS_EXE_SURUM" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6118f1b4-5f06-4212-b4ec-35120799d1c8" absoluteBounds="4.1400000000000006, 1.335, 1.9700000000000002, 1.8509318033854165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9629155a-fa11-46e8-aef1-36504f1c6226" absoluteBounds="4, 3.875, 2, 2.2465844726562505">
+      <DataClassMoniker Name="/ErrorHandlerDataContext/TMYS_DB_SURUM" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c9119633-d7a3-4af6-a430-2e4089620acb" absoluteBounds="4.0150000000000006, 4.335, 1.9700000000000002, 1.68658447265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c888a390-5148-4b82-bc36-9dfecc61d890" absoluteBounds="1.625, 2, 2, 2.4109318033854166">
+      <DataClassMoniker Name="/ErrorHandlerDataContext/TMYS_HATA_RAPORU" />
+      <nestedChildShapes>
+        <elementListCompartment Id="90adc1d1-99c5-4ccd-be22-16b331ae56be" absoluteBounds="1.6399999999999997, 2.46, 1.9700000000000002, 1.8509318033854165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.0625 : 3.875); (5.0625 : 3.28593180338542)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ErrorHandlerDataContext/TMYS_DB_SURUM/TMYS_DB_SURUM_TMYS_EXE_SURUM" />
+      <nodes>
+        <classShapeMoniker Id="9629155a-fa11-46e8-aef1-36504f1c6226" />
+        <classShapeMoniker Id="5930639e-7356-47c3-b5c9-19d9d9c07f89" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4 : 4.14296590169271); (3.625 : 4.14296590169271)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ErrorHandlerDataContext/TMYS_DB_SURUM/TMYS_DB_SURUM_TMYS_HATA_RAPORU" />
+      <nodes>
+        <classShapeMoniker Id="9629155a-fa11-46e8-aef1-36504f1c6226" />
+        <classShapeMoniker Id="c888a390-5148-4b82-bc36-9dfecc61d890" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.125 : 2.64296590169271); (3.625 : 2.64296590169271)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ErrorHandlerDataContext/TMYS_EXE_SURUM/TMYS_EXE_SURUM_TMYS_HATA_RAPORU" />
+      <nodes>
+        <classShapeMoniker Id="5930639e-7356-47c3-b5c9-19d9d9c07f89" />
+        <classShapeMoniker Id="c888a390-5148-4b82-bc36-9dfecc61d890" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,17 @@
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\obj\Debug\ServerSideServices.csprojResolveAssemblyReference.cache
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\obj\Debug\Interop.SMSMakinesi.dll
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\obj\Debug\ServerSideServices.csproj.ResolveComReference.cache
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\obj\Debug\ServerSideServices.Properties.Resources.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\obj\Debug\ServerSideServices.ServicesControl.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\obj\Debug\ServerSideServices.TimerForm.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\obj\Debug\ServerSideServices.csproj.GenerateResource.Cache
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBin\Warnings.xml
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBin\Resx\DataNavigatortrTR.resx
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBin\ServerSideServices.exe.config
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBin\ServerSideServices.exe
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBin\ServerSideServices.pdb
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\obj\Debug\ServerSideServices.exe
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\obj\Debug\ServerSideServices.pdb
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBin\Resources\DevExpress.XtraGrid.Appearances.xml
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBin\Resources\DevExpress.XtraVerticalGrid.Appearances.xml
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBin\Resources\DevExpress.XtraTreeList.Appearances.xml

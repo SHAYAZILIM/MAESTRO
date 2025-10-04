@@ -1,0 +1,431 @@
+﻿<?xml version="1.0"?>
+<Warnings>
+  <frmAjandaDeneme>
+    <AV001_TDI_BIL_CARI />
+  </frmAjandaDeneme>
+  <TMPgirisform>
+    <AV001_TI_BIL_FOY />
+    <AV001_TDI_BIL_GORUSME />
+  </TMPgirisform>
+  <rfrmAjanda>
+    <TDI_KOD_MUHASEBE_HAREKET_ALT_KATEGORI />
+    <AV001_TDI_BIL_IS />
+    <AV001_TD_BIL_TUTUKLANMA />
+    <AV001_TDI_BIL_IS_GOREV />
+  </rfrmAjanda>
+  <frmMevzuat>
+    <TM_KOD_MEVZUAT_TUR />
+  </frmMevzuat>
+  <frmDavaTakip>
+    <AV001_TD_BIL_FOY>
+      <DAVA_TIP>Dava Tipini Boş Geçemezsiniz!</DAVA_TIP>
+      <FOY_NO>Büro (Föy) Numarasını Boş Geçemezsiniz!</FOY_NO>
+      <DAVA_TARIHI>Dava Tarihini Boş Geçemezsiniz!</DAVA_TARIHI>
+      <GOREV>Mahkeme Görev Alanını Boş Geçemezsiniz!</GOREV>
+      <AVUKATA_INTIKAL_TARIHI>Avukata İntikal Tarihini Boş Geçemezsiniz!</AVUKATA_INTIKAL_TARIHI>
+      <FOY_DURUM>Dosya Durumunu Boş Geçemezsiniz!</FOY_DURUM>
+      <DAVA_TALEP>Dava Konusunu Boş Geçemezsiniz!</DAVA_TALEP>
+    </AV001_TD_BIL_FOY>
+    <AV001_TDI_BIL_KAYIT_ILISKI_DETAY>
+      <ILISKI_NEDEN>İlişki Nedenini Boş Geçemezsiniz!</ILISKI_NEDEN>
+      <ILISKI_TUR>İlişki Türünü Boş Geçemezsiniz!</ILISKI_TUR>
+    </AV001_TDI_BIL_KAYIT_ILISKI_DETAY>
+    <AV001_TD_BIL_TUTUKLANMA>
+      <TUTUKLANMA_TARIHI>Tutuklanma Tarihini Boş Geçemezsiniz!</TUTUKLANMA_TARIHI>
+      <TUTUKLANMA_SAATI>Tutuklanma Saatini Boş Geçemezsiniz!</TUTUKLANMA_SAATI>
+      <CARI_ADI>Tutuklanan Kişinin Adını Boş Geçemezsiniz!</CARI_ADI>
+      <TUTUKLANMA_TIP>Tutuklanma Tipini Boş Geçemezsiniz!</TUTUKLANMA_TIP>
+    </AV001_TD_BIL_TUTUKLANMA>
+    <TDI_KOD_MUHASEBE_HAREKET_ALT_KATEGORI />
+    <AV001_TDI_BIL_POLICE_HASAR>
+      <HASAR_NO>Hasar Numarasını Boş Geçemezsiniz!</HASAR_NO>
+      <HASAR_TUTARI>Hasar Tutarını Boş Geçemezsiniz!</HASAR_TUTARI>
+      <HASAR_TARIHI_SAATI>Hasar Tarihini Boş Geçemezsiniz!</HASAR_TARIHI_SAATI>
+    </AV001_TDI_BIL_POLICE_HASAR>
+    <AV001_TD_BIL_DAVA_NEDEN>
+      <DAVA_NEDEN_KOD>Dava Nedenini Boş Geçemezsiniz!</DAVA_NEDEN_KOD>
+    </AV001_TD_BIL_DAVA_NEDEN>
+    <AV001_TDI_BIL_IS>
+      <BASLANGIC_TARIHI>Yapılacak İşin Başlangıç Tarihini Girmelisiniz!</BASLANGIC_TARIHI>
+      <YER>Yapılacak İşin Yerini Tarihini Girmelisiniz!</YER>
+      <STATU>Yapılacak İşin Statüsünü Girmelisiniz!</STATU>
+      <ETIKET>Yapılacak İşin Etiketini Girmelisiniz!</ETIKET>
+    </AV001_TDI_BIL_IS>
+    <AV001_TD_BIL_CELSE>
+      <TARIH>Celsenin Tarihini Girmelisiniz!</TARIH>
+      <SAAT>Celsenin Saatini Girmelisiniz!</SAAT>
+      <SORUMLU_AVUKAT_ADI1>Celsenin Sorumlu Avukatını Girmelisiniz!</SORUMLU_AVUKAT_ADI1>
+    </AV001_TD_BIL_CELSE>
+    <AV001_TD_BIL_KANIT>
+      <KANIT_NO>Kanıt No Boş Geçilemez!</KANIT_NO>
+      <KANIT_TARIHI>Kanıt Tarihi Boş Geçilemez!</KANIT_TARIHI>
+      <IBRAZ_TARIHI>Kanıt İbraz Tarihi Boş Geçilemez!</IBRAZ_TARIHI>
+      <KANIT_TIP>Kanıt Tipi Boş Geçilemez!</KANIT_TIP>
+    </AV001_TD_BIL_KANIT>
+    <AV001_TD_BIL_ARA_KARAR>
+      <TARIH>Arakarar Tarihi Boş Geçilemez!</TARIH>
+      <TIP>Arakarar Tipi Boş Geçilemez!</TIP>
+      <ARA_KARAR>Arakarar Metni Boş Geçilemez!</ARA_KARAR>
+    </AV001_TD_BIL_ARA_KARAR>
+    <AV001_TD_BIL_MAHKEME_HUKUM>
+      <HUKUM_TARIHI>Hüküm Tarihi Boş Geçilemez!</HUKUM_TARIHI>
+      <KARAR_NO>Hüküm No Boş Geçilemez!</KARAR_NO>
+      <HUKUM>Hüküm Boş Geçilemez!</HUKUM>
+    </AV001_TD_BIL_MAHKEME_HUKUM>
+    <AV001_TD_BIL_TEMYIZ>
+      <TEMYIZ_TIP>Temyiz Tipi Boş Geçilemez</TEMYIZ_TIP>
+      <YUKSEK_MAHKEME_GONDERIM_TARIHI>Yüksek Mahkemeye Gönderim Tarihi Boş Geçilemez</YUKSEK_MAHKEME_GONDERIM_TARIHI>
+    </AV001_TD_BIL_TEMYIZ>
+    <AV001_TDI_BIL_GORUSME>
+      <TARIH>Görüşme Tarihi Boş Geçilemez!</TARIH>
+      <SAAT>Görüşme Saati Boş Geçilemez!</SAAT>
+      <IS_KATEGORI>Görüşme Türü Boş Geçilemez!</IS_KATEGORI>
+      <GORUSEN>Görüşme Yapan Boş Geçilemez!</GORUSEN>
+      <GORUSULEN>Görüşme Yapılan Boş Geçilemez!</GORUSULEN>
+      <GORUSENIN_NOTU>Görüşme Notu Boş Geçilemez!</GORUSENIN_NOTU>
+    </AV001_TDI_BIL_GORUSME>
+  </frmDavaTakip>
+  <frmDegiskenler>
+    <AV001_TD_BIL_TUTUKLANMA />
+  </frmDegiskenler>
+  <frmKlasorGenel>
+    <AV001_TDIE_BIL_PROJE_SORUMLU />
+    <AV001_TDIE_BIL_PROJE />
+    <AV001_TD_BIL_FOY />
+  </frmKlasorGenel>
+  <frmProjeGenel>
+    <AV001_TDIE_BIL_PROJE />
+    <TDI_KOD_MUHASEBE_HAREKET_ALT_KATEGORI />
+    <AV001_TD_BIL_FOY />
+    <AV001_TDI_BIL_IS />
+    <AV001_TD_BIL_TUTUKLANMA />
+    <AV001_TDI_BIL_IS_GOREV />
+  </frmProjeGenel>
+  <frmDavaDosyaKayitForm>
+    <AV001_TD_BIL_FOY_TARAF>
+      <SIFAT>Sıfat Boş Geçilemez!</SIFAT>
+    </AV001_TD_BIL_FOY_TARAF>
+    <AV001_TD_BIL_FOY />
+    <AV001_TD_BIL_DAVA_NEDEN>
+      <DAVA_NEDEN_KOD>Dava Nedenini Boş Geçemezsiniz!</DAVA_NEDEN_KOD>
+      <OLAY_SUC_TARIHI>Olay Suç Tarihini Boş Geçemezsiniz!</OLAY_SUC_TARIHI>
+    </AV001_TD_BIL_DAVA_NEDEN>
+  </frmDavaDosyaKayitForm>
+  <frmHukumGirisi>
+    <AV001_TD_BIL_MAHKEME_HUKUM />
+  </frmHukumGirisi>
+  <frmKasa>
+    <AV001_TD_BIL_TUTUKLANMA />
+  </frmKasa>
+  <frmTemyizEkle>
+    <AV001_TD_BIL_TEMYIZ />
+  </frmTemyizEkle>
+  <frmIcraHacizIstihkak_t>
+    <AV001_TD_BIL_TUTUKLANMA />
+  </frmIcraHacizIstihkak_t>
+  <frmAdimAdimIcraKaydi>
+    <AV001_TI_BIL_FOY_SORUMLU_AVUKAT />
+    <AV001_TI_BIL_ALACAK_NEDEN />
+    <AV001_TDI_BIL_CARI />
+    <AV001_TDI_BIL_KIYMETLI_EVRAK_TARAF />
+    <AV001_TI_BIL_ILAM_MAHKEMESI />
+    <AV001_TI_BIL_BORCLU_ODEME />
+    <AV001_TI_BIL_IHTIYATI_HACIZ />
+    <AV001_TDI_BIL_IHTIYATI_TEDBIR />
+  </frmAdimAdimIcraKaydi>
+  <frmIcraDosyaKayit>
+    <AV001_TI_BIL_FOY_TARAF>
+      <TARAF_KODU>Taraf Kodu Boş Olamaz!</TARAF_KODU>
+      <CARI_ADI>Taraf Adı Boş Olamaz!</CARI_ADI>
+      <SIFAT>Taraf Sıfatı Boş Olamaz!</SIFAT>
+    </AV001_TI_BIL_FOY_TARAF>
+    <AV001_TI_BIL_FOY>
+      <TAKIP_TALEP>Takip Talebi Boş Geçilemez!</TAKIP_TALEP>
+      <FORM_ORNEK_NO>Takip Form Tipi Boş Geçilemez!</FORM_ORNEK_NO>
+      <FOY_NO>Takip Dosya Numarası Boş Geçilemez!</FOY_NO>
+      <DURUM>Takip Durumu Boş Geçilemez!</DURUM>
+      <TAKIP_TARIHI>Takip Tarihi Boş Geçilemez!</TAKIP_TARIHI>
+      <HESAPLAMA_TIPI>Hesaplama Tipi Boş Geçilemez!</HESAPLAMA_TIPI>
+      <TAKIBIN_AVUKATA_INTIKAL_TARIHI>Takibin Avukata İntikal Tarihi Boş Geçilemez!</TAKIBIN_AVUKATA_INTIKAL_TARIHI>
+    </AV001_TI_BIL_FOY>
+    <AV001_TI_BIL_FOY_TARAF_VEKIL>
+      <TEMSIL_SEKLI>Temsil Şekli Boş Geçilemez!</TEMSIL_SEKLI>
+      <AVUKAT_CARI_ADI>Vekil Adı Boş Geçilemez!</AVUKAT_CARI_ADI>
+    </AV001_TI_BIL_FOY_TARAF_VEKIL>
+    <AV001_TI_BIL_ALACAK_NEDEN>
+      <ALACAK_NEDENI>Alacak Nedeni Boş Geçilemez!</ALACAK_NEDENI>
+    </AV001_TI_BIL_ALACAK_NEDEN>
+  </frmIcraDosyaKayit>
+  <frmKiymetliEvrakEkle>
+    <AV001_TI_BIL_ALACAK_NEDEN />
+  </frmKiymetliEvrakEkle>
+  <frmSozlesmeEkle>
+    <AV001_TI_BIL_ALACAK_NEDEN />
+  </frmSozlesmeEkle>
+  <rFrmAlacakNedenTaraf>
+    <AV001_TI_BIL_ALACAK_NEDEN />
+  </rFrmAlacakNedenTaraf>
+  <rFrmFoyTaraf>
+    <AV001_TD_BIL_FOY />
+  </rFrmFoyTaraf>
+  <rFrmHaciz>
+    <AV001_TI_BIL_HACIZ_MASTER />
+  </rFrmHaciz>
+  <rFrmItiraz>
+    <AV001_TI_BIL_ITIRAZ_ALACAK_NEDEN />
+  </rFrmItiraz>
+  <rFrmMalBeyani>
+    <AV001_TI_BIL_MAL_BEYANI />
+  </rFrmMalBeyani>
+  <rFrmMalBeyaniRibbon>
+    <AV001_TI_BIL_MAL_BEYANI />
+  </rFrmMalBeyaniRibbon>
+  <rFrmMehil>
+    <AV001_TI_BIL_MEHIL />
+  </rFrmMehil>
+  <rFrmSatis>
+    <AV001_TI_BIL_SATIS_MASTER />
+  </rFrmSatis>
+  <rFrmTarafOdeme>
+    <AV001_TI_BIL_BORCLU_ODEME />
+  </rFrmTarafOdeme>
+  <rFrmTebligat>
+    <AV001_TDI_BIL_TEBLIGAT_MUHATAP />
+  </rFrmTebligat>
+  <_frmIcraTakip>
+    <AV001_TI_BIL_HACIZ_MASTER />
+    <AV001_TDI_BIL_GORUSME />
+    <AV001_TI_BIL_HACIZ_ISTIRAK />
+    <AV001_TI_BIL_ISTIHKAK />
+    <AV001_TI_BIL_FOY />
+    <AV001_TDI_BIL_CARI />
+    <AV001_TI_BIL_SATIS_MASTER />
+    <AV001_TDI_BIL_TEBLIGAT_MUHATAP />
+    <AV001_TI_BIL_ITIRAZ_ALACAK_NEDEN />
+    <AV001_TI_BIL_MAL_BEYANI />
+    <AV001_TI_BIL_ALACAK_NEDEN />
+    <AV001_TDI_BIL_KIYMETLI_EVRAK_TARAF />
+    <AV001_TDI_BIL_KAYIT_ILISKI_DETAY />
+    <TDI_KOD_MUHASEBE_HAREKET_ALT_KATEGORI />
+    <AV001_TD_BIL_TUTUKLANMA />
+    <AV001_TDI_BIL_KIYMETLI_EVRAK />
+    <AV001_TI_BIL_ODEME_DAGILIM />
+    <AV001_TDI_BIL_IS />
+    <AV001_TDI_BIL_IS_GOREV />
+  </_frmIcraTakip>
+  <rfrmMain>
+    <AV001_TDI_BIL_IS_TARAF />
+    <AV001_TDI_BIL_IS />
+    <IAV001_TDI_BIL_IS_KOSUL />
+  </rfrmMain>
+  <Form1>
+    <AV001_TDI_BIL_CARI_HESAP />
+    <AV001_TI_BIL_ALACAK_NEDEN />
+  </Form1>
+  <iliskiTest>
+    <AV001_TDI_BIL_KAYIT_ILISKI_DETAY />
+  </iliskiTest>
+  <rfrmMuhasebeGiris>
+    <AV001_TD_BIL_TUTUKLANMA />
+    <AV001_TD_BIL_FOY />
+  </rfrmMuhasebeGiris>
+  <rfrmMuhasebelestirme>
+    <AV001_TD_BIL_TUTUKLANMA />
+  </rfrmMuhasebelestirme>
+  <Raporla>
+    <AV001_TD_BIL_TUTUKLANMA />
+  </Raporla>
+  <frmIcraVekaletSozlesmesi>
+    <AV001_TI_BIL_VEKALET_SOZLESME />
+  </frmIcraVekaletSozlesmesi>
+  <rfrmSorusturmaGiris>
+    <AV001_TD_BIL_HAZIRLIK_TARAF />
+    <AV001_TD_BIL_HAZIRLIK />
+  </rfrmSorusturmaGiris>
+  <rFrmSorusturmaTakip>
+    <AV001_TD_BIL_HAZIRLIK />
+    <AV001_TDI_BIL_CARI />
+    <AV001_TD_BIL_FOY />
+    <AV001_TDI_BIL_KAYIT_ILISKI_DETAY />
+    <TDI_KOD_MUHASEBE_HAREKET_ALT_KATEGORI />
+    <AV001_TDIE_BIL_ASAMA />
+    <AV001_TD_BIL_HAZIRLIK_SUREC />
+    <AV001_TD_BIL_TUTUKLANMA />
+    <AV001_TDIE_BIL_BELGE />
+    <AV001_TDI_BIL_IS />
+    <AV001_TDI_BIL_IS_GOREV />
+  </rFrmSorusturmaTakip>
+  <frmSozlesmeTakip>
+    <AV001_TDI_BIL_SOZLESME />
+    <AV001_TDI_BIL_SOZLESME_HAKEMLERI />
+    <TDI_KOD_MUHASEBE_HAREKET_ALT_KATEGORI />
+    <AV001_TDI_BIL_SOZLESME_GELISME_ADIM />
+    <AV001_TDIE_BIL_BELGE />
+    <AV001_TDI_BIL_SOZLESME_DERECE />
+    <c_AV001_TDIE_BIL_BELGE />
+    <AV001_TDI_BIL_IS />
+    <AV001_TD_BIL_TUTUKLANMA />
+    <AV001_TDI_BIL_IS_GOREV />
+  </frmSozlesmeTakip>
+  <frmDavaAyar>
+    <AV001_TD_BIL_FOY />
+    <AV001_TDI_BIL_CARI />
+    <TDIE_KOD_TARAF_SIFAT />
+  </frmDavaAyar>
+  <frmIcraAyar>
+    <AV001_TI_BIL_FOY />
+    <TDIE_KOD_TARAF_SIFAT />
+    <AV001_TDI_BIL_CARI />
+    <AV001_TDIE_BIL_SABLON_RAPOR />
+  </frmIcraAyar>
+  <frmYardimAciklama>
+    <AV001_TD_BIL_TUTUKLANMA />
+  </frmYardimAciklama>
+  <frmIsGelismisAyar>
+    <aV001_TDI_BIL_IS_AYAR />
+  </frmIsGelismisAyar>
+  <frmKisileriDuzenle>
+    <AV001_TD_BIL_TUTUKLANMA />
+    <AV001_TDI_BIL_CARI />
+  </frmKisileriDuzenle>
+  <XtraForm1>
+    <AV001_TDI_BIL_CARI />
+  </XtraForm1>
+  <frmYetki>
+    <AV001_TD_BIL_TUTUKLANMA />
+  </frmYetki>
+  <frmPaketYonetimi>
+    <AV001_TD_BIL_TUTUKLANMA />
+  </frmPaketYonetimi>
+  <Form2>
+    <AV001_TI_BIL_FAIZ />
+  </Form2>
+  <frmAdimAdimEditoreGonder>
+    <AV001_TDIE_BIL_SABLON_RAPOR />
+  </frmAdimAdimEditoreGonder>
+  <frmEditor>
+    <AV001_TDIE_BIL_SABLON_RAPOR />
+    <AV001_TDIE_BIL_SABLON_RAPOR_TIP />
+    <AV001_TDIE_BIL_SABLON_SECILI_BELGE />
+  </frmEditor>
+  <frmBelgeKayitUfak>
+    <c_AV001_TDIE_BIL_BELGE />
+    <AV001_TDI_BIL_IS />
+    <AV001_TD_BIL_TUTUKLANMA />
+  </frmBelgeKayitUfak>
+  <frmBelgeTakibi>
+    <AV001_TI_BIL_FOY_OZEL_KOD />
+    <AV001_TDIE_BIL_BELGE />
+    <AV001_TDIE_BIL_BELGE_YORUM />
+    <AV001_TDI_BIL_IS />
+    <AV001_TDI_BIL_CARI />
+    <AV001_TDI_BIL_GORUSME />
+  </frmBelgeTakibi>
+  <rfrmTutuklanma>
+    <AV001_TD_BIL_TUTUKLANMA />
+    <AV001_TDI_BIL_KAYIT_ILISKI_DETAY />
+    <TDI_KOD_MUHASEBE_HAREKET_ALT_KATEGORI />
+    <AV001_TDIE_BIL_ASAMA />
+    <AV001_TDI_BIL_POLICE_HASAR />
+    <AV001_TD_BIL_DAVA_NEDEN />
+  </rfrmTutuklanma>
+  <frmDosyaAc>
+    <AV001_TDIE_BIL_SABLON_RAPOR />
+  </frmDosyaAc>
+  <frmAciklama>
+    <AV001_TD_BIL_TUTUKLANMA />
+  </frmAciklama>
+  <frmRaporKAydet>
+    <AV001_TDIE_BIL_SABLON_RAPOR />
+    <AV001_TDIE_BIL_SABLON_DEGISKENLER />
+    <c_AV001_TDIE_BIL_BELGE />
+  </frmRaporKAydet>
+  <BaslangicErsin>
+    <TDI_KOD_MUHASEBE_HAREKET_ALT_KATEGORI />
+    <AV001_TDI_BIL_SOZLESME_GELISME_ADIM />
+    <AV001_TDI_BIL_SOZLESME />
+    <AV001_TDIE_BIL_BELGE />
+    <AV001_TDI_BIL_IS />
+    <AV001_TD_BIL_TUTUKLANMA />
+    <AV001_TDI_BIL_IS_GOREV />
+  </BaslangicErsin>
+  <rFrmYapilcakIsAramaEkran>
+    <TDI_KOD_MUHASEBE_HAREKET_ALT_KATEGORI />
+    <AV001_TDI_BIL_SOZLESME_GELISME_ADIM />
+    <AV001_TDI_BIL_SOZLESME />
+    <AV001_TDIE_BIL_BELGE />
+    <AV001_TDI_BIL_IS />
+    <AV001_TD_BIL_TUTUKLANMA />
+    <AV001_TDI_BIL_IS_GOREV />
+  </rFrmYapilcakIsAramaEkran>
+  <rFrmYapilcakIslerGirisEkran>
+    <TDI_KOD_MUHASEBE_HAREKET_ALT_KATEGORI />
+    <AV001_TDI_BIL_SOZLESME_GELISME_ADIM />
+    <AV001_TDI_BIL_SOZLESME />
+    <AV001_TDIE_BIL_BELGE />
+    <AV001_TDI_BIL_IS />
+    <AV001_TD_BIL_TUTUKLANMA />
+    <AV001_TDI_BIL_IS_GOREV />
+  </rFrmYapilcakIslerGirisEkran>
+  <rfrmIsKayit>
+    <AV001_TDI_BIL_IS />
+    <AV001_TDI_BIL_IS_TARAF />
+    <AV001_TDI_BIL_IS_TAMAMLANMA_SURE />
+    <TDIE_KOD_MODUL />
+    <AV001_TDI_BIL_CARI_KIMLIK />
+  </rfrmIsKayit>
+  <frmIsKayitUfak>
+    <AV001_TDI_BIL_IS />
+    <AV001_TD_BIL_TUTUKLANMA />
+    <AV001_TDI_BIL_IS_GOREV />
+  </frmIsKayitUfak>
+  <frmSozlesmeKayit>
+    <AV001_TDI_BIL_SOZLESME_HAKEMLERI />
+    <AV001_TS_BIL_MARKA_URUN_HIZMET_BILGILERI />
+    <AV001_TS_BIL_SOZLESME_URUN_ILGILILERI />
+  </frmSozlesmeKayit>
+  <rFrmDavaGirisEkran>
+    <AV001_TD_BIL_FOY />
+  </rFrmDavaGirisEkran>
+  <frmTD_BIL_Foy>
+    <AV001_TD_BIL_FOY />
+  </frmTD_BIL_Foy>
+  <frmDavaIcraIhtiyatiTedbir>
+    <AV001_TD_BIL_TUTUKLANMA />
+  </frmDavaIcraIhtiyatiTedbir>
+  <rFrmDavaIcraIhtiyatiTedbir>
+    <AV001_TD_BIL_TUTUKLANMA />
+  </rFrmDavaIcraIhtiyatiTedbir>
+  <rFrmBelgeKayit>
+    <AV001_TDI_BIL_CARI />
+    <AV001_TDI_BIL_GORUSME />
+    <AV001_TDIE_BIL_BELGE />
+  </rFrmBelgeKayit>
+  <rFrmSatisGirisEkran>
+    <AV001_TI_BIL_SATIS_MASTER />
+  </rFrmSatisGirisEkran>
+  <rFrmBelgeAramaEkran>
+    <AV001_TDIE_BIL_BELGE />
+  </rFrmBelgeAramaEkran>
+  <rFrmBelgeGirisEkran>
+    <AV001_TDIE_BIL_BELGE />
+  </rFrmBelgeGirisEkran>
+  <frmBelge>
+    <AV001_TDIE_BIL_BELGE />
+  </frmBelge>
+  <frmDavaNeden>
+    <AV001_TD_BIL_DAVA_NEDEN />
+  </frmDavaNeden>
+  <frmDavaNedenGirisi>
+    <AV001_TD_BIL_DAVA_NEDEN />
+  </frmDavaNedenGirisi>
+  <frmKanit>
+    <AV001_TD_BIL_DAVA_NEDEN />
+  </frmKanit>
+  <frmKanitGirisi>
+    <AV001_TD_BIL_DAVA_NEDEN />
+  </frmKanitGirisi>
+  <frmHatirlatma>
+    <AV001_TD_BIL_TUTUKLANMA />
+  </frmHatirlatma>
+</Warnings>

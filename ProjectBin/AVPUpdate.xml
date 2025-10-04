@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Degiskenler xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <cnStringYerel>data source=192.168.1.20;database=LAWYER_TEAM;uid=SA;pwd=PASSWRD1;</cnStringYerel>
+  <GuncelSurum>062013.006</GuncelSurum>
+  <GuncelVersiyon>V1</GuncelVersiyon>
+  <LisansNo>T4WUY-MIG1N-08MFY-DZUV3</LisansNo>
+  <ModulNo>350</ModulNo>
+  <PaketAdi>Avukatprofessional</PaketAdi>
+  <uygulamaTipi>Server</uygulamaTipi>
+  <Veritabani>LAWYER_TEAM</Veritabani>
+  <YeniVersiyonID>51</YeniVersiyonID>
+  <cnString>data source=94.138.206.50\SQLEXPRESS;database=AVPYONETIM;uid=avp;pwd=PASSWRD1;</cnString>
+  <DosyaGuncellemeYapildi>false</DosyaGuncellemeYapildi>
+  <DosyaIndirmeYapildi>true</DosyaIndirmeYapildi>
+  <ftpPwd>avukatpro123</ftpPwd>
+  <ftpUid>avukatpro</ftpUid>
+  <KontrolGunu>HerPazartesi</KontrolGunu>
+  <KontrolSaati>2012-01-01T17:00:00</KontrolSaati>
+  <KontrolTipi>BanaSor</KontrolTipi>
+  <ProgramiGuncelle>true</ProgramiGuncelle>
+  <ProgramYedekAlindi>true</ProgramYedekAlindi>
+  <ProgramYedekKlasoru>D:\dogan\AdimAdimDavaKaydi\ProjectBin\Yedek\Program</ProgramYedekKlasoru>
+  <SqlYedekAlindi>true</SqlYedekAlindi>
+  <SQLYedekKlasoru>D:\dogan\AdimAdimDavaKaydi\ProjectBin/SQLYedek</SQLYedekKlasoru>
+  <SunucuAdresi>ftp://94.138.206.50</SunucuAdresi>
+  <VeritabaniYedegiAlinsin>false</VeritabaniYedegiAlinsin>
+</Degiskenler>

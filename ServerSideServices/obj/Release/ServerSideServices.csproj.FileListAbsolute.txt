@@ -1,0 +1,17 @@
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\Warnings.xml
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\Resources\DevExpress.XtraGrid.Appearances.xml
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\Resources\DevExpress.XtraVerticalGrid.Appearances.xml
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\Resources\DevExpress.XtraTreeList.Appearances.xml
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\Resx\DataNavigatortrTR.resx
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\ServerSideServices.exe.config
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\ServerSideServices.exe
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\ServerSideServices.XmlSerializers.dll
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\obj\Release\ServerSideServices.csprojResolveAssemblyReference.cache
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\obj\Release\Interop.SMSMakinesi.dll
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\obj\Release\ServerSideServices.csproj.ResolveComReference.cache
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\obj\Release\ServerSideServices.Properties.Resources.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\obj\Release\ServerSideServices.ServicesControl.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\obj\Release\ServerSideServices.TimerForm.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\obj\Release\ServerSideServices.csproj.GenerateResource.Cache
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\obj\Release\ServerSideServices.exe
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ServerSideServices\obj\Release\ServerSideServices.XmlSerializers.dll

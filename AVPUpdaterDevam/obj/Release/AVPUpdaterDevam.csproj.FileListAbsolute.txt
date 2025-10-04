@@ -1,0 +1,6 @@
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\AVPUpdaterDevam.exe.config
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\AVPUpdaterDevam.exe
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AVPUpdaterDevam\obj\Release\AVPUpdaterDevam.Form1.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AVPUpdaterDevam\obj\Release\AVPUpdaterDevam.csproj.GenerateResource.Cache
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AVPUpdaterDevam\obj\Release\AVPUpdaterDevam.exe
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AVPUpdaterDevam\obj\Release\AVPUpdaterDevam.csprojResolveAssemblyReference.cache

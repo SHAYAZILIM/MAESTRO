@@ -1,0 +1,2103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="splitContainerControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="splitContainerControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="xtraTabControl9.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="xtraTabControl9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="xtraTabPage3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>598, 172</value>
+  </data>
+  <data name="xtraTabPage3.Text" xml:space="preserve">
+    <value>Gayrimenkul Tarafları</value>
+  </data>
+  <data name="&gt;&gt;xtraTabPage3.Name" xml:space="preserve">
+    <value>xtraTabPage3</value>
+  </data>
+  <data name="&gt;&gt;xtraTabPage3.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;xtraTabPage3.Parent" xml:space="preserve">
+    <value>xtraTabControl9</value>
+  </data>
+  <data name="&gt;&gt;xtraTabPage3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="xtraTabControl9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>605, 201</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="xtraTabControl9.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="xtraTabPage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>598, 172</value>
+  </data>
+  <data name="xtraTabPage2.Text" xml:space="preserve">
+    <value>Gayrimenkul Bilgileri</value>
+  </data>
+  <data name="&gt;&gt;xtraTabPage2.Name" xml:space="preserve">
+    <value>xtraTabPage2</value>
+  </data>
+  <data name="&gt;&gt;xtraTabPage2.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;xtraTabPage2.Parent" xml:space="preserve">
+    <value>xtraTabControl9</value>
+  </data>
+  <data name="&gt;&gt;xtraTabPage2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl9.Name" xml:space="preserve">
+    <value>xtraTabControl9</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl9.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl9.Parent" xml:space="preserve">
+    <value>splitContainerControl1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl9.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="splitContainerControl1.Panel1.Text" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="splitContainerControl1.Panel2.Text" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="splitContainerControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>605, 428</value>
+  </data>
+  <data name="splitContainerControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="splitContainerControl1.Text" xml:space="preserve">
+    <value>splitContainerControl1</value>
+  </data>
+  <data name="&gt;&gt;splitContainerControl1.Name" xml:space="preserve">
+    <value>splitContainerControl1</value>
+  </data>
+  <data name="&gt;&gt;splitContainerControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SplitContainerControl, DevExpress.Utils.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;splitContainerControl1.Parent" xml:space="preserve">
+    <value>tabpGayrimenkulArac</value>
+  </data>
+  <data name="&gt;&gt;splitContainerControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rLueMalKategoriID.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <assembly alias="DevExpress.Utils.v12.1" name="DevExpress.Utils.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="rLueMalKategoriID.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="rLueMalTurID.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rLueMalTurID.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="rLueMalCinsID.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rLueMalCinsID.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="rLueDovizTipID.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rLueDovizTipID.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="rLueMallar.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rLueMallar.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <metadata name="MyRepository.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>15, 19</value>
+  </metadata>
+  <data name="rLueCariID.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rLueCariID.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="rLueSatisIstenmeSekliID.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rLueSatisIstenmeSekliID.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="rLueSatisTuruID.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rLueSatisTuruID.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="repositoryItemLookUpEdit8.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="repositoryItemLookUpEdit8.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="rSpinTutarID.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rLueMallarID.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rLueMallarID.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="checkButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 126</value>
+  </data>
+  <data name="checkButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 23</value>
+  </data>
+  <data name="checkButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;checkButton1.Name" xml:space="preserve">
+    <value>checkButton1</value>
+  </data>
+  <data name="&gt;&gt;checkButton1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckButton, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;checkButton1.Parent" xml:space="preserve">
+    <value>panelControl1</value>
+  </data>
+  <data name="&gt;&gt;checkButton1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="popupContainerControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="popupContainerControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 100</value>
+  </data>
+  <data name="popupContainerControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;popupContainerControl1.Name" xml:space="preserve">
+    <value>popupContainerControl1</value>
+  </data>
+  <data name="&gt;&gt;popupContainerControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PopupContainerControl, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;popupContainerControl1.Parent" xml:space="preserve">
+    <value>panelControl1</value>
+  </data>
+  <data name="&gt;&gt;popupContainerControl1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="popupContainerEdit1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 1</value>
+  </data>
+  <data name="popupContainerEdit1.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Glyph</value>
+  </data>
+  <data name="popupContainerEdit1.Properties.Buttons1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popupContainerEdit1.Properties.Buttons2" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="popupContainerEdit1.Properties.Buttons3" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="popupContainerEdit1.Properties.Buttons4" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="popupContainerEdit1.Properties.Buttons5" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <assembly alias="DevExpress.XtraEditors.v12.1" name="DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="popupContainerEdit1.Properties.Buttons6" type="DevExpress.XtraEditors.ImageLocation, DevExpress.XtraEditors.v12.1">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="popupContainerEdit1.Properties.Buttons7" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popupContainerEdit1.Properties.Buttons8" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="popupContainerEdit1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 22</value>
+  </data>
+  <data name="popupContainerEdit1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;popupContainerEdit1.Name" xml:space="preserve">
+    <value>popupContainerEdit1</value>
+  </data>
+  <data name="&gt;&gt;popupContainerEdit1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PopupContainerEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;popupContainerEdit1.Parent" xml:space="preserve">
+    <value>panelControl1</value>
+  </data>
+  <data name="&gt;&gt;popupContainerEdit1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ucZTrackBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 175</value>
+  </data>
+  <data name="tabGridler.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tabGridler.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <assembly alias="DevExpress.Data.v12.1" name="DevExpress.Data.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="tabGridler.HeaderAutoFill" type="DevExpress.Utils.DefaultBoolean, DevExpress.Data.v12.1">
+    <value>False</value>
+  </data>
+  <data name="tabGridler.HeaderLocation" type="DevExpress.XtraTab.TabHeaderLocation, DevExpress.XtraEditors.v12.1">
+    <value>Left</value>
+  </data>
+  <data name="tabGridler.HeaderOrientation" type="DevExpress.XtraTab.TabOrientation, DevExpress.XtraEditors.v12.1">
+    <value>Horizontal</value>
+  </data>
+  <data name="tabGridler.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tabGridler.MultiLine" type="DevExpress.Utils.DefaultBoolean, DevExpress.Data.v12.1">
+    <value>False</value>
+  </data>
+  <data name="xtraTabControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="xtraTabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tabBorclununMallari.Size" type="System.Drawing.Size, System.Drawing">
+    <value>612, 457</value>
+  </data>
+  <data name="tabBorclununMallari.Text" xml:space="preserve">
+    <value>Borçlunun Dosyadaki Tüm  Malları</value>
+  </data>
+  <data name="&gt;&gt;tabBorclununMallari.Name" xml:space="preserve">
+    <value>tabBorclununMallari</value>
+  </data>
+  <data name="&gt;&gt;tabBorclununMallari.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabBorclununMallari.Parent" xml:space="preserve">
+    <value>xtraTabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabBorclununMallari.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="xtraTabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>619, 486</value>
+  </data>
+  <data name="xtraTabControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabMalBeyan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>612, 457</value>
+  </data>
+  <data name="tabMalBeyan.Text" xml:space="preserve">
+    <value>Mal Beyan Bilgileri</value>
+  </data>
+  <data name="&gt;&gt;tabMalBeyan.Name" xml:space="preserve">
+    <value>tabMalBeyan</value>
+  </data>
+  <data name="&gt;&gt;tabMalBeyan.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabMalBeyan.Parent" xml:space="preserve">
+    <value>xtraTabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabMalBeyan.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabArastırmaIleTespit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>612, 457</value>
+  </data>
+  <data name="tabArastırmaIleTespit.Text" xml:space="preserve">
+    <value>Borçlunun Sistemdeki Tüm  Malları</value>
+  </data>
+  <data name="&gt;&gt;tabArastırmaIleTespit.Name" xml:space="preserve">
+    <value>tabArastırmaIleTespit</value>
+  </data>
+  <data name="&gt;&gt;tabArastırmaIleTespit.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabArastırmaIleTespit.Parent" xml:space="preserve">
+    <value>xtraTabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabArastırmaIleTespit.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl1.Name" xml:space="preserve">
+    <value>xtraTabControl1</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl1.Parent" xml:space="preserve">
+    <value>tbMalBeyani</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tbMalBeyani.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="tbMalBeyani.Size" type="System.Drawing.Size, System.Drawing">
+    <value>619, 486</value>
+  </data>
+  <data name="tbMalBeyani.Text" xml:space="preserve">
+    <value>Mal Ve Beyan Bilgileri</value>
+  </data>
+  <data name="&gt;&gt;tbMalBeyani.Name" xml:space="preserve">
+    <value>tbMalBeyani</value>
+  </data>
+  <data name="&gt;&gt;tbMalBeyani.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tbMalBeyani.Parent" xml:space="preserve">
+    <value>tabGridler</value>
+  </data>
+  <data name="&gt;&gt;tbMalBeyani.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabGridler.Size" type="System.Drawing.Size, System.Drawing">
+    <value>795, 493</value>
+  </data>
+  <data name="tabGridler.TabIndex" type="System.Int32, mscorlib">
+    <value>233</value>
+  </data>
+  <data name="xtraTabControl3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="xtraTabControl3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tabBorcluOdemeler.Size" type="System.Drawing.Size, System.Drawing">
+    <value>612, 457</value>
+  </data>
+  <data name="tabBorcluOdemeler.Text" xml:space="preserve">
+    <value>Borçlu Ödemeleri</value>
+  </data>
+  <data name="&gt;&gt;tabBorcluOdemeler.Name" xml:space="preserve">
+    <value>tabBorcluOdemeler</value>
+  </data>
+  <data name="&gt;&gt;tabBorcluOdemeler.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabBorcluOdemeler.Parent" xml:space="preserve">
+    <value>xtraTabControl3</value>
+  </data>
+  <data name="&gt;&gt;tabBorcluOdemeler.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="xtraTabControl3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>619, 486</value>
+  </data>
+  <data name="xtraTabControl3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabFeragat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>612, 457</value>
+  </data>
+  <data name="tabFeragat.Text" xml:space="preserve">
+    <value>Feragat Bilgileri</value>
+  </data>
+  <data name="&gt;&gt;tabFeragat.Name" xml:space="preserve">
+    <value>tabFeragat</value>
+  </data>
+  <data name="&gt;&gt;tabFeragat.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabFeragat.Parent" xml:space="preserve">
+    <value>xtraTabControl3</value>
+  </data>
+  <data name="&gt;&gt;tabFeragat.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabMahsup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>612, 457</value>
+  </data>
+  <data name="tabMahsup.Text" xml:space="preserve">
+    <value>Mahsup Bilgileri</value>
+  </data>
+  <data name="&gt;&gt;tabMahsup.Name" xml:space="preserve">
+    <value>tabMahsup</value>
+  </data>
+  <data name="&gt;&gt;tabMahsup.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabMahsup.Parent" xml:space="preserve">
+    <value>xtraTabControl3</value>
+  </data>
+  <data name="&gt;&gt;tabMahsup.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabOdemeDagilimi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>612, 457</value>
+  </data>
+  <data name="tabOdemeDagilimi.Text" xml:space="preserve">
+    <value>Ödemelerin Dağılımı</value>
+  </data>
+  <data name="&gt;&gt;tabOdemeDagilimi.Name" xml:space="preserve">
+    <value>tabOdemeDagilimi</value>
+  </data>
+  <data name="&gt;&gt;tabOdemeDagilimi.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabOdemeDagilimi.Parent" xml:space="preserve">
+    <value>xtraTabControl3</value>
+  </data>
+  <data name="&gt;&gt;tabOdemeDagilimi.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl3.Name" xml:space="preserve">
+    <value>xtraTabControl3</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl3.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl3.Parent" xml:space="preserve">
+    <value>tbOdeme</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tbOdeme.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="tbOdeme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>619, 486</value>
+  </data>
+  <data name="tbOdeme.Text" xml:space="preserve">
+    <value>Ödeme-Feragat-Mahsup Bilgileri</value>
+  </data>
+  <data name="&gt;&gt;tbOdeme.Name" xml:space="preserve">
+    <value>tbOdeme</value>
+  </data>
+  <data name="&gt;&gt;tbOdeme.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tbOdeme.Parent" xml:space="preserve">
+    <value>tabGridler</value>
+  </data>
+  <data name="&gt;&gt;tbOdeme.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="xtraTabControl8.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="xtraTabControl8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tabItirazlar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>612, 457</value>
+  </data>
+  <data name="tabItirazlar.Text" xml:space="preserve">
+    <value>İtirazlar</value>
+  </data>
+  <data name="&gt;&gt;tabItirazlar.Name" xml:space="preserve">
+    <value>tabItirazlar</value>
+  </data>
+  <data name="&gt;&gt;tabItirazlar.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabItirazlar.Parent" xml:space="preserve">
+    <value>xtraTabControl8</value>
+  </data>
+  <data name="&gt;&gt;tabItirazlar.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="xtraTabControl8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>619, 486</value>
+  </data>
+  <data name="xtraTabControl8.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabSikayetler.Size" type="System.Drawing.Size, System.Drawing">
+    <value>612, 457</value>
+  </data>
+  <data name="tabSikayetler.Text" xml:space="preserve">
+    <value>Memur İşlem Şikayetleri</value>
+  </data>
+  <data name="&gt;&gt;tabSikayetler.Name" xml:space="preserve">
+    <value>tabSikayetler</value>
+  </data>
+  <data name="&gt;&gt;tabSikayetler.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabSikayetler.Parent" xml:space="preserve">
+    <value>xtraTabControl8</value>
+  </data>
+  <data name="&gt;&gt;tabSikayetler.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl8.Name" xml:space="preserve">
+    <value>xtraTabControl8</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl8.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl8.Parent" xml:space="preserve">
+    <value>tbItiraz</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl8.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tbItiraz.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="tbItiraz.Size" type="System.Drawing.Size, System.Drawing">
+    <value>619, 486</value>
+  </data>
+  <data name="tbItiraz.Text" xml:space="preserve">
+    <value>İtiraz Ve Şikayetler</value>
+  </data>
+  <data name="&gt;&gt;tbItiraz.Name" xml:space="preserve">
+    <value>tbItiraz</value>
+  </data>
+  <data name="&gt;&gt;tbItiraz.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tbItiraz.Parent" xml:space="preserve">
+    <value>tabGridler</value>
+  </data>
+  <data name="&gt;&gt;tbItiraz.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="xtraTabControl12.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="xtraTabControl12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tabGorusmeler.Size" type="System.Drawing.Size, System.Drawing">
+    <value>612, 457</value>
+  </data>
+  <data name="tabGorusmeler.Text" xml:space="preserve">
+    <value>Görüşmeler</value>
+  </data>
+  <data name="&gt;&gt;tabGorusmeler.Name" xml:space="preserve">
+    <value>tabGorusmeler</value>
+  </data>
+  <data name="&gt;&gt;tabGorusmeler.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabGorusmeler.Parent" xml:space="preserve">
+    <value>xtraTabControl12</value>
+  </data>
+  <data name="&gt;&gt;tabGorusmeler.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="xtraTabControl12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>619, 486</value>
+  </data>
+  <data name="xtraTabControl12.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabSMS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>612, 457</value>
+  </data>
+  <data name="tabSMS.Text" xml:space="preserve">
+    <value>SMS</value>
+  </data>
+  <data name="&gt;&gt;tabSMS.Name" xml:space="preserve">
+    <value>tabSMS</value>
+  </data>
+  <data name="&gt;&gt;tabSMS.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabSMS.Parent" xml:space="preserve">
+    <value>xtraTabControl12</value>
+  </data>
+  <data name="&gt;&gt;tabSMS.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabEmail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>612, 457</value>
+  </data>
+  <data name="tabEmail.Text" xml:space="preserve">
+    <value>E-Posta</value>
+  </data>
+  <data name="&gt;&gt;tabEmail.Name" xml:space="preserve">
+    <value>tabEmail</value>
+  </data>
+  <data name="&gt;&gt;tabEmail.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabEmail.Parent" xml:space="preserve">
+    <value>xtraTabControl12</value>
+  </data>
+  <data name="&gt;&gt;tabEmail.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl12.Name" xml:space="preserve">
+    <value>xtraTabControl12</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl12.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl12.Parent" xml:space="preserve">
+    <value>tbGorusmeVeIletisim</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl12.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tbGorusmeVeIletisim.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="tbGorusmeVeIletisim.Size" type="System.Drawing.Size, System.Drawing">
+    <value>619, 486</value>
+  </data>
+  <data name="tbGorusmeVeIletisim.Text" xml:space="preserve">
+    <value>İletişim</value>
+  </data>
+  <data name="&gt;&gt;tbGorusmeVeIletisim.Name" xml:space="preserve">
+    <value>tbGorusmeVeIletisim</value>
+  </data>
+  <data name="&gt;&gt;tbGorusmeVeIletisim.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tbGorusmeVeIletisim.Parent" xml:space="preserve">
+    <value>tabGridler</value>
+  </data>
+  <data name="&gt;&gt;tbGorusmeVeIletisim.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="xtraTabControl5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="xtraTabControl5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tbIhtHaciz.Size" type="System.Drawing.Size, System.Drawing">
+    <value>612, 457</value>
+  </data>
+  <data name="tbIhtHaciz.Text" xml:space="preserve">
+    <value>İhtiyati Haciz</value>
+  </data>
+  <data name="&gt;&gt;tbIhtHaciz.Name" xml:space="preserve">
+    <value>tbIhtHaciz</value>
+  </data>
+  <data name="&gt;&gt;tbIhtHaciz.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tbIhtHaciz.Parent" xml:space="preserve">
+    <value>xtraTabControl5</value>
+  </data>
+  <data name="&gt;&gt;tbIhtHaciz.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="xtraTabControl5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>619, 486</value>
+  </data>
+  <data name="xtraTabControl5.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tbIhtTedbir.Size" type="System.Drawing.Size, System.Drawing">
+    <value>612, 457</value>
+  </data>
+  <data name="tbIhtTedbir.Text" xml:space="preserve">
+    <value>İhtiyati Tedbir</value>
+  </data>
+  <data name="&gt;&gt;tbIhtTedbir.Name" xml:space="preserve">
+    <value>tbIhtTedbir</value>
+  </data>
+  <data name="&gt;&gt;tbIhtTedbir.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tbIhtTedbir.Parent" xml:space="preserve">
+    <value>xtraTabControl5</value>
+  </data>
+  <data name="&gt;&gt;tbIhtTedbir.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabTeminatBilgileri.Size" type="System.Drawing.Size, System.Drawing">
+    <value>612, 457</value>
+  </data>
+  <data name="tabTeminatBilgileri.Text" xml:space="preserve">
+    <value>Teminat Bilgileri</value>
+  </data>
+  <data name="&gt;&gt;tabTeminatBilgileri.Name" xml:space="preserve">
+    <value>tabTeminatBilgileri</value>
+  </data>
+  <data name="&gt;&gt;tabTeminatBilgileri.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabTeminatBilgileri.Parent" xml:space="preserve">
+    <value>xtraTabControl5</value>
+  </data>
+  <data name="&gt;&gt;tabTeminatBilgileri.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl5.Name" xml:space="preserve">
+    <value>xtraTabControl5</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl5.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl5.Parent" xml:space="preserve">
+    <value>tbDegisikIsler</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tbDegisikIsler.Size" type="System.Drawing.Size, System.Drawing">
+    <value>619, 486</value>
+  </data>
+  <data name="tbDegisikIsler.Text" xml:space="preserve">
+    <value>Değişik İşler</value>
+  </data>
+  <data name="&gt;&gt;tbDegisikIsler.Name" xml:space="preserve">
+    <value>tbDegisikIsler</value>
+  </data>
+  <data name="&gt;&gt;tbDegisikIsler.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tbDegisikIsler.Parent" xml:space="preserve">
+    <value>tabGridler</value>
+  </data>
+  <data name="&gt;&gt;tbDegisikIsler.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tbDusmeYenileme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>619, 486</value>
+  </data>
+  <data name="tbDusmeYenileme.Text" xml:space="preserve">
+    <value>Düşme Yenileme</value>
+  </data>
+  <data name="&gt;&gt;tbDusmeYenileme.Name" xml:space="preserve">
+    <value>tbDusmeYenileme</value>
+  </data>
+  <data name="&gt;&gt;tbDusmeYenileme.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tbDusmeYenileme.Parent" xml:space="preserve">
+    <value>tabGridler</value>
+  </data>
+  <data name="&gt;&gt;tbDusmeYenileme.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tbTaahhutler.Size" type="System.Drawing.Size, System.Drawing">
+    <value>619, 486</value>
+  </data>
+  <data name="tbTaahhutler.Text" xml:space="preserve">
+    <value>Taahhütler</value>
+  </data>
+  <data name="&gt;&gt;tbTaahhutler.Name" xml:space="preserve">
+    <value>tbTaahhutler</value>
+  </data>
+  <data name="&gt;&gt;tbTaahhutler.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tbTaahhutler.Parent" xml:space="preserve">
+    <value>tabGridler</value>
+  </data>
+  <data name="&gt;&gt;tbTaahhutler.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="tbHacizIslemleri.Size" type="System.Drawing.Size, System.Drawing">
+    <value>619, 486</value>
+  </data>
+  <data name="tbHacizIslemleri.Text" xml:space="preserve">
+    <value>Haciz İşlemleri</value>
+  </data>
+  <data name="&gt;&gt;tbHacizIslemleri.Name" xml:space="preserve">
+    <value>tbHacizIslemleri</value>
+  </data>
+  <data name="&gt;&gt;tbHacizIslemleri.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tbHacizIslemleri.Parent" xml:space="preserve">
+    <value>tabGridler</value>
+  </data>
+  <data name="&gt;&gt;tbHacizIslemleri.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="tbSatis.Size" type="System.Drawing.Size, System.Drawing">
+    <value>619, 486</value>
+  </data>
+  <data name="tbSatis.Text" xml:space="preserve">
+    <value>Satış</value>
+  </data>
+  <data name="&gt;&gt;tbSatis.Name" xml:space="preserve">
+    <value>tbSatis</value>
+  </data>
+  <data name="&gt;&gt;tbSatis.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tbSatis.Parent" xml:space="preserve">
+    <value>tabGridler</value>
+  </data>
+  <data name="&gt;&gt;tbSatis.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="tbBos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>619, 486</value>
+  </data>
+  <data name="tbBos.Text" xml:space="preserve">
+    <value>Genel Notlar</value>
+  </data>
+  <data name="&gt;&gt;tbBos.Name" xml:space="preserve">
+    <value>tbBos</value>
+  </data>
+  <data name="&gt;&gt;tbBos.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tbBos.Parent" xml:space="preserve">
+    <value>tabGridler</value>
+  </data>
+  <data name="&gt;&gt;tbBos.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="xtraTabControl7.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="xtraTabControl7.HeaderLocation" type="DevExpress.XtraTab.TabHeaderLocation, DevExpress.XtraEditors.v12.1">
+    <value>Bottom</value>
+  </data>
+  <data name="xtraTabControl7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="xtraTabControl7.MultiLine" type="DevExpress.Utils.DefaultBoolean, DevExpress.Data.v12.1">
+    <value>False</value>
+  </data>
+  <data name="xtraTabControl11.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="xtraTabControl11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tabAlacaklar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>605, 428</value>
+  </data>
+  <data name="tabAlacaklar.Text" xml:space="preserve">
+    <value>Takip Alacakları</value>
+  </data>
+  <data name="&gt;&gt;tabAlacaklar.Name" xml:space="preserve">
+    <value>tabAlacaklar</value>
+  </data>
+  <data name="&gt;&gt;tabAlacaklar.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabAlacaklar.Parent" xml:space="preserve">
+    <value>xtraTabControl11</value>
+  </data>
+  <data name="&gt;&gt;tabAlacaklar.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="xtraTabControl11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>612, 457</value>
+  </data>
+  <data name="xtraTabControl11.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tabKefalet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>605, 428</value>
+  </data>
+  <data name="tabKefalet.Text" xml:space="preserve">
+    <value>Kefalet Bilgileri</value>
+  </data>
+  <data name="&gt;&gt;tabKefalet.Name" xml:space="preserve">
+    <value>tabKefalet</value>
+  </data>
+  <data name="&gt;&gt;tabKefalet.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabKefalet.Parent" xml:space="preserve">
+    <value>xtraTabControl11</value>
+  </data>
+  <data name="&gt;&gt;tabKefalet.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl11.Name" xml:space="preserve">
+    <value>xtraTabControl11</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl11.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl11.Parent" xml:space="preserve">
+    <value>tpAlacaklar</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl11.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tpAlacaklar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>612, 457</value>
+  </data>
+  <data name="tpAlacaklar.Text" xml:space="preserve">
+    <value>Alacaklar</value>
+  </data>
+  <data name="&gt;&gt;tpAlacaklar.Name" xml:space="preserve">
+    <value>tpAlacaklar</value>
+  </data>
+  <data name="&gt;&gt;tpAlacaklar.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tpAlacaklar.Parent" xml:space="preserve">
+    <value>xtraTabControl7</value>
+  </data>
+  <data name="&gt;&gt;tpAlacaklar.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="xtraTabControl7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>619, 486</value>
+  </data>
+  <data name="xtraTabControl7.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tabCntrlKiymetliEvrak.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tabCntrlKiymetliEvrak.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 0</value>
+  </data>
+  <data name="tabPKiymetliEvrakGrid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>599, 428</value>
+  </data>
+  <data name="tabPKiymetliEvrakGrid.Text" xml:space="preserve">
+    <value>Kıymetli Evrak</value>
+  </data>
+  <data name="&gt;&gt;tabPKiymetliEvrakGrid.Name" xml:space="preserve">
+    <value>tabPKiymetliEvrakGrid</value>
+  </data>
+  <data name="&gt;&gt;tabPKiymetliEvrakGrid.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;tabPKiymetliEvrakGrid.Parent" xml:space="preserve">
+    <value>tabCntrlKiymetliEvrak</value>
+  </data>
+  <data name="&gt;&gt;tabPKiymetliEvrakGrid.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabCntrlKiymetliEvrak.Size" type="System.Drawing.Size, System.Drawing">
+    <value>606, 457</value>
+  </data>
+  <data name="tabCntrlKiymetliEvrak.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="tabPKiymetliEvrakTaraf.Size" type="System.Drawing.Size, System.Drawing">
+    <value>293, 271</value>
+  </data>
+  <data name="tabPKiymetliEvrakTaraf.Text" xml:space="preserve">
+    <value>Kıymetli Evrak Taraf</value>
+  </data>
+  <data name="&gt;&gt;tabPKiymetliEvrakTaraf.Name" xml:space="preserve">
+    <value>tabPKiymetliEvrakTaraf</value>
+  </data>
+  <data name="&gt;&gt;tabPKiymetliEvrakTaraf.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;tabPKiymetliEvrakTaraf.Parent" xml:space="preserve">
+    <value>tabCntrlKiymetliEvrak</value>
+  </data>
+  <data name="&gt;&gt;tabPKiymetliEvrakTaraf.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tabCntrlKiymetliEvrak.Name" xml:space="preserve">
+    <value>tabCntrlKiymetliEvrak</value>
+  </data>
+  <data name="&gt;&gt;tabCntrlKiymetliEvrak.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;tabCntrlKiymetliEvrak.Parent" xml:space="preserve">
+    <value>tpKiymetliEvrak</value>
+  </data>
+  <data name="&gt;&gt;tabCntrlKiymetliEvrak.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="splitterControl1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="splitterControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="splitterControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 457</value>
+  </data>
+  <data name="splitterControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;splitterControl1.Name" xml:space="preserve">
+    <value>splitterControl1</value>
+  </data>
+  <data name="&gt;&gt;splitterControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SplitterControl, DevExpress.Utils.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;splitterControl1.Parent" xml:space="preserve">
+    <value>tpKiymetliEvrak</value>
+  </data>
+  <data name="&gt;&gt;splitterControl1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tpKiymetliEvrak.Size" type="System.Drawing.Size, System.Drawing">
+    <value>612, 457</value>
+  </data>
+  <data name="tpKiymetliEvrak.Text" xml:space="preserve">
+    <value>Kıymetli Evraklar</value>
+  </data>
+  <data name="&gt;&gt;tpKiymetliEvrak.Name" xml:space="preserve">
+    <value>tpKiymetliEvrak</value>
+  </data>
+  <data name="&gt;&gt;tpKiymetliEvrak.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tpKiymetliEvrak.Parent" xml:space="preserve">
+    <value>xtraTabControl7</value>
+  </data>
+  <data name="&gt;&gt;tpKiymetliEvrak.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="xtraTabControl13.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="xtraTabControl13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tabPSozlesmeBilgileri.Size" type="System.Drawing.Size, System.Drawing">
+    <value>605, 428</value>
+  </data>
+  <data name="tabPSozlesmeBilgileri.Text" xml:space="preserve">
+    <value>Sözleşme Bilgileri</value>
+  </data>
+  <data name="&gt;&gt;tabPSozlesmeBilgileri.Name" xml:space="preserve">
+    <value>tabPSozlesmeBilgileri</value>
+  </data>
+  <data name="&gt;&gt;tabPSozlesmeBilgileri.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabPSozlesmeBilgileri.Parent" xml:space="preserve">
+    <value>xtraTabControl13</value>
+  </data>
+  <data name="&gt;&gt;tabPSozlesmeBilgileri.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="xtraTabControl13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>612, 457</value>
+  </data>
+  <data name="xtraTabControl13.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabpGayrimenkulArac.Size" type="System.Drawing.Size, System.Drawing">
+    <value>605, 428</value>
+  </data>
+  <data name="tabpGayrimenkulArac.Text" xml:space="preserve">
+    <value>Gayrimenkul  &amp;&amp;  Araç</value>
+  </data>
+  <data name="&gt;&gt;tabpGayrimenkulArac.Name" xml:space="preserve">
+    <value>tabpGayrimenkulArac</value>
+  </data>
+  <data name="&gt;&gt;tabpGayrimenkulArac.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabpGayrimenkulArac.Parent" xml:space="preserve">
+    <value>xtraTabControl13</value>
+  </data>
+  <data name="&gt;&gt;tabpGayrimenkulArac.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabPageMenkulMal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>605, 428</value>
+  </data>
+  <data name="tabPageMenkulMal.Text" xml:space="preserve">
+    <value>Menkul Mal </value>
+  </data>
+  <data name="&gt;&gt;tabPageMenkulMal.Name" xml:space="preserve">
+    <value>tabPageMenkulMal</value>
+  </data>
+  <data name="&gt;&gt;tabPageMenkulMal.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabPageMenkulMal.Parent" xml:space="preserve">
+    <value>xtraTabControl13</value>
+  </data>
+  <data name="&gt;&gt;tabPageMenkulMal.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl13.Name" xml:space="preserve">
+    <value>xtraTabControl13</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl13.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl13.Parent" xml:space="preserve">
+    <value>tpSozlesme</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl13.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tpSozlesme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>612, 457</value>
+  </data>
+  <data name="tpSozlesme.Text" xml:space="preserve">
+    <value>Alacak Neden Sözleşmeleri</value>
+  </data>
+  <data name="&gt;&gt;tpSozlesme.Name" xml:space="preserve">
+    <value>tpSozlesme</value>
+  </data>
+  <data name="&gt;&gt;tpSozlesme.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tpSozlesme.Parent" xml:space="preserve">
+    <value>xtraTabControl7</value>
+  </data>
+  <data name="&gt;&gt;tpSozlesme.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl7.Name" xml:space="preserve">
+    <value>xtraTabControl7</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl7.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl7.Parent" xml:space="preserve">
+    <value>tbAlacaklar</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl7.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tbAlacaklar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="tbAlacaklar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>619, 486</value>
+  </data>
+  <data name="tbAlacaklar.Text" xml:space="preserve">
+    <value>Alacaklar ve Kefalet Bilgileri</value>
+  </data>
+  <data name="&gt;&gt;tbAlacaklar.Name" xml:space="preserve">
+    <value>tbAlacaklar</value>
+  </data>
+  <data name="&gt;&gt;tbAlacaklar.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tbAlacaklar.Parent" xml:space="preserve">
+    <value>tabGridler</value>
+  </data>
+  <data name="&gt;&gt;tbAlacaklar.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="tbGelismeler.Size" type="System.Drawing.Size, System.Drawing">
+    <value>619, 486</value>
+  </data>
+  <data name="tbGelismeler.Text" xml:space="preserve">
+    <value>Gelişmeler</value>
+  </data>
+  <data name="&gt;&gt;tbGelismeler.Name" xml:space="preserve">
+    <value>tbGelismeler</value>
+  </data>
+  <data name="&gt;&gt;tbGelismeler.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tbGelismeler.Parent" xml:space="preserve">
+    <value>tabGridler</value>
+  </data>
+  <data name="&gt;&gt;tbGelismeler.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="tbTakipAsama.Size" type="System.Drawing.Size, System.Drawing">
+    <value>619, 486</value>
+  </data>
+  <data name="tbTakipAsama.Text" xml:space="preserve">
+    <value>Takip Haritası</value>
+  </data>
+  <data name="&gt;&gt;tbTakipAsama.Name" xml:space="preserve">
+    <value>tbTakipAsama</value>
+  </data>
+  <data name="&gt;&gt;tbTakipAsama.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tbTakipAsama.Parent" xml:space="preserve">
+    <value>tabGridler</value>
+  </data>
+  <data name="&gt;&gt;tbTakipAsama.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="tbDosyaBaglantilari.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="tbDosyaBaglantilari.Size" type="System.Drawing.Size, System.Drawing">
+    <value>619, 486</value>
+  </data>
+  <data name="tbDosyaBaglantilari.Text" xml:space="preserve">
+    <value>Dosya İlişkileri</value>
+  </data>
+  <data name="&gt;&gt;tbDosyaBaglantilari.Name" xml:space="preserve">
+    <value>tbDosyaBaglantilari</value>
+  </data>
+  <data name="&gt;&gt;tbDosyaBaglantilari.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tbDosyaBaglantilari.Parent" xml:space="preserve">
+    <value>tabGridler</value>
+  </data>
+  <data name="&gt;&gt;tbDosyaBaglantilari.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="c_tpGorevler.Size" type="System.Drawing.Size, System.Drawing">
+    <value>619, 486</value>
+  </data>
+  <data name="c_tpGorevler.Text" xml:space="preserve">
+    <value>Yapılacak İşler</value>
+  </data>
+  <data name="&gt;&gt;c_tpGorevler.Name" xml:space="preserve">
+    <value>c_tpGorevler</value>
+  </data>
+  <data name="&gt;&gt;c_tpGorevler.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;c_tpGorevler.Parent" xml:space="preserve">
+    <value>tabGridler</value>
+  </data>
+  <data name="&gt;&gt;c_tpGorevler.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="tbMehilBilgileri.Size" type="System.Drawing.Size, System.Drawing">
+    <value>619, 486</value>
+  </data>
+  <data name="tbMehilBilgileri.Text" xml:space="preserve">
+    <value>Mehil Bilgileri</value>
+  </data>
+  <data name="&gt;&gt;tbMehilBilgileri.Name" xml:space="preserve">
+    <value>tbMehilBilgileri</value>
+  </data>
+  <data name="&gt;&gt;tbMehilBilgileri.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tbMehilBilgileri.Parent" xml:space="preserve">
+    <value>tabGridler</value>
+  </data>
+  <data name="&gt;&gt;tbMehilBilgileri.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="xtraTabControl4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="xtraTabControl4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tabHasar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>612, 457</value>
+  </data>
+  <data name="tabHasar.Text" xml:space="preserve">
+    <value>Hasar Bilgileri</value>
+  </data>
+  <data name="&gt;&gt;tabHasar.Name" xml:space="preserve">
+    <value>tabHasar</value>
+  </data>
+  <data name="&gt;&gt;tabHasar.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabHasar.Parent" xml:space="preserve">
+    <value>xtraTabControl4</value>
+  </data>
+  <data name="&gt;&gt;tabHasar.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="xtraTabControl4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>619, 486</value>
+  </data>
+  <data name="xtraTabControl4.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPolice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>612, 457</value>
+  </data>
+  <data name="tabPolice.Text" xml:space="preserve">
+    <value>Poliçe Bilgileri</value>
+  </data>
+  <data name="&gt;&gt;tabPolice.Name" xml:space="preserve">
+    <value>tabPolice</value>
+  </data>
+  <data name="&gt;&gt;tabPolice.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabPolice.Parent" xml:space="preserve">
+    <value>xtraTabControl4</value>
+  </data>
+  <data name="&gt;&gt;tabPolice.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl4.Name" xml:space="preserve">
+    <value>xtraTabControl4</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl4.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl4.Parent" xml:space="preserve">
+    <value>tabHasarVePolice</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabHasarVePolice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>619, 486</value>
+  </data>
+  <data name="tabHasarVePolice.Text" xml:space="preserve">
+    <value>Hasar ve Poliçe Bilgileri</value>
+  </data>
+  <data name="&gt;&gt;tabHasarVePolice.Name" xml:space="preserve">
+    <value>tabHasarVePolice</value>
+  </data>
+  <data name="&gt;&gt;tabHasarVePolice.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabHasarVePolice.Parent" xml:space="preserve">
+    <value>tabGridler</value>
+  </data>
+  <data name="&gt;&gt;tabHasarVePolice.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="xtraTabControl10.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="xtraTabControl10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="c_tpBelge.Size" type="System.Drawing.Size, System.Drawing">
+    <value>612, 457</value>
+  </data>
+  <data name="c_tpBelge.Text" xml:space="preserve">
+    <value>Belge Bilgileri</value>
+  </data>
+  <data name="&gt;&gt;c_tpBelge.Name" xml:space="preserve">
+    <value>c_tpBelge</value>
+  </data>
+  <data name="&gt;&gt;c_tpBelge.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;c_tpBelge.Parent" xml:space="preserve">
+    <value>xtraTabControl10</value>
+  </data>
+  <data name="&gt;&gt;c_tpBelge.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="xtraTabControl10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>619, 486</value>
+  </data>
+  <data name="xtraTabControl10.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl10.Name" xml:space="preserve">
+    <value>xtraTabControl10</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl10.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl10.Parent" xml:space="preserve">
+    <value>tabDokumanlar</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl10.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabDokumanlar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>619, 486</value>
+  </data>
+  <data name="tabDokumanlar.Text" xml:space="preserve">
+    <value>Dökümanlar</value>
+  </data>
+  <data name="&gt;&gt;tabDokumanlar.Name" xml:space="preserve">
+    <value>tabDokumanlar</value>
+  </data>
+  <data name="&gt;&gt;tabDokumanlar.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabDokumanlar.Parent" xml:space="preserve">
+    <value>tabGridler</value>
+  </data>
+  <data name="&gt;&gt;tabDokumanlar.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="xtraTabControl14.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="xtraTabControl14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tabMasraflar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>612, 457</value>
+  </data>
+  <data name="tabMasraflar.Text" xml:space="preserve">
+    <value>Masraf Bilgileri</value>
+  </data>
+  <data name="&gt;&gt;tabMasraflar.Name" xml:space="preserve">
+    <value>tabMasraflar</value>
+  </data>
+  <data name="&gt;&gt;tabMasraflar.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabMasraflar.Parent" xml:space="preserve">
+    <value>xtraTabControl14</value>
+  </data>
+  <data name="&gt;&gt;tabMasraflar.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="xtraTabControl14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>619, 486</value>
+  </data>
+  <data name="xtraTabControl14.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="xtraTabControl2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="xtraTabControl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="xTabDosyaOzeti.Size" type="System.Drawing.Size, System.Drawing">
+    <value>605, 428</value>
+  </data>
+  <data name="xTabDosyaOzeti.Text" xml:space="preserve">
+    <value>Dosya Özeti</value>
+  </data>
+  <data name="&gt;&gt;xTabDosyaOzeti.Name" xml:space="preserve">
+    <value>xTabDosyaOzeti</value>
+  </data>
+  <data name="&gt;&gt;xTabDosyaOzeti.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;xTabDosyaOzeti.Parent" xml:space="preserve">
+    <value>xtraTabControl2</value>
+  </data>
+  <data name="&gt;&gt;xTabDosyaOzeti.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="xtraTabControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>612, 457</value>
+  </data>
+  <data name="xtraTabControl2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="xTabMuvekkilOdeme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>605, 428</value>
+  </data>
+  <data name="xTabMuvekkilOdeme.Text" xml:space="preserve">
+    <value>Müvekkil Ödeme</value>
+  </data>
+  <data name="&gt;&gt;xTabMuvekkilOdeme.Name" xml:space="preserve">
+    <value>xTabMuvekkilOdeme</value>
+  </data>
+  <data name="&gt;&gt;xTabMuvekkilOdeme.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;xTabMuvekkilOdeme.Parent" xml:space="preserve">
+    <value>xtraTabControl2</value>
+  </data>
+  <data name="&gt;&gt;xTabMuvekkilOdeme.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="xTabVekaletSozlesme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>605, 428</value>
+  </data>
+  <data name="xTabVekaletSozlesme.Text" xml:space="preserve">
+    <value>Vekalet Sözleşmesi</value>
+  </data>
+  <data name="&gt;&gt;xTabVekaletSozlesme.Name" xml:space="preserve">
+    <value>xTabVekaletSozlesme</value>
+  </data>
+  <data name="&gt;&gt;xTabVekaletSozlesme.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;xTabVekaletSozlesme.Parent" xml:space="preserve">
+    <value>xtraTabControl2</value>
+  </data>
+  <data name="&gt;&gt;xTabVekaletSozlesme.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="xTabMeslekMakbuzu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>605, 428</value>
+  </data>
+  <data name="xTabMeslekMakbuzu.Text" xml:space="preserve">
+    <value>Meslek Makbuzu</value>
+  </data>
+  <data name="&gt;&gt;xTabMeslekMakbuzu.Name" xml:space="preserve">
+    <value>xTabMeslekMakbuzu</value>
+  </data>
+  <data name="&gt;&gt;xTabMeslekMakbuzu.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;xTabMeslekMakbuzu.Parent" xml:space="preserve">
+    <value>xtraTabControl2</value>
+  </data>
+  <data name="&gt;&gt;xTabMeslekMakbuzu.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="xTabVekaletIsSozlesme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>605, 428</value>
+  </data>
+  <data name="xTabVekaletIsSozlesme.Text" xml:space="preserve">
+    <value>Yapılacak İş Sözleşmesi</value>
+  </data>
+  <data name="&gt;&gt;xTabVekaletIsSozlesme.Name" xml:space="preserve">
+    <value>xTabVekaletIsSozlesme</value>
+  </data>
+  <data name="&gt;&gt;xTabVekaletIsSozlesme.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;xTabVekaletIsSozlesme.Parent" xml:space="preserve">
+    <value>xtraTabControl2</value>
+  </data>
+  <data name="&gt;&gt;xTabVekaletIsSozlesme.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="xTabControlMuvekkilMuhasebe.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="xTabControlMuvekkilMuhasebe.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="xTabPageMuvDosyaHesabi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>598, 399</value>
+  </data>
+  <data name="xTabPageMuvDosyaHesabi.Text" xml:space="preserve">
+    <value>Müvekkil Dosya Hesabı</value>
+  </data>
+  <data name="&gt;&gt;xTabPageMuvDosyaHesabi.Name" xml:space="preserve">
+    <value>xTabPageMuvDosyaHesabi</value>
+  </data>
+  <data name="&gt;&gt;xTabPageMuvDosyaHesabi.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;xTabPageMuvDosyaHesabi.Parent" xml:space="preserve">
+    <value>xTabControlMuvekkilMuhasebe</value>
+  </data>
+  <data name="&gt;&gt;xTabPageMuvDosyaHesabi.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="xTabControlMuvekkilMuhasebe.Size" type="System.Drawing.Size, System.Drawing">
+    <value>605, 428</value>
+  </data>
+  <data name="xTabControlMuvekkilMuhasebe.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="xTabPageMuvTumHesap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>598, 399</value>
+  </data>
+  <data name="xTabPageMuvTumHesap.Text" xml:space="preserve">
+    <value>Müvekkilin Tüm Hesabı</value>
+  </data>
+  <data name="&gt;&gt;xTabPageMuvTumHesap.Name" xml:space="preserve">
+    <value>xTabPageMuvTumHesap</value>
+  </data>
+  <data name="&gt;&gt;xTabPageMuvTumHesap.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;xTabPageMuvTumHesap.Parent" xml:space="preserve">
+    <value>xTabControlMuvekkilMuhasebe</value>
+  </data>
+  <data name="&gt;&gt;xTabPageMuvTumHesap.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;xTabControlMuvekkilMuhasebe.Name" xml:space="preserve">
+    <value>xTabControlMuvekkilMuhasebe</value>
+  </data>
+  <data name="&gt;&gt;xTabControlMuvekkilMuhasebe.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;xTabControlMuvekkilMuhasebe.Parent" xml:space="preserve">
+    <value>xTabMuvekkMuh</value>
+  </data>
+  <data name="&gt;&gt;xTabControlMuvekkilMuhasebe.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="xTabMuvekkMuh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>605, 428</value>
+  </data>
+  <data name="xTabMuvekkMuh.Text" xml:space="preserve">
+    <value>Müvekkil Muhasebesi</value>
+  </data>
+  <data name="&gt;&gt;xTabMuvekkMuh.Name" xml:space="preserve">
+    <value>xTabMuvekkMuh</value>
+  </data>
+  <data name="&gt;&gt;xTabMuvekkMuh.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;xTabMuvekkMuh.Parent" xml:space="preserve">
+    <value>xtraTabControl2</value>
+  </data>
+  <data name="&gt;&gt;xTabMuvekkMuh.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl2.Name" xml:space="preserve">
+    <value>xtraTabControl2</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl2.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl2.Parent" xml:space="preserve">
+    <value>tabMuvekkilHesabı</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabMuvekkilHesabı.Size" type="System.Drawing.Size, System.Drawing">
+    <value>612, 457</value>
+  </data>
+  <data name="tabMuvekkilHesabı.Text" xml:space="preserve">
+    <value>Müvekkil Hesabı</value>
+  </data>
+  <data name="&gt;&gt;tabMuvekkilHesabı.Name" xml:space="preserve">
+    <value>tabMuvekkilHesabı</value>
+  </data>
+  <data name="&gt;&gt;tabMuvekkilHesabı.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabMuvekkilHesabı.Parent" xml:space="preserve">
+    <value>xtraTabControl14</value>
+  </data>
+  <data name="&gt;&gt;tabMuvekkilHesabı.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl14.Name" xml:space="preserve">
+    <value>xtraTabControl14</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl14.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl14.Parent" xml:space="preserve">
+    <value>tabDosyaMuhasebesi</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl14.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabDosyaMuhasebesi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>619, 486</value>
+  </data>
+  <data name="tabDosyaMuhasebesi.Text" xml:space="preserve">
+    <value>Masraf ve Muhasebe</value>
+  </data>
+  <data name="&gt;&gt;tabDosyaMuhasebesi.Name" xml:space="preserve">
+    <value>tabDosyaMuhasebesi</value>
+  </data>
+  <data name="&gt;&gt;tabDosyaMuhasebesi.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabDosyaMuhasebesi.Parent" xml:space="preserve">
+    <value>tabGridler</value>
+  </data>
+  <data name="&gt;&gt;tabDosyaMuhasebesi.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="tabHEsapEkstre.Size" type="System.Drawing.Size, System.Drawing">
+    <value>619, 486</value>
+  </data>
+  <data name="tabHEsapEkstre.Text" xml:space="preserve">
+    <value>Dosya Hesabı</value>
+  </data>
+  <data name="&gt;&gt;tabHEsapEkstre.Name" xml:space="preserve">
+    <value>tabHEsapEkstre</value>
+  </data>
+  <data name="&gt;&gt;tabHEsapEkstre.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabHEsapEkstre.Parent" xml:space="preserve">
+    <value>tabGridler</value>
+  </data>
+  <data name="&gt;&gt;tabHEsapEkstre.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="tabTebligatGelenGidenEvrak.Size" type="System.Drawing.Size, System.Drawing">
+    <value>619, 486</value>
+  </data>
+  <data name="tabTebligatGelenGidenEvrak.Text" xml:space="preserve">
+    <value>Tebligatlar ve Gelen Giden Evrak</value>
+  </data>
+  <data name="&gt;&gt;tabTebligatGelenGidenEvrak.Name" xml:space="preserve">
+    <value>tabTebligatGelenGidenEvrak</value>
+  </data>
+  <data name="&gt;&gt;tabTebligatGelenGidenEvrak.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabTebligatGelenGidenEvrak.Parent" xml:space="preserve">
+    <value>tabGridler</value>
+  </data>
+  <data name="&gt;&gt;tabTebligatGelenGidenEvrak.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="tabPMuvekkilTalimat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>619, 486</value>
+  </data>
+  <data name="tabPMuvekkilTalimat.Text" xml:space="preserve">
+    <value>Müvekil Talimatları</value>
+  </data>
+  <data name="&gt;&gt;tabPMuvekkilTalimat.Name" xml:space="preserve">
+    <value>tabPMuvekkilTalimat</value>
+  </data>
+  <data name="&gt;&gt;tabPMuvekkilTalimat.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabPMuvekkilTalimat.Parent" xml:space="preserve">
+    <value>tabGridler</value>
+  </data>
+  <data name="&gt;&gt;tabPMuvekkilTalimat.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="tabpSozlesme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>619, 486</value>
+  </data>
+  <data name="tabpSozlesme.Text" xml:space="preserve">
+    <value>Tüm Sözleşmeler</value>
+  </data>
+  <data name="&gt;&gt;tabpSozlesme.Name" xml:space="preserve">
+    <value>tabpSozlesme</value>
+  </data>
+  <data name="&gt;&gt;tabpSozlesme.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedTabPage, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabpSozlesme.Parent" xml:space="preserve">
+    <value>tabGridler</value>
+  </data>
+  <data name="&gt;&gt;tabpSozlesme.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="tabpTakipHikayesi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>619, 486</value>
+  </data>
+  <data name="tabpTakipHikayesi.Text" xml:space="preserve">
+    <value>Takip Hikayesi</value>
+  </data>
+  <data name="&gt;&gt;tabpTakipHikayesi.Name" xml:space="preserve">
+    <value>tabpTakipHikayesi</value>
+  </data>
+  <data name="&gt;&gt;tabpTakipHikayesi.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;tabpTakipHikayesi.Parent" xml:space="preserve">
+    <value>tabGridler</value>
+  </data>
+  <data name="&gt;&gt;tabpTakipHikayesi.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="tabpIcraTalimatlari.Size" type="System.Drawing.Size, System.Drawing">
+    <value>619, 486</value>
+  </data>
+  <data name="tabpIcraTalimatlari.Text" xml:space="preserve">
+    <value>İcra Talimatları</value>
+  </data>
+  <data name="&gt;&gt;tabpIcraTalimatlari.Name" xml:space="preserve">
+    <value>tabpIcraTalimatlari</value>
+  </data>
+  <data name="&gt;&gt;tabpIcraTalimatlari.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;tabpIcraTalimatlari.Parent" xml:space="preserve">
+    <value>tabGridler</value>
+  </data>
+  <data name="&gt;&gt;tabpIcraTalimatlari.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;tabGridler.Name" xml:space="preserve">
+    <value>tabGridler</value>
+  </data>
+  <data name="&gt;&gt;tabGridler.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;tabGridler.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabGridler.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ucZTrackBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 87</value>
+  </data>
+  <data name="ucZTrackBar1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ucZTrackBar1.Name" xml:space="preserve">
+    <value>ucZTrackBar1</value>
+  </data>
+  <data name="&gt;&gt;ucZTrackBar1.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.ucZTrackBar, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucZTrackBar1.Parent" xml:space="preserve">
+    <value>panelControl1</value>
+  </data>
+  <data name="&gt;&gt;ucZTrackBar1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ucTrackBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 25</value>
+  </data>
+  <data name="ucTrackBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 95</value>
+  </data>
+  <data name="ucTrackBar1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ucTrackBar1.Name" xml:space="preserve">
+    <value>ucTrackBar1</value>
+  </data>
+  <data name="&gt;&gt;ucTrackBar1.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.ucTrackBar, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucTrackBar1.Parent" xml:space="preserve">
+    <value>panelControl1</value>
+  </data>
+  <data name="&gt;&gt;ucTrackBar1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="panelControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="panelControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>795, 0</value>
+  </data>
+  <data name="panelControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 493</value>
+  </data>
+  <data name="panelControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panelControl1.Name" xml:space="preserve">
+    <value>panelControl1</value>
+  </data>
+  <data name="&gt;&gt;panelControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelControl1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="compTabKaydir1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>407, 19</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>45</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>821, 493</value>
+  </data>
+  <data name="&gt;&gt;rLueMalKategoriID.Name" xml:space="preserve">
+    <value>rLueMalKategoriID</value>
+  </data>
+  <data name="&gt;&gt;rLueMalKategoriID.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rLueMalTurID.Name" xml:space="preserve">
+    <value>rLueMalTurID</value>
+  </data>
+  <data name="&gt;&gt;rLueMalTurID.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rLueMalCinsID.Name" xml:space="preserve">
+    <value>rLueMalCinsID</value>
+  </data>
+  <data name="&gt;&gt;rLueMalCinsID.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rLueDovizTipID.Name" xml:space="preserve">
+    <value>rLueDovizTipID</value>
+  </data>
+  <data name="&gt;&gt;rLueDovizTipID.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rLueMallar.Name" xml:space="preserve">
+    <value>rLueMallar</value>
+  </data>
+  <data name="&gt;&gt;rLueMallar.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;MyRepository.Name" xml:space="preserve">
+    <value>MyRepository</value>
+  </data>
+  <data name="&gt;&gt;MyRepository.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.PersistentRepository, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rLueCariID.Name" xml:space="preserve">
+    <value>rLueCariID</value>
+  </data>
+  <data name="&gt;&gt;rLueCariID.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rLueSatisIstenmeSekliID.Name" xml:space="preserve">
+    <value>rLueSatisIstenmeSekliID</value>
+  </data>
+  <data name="&gt;&gt;rLueSatisIstenmeSekliID.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rLueSatisTuruID.Name" xml:space="preserve">
+    <value>rLueSatisTuruID</value>
+  </data>
+  <data name="&gt;&gt;rLueSatisTuruID.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemLookUpEdit8.Name" xml:space="preserve">
+    <value>repositoryItemLookUpEdit8</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemLookUpEdit8.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rSpinTutarID.Name" xml:space="preserve">
+    <value>rSpinTutarID</value>
+  </data>
+  <data name="&gt;&gt;rSpinTutarID.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemSpinEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rLueMallarID.Name" xml:space="preserve">
+    <value>rLueMallarID</value>
+  </data>
+  <data name="&gt;&gt;rLueMallarID.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemGridLookUpEdit, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemGridLookUpEdit1View.Name" xml:space="preserve">
+    <value>repositoryItemGridLookUpEdit1View</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemGridLookUpEdit1View.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;compTabKaydir1.Name" xml:space="preserve">
+    <value>compTabKaydir1</value>
+  </data>
+  <data name="&gt;&gt;compTabKaydir1.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.compTabKaydir, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ucIcraGridler</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.BaseClasses.AvpXUserControl, avpng, Version=1.1.5.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

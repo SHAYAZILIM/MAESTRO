@@ -1,0 +1,826 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="AVP_NHA_NG_test" Class="dbDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.;Initial Catalog=AVP_NHA_NG_test;Integrated Security=True" SettingsObjectName="IdentityUpdate.Properties.Settings" SettingsPropertyName="AVP_NHA_NG_testConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.TI_KOD_MAL_CINS" Member="TI_KOD_MAL_CINS">
+    <Type Name="TI_KOD_MAL_CINS">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="KATEGORI_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="KATEGORI" Type="System.String" DbType="NVarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="TUR_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TUR" Type="System.String" DbType="NVarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="CINS" Type="System.String" DbType="NVarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="SUBE_KODU" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="ADMIN_KAYIT_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_NE_ZAMAN" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_VERSIYON" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STAMP" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SUBE_KOD_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TI_KOD_MAL_TUR_TI_KOD_MAL_CINS" Member="TI_KOD_MAL_TUR" ThisKey="TUR_ID" OtherKey="ID" Type="TI_KOD_MAL_TUR" IsForeignKey="true" />
+      <Association Name="TI_KOD_MAL_KATEGORI_TI_KOD_MAL_CINS" Member="TI_KOD_MAL_KATEGORI" ThisKey="KATEGORI_ID" OtherKey="ID" Type="TI_KOD_MAL_KATEGORI" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TI_KOD_MAL_TUR" Member="TI_KOD_MAL_TUR">
+    <Type Name="TI_KOD_MAL_TUR">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="KATEGORI_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="KATEGORI" Type="System.String" DbType="NVarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="KOD" Type="System.String" DbType="NVarChar(4) NOT NULL" CanBeNull="false" />
+      <Column Name="TUR" Type="System.String" DbType="NVarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="HACIZ_EDILEMEZLIK_KODU" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="SUBE_KODU" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="ADMIN_KAYIT_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_NE_ZAMAN" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_VERSIYON" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STAMP" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SUBE_KOD_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TI_KOD_MAL_TUR_TI_KOD_MAL_CINS" Member="TI_KOD_MAL_CINS" ThisKey="ID" OtherKey="TUR_ID" Type="TI_KOD_MAL_CINS" />
+      <Association Name="TI_KOD_MAL_KATEGORI_TI_KOD_MAL_TUR" Member="TI_KOD_MAL_KATEGORI" ThisKey="KATEGORI_ID" OtherKey="ID" Type="TI_KOD_MAL_KATEGORI" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TI_KOD_MAL_KATEGORI" Member="TI_KOD_MAL_KATEGORI">
+    <Type Name="TI_KOD_MAL_KATEGORI">
+      <Column Name="ID" AutoSync="OnInsert" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="KOD" Type="System.String" DbType="NVarChar(4) NOT NULL" CanBeNull="false" />
+      <Column Name="KATEGORI" Type="System.String" DbType="NVarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="SUBE_KODU" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="ADMIN_KAYIT_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_NE_ZAMAN" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_VERSIYON" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STAMP" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SUBE_KOD_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TI_KOD_MAL_KATEGORI_TI_KOD_MAL_CINS" Member="TI_KOD_MAL_CINS" ThisKey="ID" OtherKey="KATEGORI_ID" Type="TI_KOD_MAL_CINS" />
+      <Association Name="TI_KOD_MAL_KATEGORI_TI_KOD_MAL_TUR" Member="TI_KOD_MAL_TUR" ThisKey="ID" OtherKey="KATEGORI_ID" Type="TI_KOD_MAL_TUR" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TA_KOD_ISLETIM_SIRASI" Member="TA_KOD_ISLETIM_SIRASI">
+    <Type Name="TA_KOD_ISLETIM_SIRASI">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TABLO_ADI" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="ISLETIM_SIRASI" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="RES_KODU" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="YEDEGI_ALINACAK" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="SIRKET_DATASI" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TD_KOD_DAVA_TALEP" Member="TD_KOD_DAVA_TALEP">
+    <Type Name="TD_KOD_DAVA_TALEP">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ADLI_BIRIM_BOLUM_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ADLI_BIRIM_BOLUM_KOD" Type="System.String" DbType="NVarChar(4) NOT NULL" CanBeNull="false" />
+      <Column Name="DAVA_TALEP" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="SUBE_KODU" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="ADMIN_KAYIT_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_NE_ZAMAN" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_VERSIYON" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STAMP" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SUBE_KOD_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TD_KOD_HAZIRLIK_DURUM" Member="TD_KOD_HAZIRLIK_DURUM">
+    <Type Name="TD_KOD_HAZIRLIK_DURUM">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DURUM" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="SUBE_KODU" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="ADMIN_KAYIT_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_NE_ZAMAN" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_VERSIYON" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STAMP" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SUBE_KOD_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TDI_KOD_ARAC_TIP" Member="TDI_KOD_ARAC_TIP">
+    <Type Name="TDI_KOD_ARAC_TIP">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TIP" Type="System.String" DbType="NVarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="SUBE_KODU" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="ADMIN_KAYIT_MI" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_NE_ZAMAN" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_VERSIYON" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STAMP" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="GEMI_UCAK_ARAC_TIP" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="KONTROL_KIM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SUBE_KOD_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TDI_KOD_BANKA" Member="TDI_KOD_BANKA">
+    <Type Name="TDI_KOD_BANKA">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="BANKA" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="SUBE_KODU" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="ADMIN_KAYIT_MI" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_NE_ZAMAN" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_VERSIYON" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STAMP" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="TIP_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SUBE_KOD_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TDI_KOD_BANKA_TDI_KOD_BANKA_SUBE" Member="TDI_KOD_BANKA_SUBE" ThisKey="ID" OtherKey="BANKA_ID" Type="TDI_KOD_BANKA_SUBE" />
+      <Association Name="TDI_KOD_BANKA_TDI_KOD_KREDI_GRUP" Member="TDI_KOD_KREDI_GRUP" ThisKey="ID" OtherKey="BANKA_ID" Type="TDI_KOD_KREDI_GRUP" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TDI_KOD_BANKA_BOLGE" Member="TDI_KOD_BANKA_BOLGE">
+    <Type Name="TDI_KOD_BANKA_BOLGE">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="BOLGE" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="SUBE_KODU" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="ADMIN_KAYIT_MI" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_NE_ZAMAN" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_VERSIYON" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STAMP" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SUBE_KOD_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TDI_KOD_BANKA_BOLGE_TDI_KOD_BANKA_SUBE" Member="TDI_KOD_BANKA_SUBE" ThisKey="ID" OtherKey="BOLGE_ID" Type="TDI_KOD_BANKA_SUBE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TDI_KOD_BANKA_KART_TIP" Member="TDI_KOD_BANKA_KART_TIP">
+    <Type Name="TDI_KOD_BANKA_KART_TIP">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="KART_TIPI" Type="System.String" DbType="NVarChar(16) NOT NULL" CanBeNull="false" />
+      <Column Name="SUBE_KODU" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="ADMIN_KAYIT_MI" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_NE_ZAMAN" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_VERSIYON" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STAMP" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SUBE_KOD_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TDI_KOD_BANKA_SUBE" Member="TDI_KOD_BANKA_SUBE">
+    <Type Name="TDI_KOD_BANKA_SUBE">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="BANKA_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="BANKA" Type="System.String" DbType="NVarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="BOLGE_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BOLGE" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="KODU" Type="System.String" DbType="NVarChar(16)" CanBeNull="true" />
+      <Column Name="SUBE" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="ACIKLAMA" Type="System.String" DbType="NText NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="SUBE_KODU" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="ADMIN_KAYIT_MI" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_NE_ZAMAN" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_VERSIYON" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STAMP" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="IL" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="ILCE" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="TELEFON" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="FAX" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="ADRES" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="KONTROL_KIM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SUBE_KOD_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TDI_KOD_BANKA_TDI_KOD_BANKA_SUBE" Member="TDI_KOD_BANKA" ThisKey="BANKA_ID" OtherKey="ID" Type="TDI_KOD_BANKA" IsForeignKey="true" />
+      <Association Name="TDI_KOD_BANKA_BOLGE_TDI_KOD_BANKA_SUBE" Member="TDI_KOD_BANKA_BOLGE" ThisKey="BOLGE_ID" OtherKey="ID" Type="TDI_KOD_BANKA_BOLGE" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TDI_KOD_DAVA_ADI" Member="TDI_KOD_DAVA_ADI">
+    <Type Name="TDI_KOD_DAVA_ADI">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ADLI_BIRIM_BOLUM_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ADLI_BIRIM_BOLUM_KOD" Type="System.String" DbType="NVarChar(2) NOT NULL" CanBeNull="false" />
+      <Column Name="GOREVLI_MAHKEME_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="GOREVLI_MAHKEME" Type="System.String" DbType="NVarChar(4) NOT NULL" CanBeNull="false" />
+      <Column Name="DAVA_ADI" Type="System.String" DbType="NVarChar(512) NOT NULL" CanBeNull="false" />
+      <Column Name="HARC_HESAPLANSIN_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="HARC_TIPI" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="NISPI_HARC_KOD_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NISPI_HARC_ADI" Type="System.String" DbType="NVarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="SABIT_KALEM_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="ADLI_TATILDEN_ETKILENIR_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="SUBE_KODU" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="ADMIN_KAYIT_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_NE_ZAMAN" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_VERSIYON" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STAMP" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="DAVA_ANA_KOD_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DAVA_ANA_KOD" Type="System.String" DbType="NVarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="DAVA_OZEL_KOD1_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DAVA_OZEL_KOD1" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="DAVA_OZEL_KOD2_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DAVA_OZEL_KOD2" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="DAVA_OZEL_KOD3_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DAVA_OZEL_KOD3" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="DAVA_OZEL_KOD4_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DAVA_OZEL_KOD4" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="DAVA_OZEL_KOD5_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DAVA_OZEL_KOD5" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="DAVA_OZEL_KOD6_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DAVA_OZEL_KOD6" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="DAVA_OZEL_KOD7_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DAVA_OZEL_KOD7" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="DAVA_OZEL_KOD8_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DAVA_OZEL_KOD8" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="DAVA_OZEL_KOD9_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DAVA_OZEL_KOD9" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="DAVA_OZEL_KOD10_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DAVA_OZEL_KOD10" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="REFERANS_NO" Type="System.String" DbType="NVarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="DAVA_EK_ACIKLAMA" Type="System.String" DbType="NVarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="DAVA_NOTLARI" Type="System.String" DbType="NText NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="ZAMAN_ASIMI_SURE_GUN" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ZAMAN_ASIMI_SURE_AY" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ZAMAN_ASIMI_SURE_YIL" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="HAK_DUSUMU_SURE_GUN" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="HAK_DUSUMU_SURE_AY" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="HAK_DUSUMU_SURE_YIL" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DAVA_ALT_KOD_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DAVA_ALT_KOD" Type="System.String" DbType="NVarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="YUKSEK_MAHKEME_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="YUKSEK_MAHKEME" Type="System.String" DbType="NVarChar(4) NOT NULL" CanBeNull="false" />
+      <Column Name="YUKSEK_MAHKEME_DAIRE_NO_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="YUKSEK_MAHKEME_DAIRE_NO" Type="System.String" DbType="NVarChar(4) NOT NULL" CanBeNull="false" />
+      <Column Name="YUKSEK_MAHKEME_GOREV_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="YUKSEK_MAHKEME_GOREV" Type="System.String" DbType="NVarChar(4) NOT NULL" CanBeNull="false" />
+      <Column Name="ZAMAN_ASIMI_VAR_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SUBE_KOD_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TDI_KOD_FAIZ_TIP" Member="TDI_KOD_FAIZ_TIP">
+    <Type Name="TDI_KOD_FAIZ_TIP">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FAIZ_TIP" Type="System.String" DbType="NVarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="SUBE_KODU" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="ADMIN_KAYIT_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_NE_ZAMAN" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_VERSIYON" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STAMP" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="UYAP_KOD" Type="System.String" DbType="NVarChar(16) NOT NULL" CanBeNull="false" />
+      <Column Name="UYAP_ACIKLAMA" Type="System.String" DbType="NVarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SUBE_KOD_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TDI_KOD_FIRMA_TUR" Member="TDI_KOD_FIRMA_TUR">
+    <Type Name="TDI_KOD_FIRMA_TUR">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TUR" Type="System.String" DbType="NVarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="SUBE_KODU" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="ADMIN_KAYIT_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_NE_ZAMAN" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_VERSIYON" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STAMP" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SUBE_KOD_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TDI_KOD_FORM_LISTESI" Member="TDI_KOD_FORM_LISTESI">
+    <Type Name="TDI_KOD_FORM_LISTESI">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="VB_ADI" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="FORM_ACIKLAMA" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="TREE_ACIKLAMA" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="MENU_NESNE_ADI" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="SUZME_KRITER" Type="System.String" DbType="NVarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="FORM_KOD" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DB_TABLO_ADI" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="BUTTON_GORUNUM_LIST" Type="System.String" DbType="NVarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="MODUL" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="MODUL2" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SUBE_KODU" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="ADMIN_KAYIT_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_NE_ZAMAN" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_VERSIYON" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STAMP" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SUBE_KOD_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TDI_KOD_FOY_BIRIM" Member="TDI_KOD_FOY_BIRIM">
+    <Type Name="TDI_KOD_FOY_BIRIM">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FOY_BIRIM" Type="System.String" DbType="NVarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="SUBE_KODU" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="ADMIN_KAYIT_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_NE_ZAMAN" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_VERSIYON" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STAMP" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SUBE_KOD_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TDI_KOD_FOY_BIRIM_TDI_KOD_FOY_OZEL_DURUM" Member="TDI_KOD_FOY_OZEL_DURUM" ThisKey="ID" OtherKey="FOY_BIRIM_ID" Type="TDI_KOD_FOY_OZEL_DURUM" />
+      <Association Name="TDI_KOD_FOY_BIRIM_TDI_KOD_FOY_YERI" Member="TDI_KOD_FOY_YERI" ThisKey="ID" OtherKey="FOY_BIRIM_ID" Type="TDI_KOD_FOY_YERI" />
+      <Association Name="TDI_KOD_FOY_BIRIM_TDI_KOD_TAHSILAT_DURUM" Member="TDI_KOD_TAHSILAT_DURUM" ThisKey="ID" OtherKey="FOY_BIRIM_ID" Type="TDI_KOD_TAHSILAT_DURUM" />
+      <Association Name="TDI_KOD_FOY_BIRIM_TDI_KOD_KREDI_GRUP" Member="TDI_KOD_KREDI_GRUP" ThisKey="ID" OtherKey="FOY_BIRIM_ID" Type="TDI_KOD_KREDI_GRUP" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TDI_KOD_FOY_DURUM" Member="TDI_KOD_FOY_DURUM">
+    <Type Name="TDI_KOD_FOY_DURUM">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DURUM" Type="System.String" DbType="NVarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="SUBE_KODU" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="ADMIN_KAYIT_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_NE_ZAMAN" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_VERSIYON" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STAMP" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SUBE_KOD_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TDI_KOD_FOY_OZEL_DURUM" Member="TDI_KOD_FOY_OZEL_DURUM">
+    <Type Name="TDI_KOD_FOY_OZEL_DURUM">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FOY_BIRIM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FOY_BIRIM" Type="System.String" DbType="NVarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="FOY_OZEL_DURUM" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="SUBE_KODU" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="ADMIN_KAYIT_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_NE_ZAMAN" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_VERSIYON" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STAMP" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SUBE_KOD_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TDI_KOD_FOY_BIRIM_TDI_KOD_FOY_OZEL_DURUM" Member="TDI_KOD_FOY_BIRIM" ThisKey="FOY_BIRIM_ID" OtherKey="ID" Type="TDI_KOD_FOY_BIRIM" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TDI_KOD_FOY_YERI" Member="TDI_KOD_FOY_YERI">
+    <Type Name="TDI_KOD_FOY_YERI">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FOY_BIRIM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FOY_BIRIM" Type="System.String" DbType="NVarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="FOY_YERI" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="SUBE_KODU" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="ADMIN_KAYIT_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_NE_ZAMAN" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_VERSIYON" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STAMP" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SUBE_KOD_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TDI_KOD_FOY_BIRIM_TDI_KOD_FOY_YERI" Member="TDI_KOD_FOY_BIRIM" ThisKey="FOY_BIRIM_ID" OtherKey="ID" Type="TDI_KOD_FOY_BIRIM" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TDI_KOD_IL" Member="TDI_KOD_IL">
+    <Type Name="TDI_KOD_IL">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ULKE_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ULKE" Type="System.String" DbType="NVarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="IL" Type="System.String" DbType="NVarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="PLAKA_NO" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="SUBE_KODU" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="ADMIN_KAYIT_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_NE_ZAMAN" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_VERSIYON" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STAMP" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SUBE_KOD_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TDI_KOD_IL_TDI_KOD_ILCE" Member="TDI_KOD_ILCE" ThisKey="ID" OtherKey="IL_ID" Type="TDI_KOD_ILCE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TDI_KOD_ILCE" Member="TDI_KOD_ILCE">
+    <Type Name="TDI_KOD_ILCE">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="IL_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="IL" Type="System.String" DbType="NVarChar(32)" CanBeNull="true" />
+      <Column Name="ILCE" Type="System.String" DbType="NVarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="SUBE_KODU" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="ADMIN_KAYIT_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_NE_ZAMAN" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_VERSIYON" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STAMP" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="KOD" Type="System.String" DbType="NVarChar(3) NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SUBE_KOD_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TDI_KOD_IL_TDI_KOD_ILCE" Member="TDI_KOD_IL" ThisKey="IL_ID" OtherKey="ID" Type="TDI_KOD_IL" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TDI_KOD_IS_TARAF" Member="TDI_KOD_IS_TARAF">
+    <Type Name="TDI_KOD_IS_TARAF">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="IS_TARAF" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="SUBE_KODU" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="ADMIN_KAYIT_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_NE_ZAMAN" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_VERSIYON" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STAMP" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SUBE_KOD_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TDI_KOD_KIYMETLI_EVRAK_TARAF_TIP" Member="TDI_KOD_KIYMETLI_EVRAK_TARAF_TIP">
+    <Type Name="TDI_KOD_KIYMETLI_EVRAK_TARAF_TIP">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TARAF_TIP" Type="System.String" DbType="NVarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="SUBE_KODU" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="ADMIN_KAYIT_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_NE_ZAMAN" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_VERSIYON" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STAMP" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SUBE_KOD_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TDI_KOD_MESLEK" Member="TDI_KOD_MESLEK">
+    <Type Name="TDI_KOD_MESLEK">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="MESLEK" Type="System.String" DbType="NVarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="SUBE_KODU" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="ADMIN_KAYIT_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_NE_ZAMAN" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_VERSIYON" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STAMP" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SUBE_KOD_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TDI_KOD_MUHASEBE_HAREKET_ANA_KATEGORI" Member="TDI_KOD_MUHASEBE_HAREKET_ANA_KATEGORI">
+    <Type Name="TDI_KOD_MUHASEBE_HAREKET_ANA_KATEGORI">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ANA_KATEGORI" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="GORUNECEK_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="SUBE_KODU" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="ADMIN_KAYIT_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_NE_ZAMAN" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_VERSIYON" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STAMP" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="CARI_BORCU_MU" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SUBE_KOD_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TDI_KOD_MUHASEBE_HAREKET_ANA_KATEGORI_TDI_KOD_MUHASEBE_HAREKET_ALT_KATEGORI" Member="TDI_KOD_MUHASEBE_HAREKET_ALT_KATEGORI" ThisKey="ID" OtherKey="ANA_KATEGORI_ID" Type="TDI_KOD_MUHASEBE_HAREKET_ALT_KATEGORI" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TDI_KOD_ODEME_TIP" Member="TDI_KOD_ODEME_TIP">
+    <Type Name="TDI_KOD_ODEME_TIP">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ODEME_TIP" Type="System.String" DbType="NVarChar(16) NOT NULL" CanBeNull="false" />
+      <Column Name="LIKIT_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="SUBE_KODU" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="ADMIN_KAYIT_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_NE_ZAMAN" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_VERSIYON" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STAMP" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SUBE_KOD_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TDI_KOD_OZEL_TUTAR_KONU" Member="TDI_KOD_OZEL_TUTAR_KONU">
+    <Type Name="TDI_KOD_OZEL_TUTAR_KONU">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="KONU" Type="System.String" DbType="NVarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="SUBE_KODU" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="ADMIN_KAYIT_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_NE_ZAMAN" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_VERSIYON" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STAMP" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SUBE_KOD_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TDI_KOD_POLICE_BRANS" Member="TDI_KOD_POLICE_BRANS">
+    <Type Name="TDI_KOD_POLICE_BRANS">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="POLICE_BRANS" Type="System.String" DbType="NVarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="SUBE_KODU" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="ADMIN_KAYIT_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_NE_ZAMAN" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_VERSIYON" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STAMP" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SUBE_KOD_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TDI_KOD_SOZLESME_ALT_TIP" Member="TDI_KOD_SOZLESME_ALT_TIP">
+    <Type Name="TDI_KOD_SOZLESME_ALT_TIP">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ANA_TIP_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ANA_TIP" Type="System.String" DbType="NVarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="ALT_TIP" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="SUBE_KODU" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="ADMIN_KAYIT_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_NE_ZAMAN" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_VERSIYON" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STAMP" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SUBE_KOD_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TDI_KOD_SOZLESME_TIP_TDI_KOD_SOZLESME_ALT_TIP" Member="TDI_KOD_SOZLESME_TIP" ThisKey="ANA_TIP_ID" OtherKey="ID" Type="TDI_KOD_SOZLESME_TIP" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TDI_KOD_SOZLESME_DURUM" Member="TDI_KOD_SOZLESME_DURUM">
+    <Type Name="TDI_KOD_SOZLESME_DURUM">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="SOZLESME_DURUM" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="SUBE_KODU" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="ADMIN_KAYIT_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_NE_ZAMAN" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_VERSIYON" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STAMP" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SUBE_KOD_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TDI_KOD_SOZLESME_OZEL" Member="TDI_KOD_SOZLESME_OZEL">
+    <Type Name="TDI_KOD_SOZLESME_OZEL">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="SOZLESME_OZEL" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="SUBE_KODU" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="ADMIN_KAYIT_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_NE_ZAMAN" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_VERSIYON" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STAMP" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SUBE_KOD_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TDI_KOD_SOZLESME_TARAF_SIFAT" Member="TDI_KOD_SOZLESME_TARAF_SIFAT">
+    <Type Name="TDI_KOD_SOZLESME_TARAF_SIFAT">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TARAF_SIFAT" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="SUBE_KODU" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="ADMIN_KAYIT_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_NE_ZAMAN" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_VERSIYON" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STAMP" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SUBE_KOD_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TDI_KOD_SOZLESME_TIP" Member="TDI_KOD_SOZLESME_TIP">
+    <Type Name="TDI_KOD_SOZLESME_TIP">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TIP" Type="System.String" DbType="NVarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="SUBE_KODU" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="ADMIN_KAYIT_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_NE_ZAMAN" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_VERSIYON" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STAMP" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SUBE_KOD_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TDI_KOD_SOZLESME_TIP_TDI_KOD_SOZLESME_ALT_TIP" Member="TDI_KOD_SOZLESME_ALT_TIP" ThisKey="ID" OtherKey="ANA_TIP_ID" Type="TDI_KOD_SOZLESME_ALT_TIP" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TDI_KOD_SURE_OZEL" Member="TDI_KOD_SURE_OZEL">
+    <Type Name="TDI_KOD_SURE_OZEL">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="SURE_OZEL" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="SUBE_KODU" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="ADMIN_KAYIT_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_NE_ZAMAN" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_VERSIYON" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STAMP" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SUBE_KOD_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TDI_KOD_TAHSILAT_DURUM" Member="TDI_KOD_TAHSILAT_DURUM">
+    <Type Name="TDI_KOD_TAHSILAT_DURUM">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FOY_BIRIM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FOY_BIRIM" Type="System.String" DbType="NVarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="TAHSILAT_DURUM" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="SUBE_KODU" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="ADMIN_KAYIT_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_NE_ZAMAN" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_VERSIYON" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STAMP" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SUBE_KOD_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TDI_KOD_FOY_BIRIM_TDI_KOD_TAHSILAT_DURUM" Member="TDI_KOD_FOY_BIRIM" ThisKey="FOY_BIRIM_ID" OtherKey="ID" Type="TDI_KOD_FOY_BIRIM" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TDIE_KOD_SABLON" Member="TDIE_KOD_SABLON">
+    <Type Name="TDIE_KOD_SABLON">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ADI" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="SABLON_DOSYA_ADI" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="KATEGORI_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="KATEGORI" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="ALT_KATEGORI_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ALT_KATEGORI" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="VERSIYONU" Type="System.String" DbType="NVarChar(16) NOT NULL" CanBeNull="false" />
+      <Column Name="LISTE_YERI" Type="System.String" DbType="NVarChar(3) NOT NULL" CanBeNull="false" />
+      <Column Name="OTOMATIK_YAZDIRILABILIR" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="ICERIK" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="CHECK_OUT_USER" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CHECK_OUT_USER_NAME" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="CHECK_OUT_TIME" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SUBE_KODU" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="ADMIN_KAYIT_MI" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_NE_ZAMAN" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_VERSIYON" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STAMP" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SUBE_KOD_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TDIE_KOD_SABLON_ALT_KATEGORI" Member="TDIE_KOD_SABLON_ALT_KATEGORI">
+    <Type Name="TDIE_KOD_SABLON_ALT_KATEGORI">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ANA_KATEGORI_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ADI" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="LISTE_YERI" Type="System.String" DbType="NVarChar(3) NOT NULL" CanBeNull="false" />
+      <Column Name="ALT_KATEGORI_SIRASI" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="SUBE_KODU" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="ADMIN_KAYIT_MI" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_NE_ZAMAN" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_VERSIYON" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STAMP" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SUBE_KOD_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TDIE_KOD_TARAF_SIFAT" Member="TDIE_KOD_TARAF_SIFAT">
+    <Type Name="TDIE_KOD_TARAF_SIFAT">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="MODUL" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="MODUL_ACIKLAMA" Type="System.Char" DbType="NVarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="ADLI_BIRIM_BOLUM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ADLI_BIRIM_BOLUM_KOD" Type="System.String" DbType="NVarChar(4) NOT NULL" CanBeNull="false" />
+      <Column Name="SIFAT" Type="System.String" DbType="NVarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="HANGI_TARAF_NO" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="HANGI_TARAFI" Type="System.String" DbType="NVarChar(16) NOT NULL" CanBeNull="false" />
+      <Column Name="SUBE_KODU" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="ADMIN_KAYIT_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_NE_ZAMAN" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_VERSIYON" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STAMP" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="UYAP_KOD" Type="System.String" DbType="NVarChar(16) NOT NULL" CanBeNull="false" />
+      <Column Name="UYAP_ACIKLAMA" Type="System.String" DbType="NVarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SUBE_KOD_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TI_KOD_ALACAK_NEDEN" Member="TI_KOD_ALACAK_NEDEN">
+    <Type Name="TI_KOD_ALACAK_NEDEN">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TAKIP_TALEP_KOD_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TAKIP_TALEP_KODU" Type="System.String" DbType="NVarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="FORM_TIPI" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="ALACAK_NEDENI" Type="System.String" DbType="NVarChar(48) NOT NULL" CanBeNull="false" />
+      <Column Name="SUBE_KODU" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="ADMIN_KAYIT_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_NE_ZAMAN" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_VERSIYON" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STAMP" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="NAKTI_GAYRINAKTI" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="DEPO_ALACAGI" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ALACAK_NEDEN_GRUP_NO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FORM_TIP_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="KONTROL_KIM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SUBE_KOD_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TI_KOD_FOY_GELISME_ADIM" Member="TI_KOD_FOY_GELISME_ADIM">
+    <Type Name="TI_KOD_FOY_GELISME_ADIM">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="GELISME_ADIM" Type="System.String" DbType="NVarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="SUBE_KODU" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="ADMIN_KAYIT_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_NE_ZAMAN" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_VERSIYON" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STAMP" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SUBE_KOD_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.IU_ID_BACKUP" Member="IU_ID_BACKUP">
+    <Type Name="IU_ID_BACKUP">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TableName" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="OldID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NewID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="OperationTime" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TDI_KOD_TEBLIGAT_KONU" Member="TDI_KOD_TEBLIGAT_KONU">
+    <Type Name="TDI_KOD_TEBLIGAT_KONU">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ANA_TUR_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ANA_TUR" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="ALT_TUR_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ALT_TUR" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="KONU" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="MODUL" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="ADLI_BIRIM_BOLUM_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ADLI_BIRIM_BOLUM_KOD" Type="System.String" DbType="NVarChar(4) NOT NULL" CanBeNull="false" />
+      <Column Name="SUBE_KODU" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="ADMIN_KAYIT_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_NE_ZAMAN" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_VERSIYON" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STAMP" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="SABLON_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Sablon_Rapor_Id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MUHATAP_YABANCI_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="ILK_TEBLIGAT_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SUBE_KOD_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TDI_KOD_KREDI_GRUP" Member="TDI_KOD_KREDI_GRUP">
+    <Type Name="TDI_KOD_KREDI_GRUP">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FOY_BIRIM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FOY_BIRIM" Type="System.String" DbType="NVarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="KREDI_GRUP" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="SUBE_KODU" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="ADMIN_KAYIT_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_NE_ZAMAN" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_VERSIYON" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STAMP" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SUBE_KOD_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BANKA_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TDI_KOD_BANKA_TDI_KOD_KREDI_GRUP" Member="TDI_KOD_BANKA" ThisKey="BANKA_ID" OtherKey="ID" Type="TDI_KOD_BANKA" IsForeignKey="true" />
+      <Association Name="TDI_KOD_FOY_BIRIM_TDI_KOD_KREDI_GRUP" Member="TDI_KOD_FOY_BIRIM" ThisKey="FOY_BIRIM_ID" OtherKey="ID" Type="TDI_KOD_FOY_BIRIM" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TDI_KOD_MUHASEBE_HAREKET_ALT_KATEGORI" Member="TDI_KOD_MUHASEBE_HAREKET_ALT_KATEGORI">
+    <Type Name="TDI_KOD_MUHASEBE_HAREKET_ALT_KATEGORI">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ANA_KATEGORI_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ANA_KATEGORI" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="ALT_KATEGORI" Type="System.String" DbType="NVarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="MANUAL_KAYIT_YAPABILIR_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="MAKTU_VEKALET_KOD_NO" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="HESAPLANACAKMI_KDV" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="HESAPLANACAKMI_STOPAJ_SSDF" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="ICINDEMI_KDV" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="ICINDEMI_STOPAJ_SSDF" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="DEGISTIREBILIRMI_HESAPLANACAKMI_KDV" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="DEGISTIREBILIRMI_HESAPLANACAKMI_STOPAJ_SSDF" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="DEGISTIREBILIRMI_ICINDEMI_KDV" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="DEGISTIREBILIRMI_ICINDEMI_STOPAJ_SSDF" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="TEKDUZEN_HESAP_KOD" Type="System.String" DbType="NVarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="KDV_TUR_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="KDV_TUR" Type="System.String" DbType="NVarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="ICON" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="SUBE_KODU" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="ADMIN_KAYIT_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_NE_ZAMAN" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_VERSIYON" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STAMP" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="TO_HESAP_CETVEL_YERI" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TS_HESAP_CETVEL_YERI" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DO_HESAP_CETVEL_YERI" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DS_HESAP_CETVEL_YERI" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="KOLAY_SIRA" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="GORUSME_MI" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="KONTROL_KIM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SUBE_KOD_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TDI_KOD_MUHASEBE_HAREKET_ANA_KATEGORI_TDI_KOD_MUHASEBE_HAREKET_ALT_KATEGORI" Member="TDI_KOD_MUHASEBE_HAREKET_ANA_KATEGORI" ThisKey="ANA_KATEGORI_ID" OtherKey="ID" Type="TDI_KOD_MUHASEBE_HAREKET_ANA_KATEGORI" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.ID_UPDATE_Table_GET_LIST" Method="ID_UPDATE_Table_GET_LIST">
+    <ElementType Name="ID_UPDATE_Table_GET_LIST_Result">
+      <Column Name="TableName" Type="System.String" DbType="NVarChar(128)" CanBeNull="false" />
+      <Column Name="MaxID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="true" />
+      <Column Name="MinID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.ID_UPDATE_TABLE_GET_RELATIONS" Method="ID_UPDATE_TABLE_GET_RELATIONS">
+    <Parameter Name="TableName" Parameter="tableName" Type="System.String" DbType="NVarChar(128)" />
+    <ElementType Name="ID_UPDATE_TABLE_GET_RELATIONSResult">
+      <Column Name="RelatedTable" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="MainTable" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="RelatedColumn" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="MainColumn" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.ID_UPDATE_TABLE_INDEXES_ON_OFF" Method="ID_UPDATE_TABLE_INDEXES_ON_OFF">
+    <Parameter Name="TableName" Parameter="tableName" Type="System.String" DbType="NVarChar(128)" />
+    <Parameter Name="Operation" Parameter="operation" Type="System.String" DbType="NVarChar(3)" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

@@ -1,0 +1,360 @@
+2016-02-19 11:39:43.8760 Hata 
+ The number of parameters does not match number of values for stored procedure. System.InvalidOperationException InvalidOperationException System.InvalidOperationException: The number of parameters does not match number of values for stored procedure.
+   konum: AvukatProLib.Hesap.MuhasebeAraclari.SetFoyMuhasebeByMasrafAvans(Int32 masrafAvansId, Int32 tipId) d:\emre adým adým\AdimAdimDavaKaydi\AvukatProLib.Hesap\MuhasebeAraclari.cs içinde: satýr 162
+   konum: AvukatPro.Services.Implementations.MuhasebeService.CreateFoyMuhasebeByMasrafAvans(CreateFoyMuhasebeByMasrafAvansRequest request) d:\emre adým adým\AdimAdimDavaKaydi\AvukatPro.Services\Implementations\MuhasebeService.cs içinde: satýr 62
+   konum: AdimAdimDavaKaydi.IcraTakipForms.frmMasrafAvansKayitHizli.frmMasrafAvansKayitHizli_Button_Kaydet_Click(Object sender, EventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\IcraTakipForms\frmMasrafAvansKayitHizli.cs içinde: satýr 1182 Void SetFoyMuhasebeByMasrafAvans(Int32, Int32)    konum: AvukatProLib.Hesap.MuhasebeAraclari.SetFoyMuhasebeByMasrafAvans(Int32 masrafAvansId, Int32 tipId) d:\emre adým adým\AdimAdimDavaKaydi\AvukatProLib.Hesap\MuhasebeAraclari.cs içinde: satýr 162
+   konum: AvukatPro.Services.Implementations.MuhasebeService.CreateFoyMuhasebeByMasrafAvans(CreateFoyMuhasebeByMasrafAvansRequest request) d:\emre adým adým\AdimAdimDavaKaydi\AvukatPro.Services\Implementations\MuhasebeService.cs içinde: satýr 62
+   konum: AdimAdimDavaKaydi.IcraTakipForms.frmMasrafAvansKayitHizli.frmMasrafAvansKayitHizli_Button_Kaydet_Click(Object sender, EventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\IcraTakipForms\frmMasrafAvansKayitHizli.cs içinde: satýr 1182
+2016-02-19 11:48:37.1015 Hata 
+ The number of parameters does not match number of values for stored procedure. System.InvalidOperationException InvalidOperationException System.InvalidOperationException: The number of parameters does not match number of values for stored procedure.
+   konum: AvukatProLib.Hesap.MuhasebeAraclari.SetFoyMuhasebeByMasrafAvans(Int32 masrafAvansId, Int32 tipId) d:\emre adým adým\AdimAdimDavaKaydi\AvukatProLib.Hesap\MuhasebeAraclari.cs içinde: satýr 162
+   konum: AvukatPro.Services.Implementations.MuhasebeService.CreateFoyMuhasebeByMasrafAvans(CreateFoyMuhasebeByMasrafAvansRequest request) d:\emre adým adým\AdimAdimDavaKaydi\AvukatPro.Services\Implementations\MuhasebeService.cs içinde: satýr 62
+   konum: AdimAdimDavaKaydi.IcraTakipForms.frmMasrafAvansKayitHizli.frmMasrafAvansKayitHizli_Button_Kaydet_Click(Object sender, EventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\IcraTakipForms\frmMasrafAvansKayitHizli.cs içinde: satýr 1182 Void SetFoyMuhasebeByMasrafAvans(Int32, Int32)    konum: AvukatProLib.Hesap.MuhasebeAraclari.SetFoyMuhasebeByMasrafAvans(Int32 masrafAvansId, Int32 tipId) d:\emre adým adým\AdimAdimDavaKaydi\AvukatProLib.Hesap\MuhasebeAraclari.cs içinde: satýr 162
+   konum: AvukatPro.Services.Implementations.MuhasebeService.CreateFoyMuhasebeByMasrafAvans(CreateFoyMuhasebeByMasrafAvansRequest request) d:\emre adým adým\AdimAdimDavaKaydi\AvukatPro.Services\Implementations\MuhasebeService.cs içinde: satýr 62
+   konum: AdimAdimDavaKaydi.IcraTakipForms.frmMasrafAvansKayitHizli.frmMasrafAvansKayitHizli_Button_Kaydet_Click(Object sender, EventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\IcraTakipForms\frmMasrafAvansKayitHizli.cs içinde: satýr 1182
+2016-02-19 11:49:03.2640 Hata 
+ The number of parameters does not match number of values for stored procedure. System.InvalidOperationException InvalidOperationException System.InvalidOperationException: The number of parameters does not match number of values for stored procedure.
+   konum: AvukatProLib.Hesap.MuhasebeAraclari.SetFoyMuhasebeByMasrafAvans(Int32 masrafAvansId, Int32 tipId) d:\emre adým adým\AdimAdimDavaKaydi\AvukatProLib.Hesap\MuhasebeAraclari.cs içinde: satýr 162
+   konum: AvukatPro.Services.Implementations.MuhasebeService.CreateFoyMuhasebeByMasrafAvans(CreateFoyMuhasebeByMasrafAvansRequest request) d:\emre adým adým\AdimAdimDavaKaydi\AvukatPro.Services\Implementations\MuhasebeService.cs içinde: satýr 62
+   konum: AdimAdimDavaKaydi.IcraTakipForms.frmMasrafAvansKayitHizli.frmMasrafAvansKayitHizli_Button_Kaydet_Click(Object sender, EventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\IcraTakipForms\frmMasrafAvansKayitHizli.cs içinde: satýr 1182 Void SetFoyMuhasebeByMasrafAvans(Int32, Int32)    konum: AvukatProLib.Hesap.MuhasebeAraclari.SetFoyMuhasebeByMasrafAvans(Int32 masrafAvansId, Int32 tipId) d:\emre adým adým\AdimAdimDavaKaydi\AvukatProLib.Hesap\MuhasebeAraclari.cs içinde: satýr 162
+   konum: AvukatPro.Services.Implementations.MuhasebeService.CreateFoyMuhasebeByMasrafAvans(CreateFoyMuhasebeByMasrafAvansRequest request) d:\emre adým adým\AdimAdimDavaKaydi\AvukatPro.Services\Implementations\MuhasebeService.cs içinde: satýr 62
+   konum: AdimAdimDavaKaydi.IcraTakipForms.frmMasrafAvansKayitHizli.frmMasrafAvansKayitHizli_Button_Kaydet_Click(Object sender, EventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\IcraTakipForms\frmMasrafAvansKayitHizli.cs içinde: satýr 1182
+2016-02-19 11:50:36.5263 Hata 
+ The number of parameters does not match number of values for stored procedure. System.InvalidOperationException InvalidOperationException System.InvalidOperationException: The number of parameters does not match number of values for stored procedure.
+   konum: AvukatProLib.Hesap.MuhasebeAraclari.SetFoyMuhasebeByMasrafAvans(Int32 masrafAvansId, Int32 tipId) d:\emre adým adým\AdimAdimDavaKaydi\AvukatProLib.Hesap\MuhasebeAraclari.cs içinde: satýr 162
+   konum: AvukatPro.Services.Implementations.MuhasebeService.CreateFoyMuhasebeByMasrafAvans(CreateFoyMuhasebeByMasrafAvansRequest request) d:\emre adým adým\AdimAdimDavaKaydi\AvukatPro.Services\Implementations\MuhasebeService.cs içinde: satýr 62
+   konum: AdimAdimDavaKaydi.IcraTakipForms.frmMasrafAvansKayitHizli.frmMasrafAvansKayitHizli_Button_Kaydet_Click(Object sender, EventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\IcraTakipForms\frmMasrafAvansKayitHizli.cs içinde: satýr 1182 Void SetFoyMuhasebeByMasrafAvans(Int32, Int32)    konum: AvukatProLib.Hesap.MuhasebeAraclari.SetFoyMuhasebeByMasrafAvans(Int32 masrafAvansId, Int32 tipId) d:\emre adým adým\AdimAdimDavaKaydi\AvukatProLib.Hesap\MuhasebeAraclari.cs içinde: satýr 162
+   konum: AvukatPro.Services.Implementations.MuhasebeService.CreateFoyMuhasebeByMasrafAvans(CreateFoyMuhasebeByMasrafAvansRequest request) d:\emre adým adým\AdimAdimDavaKaydi\AvukatPro.Services\Implementations\MuhasebeService.cs içinde: satýr 62
+   konum: AdimAdimDavaKaydi.IcraTakipForms.frmMasrafAvansKayitHizli.frmMasrafAvansKayitHizli_Button_Kaydet_Click(Object sender, EventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\IcraTakipForms\frmMasrafAvansKayitHizli.cs içinde: satýr 1182
+2016-02-19 11:53:43.1530 Hata 
+ The number of parameters does not match number of values for stored procedure. System.InvalidOperationException InvalidOperationException System.InvalidOperationException: The number of parameters does not match number of values for stored procedure.
+   konum: AvukatProLib.Hesap.MuhasebeAraclari.SetFoyMuhasebeByMasrafAvans(Int32 masrafAvansId, Int32 tipId) d:\emre adým adým\AdimAdimDavaKaydi\AvukatProLib.Hesap\MuhasebeAraclari.cs içinde: satýr 162
+   konum: AvukatPro.Services.Implementations.MuhasebeService.CreateFoyMuhasebeByMasrafAvans(CreateFoyMuhasebeByMasrafAvansRequest request) d:\emre adým adým\AdimAdimDavaKaydi\AvukatPro.Services\Implementations\MuhasebeService.cs içinde: satýr 62
+   konum: AdimAdimDavaKaydi.IcraTakipForms.frmMasrafAvansKayitHizli.frmMasrafAvansKayitHizli_Button_Kaydet_Click(Object sender, EventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\IcraTakipForms\frmMasrafAvansKayitHizli.cs içinde: satýr 1182 Void SetFoyMuhasebeByMasrafAvans(Int32, Int32)    konum: AvukatProLib.Hesap.MuhasebeAraclari.SetFoyMuhasebeByMasrafAvans(Int32 masrafAvansId, Int32 tipId) d:\emre adým adým\AdimAdimDavaKaydi\AvukatProLib.Hesap\MuhasebeAraclari.cs içinde: satýr 162
+   konum: AvukatPro.Services.Implementations.MuhasebeService.CreateFoyMuhasebeByMasrafAvans(CreateFoyMuhasebeByMasrafAvansRequest request) d:\emre adým adým\AdimAdimDavaKaydi\AvukatPro.Services\Implementations\MuhasebeService.cs içinde: satýr 62
+   konum: AdimAdimDavaKaydi.IcraTakipForms.frmMasrafAvansKayitHizli.frmMasrafAvansKayitHizli_Button_Kaydet_Click(Object sender, EventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\IcraTakipForms\frmMasrafAvansKayitHizli.cs içinde: satýr 1182
+2016-02-19 12:01:44.7625 Hata 
+ The number of parameters does not match number of values for stored procedure. System.InvalidOperationException InvalidOperationException System.InvalidOperationException: The number of parameters does not match number of values for stored procedure.
+   konum: AvukatProLib.Hesap.MuhasebeAraclari.SetFoyMuhasebeByMasrafAvans(Int32 masrafAvansId, Int32 tipId) d:\emre adým adým\AdimAdimDavaKaydi\AvukatProLib.Hesap\MuhasebeAraclari.cs içinde: satýr 162
+   konum: AvukatPro.Services.Implementations.MuhasebeService.CreateFoyMuhasebeByMasrafAvans(CreateFoyMuhasebeByMasrafAvansRequest request) d:\emre adým adým\AdimAdimDavaKaydi\AvukatPro.Services\Implementations\MuhasebeService.cs içinde: satýr 62
+   konum: AdimAdimDavaKaydi.IcraTakipForms.frmMasrafAvansKayitHizli.frmMasrafAvansKayitHizli_Button_Kaydet_Click(Object sender, EventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\IcraTakipForms\frmMasrafAvansKayitHizli.cs içinde: satýr 1182 Void SetFoyMuhasebeByMasrafAvans(Int32, Int32)    konum: AvukatProLib.Hesap.MuhasebeAraclari.SetFoyMuhasebeByMasrafAvans(Int32 masrafAvansId, Int32 tipId) d:\emre adým adým\AdimAdimDavaKaydi\AvukatProLib.Hesap\MuhasebeAraclari.cs içinde: satýr 162
+   konum: AvukatPro.Services.Implementations.MuhasebeService.CreateFoyMuhasebeByMasrafAvans(CreateFoyMuhasebeByMasrafAvansRequest request) d:\emre adým adým\AdimAdimDavaKaydi\AvukatPro.Services\Implementations\MuhasebeService.cs içinde: satýr 62
+   konum: AdimAdimDavaKaydi.IcraTakipForms.frmMasrafAvansKayitHizli.frmMasrafAvansKayitHizli_Button_Kaydet_Click(Object sender, EventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\IcraTakipForms\frmMasrafAvansKayitHizli.cs içinde: satýr 1182
+2016-02-19 12:10:15.7858 Hata 
+ Nesne baþvurusu bir nesnenin örneðine ayarlanmadý. System.NullReferenceException NullReferenceException System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: AvukatPro.Services.Implementations.DevExpressService.slue_Closed(Object sender, ClosedEventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AvukatPro.Services\Implementations\DevExpressService.cs içinde: satýr 492
+   konum: DevExpress.XtraEditors.Repository.RepositoryItemPopupBase.RaiseClosed(ClosedEventArgs e)
+   konum: DevExpress.XtraEditors.PopupBaseEdit.OnPopupClosed(PopupCloseMode closeMode)
+   konum: DevExpress.XtraEditors.GridLookUpEditBase.OnPopupClosed(PopupCloseMode closeMode)
+   konum: DevExpress.XtraEditors.PopupBaseEdit.DoClosePopup(PopupCloseMode closeMode)
+   konum: DevExpress.XtraEditors.PopupBaseEdit.ClosePopup(PopupCloseMode closeMode)
+   konum: DevExpress.XtraEditors.PopupBaseEdit.<DevExpress.Utils.Win.IPopupControl.ClosePopup>b__0()
+   konum: System.Windows.Forms.Control.InvokeMarshaledCallbackHelper(Object obj)
+   konum: System.Threading.ExecutionContext.runTryCode(Object userData)
+   konum: System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   konum: System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   konum: System.Windows.Forms.Control.InvokeMarshaledCallback(ThreadMethodEntry tme)
+   konum: System.Windows.Forms.Control.InvokeMarshaledCallbacks() Void slue_Closed(System.Object, DevExpress.XtraEditors.Controls.ClosedEventArgs)    konum: AvukatPro.Services.Implementations.DevExpressService.slue_Closed(Object sender, ClosedEventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AvukatPro.Services\Implementations\DevExpressService.cs içinde: satýr 492
+   konum: DevExpress.XtraEditors.Repository.RepositoryItemPopupBase.RaiseClosed(ClosedEventArgs e)
+   konum: DevExpress.XtraEditors.PopupBaseEdit.OnPopupClosed(PopupCloseMode closeMode)
+   konum: DevExpress.XtraEditors.GridLookUpEditBase.OnPopupClosed(PopupCloseMode closeMode)
+   konum: DevExpress.XtraEditors.PopupBaseEdit.DoClosePopup(PopupCloseMode closeMode)
+   konum: DevExpress.XtraEditors.PopupBaseEdit.ClosePopup(PopupCloseMode closeMode)
+   konum: DevExpress.XtraEditors.PopupBaseEdit.<DevExpress.Utils.Win.IPopupControl.ClosePopup>b__0()
+   konum: System.Windows.Forms.Control.InvokeMarshaledCallbackHelper(Object obj)
+   konum: System.Threading.ExecutionContext.runTryCode(Object userData)
+   konum: System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   konum: System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   konum: System.Windows.Forms.Control.InvokeMarshaledCallback(ThreadMethodEntry tme)
+   konum: System.Windows.Forms.Control.InvokeMarshaledCallbacks()
+2016-02-19 12:11:25.1447 Hata 
+ The number of parameters does not match number of values for stored procedure. System.InvalidOperationException InvalidOperationException System.InvalidOperationException: The number of parameters does not match number of values for stored procedure.
+   konum: AvukatProLib.Hesap.MuhasebeAraclari.SetFoyMuhasebeByMasrafAvans(Int32 masrafAvansId, Int32 tipId) d:\emre adým adým\AdimAdimDavaKaydi\AvukatProLib.Hesap\MuhasebeAraclari.cs içinde: satýr 162
+   konum: AvukatPro.Services.Implementations.MuhasebeService.CreateFoyMuhasebeByMasrafAvans(CreateFoyMuhasebeByMasrafAvansRequest request) d:\emre adým adým\AdimAdimDavaKaydi\AvukatPro.Services\Implementations\MuhasebeService.cs içinde: satýr 62
+   konum: AdimAdimDavaKaydi.IcraTakipForms.frmMasrafAvansKayitHizli.frmMasrafAvansKayitHizli_Button_Kaydet_Click(Object sender, EventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\IcraTakipForms\frmMasrafAvansKayitHizli.cs içinde: satýr 1182 Void SetFoyMuhasebeByMasrafAvans(Int32, Int32)    konum: AvukatProLib.Hesap.MuhasebeAraclari.SetFoyMuhasebeByMasrafAvans(Int32 masrafAvansId, Int32 tipId) d:\emre adým adým\AdimAdimDavaKaydi\AvukatProLib.Hesap\MuhasebeAraclari.cs içinde: satýr 162
+   konum: AvukatPro.Services.Implementations.MuhasebeService.CreateFoyMuhasebeByMasrafAvans(CreateFoyMuhasebeByMasrafAvansRequest request) d:\emre adým adým\AdimAdimDavaKaydi\AvukatPro.Services\Implementations\MuhasebeService.cs içinde: satýr 62
+   konum: AdimAdimDavaKaydi.IcraTakipForms.frmMasrafAvansKayitHizli.frmMasrafAvansKayitHizli_Button_Kaydet_Click(Object sender, EventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\IcraTakipForms\frmMasrafAvansKayitHizli.cs içinde: satýr 1182
+2016-02-19 12:12:08.9142 Hata 
+ Nesne baþvurusu bir nesnenin örneðine ayarlanmadý. System.NullReferenceException NullReferenceException System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: AvukatPro.Services.Implementations.DevExpressService.slue_Closed(Object sender, ClosedEventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AvukatPro.Services\Implementations\DevExpressService.cs içinde: satýr 492
+   konum: DevExpress.XtraEditors.Repository.RepositoryItemPopupBase.RaiseClosed(ClosedEventArgs e)
+   konum: DevExpress.XtraEditors.PopupBaseEdit.OnPopupClosed(PopupCloseMode closeMode)
+   konum: DevExpress.XtraEditors.GridLookUpEditBase.OnPopupClosed(PopupCloseMode closeMode)
+   konum: DevExpress.XtraEditors.PopupBaseEdit.DoClosePopup(PopupCloseMode closeMode)
+   konum: DevExpress.XtraEditors.PopupBaseEdit.ClosePopup(PopupCloseMode closeMode)
+   konum: DevExpress.XtraEditors.PopupBaseEdit.<DevExpress.Utils.Win.IPopupControl.ClosePopup>b__0()
+   konum: System.Windows.Forms.Control.InvokeMarshaledCallbackHelper(Object obj)
+   konum: System.Threading.ExecutionContext.runTryCode(Object userData)
+   konum: System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   konum: System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   konum: System.Windows.Forms.Control.InvokeMarshaledCallback(ThreadMethodEntry tme)
+   konum: System.Windows.Forms.Control.InvokeMarshaledCallbacks() Void slue_Closed(System.Object, DevExpress.XtraEditors.Controls.ClosedEventArgs)    konum: AvukatPro.Services.Implementations.DevExpressService.slue_Closed(Object sender, ClosedEventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AvukatPro.Services\Implementations\DevExpressService.cs içinde: satýr 492
+   konum: DevExpress.XtraEditors.Repository.RepositoryItemPopupBase.RaiseClosed(ClosedEventArgs e)
+   konum: DevExpress.XtraEditors.PopupBaseEdit.OnPopupClosed(PopupCloseMode closeMode)
+   konum: DevExpress.XtraEditors.GridLookUpEditBase.OnPopupClosed(PopupCloseMode closeMode)
+   konum: DevExpress.XtraEditors.PopupBaseEdit.DoClosePopup(PopupCloseMode closeMode)
+   konum: DevExpress.XtraEditors.PopupBaseEdit.ClosePopup(PopupCloseMode closeMode)
+   konum: DevExpress.XtraEditors.PopupBaseEdit.<DevExpress.Utils.Win.IPopupControl.ClosePopup>b__0()
+   konum: System.Windows.Forms.Control.InvokeMarshaledCallbackHelper(Object obj)
+   konum: System.Threading.ExecutionContext.runTryCode(Object userData)
+   konum: System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   konum: System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   konum: System.Windows.Forms.Control.InvokeMarshaledCallback(ThreadMethodEntry tme)
+   konum: System.Windows.Forms.Control.InvokeMarshaledCallbacks()
+2016-02-19 12:12:52.6877 Hata 
+ The number of parameters does not match number of values for stored procedure. System.InvalidOperationException InvalidOperationException System.InvalidOperationException: The number of parameters does not match number of values for stored procedure.
+   konum: AvukatProLib.Hesap.MuhasebeAraclari.SetFoyMuhasebeByMasrafAvans(Int32 masrafAvansId, Int32 tipId) d:\emre adým adým\AdimAdimDavaKaydi\AvukatProLib.Hesap\MuhasebeAraclari.cs içinde: satýr 162
+   konum: AvukatPro.Services.Implementations.MuhasebeService.CreateFoyMuhasebeByMasrafAvans(CreateFoyMuhasebeByMasrafAvansRequest request) d:\emre adým adým\AdimAdimDavaKaydi\AvukatPro.Services\Implementations\MuhasebeService.cs içinde: satýr 62
+   konum: AdimAdimDavaKaydi.IcraTakipForms.frmMasrafAvansKayitHizli.frmMasrafAvansKayitHizli_Button_Kaydet_Click(Object sender, EventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\IcraTakipForms\frmMasrafAvansKayitHizli.cs içinde: satýr 1182 Void SetFoyMuhasebeByMasrafAvans(Int32, Int32)    konum: AvukatProLib.Hesap.MuhasebeAraclari.SetFoyMuhasebeByMasrafAvans(Int32 masrafAvansId, Int32 tipId) d:\emre adým adým\AdimAdimDavaKaydi\AvukatProLib.Hesap\MuhasebeAraclari.cs içinde: satýr 162
+   konum: AvukatPro.Services.Implementations.MuhasebeService.CreateFoyMuhasebeByMasrafAvans(CreateFoyMuhasebeByMasrafAvansRequest request) d:\emre adým adým\AdimAdimDavaKaydi\AvukatPro.Services\Implementations\MuhasebeService.cs içinde: satýr 62
+   konum: AdimAdimDavaKaydi.IcraTakipForms.frmMasrafAvansKayitHizli.frmMasrafAvansKayitHizli_Button_Kaydet_Click(Object sender, EventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\IcraTakipForms\frmMasrafAvansKayitHizli.cs içinde: satýr 1182
+2016-02-19 12:27:37.3763 Hata 
+ The number of parameters does not match number of values for stored procedure. System.InvalidOperationException InvalidOperationException System.InvalidOperationException: The number of parameters does not match number of values for stored procedure.
+   konum: AvukatProLib.Hesap.MuhasebeAraclari.SetFoyMuhasebeDetayByMasrafAvansDetay(Int32 masrafAvansDetayId, Int32 foyMuhasebeId, Boolean yenidenHesaplanabilir) d:\emre adým adým\AdimAdimDavaKaydi\AvukatProLib.Hesap\MuhasebeAraclari.cs içinde: satýr 182
+   konum: AvukatPro.Services.Implementations.MuhasebeService.CreateFoyMuhasebeDetayByMasrafAvansDetay(CreateFoyMuhasebeDetayByMasrafAvansDetayRequest request) d:\emre adým adým\AdimAdimDavaKaydi\AvukatPro.Services\Implementations\MuhasebeService.cs içinde: satýr 67
+   konum: AdimAdimDavaKaydi.IcraTakipForms.frmMasrafAvansKayitHizli.frmMasrafAvansKayitHizli_Button_Kaydet_Click(Object sender, EventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\IcraTakipForms\frmMasrafAvansKayitHizli.cs içinde: satýr 1315 Void SetFoyMuhasebeDetayByMasrafAvansDetay(Int32, Int32, Boolean)    konum: AvukatProLib.Hesap.MuhasebeAraclari.SetFoyMuhasebeDetayByMasrafAvansDetay(Int32 masrafAvansDetayId, Int32 foyMuhasebeId, Boolean yenidenHesaplanabilir) d:\emre adým adým\AdimAdimDavaKaydi\AvukatProLib.Hesap\MuhasebeAraclari.cs içinde: satýr 182
+   konum: AvukatPro.Services.Implementations.MuhasebeService.CreateFoyMuhasebeDetayByMasrafAvansDetay(CreateFoyMuhasebeDetayByMasrafAvansDetayRequest request) d:\emre adým adým\AdimAdimDavaKaydi\AvukatPro.Services\Implementations\MuhasebeService.cs içinde: satýr 67
+   konum: AdimAdimDavaKaydi.IcraTakipForms.frmMasrafAvansKayitHizli.frmMasrafAvansKayitHizli_Button_Kaydet_Click(Object sender, EventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\IcraTakipForms\frmMasrafAvansKayitHizli.cs içinde: satýr 1315
+2016-02-19 12:28:01.5567 Hata 
+ Nesne baþvurusu bir nesnenin örneðine ayarlanmadý. System.NullReferenceException NullReferenceException System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: AvukatPro.Services.Implementations.DevExpressService.slue_Closed(Object sender, ClosedEventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AvukatPro.Services\Implementations\DevExpressService.cs içinde: satýr 492
+   konum: DevExpress.XtraEditors.Repository.RepositoryItemPopupBase.RaiseClosed(ClosedEventArgs e)
+   konum: DevExpress.XtraEditors.PopupBaseEdit.OnPopupClosed(PopupCloseMode closeMode)
+   konum: DevExpress.XtraEditors.GridLookUpEditBase.OnPopupClosed(PopupCloseMode closeMode)
+   konum: DevExpress.XtraEditors.PopupBaseEdit.DoClosePopup(PopupCloseMode closeMode)
+   konum: DevExpress.XtraEditors.PopupBaseEdit.ClosePopup(PopupCloseMode closeMode)
+   konum: DevExpress.XtraEditors.PopupBaseEdit.<DevExpress.Utils.Win.IPopupControl.ClosePopup>b__0()
+   konum: System.Windows.Forms.Control.InvokeMarshaledCallbackHelper(Object obj)
+   konum: System.Threading.ExecutionContext.runTryCode(Object userData)
+   konum: System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   konum: System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   konum: System.Windows.Forms.Control.InvokeMarshaledCallback(ThreadMethodEntry tme)
+   konum: System.Windows.Forms.Control.InvokeMarshaledCallbacks() Void slue_Closed(System.Object, DevExpress.XtraEditors.Controls.ClosedEventArgs)    konum: AvukatPro.Services.Implementations.DevExpressService.slue_Closed(Object sender, ClosedEventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AvukatPro.Services\Implementations\DevExpressService.cs içinde: satýr 492
+   konum: DevExpress.XtraEditors.Repository.RepositoryItemPopupBase.RaiseClosed(ClosedEventArgs e)
+   konum: DevExpress.XtraEditors.PopupBaseEdit.OnPopupClosed(PopupCloseMode closeMode)
+   konum: DevExpress.XtraEditors.GridLookUpEditBase.OnPopupClosed(PopupCloseMode closeMode)
+   konum: DevExpress.XtraEditors.PopupBaseEdit.DoClosePopup(PopupCloseMode closeMode)
+   konum: DevExpress.XtraEditors.PopupBaseEdit.ClosePopup(PopupCloseMode closeMode)
+   konum: DevExpress.XtraEditors.PopupBaseEdit.<DevExpress.Utils.Win.IPopupControl.ClosePopup>b__0()
+   konum: System.Windows.Forms.Control.InvokeMarshaledCallbackHelper(Object obj)
+   konum: System.Threading.ExecutionContext.runTryCode(Object userData)
+   konum: System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   konum: System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   konum: System.Windows.Forms.Control.InvokeMarshaledCallback(ThreadMethodEntry tme)
+   konum: System.Windows.Forms.Control.InvokeMarshaledCallbacks()
+2016-02-19 12:33:02.5809 Hata 
+ The number of parameters does not match number of values for stored procedure. System.InvalidOperationException InvalidOperationException System.InvalidOperationException: The number of parameters does not match number of values for stored procedure.
+   konum: AvukatProLib.Hesap.MuhasebeAraclari.SetFoyMuhasebeDetayByMasrafAvansDetay(Int32 masrafAvansDetayId, Int32 foyMuhasebeId, Boolean yenidenHesaplanabilir) d:\emre adým adým\AdimAdimDavaKaydi\AvukatProLib.Hesap\MuhasebeAraclari.cs içinde: satýr 182
+   konum: AvukatPro.Services.Implementations.MuhasebeService.CreateFoyMuhasebeDetayByMasrafAvansDetay(CreateFoyMuhasebeDetayByMasrafAvansDetayRequest request) d:\emre adým adým\AdimAdimDavaKaydi\AvukatPro.Services\Implementations\MuhasebeService.cs içinde: satýr 67
+   konum: AdimAdimDavaKaydi.IcraTakipForms.frmMasrafAvansKayitHizli.frmMasrafAvansKayitHizli_Button_Kaydet_Click(Object sender, EventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\IcraTakipForms\frmMasrafAvansKayitHizli.cs içinde: satýr 1315 Void SetFoyMuhasebeDetayByMasrafAvansDetay(Int32, Int32, Boolean)    konum: AvukatProLib.Hesap.MuhasebeAraclari.SetFoyMuhasebeDetayByMasrafAvansDetay(Int32 masrafAvansDetayId, Int32 foyMuhasebeId, Boolean yenidenHesaplanabilir) d:\emre adým adým\AdimAdimDavaKaydi\AvukatProLib.Hesap\MuhasebeAraclari.cs içinde: satýr 182
+   konum: AvukatPro.Services.Implementations.MuhasebeService.CreateFoyMuhasebeDetayByMasrafAvansDetay(CreateFoyMuhasebeDetayByMasrafAvansDetayRequest request) d:\emre adým adým\AdimAdimDavaKaydi\AvukatPro.Services\Implementations\MuhasebeService.cs içinde: satýr 67
+   konum: AdimAdimDavaKaydi.IcraTakipForms.frmMasrafAvansKayitHizli.frmMasrafAvansKayitHizli_Button_Kaydet_Click(Object sender, EventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\IcraTakipForms\frmMasrafAvansKayitHizli.cs içinde: satýr 1315
+2016-02-19 12:37:05.2398 Hata 
+ The number of parameters does not match number of values for stored procedure. System.InvalidOperationException InvalidOperationException System.InvalidOperationException: The number of parameters does not match number of values for stored procedure.
+   konum: AvukatProLib.Hesap.MuhasebeAraclari.SetFoyMuhasebeDetayByMasrafAvansDetay(Int32 masrafAvansDetayId, Int32 foyMuhasebeId, Boolean yenidenHesaplanabilir) d:\emre adým adým\AdimAdimDavaKaydi\AvukatProLib.Hesap\MuhasebeAraclari.cs içinde: satýr 182
+   konum: AvukatPro.Services.Implementations.MuhasebeService.CreateFoyMuhasebeDetayByMasrafAvansDetay(CreateFoyMuhasebeDetayByMasrafAvansDetayRequest request) d:\emre adým adým\AdimAdimDavaKaydi\AvukatPro.Services\Implementations\MuhasebeService.cs içinde: satýr 67
+   konum: AdimAdimDavaKaydi.IcraTakipForms.frmMasrafAvansKayitHizli.frmMasrafAvansKayitHizli_Button_Kaydet_Click(Object sender, EventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\IcraTakipForms\frmMasrafAvansKayitHizli.cs içinde: satýr 1315 Void SetFoyMuhasebeDetayByMasrafAvansDetay(Int32, Int32, Boolean)    konum: AvukatProLib.Hesap.MuhasebeAraclari.SetFoyMuhasebeDetayByMasrafAvansDetay(Int32 masrafAvansDetayId, Int32 foyMuhasebeId, Boolean yenidenHesaplanabilir) d:\emre adým adým\AdimAdimDavaKaydi\AvukatProLib.Hesap\MuhasebeAraclari.cs içinde: satýr 182
+   konum: AvukatPro.Services.Implementations.MuhasebeService.CreateFoyMuhasebeDetayByMasrafAvansDetay(CreateFoyMuhasebeDetayByMasrafAvansDetayRequest request) d:\emre adým adým\AdimAdimDavaKaydi\AvukatPro.Services\Implementations\MuhasebeService.cs içinde: satýr 67
+   konum: AdimAdimDavaKaydi.IcraTakipForms.frmMasrafAvansKayitHizli.frmMasrafAvansKayitHizli_Button_Kaydet_Click(Object sender, EventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\IcraTakipForms\frmMasrafAvansKayitHizli.cs içinde: satýr 1315
+2016-02-19 15:04:29.5567 Hata 
+ The number of parameters does not match number of values for stored procedure. System.InvalidOperationException InvalidOperationException System.InvalidOperationException: The number of parameters does not match number of values for stored procedure.
+   konum: AvukatProLib.Hesap.MuhasebeAraclari.SetFoyMuhasebeDetayByMasrafAvansDetay(Int32 masrafAvansDetayId, Int32 foyMuhasebeId, Boolean yenidenHesaplanabilir) d:\emre adým adým\AdimAdimDavaKaydi\AvukatProLib.Hesap\MuhasebeAraclari.cs içinde: satýr 182
+   konum: AvukatPro.Services.Implementations.MuhasebeService.CreateFoyMuhasebeDetayByMasrafAvansDetay(CreateFoyMuhasebeDetayByMasrafAvansDetayRequest request) d:\emre adým adým\AdimAdimDavaKaydi\AvukatPro.Services\Implementations\MuhasebeService.cs içinde: satýr 67
+   konum: AdimAdimDavaKaydi.IcraTakipForms.frmMasrafAvansKayitHizli.frmMasrafAvansKayitHizli_Button_Kaydet_Click(Object sender, EventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\IcraTakipForms\frmMasrafAvansKayitHizli.cs içinde: satýr 1315 Void SetFoyMuhasebeDetayByMasrafAvansDetay(Int32, Int32, Boolean)    konum: AvukatProLib.Hesap.MuhasebeAraclari.SetFoyMuhasebeDetayByMasrafAvansDetay(Int32 masrafAvansDetayId, Int32 foyMuhasebeId, Boolean yenidenHesaplanabilir) d:\emre adým adým\AdimAdimDavaKaydi\AvukatProLib.Hesap\MuhasebeAraclari.cs içinde: satýr 182
+   konum: AvukatPro.Services.Implementations.MuhasebeService.CreateFoyMuhasebeDetayByMasrafAvansDetay(CreateFoyMuhasebeDetayByMasrafAvansDetayRequest request) d:\emre adým adým\AdimAdimDavaKaydi\AvukatPro.Services\Implementations\MuhasebeService.cs içinde: satýr 67
+   konum: AdimAdimDavaKaydi.IcraTakipForms.frmMasrafAvansKayitHizli.frmMasrafAvansKayitHizli_Button_Kaydet_Click(Object sender, EventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\IcraTakipForms\frmMasrafAvansKayitHizli.cs içinde: satýr 1315
+2016-02-19 15:07:16.8092 Hata 
+ The number of parameters does not match number of values for stored procedure. System.InvalidOperationException InvalidOperationException System.InvalidOperationException: The number of parameters does not match number of values for stored procedure.
+   konum: AvukatProLib.Hesap.MuhasebeAraclari.SetFoyMuhasebeDetayByMasrafAvansDetay(Int32 masrafAvansDetayId, Int32 foyMuhasebeId, Boolean yenidenHesaplanabilir) d:\emre adým adým\AdimAdimDavaKaydi\AvukatProLib.Hesap\MuhasebeAraclari.cs içinde: satýr 182
+   konum: AvukatPro.Services.Implementations.MuhasebeService.CreateFoyMuhasebeDetayByMasrafAvansDetay(CreateFoyMuhasebeDetayByMasrafAvansDetayRequest request) d:\emre adým adým\AdimAdimDavaKaydi\AvukatPro.Services\Implementations\MuhasebeService.cs içinde: satýr 67
+   konum: AdimAdimDavaKaydi.IcraTakipForms.frmMasrafAvansKayitHizli.frmMasrafAvansKayitHizli_Button_Kaydet_Click(Object sender, EventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\IcraTakipForms\frmMasrafAvansKayitHizli.cs içinde: satýr 1315 Void SetFoyMuhasebeDetayByMasrafAvansDetay(Int32, Int32, Boolean)    konum: AvukatProLib.Hesap.MuhasebeAraclari.SetFoyMuhasebeDetayByMasrafAvansDetay(Int32 masrafAvansDetayId, Int32 foyMuhasebeId, Boolean yenidenHesaplanabilir) d:\emre adým adým\AdimAdimDavaKaydi\AvukatProLib.Hesap\MuhasebeAraclari.cs içinde: satýr 182
+   konum: AvukatPro.Services.Implementations.MuhasebeService.CreateFoyMuhasebeDetayByMasrafAvansDetay(CreateFoyMuhasebeDetayByMasrafAvansDetayRequest request) d:\emre adým adým\AdimAdimDavaKaydi\AvukatPro.Services\Implementations\MuhasebeService.cs içinde: satýr 67
+   konum: AdimAdimDavaKaydi.IcraTakipForms.frmMasrafAvansKayitHizli.frmMasrafAvansKayitHizli_Button_Kaydet_Click(Object sender, EventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\IcraTakipForms\frmMasrafAvansKayitHizli.cs içinde: satýr 1315
+2016-02-19 15:10:01.5357 Hata 
+ The number of parameters does not match number of values for stored procedure. System.InvalidOperationException InvalidOperationException System.InvalidOperationException: The number of parameters does not match number of values for stored procedure.
+   konum: AvukatProLib.Hesap.MuhasebeAraclari.SetFoyMuhasebeDetayByMasrafAvansDetay(Int32 masrafAvansDetayId, Int32 foyMuhasebeId, Boolean yenidenHesaplanabilir) d:\emre adým adým\AdimAdimDavaKaydi\AvukatProLib.Hesap\MuhasebeAraclari.cs içinde: satýr 182
+   konum: AvukatPro.Services.Implementations.MuhasebeService.CreateFoyMuhasebeDetayByMasrafAvansDetay(CreateFoyMuhasebeDetayByMasrafAvansDetayRequest request) d:\emre adým adým\AdimAdimDavaKaydi\AvukatPro.Services\Implementations\MuhasebeService.cs içinde: satýr 67
+   konum: AdimAdimDavaKaydi.IcraTakipForms.frmMasrafAvansKayitHizli.frmMasrafAvansKayitHizli_Button_Kaydet_Click(Object sender, EventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\IcraTakipForms\frmMasrafAvansKayitHizli.cs içinde: satýr 1315 Void SetFoyMuhasebeDetayByMasrafAvansDetay(Int32, Int32, Boolean)    konum: AvukatProLib.Hesap.MuhasebeAraclari.SetFoyMuhasebeDetayByMasrafAvansDetay(Int32 masrafAvansDetayId, Int32 foyMuhasebeId, Boolean yenidenHesaplanabilir) d:\emre adým adým\AdimAdimDavaKaydi\AvukatProLib.Hesap\MuhasebeAraclari.cs içinde: satýr 182
+   konum: AvukatPro.Services.Implementations.MuhasebeService.CreateFoyMuhasebeDetayByMasrafAvansDetay(CreateFoyMuhasebeDetayByMasrafAvansDetayRequest request) d:\emre adým adým\AdimAdimDavaKaydi\AvukatPro.Services\Implementations\MuhasebeService.cs içinde: satýr 67
+   konum: AdimAdimDavaKaydi.IcraTakipForms.frmMasrafAvansKayitHizli.frmMasrafAvansKayitHizli_Button_Kaydet_Click(Object sender, EventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\IcraTakipForms\frmMasrafAvansKayitHizli.cs içinde: satýr 1315
+2016-02-19 15:14:24.0257 Hata 
+ The number of parameters does not match number of values for stored procedure. System.InvalidOperationException InvalidOperationException System.InvalidOperationException: The number of parameters does not match number of values for stored procedure.
+   konum: AvukatProLib.Hesap.MuhasebeAraclari.SetFoyMuhasebeDetayByMasrafAvansDetay(Int32 masrafAvansDetayId, Int32 foyMuhasebeId, Boolean yenidenHesaplanabilir) d:\emre adým adým\AdimAdimDavaKaydi\AvukatProLib.Hesap\MuhasebeAraclari.cs içinde: satýr 182
+   konum: AvukatPro.Services.Implementations.MuhasebeService.CreateFoyMuhasebeDetayByMasrafAvansDetay(CreateFoyMuhasebeDetayByMasrafAvansDetayRequest request) d:\emre adým adým\AdimAdimDavaKaydi\AvukatPro.Services\Implementations\MuhasebeService.cs içinde: satýr 67
+   konum: AdimAdimDavaKaydi.IcraTakipForms.frmMasrafAvansKayitHizli.frmMasrafAvansKayitHizli_Button_Kaydet_Click(Object sender, EventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\IcraTakipForms\frmMasrafAvansKayitHizli.cs içinde: satýr 1315 Void SetFoyMuhasebeDetayByMasrafAvansDetay(Int32, Int32, Boolean)    konum: AvukatProLib.Hesap.MuhasebeAraclari.SetFoyMuhasebeDetayByMasrafAvansDetay(Int32 masrafAvansDetayId, Int32 foyMuhasebeId, Boolean yenidenHesaplanabilir) d:\emre adým adým\AdimAdimDavaKaydi\AvukatProLib.Hesap\MuhasebeAraclari.cs içinde: satýr 182
+   konum: AvukatPro.Services.Implementations.MuhasebeService.CreateFoyMuhasebeDetayByMasrafAvansDetay(CreateFoyMuhasebeDetayByMasrafAvansDetayRequest request) d:\emre adým adým\AdimAdimDavaKaydi\AvukatPro.Services\Implementations\MuhasebeService.cs içinde: satýr 67
+   konum: AdimAdimDavaKaydi.IcraTakipForms.frmMasrafAvansKayitHizli.frmMasrafAvansKayitHizli_Button_Kaydet_Click(Object sender, EventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\IcraTakipForms\frmMasrafAvansKayitHizli.cs içinde: satýr 1315
+2016-02-19 16:18:54.3260 hata 
+ Invalid object name 'OZEL_KOD_VE_REFERANSLAR_DAVA'. System.Data.SqlClient.SqlException SqlException System.Data.SqlClient.SqlException: Invalid object name 'OZEL_KOD_VE_REFERANSLAR_DAVA'.
+   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   konum: System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   konum: System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: AvukatProLib.OzelKodReferans.OzelKodReferans.GetDavaOzelKodReferans(String connectionstring) d:\dogan\AdimAdimDavaKaydi\AvukatProLib\OzelKodReferans.cs içinde: satýr 827 Void OnError(System.Data.SqlClient.SqlException, Boolean)    konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   konum: System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   konum: System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: AvukatProLib.OzelKodReferans.OzelKodReferans.GetDavaOzelKodReferans(String connectionstring) d:\dogan\AdimAdimDavaKaydi\AvukatProLib\OzelKodReferans.cs içinde: satýr 827
+2016-02-19 16:18:54.3850 hata 
+ Invalid object name 'OZEL_KOD_VE_REFERANSLAR_ICRA'. System.Data.SqlClient.SqlException SqlException System.Data.SqlClient.SqlException: Invalid object name 'OZEL_KOD_VE_REFERANSLAR_ICRA'.
+   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   konum: System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   konum: System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: AvukatProLib.OzelKodReferans.OzelKodReferans.GetIcraOzelKodReferans(String connectionstring) d:\dogan\AdimAdimDavaKaydi\AvukatProLib\OzelKodReferans.cs içinde: satýr 930 Void OnError(System.Data.SqlClient.SqlException, Boolean)    konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   konum: System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   konum: System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: AvukatProLib.OzelKodReferans.OzelKodReferans.GetIcraOzelKodReferans(String connectionstring) d:\dogan\AdimAdimDavaKaydi\AvukatProLib\OzelKodReferans.cs içinde: satýr 930
+2016-02-19 16:18:54.3990 hata 
+ Invalid object name 'OZEL_KOD_VE_REFERANSLAR_SORUSTURMA'. System.Data.SqlClient.SqlException SqlException System.Data.SqlClient.SqlException: Invalid object name 'OZEL_KOD_VE_REFERANSLAR_SORUSTURMA'.
+   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   konum: System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   konum: System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: AvukatProLib.OzelKodReferans.OzelKodReferans.GetSorusturmaOzelKodReferans(String connectionstring) d:\dogan\AdimAdimDavaKaydi\AvukatProLib\OzelKodReferans.cs içinde: satýr 1063 Void OnError(System.Data.SqlClient.SqlException, Boolean)    konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   konum: System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   konum: System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: AvukatProLib.OzelKodReferans.OzelKodReferans.GetSorusturmaOzelKodReferans(String connectionstring) d:\dogan\AdimAdimDavaKaydi\AvukatProLib\OzelKodReferans.cs içinde: satýr 1063
+2016-02-19 16:18:54.3990 hata 
+ Invalid object name 'OZEL_KOD_VE_REFERANSLAR_SOZLESME'. System.Data.SqlClient.SqlException SqlException System.Data.SqlClient.SqlException: Invalid object name 'OZEL_KOD_VE_REFERANSLAR_SOZLESME'.
+   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   konum: System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   konum: System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: AvukatProLib.OzelKodReferans.OzelKodReferans.GetSozlesmeOzelKodReferans(String connectionstring) d:\dogan\AdimAdimDavaKaydi\AvukatProLib\OzelKodReferans.cs içinde: satýr 1139 Void OnError(System.Data.SqlClient.SqlException, Boolean)    konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   konum: System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   konum: System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: AvukatProLib.OzelKodReferans.OzelKodReferans.GetSozlesmeOzelKodReferans(String connectionstring) d:\dogan\AdimAdimDavaKaydi\AvukatProLib\OzelKodReferans.cs içinde: satýr 1139
+2016-02-19 16:18:54.4261 hata 
+ Invalid object name 'OZEL_KOD_VE_REFERANSLAR_ORTAK_OZEL_DURUM'. System.Data.SqlClient.SqlException SqlException System.Data.SqlClient.SqlException: Invalid object name 'OZEL_KOD_VE_REFERANSLAR_ORTAK_OZEL_DURUM'.
+   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   konum: System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   konum: System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: AvukatProLib.OzelKodReferans.OzelKodReferans.GetOrtakOzelKodReferans(String connectionstring) d:\dogan\AdimAdimDavaKaydi\AvukatProLib\OzelKodReferans.cs içinde: satýr 1380 Void OnError(System.Data.SqlClient.SqlException, Boolean)    konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   konum: System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   konum: System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: AvukatProLib.OzelKodReferans.OzelKodReferans.GetOrtakOzelKodReferans(String connectionstring) d:\dogan\AdimAdimDavaKaydi\AvukatProLib\OzelKodReferans.cs içinde: satýr 1380
+2016-02-19 16:42:50.0412 Hata 
+ The number of parameters does not match number of values for stored procedure. System.InvalidOperationException InvalidOperationException System.InvalidOperationException: The number of parameters does not match number of values for stored procedure.
+   konum: AvukatProLib.Hesap.MuhasebeAraclari.SetFoyMuhasebeDetayByMasrafAvansDetay(Int32 masrafAvansDetayId, Int32 foyMuhasebeId, Boolean yenidenHesaplanabilir) d:\emre adým adým\AdimAdimDavaKaydi\AvukatProLib.Hesap\MuhasebeAraclari.cs içinde: satýr 182
+   konum: AvukatPro.Services.Implementations.MuhasebeService.CreateFoyMuhasebeDetayByMasrafAvansDetay(CreateFoyMuhasebeDetayByMasrafAvansDetayRequest request) d:\emre adým adým\AdimAdimDavaKaydi\AvukatPro.Services\Implementations\MuhasebeService.cs içinde: satýr 67
+   konum: AdimAdimDavaKaydi.IcraTakipForms.frmMasrafAvansKayitHizli.frmMasrafAvansKayitHizli_Button_Kaydet_Click(Object sender, EventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\IcraTakipForms\frmMasrafAvansKayitHizli.cs içinde: satýr 1315 Void SetFoyMuhasebeDetayByMasrafAvansDetay(Int32, Int32, Boolean)    konum: AvukatProLib.Hesap.MuhasebeAraclari.SetFoyMuhasebeDetayByMasrafAvansDetay(Int32 masrafAvansDetayId, Int32 foyMuhasebeId, Boolean yenidenHesaplanabilir) d:\emre adým adým\AdimAdimDavaKaydi\AvukatProLib.Hesap\MuhasebeAraclari.cs içinde: satýr 182
+   konum: AvukatPro.Services.Implementations.MuhasebeService.CreateFoyMuhasebeDetayByMasrafAvansDetay(CreateFoyMuhasebeDetayByMasrafAvansDetayRequest request) d:\emre adým adým\AdimAdimDavaKaydi\AvukatPro.Services\Implementations\MuhasebeService.cs içinde: satýr 67
+   konum: AdimAdimDavaKaydi.IcraTakipForms.frmMasrafAvansKayitHizli.frmMasrafAvansKayitHizli_Button_Kaydet_Click(Object sender, EventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\IcraTakipForms\frmMasrafAvansKayitHizli.cs içinde: satýr 1315
+2016-02-19 16:45:34.8656 Hata 
+ The number of parameters does not match number of values for stored procedure. System.InvalidOperationException InvalidOperationException System.InvalidOperationException: The number of parameters does not match number of values for stored procedure.
+   konum: AvukatProLib.Hesap.MuhasebeAraclari.SetFoyMuhasebeDetayByMasrafAvansDetay(Int32 masrafAvansDetayId, Int32 foyMuhasebeId, Boolean yenidenHesaplanabilir) d:\emre adým adým\AdimAdimDavaKaydi\AvukatProLib.Hesap\MuhasebeAraclari.cs içinde: satýr 182
+   konum: AvukatPro.Services.Implementations.MuhasebeService.CreateFoyMuhasebeDetayByMasrafAvansDetay(CreateFoyMuhasebeDetayByMasrafAvansDetayRequest request) d:\emre adým adým\AdimAdimDavaKaydi\AvukatPro.Services\Implementations\MuhasebeService.cs içinde: satýr 67
+   konum: AdimAdimDavaKaydi.IcraTakipForms.frmMasrafAvansKayitHizli.frmMasrafAvansKayitHizli_Button_Kaydet_Click(Object sender, EventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\IcraTakipForms\frmMasrafAvansKayitHizli.cs içinde: satýr 1315 Void SetFoyMuhasebeDetayByMasrafAvansDetay(Int32, Int32, Boolean)    konum: AvukatProLib.Hesap.MuhasebeAraclari.SetFoyMuhasebeDetayByMasrafAvansDetay(Int32 masrafAvansDetayId, Int32 foyMuhasebeId, Boolean yenidenHesaplanabilir) d:\emre adým adým\AdimAdimDavaKaydi\AvukatProLib.Hesap\MuhasebeAraclari.cs içinde: satýr 182
+   konum: AvukatPro.Services.Implementations.MuhasebeService.CreateFoyMuhasebeDetayByMasrafAvansDetay(CreateFoyMuhasebeDetayByMasrafAvansDetayRequest request) d:\emre adým adým\AdimAdimDavaKaydi\AvukatPro.Services\Implementations\MuhasebeService.cs içinde: satýr 67
+   konum: AdimAdimDavaKaydi.IcraTakipForms.frmMasrafAvansKayitHizli.frmMasrafAvansKayitHizli_Button_Kaydet_Click(Object sender, EventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\IcraTakipForms\frmMasrafAvansKayitHizli.cs içinde: satýr 1315
+2016-02-19 16:47:32.6923 Hata 
+ The number of parameters does not match number of values for stored procedure. System.InvalidOperationException InvalidOperationException System.InvalidOperationException: The number of parameters does not match number of values for stored procedure.
+   konum: AvukatProLib.Hesap.MuhasebeAraclari.SetFoyMuhasebeDetayByMasrafAvansDetay(Int32 masrafAvansDetayId, Int32 foyMuhasebeId, Boolean yenidenHesaplanabilir) d:\emre adým adým\AdimAdimDavaKaydi\AvukatProLib.Hesap\MuhasebeAraclari.cs içinde: satýr 182
+   konum: AvukatPro.Services.Implementations.MuhasebeService.CreateFoyMuhasebeDetayByMasrafAvansDetay(CreateFoyMuhasebeDetayByMasrafAvansDetayRequest request) d:\emre adým adým\AdimAdimDavaKaydi\AvukatPro.Services\Implementations\MuhasebeService.cs içinde: satýr 67
+   konum: AdimAdimDavaKaydi.IcraTakipForms.frmMasrafAvansKayitHizli.frmMasrafAvansKayitHizli_Button_Kaydet_Click(Object sender, EventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\IcraTakipForms\frmMasrafAvansKayitHizli.cs içinde: satýr 1315 Void SetFoyMuhasebeDetayByMasrafAvansDetay(Int32, Int32, Boolean)    konum: AvukatProLib.Hesap.MuhasebeAraclari.SetFoyMuhasebeDetayByMasrafAvansDetay(Int32 masrafAvansDetayId, Int32 foyMuhasebeId, Boolean yenidenHesaplanabilir) d:\emre adým adým\AdimAdimDavaKaydi\AvukatProLib.Hesap\MuhasebeAraclari.cs içinde: satýr 182
+   konum: AvukatPro.Services.Implementations.MuhasebeService.CreateFoyMuhasebeDetayByMasrafAvansDetay(CreateFoyMuhasebeDetayByMasrafAvansDetayRequest request) d:\emre adým adým\AdimAdimDavaKaydi\AvukatPro.Services\Implementations\MuhasebeService.cs içinde: satýr 67
+   konum: AdimAdimDavaKaydi.IcraTakipForms.frmMasrafAvansKayitHizli.frmMasrafAvansKayitHizli_Button_Kaydet_Click(Object sender, EventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\IcraTakipForms\frmMasrafAvansKayitHizli.cs içinde: satýr 1315
+2016-02-19 16:49:23.0966 Hata 
+ The number of parameters does not match number of values for stored procedure. System.InvalidOperationException InvalidOperationException System.InvalidOperationException: The number of parameters does not match number of values for stored procedure.
+   konum: AvukatProLib.Hesap.MuhasebeAraclari.SetFoyMuhasebeDetayByMasrafAvansDetay(Int32 masrafAvansDetayId, Int32 foyMuhasebeId, Boolean yenidenHesaplanabilir) d:\emre adým adým\AdimAdimDavaKaydi\AvukatProLib.Hesap\MuhasebeAraclari.cs içinde: satýr 182
+   konum: AvukatPro.Services.Implementations.MuhasebeService.CreateFoyMuhasebeDetayByMasrafAvansDetay(CreateFoyMuhasebeDetayByMasrafAvansDetayRequest request) d:\emre adým adým\AdimAdimDavaKaydi\AvukatPro.Services\Implementations\MuhasebeService.cs içinde: satýr 67
+   konum: AdimAdimDavaKaydi.IcraTakipForms.frmMasrafAvansKayitHizli.frmMasrafAvansKayitHizli_Button_Kaydet_Click(Object sender, EventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\IcraTakipForms\frmMasrafAvansKayitHizli.cs içinde: satýr 1315 Void SetFoyMuhasebeDetayByMasrafAvansDetay(Int32, Int32, Boolean)    konum: AvukatProLib.Hesap.MuhasebeAraclari.SetFoyMuhasebeDetayByMasrafAvansDetay(Int32 masrafAvansDetayId, Int32 foyMuhasebeId, Boolean yenidenHesaplanabilir) d:\emre adým adým\AdimAdimDavaKaydi\AvukatProLib.Hesap\MuhasebeAraclari.cs içinde: satýr 182
+   konum: AvukatPro.Services.Implementations.MuhasebeService.CreateFoyMuhasebeDetayByMasrafAvansDetay(CreateFoyMuhasebeDetayByMasrafAvansDetayRequest request) d:\emre adým adým\AdimAdimDavaKaydi\AvukatPro.Services\Implementations\MuhasebeService.cs içinde: satýr 67
+   konum: AdimAdimDavaKaydi.IcraTakipForms.frmMasrafAvansKayitHizli.frmMasrafAvansKayitHizli_Button_Kaydet_Click(Object sender, EventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\IcraTakipForms\frmMasrafAvansKayitHizli.cs içinde: satýr 1315
+2016-02-19 16:50:21.5760 Hata 
+ The number of parameters does not match number of values for stored procedure. System.InvalidOperationException InvalidOperationException System.InvalidOperationException: The number of parameters does not match number of values for stored procedure.
+   konum: AvukatProLib.Hesap.MuhasebeAraclari.SetFoyMuhasebeDetayByMasrafAvansDetay(Int32 masrafAvansDetayId, Int32 foyMuhasebeId, Boolean yenidenHesaplanabilir) d:\emre adým adým\AdimAdimDavaKaydi\AvukatProLib.Hesap\MuhasebeAraclari.cs içinde: satýr 182
+   konum: AvukatPro.Services.Implementations.MuhasebeService.CreateFoyMuhasebeDetayByMasrafAvansDetay(CreateFoyMuhasebeDetayByMasrafAvansDetayRequest request) d:\emre adým adým\AdimAdimDavaKaydi\AvukatPro.Services\Implementations\MuhasebeService.cs içinde: satýr 67
+   konum: AdimAdimDavaKaydi.IcraTakipForms.frmMasrafAvansKayitHizli.frmMasrafAvansKayitHizli_Button_Kaydet_Click(Object sender, EventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\IcraTakipForms\frmMasrafAvansKayitHizli.cs içinde: satýr 1315 Void SetFoyMuhasebeDetayByMasrafAvansDetay(Int32, Int32, Boolean)    konum: AvukatProLib.Hesap.MuhasebeAraclari.SetFoyMuhasebeDetayByMasrafAvansDetay(Int32 masrafAvansDetayId, Int32 foyMuhasebeId, Boolean yenidenHesaplanabilir) d:\emre adým adým\AdimAdimDavaKaydi\AvukatProLib.Hesap\MuhasebeAraclari.cs içinde: satýr 182
+   konum: AvukatPro.Services.Implementations.MuhasebeService.CreateFoyMuhasebeDetayByMasrafAvansDetay(CreateFoyMuhasebeDetayByMasrafAvansDetayRequest request) d:\emre adým adým\AdimAdimDavaKaydi\AvukatPro.Services\Implementations\MuhasebeService.cs içinde: satýr 67
+   konum: AdimAdimDavaKaydi.IcraTakipForms.frmMasrafAvansKayitHizli.frmMasrafAvansKayitHizli_Button_Kaydet_Click(Object sender, EventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\IcraTakipForms\frmMasrafAvansKayitHizli.cs içinde: satýr 1315
+2016-02-19 17:11:54.0849 Hata 
+ The number of parameters does not match number of values for stored procedure. System.InvalidOperationException InvalidOperationException System.InvalidOperationException: The number of parameters does not match number of values for stored procedure.
+   konum: AvukatProLib.Hesap.MuhasebeAraclari.SetFoyMuhasebeDetayByMasrafAvansDetay(Int32 masrafAvansDetayId, Int32 foyMuhasebeId, Boolean yenidenHesaplanabilir) d:\emre adým adým\AdimAdimDavaKaydi\AvukatProLib.Hesap\MuhasebeAraclari.cs içinde: satýr 182
+   konum: AvukatPro.Services.Implementations.MuhasebeService.CreateFoyMuhasebeDetayByMasrafAvansDetay(CreateFoyMuhasebeDetayByMasrafAvansDetayRequest request) d:\emre adým adým\AdimAdimDavaKaydi\AvukatPro.Services\Implementations\MuhasebeService.cs içinde: satýr 67
+   konum: AdimAdimDavaKaydi.IcraTakipForms.frmMasrafAvansKayitHizli.frmMasrafAvansKayitHizli_Button_Kaydet_Click(Object sender, EventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\IcraTakipForms\frmMasrafAvansKayitHizli.cs içinde: satýr 1315 Void SetFoyMuhasebeDetayByMasrafAvansDetay(Int32, Int32, Boolean)    konum: AvukatProLib.Hesap.MuhasebeAraclari.SetFoyMuhasebeDetayByMasrafAvansDetay(Int32 masrafAvansDetayId, Int32 foyMuhasebeId, Boolean yenidenHesaplanabilir) d:\emre adým adým\AdimAdimDavaKaydi\AvukatProLib.Hesap\MuhasebeAraclari.cs içinde: satýr 182
+   konum: AvukatPro.Services.Implementations.MuhasebeService.CreateFoyMuhasebeDetayByMasrafAvansDetay(CreateFoyMuhasebeDetayByMasrafAvansDetayRequest request) d:\emre adým adým\AdimAdimDavaKaydi\AvukatPro.Services\Implementations\MuhasebeService.cs içinde: satýr 67
+   konum: AdimAdimDavaKaydi.IcraTakipForms.frmMasrafAvansKayitHizli.frmMasrafAvansKayitHizli_Button_Kaydet_Click(Object sender, EventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\IcraTakipForms\frmMasrafAvansKayitHizli.cs içinde: satýr 1315
+2016-02-19 17:19:48.3080 Hata 
+ The number of parameters does not match number of values for stored procedure. System.InvalidOperationException InvalidOperationException System.InvalidOperationException: The number of parameters does not match number of values for stored procedure.
+   konum: AvukatProLib.Hesap.MuhasebeAraclari.SetFoyMuhasebeDetayByMasrafAvansDetay(Int32 masrafAvansDetayId, Int32 foyMuhasebeId, Boolean yenidenHesaplanabilir) d:\emre adým adým\AdimAdimDavaKaydi\AvukatProLib.Hesap\MuhasebeAraclari.cs içinde: satýr 182
+   konum: AvukatPro.Services.Implementations.MuhasebeService.CreateFoyMuhasebeDetayByMasrafAvansDetay(CreateFoyMuhasebeDetayByMasrafAvansDetayRequest request) d:\emre adým adým\AdimAdimDavaKaydi\AvukatPro.Services\Implementations\MuhasebeService.cs içinde: satýr 67
+   konum: AdimAdimDavaKaydi.IcraTakipForms.frmMasrafAvansKayitHizli.frmMasrafAvansKayitHizli_Button_Kaydet_Click(Object sender, EventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\IcraTakipForms\frmMasrafAvansKayitHizli.cs içinde: satýr 1315 Void SetFoyMuhasebeDetayByMasrafAvansDetay(Int32, Int32, Boolean)    konum: AvukatProLib.Hesap.MuhasebeAraclari.SetFoyMuhasebeDetayByMasrafAvansDetay(Int32 masrafAvansDetayId, Int32 foyMuhasebeId, Boolean yenidenHesaplanabilir) d:\emre adým adým\AdimAdimDavaKaydi\AvukatProLib.Hesap\MuhasebeAraclari.cs içinde: satýr 182
+   konum: AvukatPro.Services.Implementations.MuhasebeService.CreateFoyMuhasebeDetayByMasrafAvansDetay(CreateFoyMuhasebeDetayByMasrafAvansDetayRequest request) d:\emre adým adým\AdimAdimDavaKaydi\AvukatPro.Services\Implementations\MuhasebeService.cs içinde: satýr 67
+   konum: AdimAdimDavaKaydi.IcraTakipForms.frmMasrafAvansKayitHizli.frmMasrafAvansKayitHizli_Button_Kaydet_Click(Object sender, EventArgs e) d:\emre adým adým\AdimAdimDavaKaydi\AdimAdimDavaKaydi\IcraTakipForms\frmMasrafAvansKayitHizli.cs içinde: satýr 1315

@@ -1,0 +1,12 @@
+[ERROR LOG V1]
+
+Time = 29.03.2014 12:30:43 
+Source = AdimAdimDavaKaydi.IcraTakipForms.rFrmTebligat (16213358)
+Version = 1.0.0.0 
+Culture = tr-TR 
+
+Exception:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdimAdimDavaKaydi.IcraTakipForms.rFrmTebligat.Save() in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AdimAdimDavaKaydi\IcraTakipForms\rFrmTebligat.cs:line 263
+[/ERROR LOG V1]
+

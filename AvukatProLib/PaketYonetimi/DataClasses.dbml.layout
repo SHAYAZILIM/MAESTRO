@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 9.75" name="DataClasses">
+  <DataContextMoniker Name="/DataClassesDataContext" />
+  <nestedChildShapes>
+    <classShape Id="6da7983c-8754-4b83-82d9-14f28319dc23" absoluteBounds="0.875, 0.5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/DataClassesDataContext/CS_KOD_PAKET" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3cff2cd0-b1e4-4b9e-82ea-0fb03182a2c9" absoluteBounds="0.89, 0.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9ca15d39-9230-4748-ac9f-59df9ef30d10" absoluteBounds="0.875, 3.375, 2, 1.1939925130208327">
+      <DataClassMoniker Name="/DataClassesDataContext/CS_KOD_PAKET_NN_FORM" />
+      <nestedChildShapes>
+        <elementListCompartment Id="65204536-e6cc-4bb9-9871-c1ef8809d721" absoluteBounds="0.89000000000000012, 3.835, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.875 : 2.27089680989583); (1.875 : 3.375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClassesDataContext/CS_KOD_PAKET/CS_KOD_PAKET_CS_KOD_PAKET_NN_FORM" />
+      <nodes>
+        <classShapeMoniker Id="6da7983c-8754-4b83-82d9-14f28319dc23" />
+        <classShapeMoniker Id="9ca15d39-9230-4748-ac9f-59df9ef30d10" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="9d92c1ce-65f3-4fb2-9f4b-c39c6ea141a9" absoluteBounds="0.875, 5.375, 2, 4.0785139973958326">
+      <DataClassMoniker Name="/DataClassesDataContext/CS_KOD_FORM_LISTESI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5cc074ae-7ef6-44b7-a4bc-e5f3c5d3e93f" absoluteBounds="0.89, 5.835, 1.9700000000000002, 3.518513997395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.875 : 5.375); (1.875 : 4.56899251302083)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DataClassesDataContext/CS_KOD_FORM_LISTESI/CS_KOD_FORM_LISTESI_CS_KOD_PAKET_NN_FORM" />
+      <nodes>
+        <classShapeMoniker Id="9d92c1ce-65f3-4fb2-9f4b-c39c6ea141a9" />
+        <classShapeMoniker Id="9ca15d39-9230-4748-ac9f-59df9ef30d10" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="917ba3da-ef1f-4c01-9db2-b1abb0245aa4" absoluteBounds="3.5, 4.875, 2, 3.8862125651041666">
+      <DataClassMoniker Name="/DataClassesDataContext/CS_KOD_KONTROL_LISTESI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8d298cc8-f234-479f-8845-dfb66c65692a" absoluteBounds="3.5149999999999997, 5.335, 1.9700000000000002, 3.3262125651041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.875 : 7.06810628255208); (3.5 : 7.06810628255208)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DataClassesDataContext/CS_KOD_FORM_LISTESI/CS_KOD_FORM_LISTESI_CS_KOD_KONTROL_LISTESI" />
+      <nodes>
+        <classShapeMoniker Id="9d92c1ce-65f3-4fb2-9f4b-c39c6ea141a9" />
+        <classShapeMoniker Id="917ba3da-ef1f-4c01-9db2-b1abb0245aa4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.20923076923077 : 8.76121256510417); (4.20923076923077 : 9.01121256510417); (4.80461538461539 : 9.01121256510417); (4.80461538461539 : 8.76121256510417)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DataClassesDataContext/CS_KOD_KONTROL_LISTESI/CS_KOD_KONTROL_LISTESI_CS_KOD_KONTROL_LISTESI" />
+      <nodes>
+        <classShapeMoniker Id="917ba3da-ef1f-4c01-9db2-b1abb0245aa4" />
+        <classShapeMoniker Id="917ba3da-ef1f-4c01-9db2-b1abb0245aa4" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="ea05417d-3ba2-489c-8969-8f6b85a98cb6" absoluteBounds="3.5, 2, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/DataClassesDataContext/CS_KOD_KONTROL_OZELLIKLERI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8872bf41-4430-4427-8398-e67bef985263" absoluteBounds="3.515, 2.46, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4.5 : 4.875); (4.5 : 4.34780110677083)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DataClassesDataContext/CS_KOD_KONTROL_LISTESI/CS_KOD_KONTROL_LISTESI_CS_KOD_KONTROL_OZELLIKLERI" />
+      <nodes>
+        <classShapeMoniker Id="917ba3da-ef1f-4c01-9db2-b1abb0245aa4" />
+        <classShapeMoniker Id="ea05417d-3ba2-489c-8969-8f6b85a98cb6" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.875 : 1.2499995); (4.5 : 1.2499995); (4.5 : 2)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClassesDataContext/CS_KOD_PAKET/CS_KOD_PAKET_CS_KOD_KONTROL_OZELLIKLERI" />
+      <nodes>
+        <classShapeMoniker Id="6da7983c-8754-4b83-82d9-14f28319dc23" />
+        <classShapeMoniker Id="ea05417d-3ba2-489c-8969-8f6b85a98cb6" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

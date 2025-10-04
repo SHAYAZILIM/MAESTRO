@@ -1,0 +1,5 @@
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\AvukatproSetupParameteleri.dll.config
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\AvukatproSetupParameteleri.dll
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatproSetupParametreleri\obj\Release\AvukatproSetupParametreleri.csprojResolveAssemblyReference.cache
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatproSetupParametreleri\obj\Release\AvukatproSetupParameteleri.dll.licenses
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatproSetupParametreleri\obj\Release\AvukatproSetupParameteleri.dll

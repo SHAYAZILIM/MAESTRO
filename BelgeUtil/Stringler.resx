@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AsistanAyarlari" xml:space="preserve">
+    <value>"AsistanAyarlari"</value>
+  </data>
+  <data name="Ayrac1" xml:space="preserve">
+    <value>"-"</value>
+  </data>
+  <data name="Ayrac2" xml:space="preserve">
+    <value>"/"</value>
+  </data>
+  <data name="Bos" xml:space="preserve">
+    <value>""</value>
+  </data>
+  <data name="database" xml:space="preserve">
+    <value>database=</value>
+  </data>
+  <data name="DNSAyarlari" xml:space="preserve">
+    <value>"DNSAyarlari"</value>
+  </data>
+  <data name="FirmaTanimlari" xml:space="preserve">
+    <value>"FirmaTanimlari"</value>
+  </data>
+  <data name="GrupTanimlari" xml:space="preserve">
+    <value>"GrupTanimlari"</value>
+  </data>
+  <data name="InternetKontrolAdresi" xml:space="preserve">
+    <value>"InternetKontrolAdresi"</value>
+  </data>
+  <data name="IslemYetkileri" xml:space="preserve">
+    <value>"IslemYetkileri"</value>
+  </data>
+  <data name="KanunRaporSablonYukle" xml:space="preserve">
+    <value>"KanunRaporSablonYukle"</value>
+  </data>
+  <data name="KayıtliKullaniciBilgileri" xml:space="preserve">
+    <value>"KayitliKullaniciBilgileri"</value>
+  </data>
+  <data name="KopyaKorumaCihazi" xml:space="preserve">
+    <value>"KopyaKorumaCihazi"</value>
+  </data>
+  <data name="KullaniciGruplari" xml:space="preserve">
+    <value>"KullaniciGruplari"</value>
+  </data>
+  <data name="KullaniciTanimlari" xml:space="preserve">
+    <value>"KullaniciTanımlari"</value>
+  </data>
+  <data name="LisansSonucu" xml:space="preserve">
+    <value>"LisansSonucu"</value>
+  </data>
+  <data name="LocalAdres" xml:space="preserve">
+    <value>@"HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\"</value>
+  </data>
+  <data name="OtomatikGiderAyari" xml:space="preserve">
+    <value>"OtomatikGiderAyari"</value>
+  </data>
+  <data name="ProgramIsmi" xml:space="preserve">
+    <value>""</value>
+  </data>
+  <data name="pwd" xml:space="preserve">
+    <value>pwd=</value>
+  </data>
+  <data name="server" xml:space="preserve">
+    <value>server=</value>
+  </data>
+  <data name="SMSAyarlari" xml:space="preserve">
+    <value>"SMSAyarlari"</value>
+  </data>
+  <data name="SunucuKurulumTopluAyarlari" xml:space="preserve">
+    <value>"SunucuKurulumTopluAyarlari"</value>
+  </data>
+  <data name="Tamir" xml:space="preserve">
+    <value>"Tamir"</value>
+  </data>
+  <data name="TarihceAyarlari" xml:space="preserve">
+    <value>"TarihceAyarlari"</value>
+  </data>
+  <data name="uid" xml:space="preserve">
+    <value>uid=</value>
+  </data>
+  <data name="Value1" xml:space="preserve">
+    <value>"avp"</value>
+  </data>
+  <data name="Value2" xml:space="preserve">
+    <value>"pro"</value>
+  </data>
+  <data name="VeriTabaniHataKontrol" xml:space="preserve">
+    <value>"VeriTabaniHataKontrol"</value>
+  </data>
+  <data name="VeriTabaniKullanicilari" xml:space="preserve">
+    <value>"VeriTabaniKullanicilari"</value>
+  </data>
+  <data name="VeriTabaniOlustur" xml:space="preserve">
+    <value>"VeriTabaniOlustur"</value>
+  </data>
+  <data name="VeriTabaniSunucuİslemleri" xml:space="preserve">
+    <value>"VeritabaniSunucuİslemleri"</value>
+  </data>
+  <data name="VeriTabaniYazilim" xml:space="preserve">
+    <value>"VeriTabaniYazilim"</value>
+  </data>
+  <data name="VeriTabaniYazilimBilgisi" xml:space="preserve">
+    <value> Yüklü Bir Veri Tabani Yazılımı Bulunmamaktadır Yüklemek İçin Butona Tıklayınız </value>
+  </data>
+  <data name="VeriTabaniYazilimBilgisi1" xml:space="preserve">
+    <value>Sisteminiz de </value>
+  </data>
+  <data name="VeriTabaniYazilimBilgisi2" xml:space="preserve">
+    <value> Uyumlu Bir Veri Tabani Yüklüdür </value>
+  </data>
+  <data name="VeriTabaniYazilimBilgisi3" xml:space="preserve">
+    <value>Sistemdeki Veri Tabani Yaziliminin Verisonu : </value>
+  </data>
+  <data name="VeriTabaniYazilimBilgisi4" xml:space="preserve">
+    <value>Sistemdeki Veri Tabani Yaziliminin SP Versiyonu: </value>
+  </data>
+  <data name="VeriTabaniYazilimBilgisi5" xml:space="preserve">
+    <value> AvukatPro VeriTabanını Sisteminizde Yüklü Veri Tabanı Yönetim Sistemini Kullanarak Çalıştırabilirsiniz.</value>
+  </data>
+  <data name="YedegiSistemeDon" xml:space="preserve">
+    <value>"YedegiSistemeDon"</value>
+  </data>
+  <data name="YedekAl" xml:space="preserve">
+    <value>"YedekAl"</value>
+  </data>
+</root>

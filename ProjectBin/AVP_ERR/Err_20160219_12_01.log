@@ -1,0 +1,14 @@
+[ERROR LOG V1]
+
+Time = 19.02.2016 12:01:44 
+Source = AdimAdimDavaKaydi.IcraTakipForms.frmMasrafAvansKayitHizli (2628012)
+Version = 1.0.0.0 
+Culture = tr-TR 
+
+Exception:
+System.InvalidOperationException: The number of parameters does not match number of values for stored procedure.
+   konum: AvukatProLib.Hesap.MuhasebeAraclari.SetFoyMuhasebeByMasrafAvans(Int32 masrafAvansId, Int32 tipId) d:\emre adım adım\AdimAdimDavaKaydi\AvukatProLib.Hesap\MuhasebeAraclari.cs içinde: satır 162
+   konum: AvukatPro.Services.Implementations.MuhasebeService.CreateFoyMuhasebeByMasrafAvans(CreateFoyMuhasebeByMasrafAvansRequest request) d:\emre adım adım\AdimAdimDavaKaydi\AvukatPro.Services\Implementations\MuhasebeService.cs içinde: satır 62
+   konum: AdimAdimDavaKaydi.IcraTakipForms.frmMasrafAvansKayitHizli.frmMasrafAvansKayitHizli_Button_Kaydet_Click(Object sender, EventArgs e) d:\emre adım adım\AdimAdimDavaKaydi\AdimAdimDavaKaydi\IcraTakipForms\frmMasrafAvansKayitHizli.cs içinde: satır 1182
+[/ERROR LOG V1]
+

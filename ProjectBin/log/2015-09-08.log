@@ -1,0 +1,11 @@
+2015-09-08 19:19:44.2474 Hata 
+ Nesne baþvurusu bir nesnenin örneðine ayarlanmadý. System.NullReferenceException NullReferenceException System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: AdimAdimDavaKaydi.UserControls.frmOdemePlani.set_MySimilasyon(AV001_TI_BIL_FOY_SIMILASYON_HESAP_CETVELI value) d:\dogan\AdimAdimDavaKaydi\AdimAdimDavaKaydi\UserControls\frmOdemePlani.cs içinde: satýr 504
+   konum: AdimAdimDavaKaydi.UserControls.frmOdemePlani.set_MyFoy(AV001_TI_BIL_FOY value) d:\dogan\AdimAdimDavaKaydi\AdimAdimDavaKaydi\UserControls\frmOdemePlani.cs içinde: satýr 422
+   konum: AdimAdimDavaKaydi.UserControls.frmOdemePlani.SetMyFoy(AV001_TI_BIL_FOY foy) d:\dogan\AdimAdimDavaKaydi\AdimAdimDavaKaydi\UserControls\frmOdemePlani.cs içinde: satýr 1328
+   konum: AdimAdimDavaKaydi.UserControls.frmOdemePlani.SetMyFoy(AV001_TI_BIL_FOY foy, AV001_TDIE_BIL_PROJE proje) d:\dogan\AdimAdimDavaKaydi\AdimAdimDavaKaydi\UserControls\frmOdemePlani.cs içinde: satýr 1340
+   konum: AdimAdimDavaKaydi.UserControls.frmOdemePlani.bw_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e) d:\dogan\AdimAdimDavaKaydi\AdimAdimDavaKaydi\UserControls\frmOdemePlani.cs içinde: satýr 388 Void set_MySimilasyon(AvukatProLib2.Entities.AV001_TI_BIL_FOY_SIMILASYON_HESAP_CETVELI)    konum: AdimAdimDavaKaydi.UserControls.frmOdemePlani.set_MySimilasyon(AV001_TI_BIL_FOY_SIMILASYON_HESAP_CETVELI value) d:\dogan\AdimAdimDavaKaydi\AdimAdimDavaKaydi\UserControls\frmOdemePlani.cs içinde: satýr 504
+   konum: AdimAdimDavaKaydi.UserControls.frmOdemePlani.set_MyFoy(AV001_TI_BIL_FOY value) d:\dogan\AdimAdimDavaKaydi\AdimAdimDavaKaydi\UserControls\frmOdemePlani.cs içinde: satýr 422
+   konum: AdimAdimDavaKaydi.UserControls.frmOdemePlani.SetMyFoy(AV001_TI_BIL_FOY foy) d:\dogan\AdimAdimDavaKaydi\AdimAdimDavaKaydi\UserControls\frmOdemePlani.cs içinde: satýr 1328
+   konum: AdimAdimDavaKaydi.UserControls.frmOdemePlani.SetMyFoy(AV001_TI_BIL_FOY foy, AV001_TDIE_BIL_PROJE proje) d:\dogan\AdimAdimDavaKaydi\AdimAdimDavaKaydi\UserControls\frmOdemePlani.cs içinde: satýr 1340
+   konum: AdimAdimDavaKaydi.UserControls.frmOdemePlani.bw_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e) d:\dogan\AdimAdimDavaKaydi\AdimAdimDavaKaydi\UserControls\frmOdemePlani.cs içinde: satýr 388

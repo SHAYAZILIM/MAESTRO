@@ -1,0 +1,13 @@
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\AvukatProLib.dll.config
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\AvukatProLib.dll
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatProLib\obj\Release\AvukatProLib.csprojResolveAssemblyReference.cache
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatProLib\obj\Release\AvukatProLib.DbBackup.frmRestore.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatProLib\obj\Release\AvukatProLib.DbUpdate.frmDbBulkScriptExecuter.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatProLib\obj\Release\AvukatProLib.GlobalResource.Stringler.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatProLib\obj\Release\AvukatProLib.LisansYonetimi.frmLicenseActivation.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatProLib\obj\Release\AvukatProLib.LisansYonetimi.frmLicenseWarning.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatProLib\obj\Release\AvukatProLib.Mail.frmMailSender.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatProLib\obj\Release\AvukatProLib.Properties.Resources.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatProLib\obj\Release\AvukatProLib.csproj.GenerateResource.Cache
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatProLib\obj\Release\AvukatProLib.dll.licenses
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatProLib\obj\Release\AvukatProLib.dll

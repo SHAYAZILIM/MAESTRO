@@ -1,0 +1,10 @@
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBin\CustomAction.dll
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBin\CustomAction.pdb
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\CustomAction\obj\Debug\CustomAction.csprojResolveAssemblyReference.cache
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\CustomAction\obj\Debug\CustomAction.dll
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\CustomAction\obj\Debug\CustomAction.pdb
+D:\dogan\AdimAdimDavaKaydi\ProjectBin\CustomAction.dll
+D:\dogan\AdimAdimDavaKaydi\ProjectBin\CustomAction.pdb
+D:\dogan\AdimAdimDavaKaydi\CustomAction\obj\Debug\CustomAction.csprojResolveAssemblyReference.cache
+D:\dogan\AdimAdimDavaKaydi\CustomAction\obj\Debug\CustomAction.dll
+D:\dogan\AdimAdimDavaKaydi\CustomAction\obj\Debug\CustomAction.pdb

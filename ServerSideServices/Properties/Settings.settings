@@ -1,0 +1,105 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ServerSideServices.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="TebligatRunTime" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">03/20/1982 10:00:00</Value>
+    </Setting>
+    <Setting Name="MailRunTime" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">03/20/1982 10:00:00</Value>
+    </Setting>
+    <Setting Name="SmsRunTime" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">03/20/1982 10:00:00</Value>
+    </Setting>
+    <Setting Name="FaxRunTime" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">03/20/1982 10:00:00</Value>
+    </Setting>
+    <Setting Name="UyapRunTime" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">03/20/1982 10:00:00</Value>
+    </Setting>
+    <Setting Name="TarafGelismeRunTime" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">03/20/1982 10:00:00</Value>
+    </Setting>
+    <Setting Name="AsamaRunTime" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">03/20/1982 10:00:00</Value>
+    </Setting>
+    <Setting Name="TebligatRun" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="MailRun" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="SmsRun" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="FaxRun" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="UyapRun" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="TarafGelismeRun" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="AsamaRun" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="TebligatGun" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Yanlızca Bugün</Value>
+    </Setting>
+    <Setting Name="ServerSideServices_pttGonderiTakipV2_Sorgu" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://pttws.ptt.gov.tr:7025/GonderiTakipV2/services/Sorgu.SorguHttpSoap11Endpoint/</Value>
+    </Setting>
+    <Setting Name="ServerSideServices_pttTopluSorgulama_GonderiTakipService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://pttws.ptt.gov.tr/TopluTakip/services/GonderiTakip</Value>
+    </Setting>
+    <Setting Name="ServerSideServices_pttGonderiTakip_SorguService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://pttws.ptt.gov.tr/GonderiTakip/services/Sorgu</Value>
+    </Setting>
+    <Setting Name="ServerSideServices_pttTopluSorgulamaV2_GonderiTakip" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://pttws.ptt.gov.tr:7026/TopluTakipV2/services/GonderiTakip.GonderiTakipHttpSoap11Endpoint/</Value>
+    </Setting>
+    <Setting Name="MailGun" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Yanlızca Bugün</Value>
+    </Setting>
+    <Setting Name="SmsGun" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Yanlızca Bugün</Value>
+    </Setting>
+    <Setting Name="FaxGun" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Yanlızca Bugün</Value>
+    </Setting>
+    <Setting Name="UyapGun" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Yanlızca Bugün</Value>
+    </Setting>
+    <Setting Name="TarafGelismeGun" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Yanlızca Bugün</Value>
+    </Setting>
+    <Setting Name="AsamaGun" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Yanlızca Bugün</Value>
+    </Setting>
+    <Setting Name="TebligatCalismaAraligi" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Hergün</Value>
+    </Setting>
+    <Setting Name="MailCalismaAraligi" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Hergün</Value>
+    </Setting>
+    <Setting Name="SmsCalismaAraligi" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Hergün</Value>
+    </Setting>
+    <Setting Name="FaxCalismaAraligi" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Hergün</Value>
+    </Setting>
+    <Setting Name="UyapCalismaAraligi" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Hergün</Value>
+    </Setting>
+    <Setting Name="TarafGelismeCalismaAraligi" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Hergün</Value>
+    </Setting>
+    <Setting Name="AsamaCalismaAraligi" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Hergün</Value>
+    </Setting>
+    <Setting Name="AsistanRun" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

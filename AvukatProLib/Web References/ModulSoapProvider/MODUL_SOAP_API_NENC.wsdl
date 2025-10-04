@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://update.soap.avukatpro.com/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://update.soap.avukatpro.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://update.soap.avukatpro.com/">
+      <s:element name="GetFormListByModulNo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LisansNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFormListByModulNoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetFormListByModulNoResult" type="tns:ArrayOfCS_KOD_FORM_LISTESI" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfCS_KOD_FORM_LISTESI">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="CS_KOD_FORM_LISTESI" nillable="true" type="tns:CS_KOD_FORM_LISTESI" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="CS_KOD_FORM_LISTESI">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:CS_KOD_FORM_LISTESIBase" />
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="CS_KOD_FORM_LISTESIBase" abstract="true">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:EntityBase">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="ID" type="s:int" />
+              <s:element minOccurs="0" maxOccurs="1" name="FULL_ADI" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="FORM_ACIKLAMA" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="MENU_NESNE_ADI" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="SUZME_KRITER" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="FORM_GRUP_ID" nillable="true" type="s:int" />
+              <s:element minOccurs="0" maxOccurs="1" name="DB_TABLO_ADI" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="BUTTON_GORUNUM_LIST" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="MODUL" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="MODUL2" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="SUBE_ID" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="ADMIN_KAYIT_MI" type="s:boolean" />
+              <s:element minOccurs="1" maxOccurs="1" name="KONTROL_NE_ZAMAN" type="s:dateTime" />
+              <s:element minOccurs="1" maxOccurs="1" name="KONTROL_KIM_ID" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="KONTROL_VERSIYON" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="STAMP" type="s:short" />
+              <s:element minOccurs="0" maxOccurs="1" name="CS_KOD_PAKETCollection_From_CS_KOD_PAKET_NN_FORM" type="tns:ArrayOfCS_KOD_PAKET" />
+              <s:element minOccurs="0" maxOccurs="1" name="CS_KOD_PAKET_NN_FORMCollection" type="tns:ArrayOfCS_KOD_PAKET_NN_FORM" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="EntityBase" abstract="true">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:EntityBaseCore" />
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="EntityBaseCore" abstract="true">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Tag" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="CS_KOD_PAKET_NN_FORMBase" abstract="true">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:EntityBase">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="PAKET_ID" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="OriginalPAKET_ID" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="FORM_ID" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="OriginalFORM_ID" type="s:int" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="CS_KOD_PAKET_NN_FORM">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:CS_KOD_PAKET_NN_FORMBase" />
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="CS_KOD_PAKETBase" abstract="true">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:EntityBase">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="ID" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="MODUL_NO" type="s:int" />
+              <s:element minOccurs="0" maxOccurs="1" name="PAKET_ADI" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="KAYIT_TARIHI" type="s:dateTime" />
+              <s:element minOccurs="1" maxOccurs="1" name="stamp" type="s:short" />
+              <s:element minOccurs="0" maxOccurs="1" name="CS_KOD_FORM_LISTESICollection_From_CS_KOD_PAKET_NN_FORM" type="tns:ArrayOfCS_KOD_FORM_LISTESI" />
+              <s:element minOccurs="0" maxOccurs="1" name="CS_KOD_PAKET_NN_FORMCollection" type="tns:ArrayOfCS_KOD_PAKET_NN_FORM" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="ArrayOfCS_KOD_PAKET_NN_FORM">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="CS_KOD_PAKET_NN_FORM" nillable="true" type="tns:CS_KOD_PAKET_NN_FORM" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="CS_KOD_PAKET">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:CS_KOD_PAKETBase" />
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="ArrayOfCS_KOD_PAKET">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="CS_KOD_PAKET" nillable="true" type="tns:CS_KOD_PAKET" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetFormListByModulNoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetFormListByModulNo" />
+  </wsdl:message>
+  <wsdl:message name="GetFormListByModulNoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetFormListByModulNoResponse" />
+  </wsdl:message>
+  <wsdl:portType name="MODUL_SOAP_API_NENCSoap">
+    <wsdl:operation name="GetFormListByModulNo">
+      <wsdl:input message="tns:GetFormListByModulNoSoapIn" />
+      <wsdl:output message="tns:GetFormListByModulNoSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="MODUL_SOAP_API_NENCSoap" type="tns:MODUL_SOAP_API_NENCSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetFormListByModulNo">
+      <soap:operation soapAction="http://update.soap.avukatpro.com/GetFormListByModulNo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="MODUL_SOAP_API_NENCSoap12" type="tns:MODUL_SOAP_API_NENCSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetFormListByModulNo">
+      <soap12:operation soapAction="http://update.soap.avukatpro.com/GetFormListByModulNo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="MODUL_SOAP_API_NENC">
+    <wsdl:port name="MODUL_SOAP_API_NENCSoap" binding="tns:MODUL_SOAP_API_NENCSoap">
+      <soap:address location="http://localhost:3767/Avukatpro.WebServices/MODUL_SOAP_API_NENC.asmx" />
+    </wsdl:port>
+    <wsdl:port name="MODUL_SOAP_API_NENCSoap12" binding="tns:MODUL_SOAP_API_NENCSoap12">
+      <soap12:address location="http://localhost:3767/Avukatpro.WebServices/MODUL_SOAP_API_NENC.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

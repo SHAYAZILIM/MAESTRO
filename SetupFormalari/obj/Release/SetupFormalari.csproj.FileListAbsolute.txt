@@ -1,0 +1,5 @@
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\SetupFormalari.exe.config
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\SetupFormalari.exe
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\SetupFormalari\obj\Release\SetupFormalari.Form1.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\SetupFormalari\obj\Release\SetupFormalari.csproj.GenerateResource.Cache
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\SetupFormalari\obj\Release\SetupFormalari.exe

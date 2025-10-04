@@ -1,0 +1,642 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9D513868-AF87-4300-A2B5-1D2C5541B28E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AvukatProLib.Bakim</RootNamespace>
+    <AssemblyName>AvukatProLib.Bakim</AssemblyName>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <ApplicationIcon>bakim_icon2-128x128.ico</ApplicationIcon>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\ProjectBin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\ProjectBinRelease\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\ProjectBin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\AvukatProLib.Bakim.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\AvukatProLib.Bakim.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ABSqlConnection, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Libs\ABSqlConnection.dll</HintPath>
+    </Reference>
+    <Reference Include="AvukatProLib2.Data, Version=3.2.207.14135, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Libs\AvukatProLib2.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="AvukatProLib2.Data.SqlClient, Version=3.2.207.14135, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Libs\AvukatProLib2.Data.SqlClient.dll</HintPath>
+    </Reference>
+    <Reference Include="AvukatProLib2.Entities, Version=3.2.207.14135, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Libs\AvukatProLib2.Entities.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ProjectBin\DevExpress.Data.v12.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ProjectBin\DevExpress.Utils.v12.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ProjectBin\DevExpress.XtraBars.v12.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ProjectBin\DevExpress.XtraEditors.v12.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ProjectBin\DevExpress.XtraGrid.v12.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ProjectBin\DevExpress.XtraLayout.v12.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ProjectBin\DevExpress.XtraTreeList.v12.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraVerticalGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ProjectBin\DevExpress.XtraVerticalGrid.v12.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.ConnectionInfo, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Libs\Microsoft.SqlServer.ConnectionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Management.Sdk.Sfc, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Libs\Microsoft.SqlServer.Management.Sdk.Sfc.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Smo, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Libs\Microsoft.SqlServer.Smo.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AVP_MYSDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AVP_MYSDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CariKayit\rfrmCariEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CariKayit\rfrmCariEkle.Designer.cs">
+      <DependentUpon>rfrmCariEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Claslar\OzellestirmeBanka.cs" />
+    <Compile Include="Claslar\OzellestirmeBelediye.cs" />
+    <Compile Include="Claslar\OzellestirmeSigorta.cs" />
+    <Compile Include="Db\frmOzelKod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Db\frmOzelKod.Designer.cs">
+      <DependentUpon>frmOzelKod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Degisken.cs" />
+    <Compile Include="Firma\frmGrupTanimlama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Firma\frmGrupTanimlama.Designer.cs">
+      <DependentUpon>frmGrupTanimlama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Firma\frmSubeEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Firma\frmSubeEkle.Designer.cs">
+      <DependentUpon>frmSubeEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDbUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDbUpdate.Designer.cs">
+      <DependentUpon>frmDbUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIntro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIntro.Designer.cs">
+      <DependentUpon>frmIntro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Diger\frmAsistanAyarlari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Diger\frmAsistanAyarlari.Designer.cs">
+      <DependentUpon>frmAsistanAyarlari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Diger\frmDNSAyarlari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Diger\frmDNSAyarlari.Designer.cs">
+      <DependentUpon>frmDNSAyarlari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Diger\frmInternetKontrolAdresi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Diger\frmInternetKontrolAdresi.Designer.cs">
+      <DependentUpon>frmInternetKontrolAdresi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Diger\frmKanunRaporSablonYukle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Diger\frmKanunRaporSablonYukle.Designer.cs">
+      <DependentUpon>frmKanunRaporSablonYukle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Diger\frmOtomatikGiderAyari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Diger\frmOtomatikGiderAyari.Designer.cs">
+      <DependentUpon>frmOtomatikGiderAyari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Diger\frmSMSAyarlari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Diger\frmSMSAyarlari.Designer.cs">
+      <DependentUpon>frmSMSAyarlari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Diger\frmSunucuKurulumTopluAyarlar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Diger\frmSunucuKurulumTopluAyarlar.Designer.cs">
+      <DependentUpon>frmSunucuKurulumTopluAyarlar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Diger\frmTarihceAyarlari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Diger\frmTarihceAyarlari.Designer.cs">
+      <DependentUpon>frmTarihceAyarlari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Firma\frmFirmaTanimlari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Firma\frmFirmaTanimlari.Designer.cs">
+      <DependentUpon>frmFirmaTanimlari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Firma\frmKullaniciGruplari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Firma\frmKullaniciGruplari.Designer.cs">
+      <DependentUpon>frmKullaniciGruplari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Firma\frmIslemYetkileri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Firma\frmIslemYetkileri.Designer.cs">
+      <DependentUpon>frmIslemYetkileri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Firma\frmKullaniciTanimlari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Firma\frmKullaniciTanimlari.Designer.cs">
+      <DependentUpon>frmKullaniciTanimlari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmModDuzenleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmModDuzenleme.Designer.cs">
+      <DependentUpon>frmModDuzenleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSistemTanimlari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSistemTanimlari.Designer.cs">
+      <DependentUpon>frmSistemTanimlari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSurumGuncelleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSurumGuncelleme.Designer.cs">
+      <DependentUpon>frmSurumGuncelleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Inits.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="Stringler1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Stringler.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UserKontrol\ExtendedLookUpEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserKontrol\ucKullaniciYetki.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserKontrol\ucKullaniciYetki.Designer.cs">
+      <DependentUpon>ucKullaniciYetki.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yedek\frmYedegiSistemeGeriDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yedek\frmYedegiSistemeGeriDon.Designer.cs">
+      <DependentUpon>frmYedegiSistemeGeriDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yedek\frmYedekAl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yedek\frmYedekAl.Designer.cs">
+      <DependentUpon>frmYedekAl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lisans\frmKayitliKullaniciBilgileri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lisans\frmKayitliKullaniciBilgileri.Designer.cs">
+      <DependentUpon>frmKayitliKullaniciBilgileri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lisans\frmKopyaKorumaCihazi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lisans\frmKopyaKorumaCihazi.Designer.cs">
+      <DependentUpon>frmKopyaKorumaCihazi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lisans\frmLisansSonucu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lisans\frmLisansSonucu.Designer.cs">
+      <DependentUpon>frmLisansSonucu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Db\frmVeriTabaniKontrol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Db\frmVeriTabaniKontrol.Designer.cs">
+      <DependentUpon>frmVeriTabaniKontrol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Db\frmVeriTabaniKullanicilari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Db\frmVeriTabaniKullanicilari.Designer.cs">
+      <DependentUpon>frmVeriTabaniKullanicilari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Db\frmVeriTabaniOlustur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Db\frmVeriTabaniOlustur.Designer.cs">
+      <DependentUpon>frmVeriTabaniOlustur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Db\frmVeriTabaniSunucuIslemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Db\frmVeriTabaniSunucuIslemleri.Designer.cs">
+      <DependentUpon>frmVeriTabaniSunucuIslemleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Db\frmVeriTabaniTamiri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Db\frmVeriTabaniTamiri.Designer.cs">
+      <DependentUpon>frmVeriTabaniTamiri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Db\frmVeriTabaniYazilimi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Db\frmVeriTabaniYazilimi.Designer.cs">
+      <DependentUpon>frmVeriTabaniYazilimi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CariKayit\rfrmCariEkle.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>rfrmCariEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Db\frmOzelKod.resx">
+      <DependentUpon>frmOzelKod.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Db\frmVeriTabaniKontrol.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmVeriTabaniKontrol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Db\frmVeriTabaniKullanicilari.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmVeriTabaniKullanicilari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Db\frmVeriTabaniOlustur.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmVeriTabaniOlustur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Db\frmVeriTabaniSunucuIslemleri.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmVeriTabaniSunucuIslemleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Db\frmVeriTabaniTamiri.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmVeriTabaniTamiri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Db\frmVeriTabaniYazilimi.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmVeriTabaniYazilimi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Diger\frmAsistanAyarlari.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAsistanAyarlari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Diger\frmDNSAyarlari.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDNSAyarlari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Diger\frmInternetKontrolAdresi.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmInternetKontrolAdresi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Diger\frmKanunRaporSablonYukle.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmKanunRaporSablonYukle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Diger\frmOtomatikGiderAyari.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmOtomatikGiderAyari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Diger\frmSMSAyarlari.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSMSAyarlari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Diger\frmSunucuKurulumTopluAyarlar.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSunucuKurulumTopluAyarlar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Diger\frmTarihceAyarlari.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmTarihceAyarlari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Firma\frmFirmaTanimlari.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmFirmaTanimlari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Firma\frmGrupTanimlama.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmGrupTanimlama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Firma\frmIslemYetkileri.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmIslemYetkileri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Firma\frmKullaniciGruplari.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmKullaniciGruplari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Firma\frmKullaniciTanimlari.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmKullaniciTanimlari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Firma\frmSubeEkle.resx">
+      <DependentUpon>frmSubeEkle.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDbUpdate.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDbUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIntro.resx">
+      <DependentUpon>frmIntro.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmModDuzenleme.resx">
+      <DependentUpon>frmModDuzenleme.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSistemTanimlari.resx">
+      <DependentUpon>frmSistemTanimlari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSurumGuncelleme.resx">
+      <DependentUpon>frmSurumGuncelleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lisans\frmKayitliKullaniciBilgileri.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmKayitliKullaniciBilgileri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lisans\frmKopyaKorumaCihazi.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmKopyaKorumaCihazi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lisans\frmLisansSonucu.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmLisansSonucu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rfrmMain.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>rfrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stringler.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Stringler1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserKontrol\ucKullaniciYetki.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ucKullaniciYetki.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yedek\frmYedegiSistemeGeriDon.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmYedegiSistemeGeriDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yedek\frmYedekAl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmYedekAl.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="App.config" />
+    <None Include="Properties\DataSources\AvukatProLib.CompInfo.datasource" />
+    <None Include="Properties\DataSources\AvukatProLib.OzelKodReferans.BakimOzelKodReferans.datasource" />
+    <None Include="Properties\DataSources\AvukatProLib.OzelKodReferans.DavaOzelKodReferans.datasource" />
+    <None Include="Properties\DataSources\AvukatProLib.OzelKodReferans.IcraOzelKodReferans.datasource" />
+    <None Include="Properties\DataSources\AvukatProLib.OzelKodReferans.OrtakOzelKodReferans.datasource" />
+    <None Include="Properties\DataSources\AvukatProLib.OzelKodReferans.SorusturmaOzelKodReferans.datasource" />
+    <None Include="Properties\DataSources\AvukatProLib.OzelKodReferans.SozlesmeOzelKodReferans.datasource" />
+    <None Include="Properties\DataSources\AvukatProLib2.Entities.AV001_TDI_BIL_CARI.datasource" />
+    <None Include="Properties\DataSources\cKayitliKullaniciBilgileri.datasource" />
+    <None Include="Properties\DataSources\CompInfo.datasource" />
+    <None Include="Properties\DataSources\CompInfo1.datasource" />
+    <None Include="Properties\DataSources\CompInfo2.datasource" />
+    <None Include="Properties\DataSources\CompInfo3.datasource" />
+    <None Include="Properties\DataSources\CompInfo4.datasource" />
+    <None Include="Properties\DataSources\cSunucuIlkAyarlari.datasource" />
+    <None Include="Properties\DataSources\cSunucuIlkAyarlari1.datasource" />
+    <None Include="Properties\DataSources\cVeriTabaniKullancilariMetotlar.datasource" />
+    <None Include="Properties\DataSources\cVeriTabaniOlustur.datasource" />
+    <None Include="Properties\DataSources\cVeriTabaniOlustur1.datasource" />
+    <None Include="Properties\DataSources\DNSBilgileri.datasource" />
+    <None Include="Properties\DataSources\frmKayitliKullaniciBilgileri.datasource" />
+    <None Include="Properties\DataSources\LisansSunucusu.datasource" />
+    <None Include="Properties\DataSources\Metot.datasource" />
+    <None Include="Properties\DataSources\SunucuIslemleri.datasource" />
+    <None Include="Properties\DataSources\VeriTabaniKullanicilari.datasource" />
+    <None Include="Properties\DataSources\VeriTabaniKullanicilari1.datasource" />
+    <None Include="Properties\DataSources\YedekAl.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="rfrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rfrmMain.Designer.cs">
+      <DependentUpon>rfrmMain.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bakim_icon2-128x128.ico" />
+    <Content Include="bakim_masaustu64x64.ico" />
+    <None Include="AVP_MYSDataSet.xsc">
+      <DependentUpon>AVP_MYSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="AVP_MYSDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AVP_MYSDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AVP_MYSDataSet.xss">
+      <DependentUpon>AVP_MYSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Avukatpro.snk" />
+    <None Include="Resources\avukatpro_AS40x40.png" />
+    <Content Include="Resources\kullanici_ayarlari40x40.png" />
+    <None Include="Resources\kullanici_ayarlari40x401.png" />
+    <None Include="Resources\kaydet_40x40.png" />
+    <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AVPSetLicence\AVPSetLicence.csproj">
+      <Project>{848c3abe-35d2-4c58-8942-563a4c4aaa11}</Project>
+      <Name>AVPSetLicence</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AvukatProLib\AvukatProLib.csproj">
+      <Project>{1CB2FD39-210C-426F-A8BA-D00079508FE3}</Project>
+      <Name>AvukatProLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BelgeUtil\EkDllBelgeUtil.csproj">
+      <Project>{38b1efe6-73c2-4c8a-a8d9-2c7023015f35}</Project>
+      <Name>EkDllBelgeUtil</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

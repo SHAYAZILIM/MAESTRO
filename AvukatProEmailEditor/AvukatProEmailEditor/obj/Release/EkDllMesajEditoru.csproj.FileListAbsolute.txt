@@ -1,0 +1,10 @@
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\Resources\DevExpress.XtraGrid.Appearances.xml
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\Resources\DevExpress.XtraVerticalGrid.Appearances.xml
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\Resources\DevExpress.XtraTreeList.Appearances.xml
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\AvpDllAvukatProEmailEditor.dll.config
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\AvpDllAvukatProEmailEditor.dll
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatProEmailEditor\AvukatProEmailEditor\obj\Release\EkDllMesajEditoru.csprojResolveAssemblyReference.cache
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatProEmailEditor\AvukatProEmailEditor\obj\Release\AvukatProEmailEditor.Properties.Resources.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatProEmailEditor\AvukatProEmailEditor\obj\Release\EkDllMesajEditoru.csproj.GenerateResource.Cache
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatProEmailEditor\AvukatProEmailEditor\obj\Release\AvpDllAvukatProEmailEditor.dll.licenses
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatProEmailEditor\AvukatProEmailEditor\obj\Release\AvpDllAvukatProEmailEditor.dll

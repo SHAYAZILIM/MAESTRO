@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="AVP_MYS" Class="DataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.;Initial Catalog=AVP_MYS;Integrated Security=True" SettingsObjectName="AvukatProLib.Properties.Settings" SettingsPropertyName="AVP_MYSConnectionString2" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.CS_KOD_PAKET" Member="CS_KOD_PAKETs">
+    <Type Name="CS_KOD_PAKET">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="MODUL_NO" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PAKET_ADI" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="KAYIT_TARIHI" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="stamp" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Association Name="CS_KOD_PAKET_CS_KOD_PAKET_NN_FORM" Member="CS_KOD_PAKET_NN_FORMs" OtherKey="PAKET_ID" Type="CS_KOD_PAKET_NN_FORM" />
+      <Association Name="CS_KOD_PAKET_CS_KOD_KONTROL_OZELLIKLERI" Member="CS_KOD_KONTROL_OZELLIKLERIs" OtherKey="PAKET_ID" Type="CS_KOD_KONTROL_OZELLIKLERI" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CS_KOD_PAKET_NN_FORM" Member="CS_KOD_PAKET_NN_FORMs">
+    <Type Name="CS_KOD_PAKET_NN_FORM">
+      <Column Name="PAKET_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="FORM_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="CS_KOD_PAKET_CS_KOD_PAKET_NN_FORM" Member="CS_KOD_PAKET" ThisKey="PAKET_ID" Type="CS_KOD_PAKET" IsForeignKey="true" />
+      <Association Name="CS_KOD_FORM_LISTESI_CS_KOD_PAKET_NN_FORM" Member="CS_KOD_FORM_LISTESI" ThisKey="FORM_ID" Type="CS_KOD_FORM_LISTESI" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CS_KOD_FORM_LISTESI" Member="CS_KOD_FORM_LISTESIs">
+    <Type Name="CS_KOD_FORM_LISTESI">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FULL_ADI" Type="System.String" DbType="NVarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="FORM_TEXT" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="FORM_ACIKLAMA" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="MENU_NESNE_ADI" Type="System.String" DbType="NVarChar(64)" CanBeNull="true" />
+      <Column Name="SUZME_KRITER" Type="System.String" DbType="NVarChar(32)" CanBeNull="true" />
+      <Column Name="FORM_GRUP_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DB_TABLO_ADI" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="BUTTON_GORUNUM_LIST" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="MODUL" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MODUL2" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SUBE_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ADMIN_KAYIT_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_NE_ZAMAN" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_VERSIYON" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STAMP" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Association Name="CS_KOD_FORM_LISTESI_CS_KOD_PAKET_NN_FORM" Member="CS_KOD_PAKET_NN_FORMs" OtherKey="FORM_ID" Type="CS_KOD_PAKET_NN_FORM" />
+      <Association Name="CS_KOD_FORM_LISTESI_CS_KOD_KONTROL_LISTESI" Member="CS_KOD_KONTROL_LISTESIs" OtherKey="FORM_ID" Type="CS_KOD_KONTROL_LISTESI" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CS_KOD_KONTROL_LISTESI" Member="CS_KOD_KONTROL_LISTESIs">
+    <Type Name="CS_KOD_KONTROL_LISTESI">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FORM_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PARENT_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="KONTROL_ADI" Type="System.String" DbType="NVarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_TEXT" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="KONTROL_ACIKLAMA" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="RELATIVE_PATH" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="TIP_ADI" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="UNIQUE_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SUZME_KRITER" Type="System.String" DbType="NVarChar(32)" CanBeNull="true" />
+      <Column Name="SUBE_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ADMIN_KAYIT_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_NE_ZAMAN" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_VERSIYON" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STAMP" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Association Name="CS_KOD_KONTROL_LISTESI_CS_KOD_KONTROL_LISTESI" Member="CS_KOD_KONTROL_LISTESIs" OtherKey="PARENT_ID" Type="CS_KOD_KONTROL_LISTESI" />
+      <Association Name="CS_KOD_KONTROL_LISTESI_CS_KOD_KONTROL_OZELLIKLERI" Member="CS_KOD_KONTROL_OZELLIKLERIs" OtherKey="KONTROL_ID" Type="CS_KOD_KONTROL_OZELLIKLERI" />
+      <Association Name="CS_KOD_FORM_LISTESI_CS_KOD_KONTROL_LISTESI" Member="CS_KOD_FORM_LISTESI" ThisKey="FORM_ID" Type="CS_KOD_FORM_LISTESI" IsForeignKey="true" />
+      <Association Name="CS_KOD_KONTROL_LISTESI_CS_KOD_KONTROL_LISTESI" Member="CS_KOD_KONTROL_LISTESI1" ThisKey="PARENT_ID" Type="CS_KOD_KONTROL_LISTESI" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CS_KOD_KONTROL_OZELLIKLERI" Member="CS_KOD_KONTROL_OZELLIKLERIs">
+    <Type Name="CS_KOD_KONTROL_OZELLIKLERI">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="KONTROL_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PAKET_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="GORUNUR_MU" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AKTIF_MI" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="SEPETTE_GOSTERILSIN_MI" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="YETKILENDIRMEDE_KULLANILSIN_MI" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="PARENT_GORUNUR_MU" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="CS_KOD_KONTROL_LISTESI_CS_KOD_KONTROL_OZELLIKLERI" Member="CS_KOD_KONTROL_LISTESI" ThisKey="KONTROL_ID" Type="CS_KOD_KONTROL_LISTESI" IsForeignKey="true" />
+      <Association Name="CS_KOD_PAKET_CS_KOD_KONTROL_OZELLIKLERI" Member="CS_KOD_PAKET" ThisKey="PAKET_ID" Type="CS_KOD_PAKET" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

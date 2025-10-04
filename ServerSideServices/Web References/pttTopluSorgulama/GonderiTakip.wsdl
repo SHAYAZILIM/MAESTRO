@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:intf="http://kp.ptt.gov.tr" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:impl="http://kp.ptt.gov.tr" targetNamespace="http://kp.ptt.gov.tr" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema xmlns="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://kp.ptt.gov.tr">
+      <xsd:complexType name="KurumRumuzSorguInput">
+        <xsd:sequence>
+          <xsd:element name="ilk_Barkod" nillable="true" type="xsd:string" />
+          <xsd:element name="musteriId" type="xsd:int" />
+          <xsd:element name="rezerv1" nillable="true" type="xsd:string" />
+          <xsd:element name="rezerv2" nillable="true" type="xsd:string" />
+          <xsd:element name="rezerv3" nillable="true" type="xsd:string" />
+          <xsd:element name="son_Barkod" nillable="true" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="input" type="impl:KurumRumuzSorguInput" />
+      <xsd:complexType name="GonderiSafahat">
+        <xsd:sequence>
+          <xsd:element name="BARKOD" nillable="true" type="xsd:string" />
+          <xsd:element name="IMERK" nillable="true" type="xsd:string" />
+          <xsd:element name="ISLEM" nillable="true" type="xsd:string" />
+          <xsd:element name="ITARIH" nillable="true" type="xsd:string" />
+          <xsd:element name="REZERVE_SONUC1" nillable="true" type="xsd:string" />
+          <xsd:element name="REZERVE_SONUC2" nillable="true" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOfGonderiSafahat">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="item" type="impl:GonderiSafahat" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="KurumRumuzSorgu">
+        <xsd:sequence>
+          <xsd:element name="SONUC" nillable="true" type="xsd:string" />
+          <xsd:element name="musteri_id" type="xsd:int" />
+          <xsd:element name="safahatlar" nillable="true" type="impl:ArrayOfGonderiSafahat" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="gonderiSorgulaReturn" type="impl:KurumRumuzSorgu" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="gonderiSorgulaResponse">
+    <wsdl:part name="gonderiSorgulaReturn" element="impl:gonderiSorgulaReturn" />
+  </wsdl:message>
+  <wsdl:message name="gonderiSorgulaRequest">
+    <wsdl:part name="input" element="impl:input" />
+  </wsdl:message>
+  <wsdl:portType name="GonderiTakip">
+    <wsdl:operation name="gonderiSorgula" parameterOrder="input">
+      <wsdl:input name="gonderiSorgulaRequest" message="impl:gonderiSorgulaRequest" />
+      <wsdl:output name="gonderiSorgulaResponse" message="impl:gonderiSorgulaResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="GonderiTakipSoapBinding" type="impl:GonderiTakip">
+    <wsdlsoap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="gonderiSorgula">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="gonderiSorgulaRequest">
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="gonderiSorgulaResponse">
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="GonderiTakipService">
+    <wsdl:port name="GonderiTakip" binding="impl:GonderiTakipSoapBinding">
+      <wsdlsoap:address location="http://pttws.ptt.gov.tr/TopluTakip/services/GonderiTakip" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

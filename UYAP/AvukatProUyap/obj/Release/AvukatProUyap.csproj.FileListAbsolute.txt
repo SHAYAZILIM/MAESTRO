@@ -1,0 +1,13 @@
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\Resources\DevExpress.XtraGrid.Appearances.xml
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\Resources\DevExpress.XtraVerticalGrid.Appearances.xml
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\Resources\DevExpress.XtraTreeList.Appearances.xml
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\AvukatProUyap.exe.config
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\AvukatProUyap.exe
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\UYAP\AvukatProUyap\obj\Release\AvukatProUyap.csprojResolveAssemblyReference.cache
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\UYAP\AvukatProUyap\obj\Release\AdimAdimDavaKaydi.Form1.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\UYAP\AvukatProUyap\obj\Release\AdimAdimDavaKaydi.frmHatalar.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\UYAP\AvukatProUyap\obj\Release\AvukatProUyap.Strings.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\UYAP\AvukatProUyap\obj\Release\AdimAdimDavaKaydi.Editor.UserControls.DegiskenAciklama.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\UYAP\AvukatProUyap\obj\Release\AvukatProUyap.csproj.GenerateResource.Cache
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\UYAP\AvukatProUyap\obj\Release\AvukatProUyap.exe.licenses
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\UYAP\AvukatProUyap\obj\Release\AvukatProUyap.exe

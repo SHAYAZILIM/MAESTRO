@@ -1,0 +1,10 @@
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\Resources\DevExpress.XtraGrid.Appearances.xml
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\Resources\DevExpress.XtraVerticalGrid.Appearances.xml
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\Resources\DevExpress.XtraTreeList.Appearances.xml
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\AdimAdimDavaKaydi.Properties.dll
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AdimAdimDavaKaydi.Properties\obj\Release\AdimAdimDavaKaydi.Properties.csprojResolveAssemblyReference.cache
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AdimAdimDavaKaydi.Properties\obj\Release\AdimAdimDavaKaydi.Properties.Properties.Resources.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AdimAdimDavaKaydi.Properties\obj\Release\AdimAdimDavaKaydi.Properties.ResourcesSqlQuery.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AdimAdimDavaKaydi.Properties\obj\Release\AdimAdimDavaKaydi.Properties.XRDesignRibbonControllerResources.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AdimAdimDavaKaydi.Properties\obj\Release\AdimAdimDavaKaydi.Properties.csproj.GenerateResource.Cache
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AdimAdimDavaKaydi.Properties\obj\Release\AdimAdimDavaKaydi.Properties.dll

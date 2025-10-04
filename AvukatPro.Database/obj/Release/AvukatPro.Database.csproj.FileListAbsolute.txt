@@ -1,0 +1,16 @@
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\AvukatPro.Database.exe.config
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\AvukatPro.Database.exe
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatPro.Database\obj\Release\AvukatPro.Database.csprojResolveAssemblyReference.cache
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatPro.Database\obj\Release\AvukatPro.Database.FrmDeleteFoy.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatPro.Database\obj\Release\AvukatPro.Database.frmTables.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatPro.Database\obj\Release\AvukatPro.Database.frmProcedures.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatPro.Database\obj\Release\AvukatPro.Database.Form1.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatPro.Database\obj\Release\AvukatPro.Database.Form2.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatPro.Database\obj\Release\AvukatPro.Database.frmViews.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatPro.Database\obj\Release\AvukatPro.Database.UpdateDb.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatPro.Database\obj\Release\AvukatPro.Database.csproj.GenerateResource.Cache
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatPro.Database\obj\Release\AvukatPro.Database.exe.licenses
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatPro.Database\obj\Release\AvukatPro.Database.exe
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatPro.Database\obj\Release\AvukatPro.Database.frmCetDataGrid.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatPro.Database\obj\Release\AvukatPro.Database.frmCetDbTableSelect.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatPro.Database\obj\Release\AvukatPro.Database.frpCetData.resources

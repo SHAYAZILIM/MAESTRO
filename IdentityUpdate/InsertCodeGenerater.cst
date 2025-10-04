@@ -1,0 +1,149 @@
+<%@ CodeTemplate Language="C#" Debug="True" TargetLanguage="C#" Description="Generates a script based on the data from a table." %>
+<%@ Property Name="SourceTable" Type="SchemaExplorer.TableSchemaCollection" Category="Context" Description="Table to get the data from." %>
+<%@ Assembly Name="SchemaExplorer" %>
+<%@ Assembly Name="CodeSmith.BaseTemplates" %>
+<%@ Assembly Name="System.Data" %>
+<%@ Import Namespace="SchemaExplorer" %>
+<%@ Import Namespace="System.Data" %>
+<%@ Import Namespace="System.Text" %>
+<%@ Import Namespace="System.Data.SqlClient" %>
+
+<%for (int t = 0; t < SourceTable.Count; t++)
+{%>
+ 		#region <%=SourceTable[t].Name%>
+		if (gridControl1.DataSource is List<<%=SourceTable[t].Name%>>)
+        {
+						
+			tableName = "<%=SourceTable[t].Name%>";
+			//---
+			var maxSayi = from c in db.<%=SourceTable[t].Name%> orderby c.ID descending where c.ID < 10000 select c.ID;
+			
+			//null kontrolu
+			int sayim = 0;
+			if(maxSayi.Count() > 0)
+			 	sayim = maxSayi.First() + 1;
+			else
+				sayim ++;
+			
+	
+			string updateQuery;
+	
+			//iliskili oldugu tablolari getirir.
+			var tableRelationList = db.ID_UPDATE_TABLE_GET_RELATIONS(tableName);
+	
+			IList<ID_UPDATE_TABLE_GET_RELATIONSResult> tableRelations = tableRelationList.ToList();
+	        bool IsSelected = false;
+
+            foreach (var ls in gridControl1.DataSource as List<<%=SourceTable[t].Name%>>)
+            {
+                if (ls.IsSelected == true)
+                {
+                    IsSelected = true;
+                    break;
+                }
+            }
+            if (IsSelected)
+            {
+				db.ID_UPDATE_TABLE_INDEXES_ON_OFF(tableName, "OFF");
+	
+				foreach (var ls in gridControl1.DataSource as List<<%=SourceTable[t].Name%>>)
+				{
+					if (ls.IsSelected == true)
+					{
+						if (chkOldIdSave.Checked)
+                        {
+                            IU_ID_BACKUP bak = new IU_ID_BACKUP()
+                            {
+                                NewID = sayim,
+                                OldID = ls.ID,
+                                TableName = tableName,
+								OperationTime = DateTime.Now
+                            };
+                            db.IU_ID_BACKUP.InsertOnSubmit(bak);
+                        }
+									
+						//Yeni Row insert edilecek
+						string command = string.Format("Insert Into {0} (<%for (int c = 0; c < SourceTable[t].Columns.Count;c++){%> "+
+						"<%=SourceTable[t].Columns[c].Name %><%if(c < SourceTable[t].Columns.Count-1){%>, <%}}%>)"+
+						" VALUES (<%for (int c = 0; c < SourceTable[t].Columns.Count;c++)
+						{%><%
+						if((SourceTable[t].Columns[c].DataType == DbType.String || 
+						SourceTable[t].Columns[c].DataType == DbType.Date || 
+						SourceTable[t].Columns[c].DataType == DbType.DateTime ||
+						SourceTable[t].Columns[c].DataType == DbType.DateTime2)) 
+						{%>'{<%=c+1 %>}'<%
+						}else
+						{%>{<%=c+1 %>}<%
+						}if(c < SourceTable[t].Columns.Count-1){%>,<%}}%>)",
+						tableName,
+						sayim,
+						<%for (int c = 0; c < SourceTable[t].Columns.Count;c++)
+					{%><%if(SourceTable[t].Columns[c].Name != "ID")
+						{if(SourceTable[t].Columns[c].Name == "KONTROL_VERSIYON"){
+							%>(ls.<%=SourceTable[t].Columns[c].Name%>+1)<%
+						}else if(SourceTable[t].Columns[c].Name == "KONTROL_NE_ZAMAN")
+						{
+							%>DateTime.Now.ToString("yyyy.MM.dd HH:mm:ss")<%
+						}else if(SourceTable[t].Columns[c].Name == "ADMIN_KAYIT_MI")
+						{
+						%>1<%
+						}
+						else if(SourceTable[t].Columns[c].DataType == DbType.Boolean )
+						{%>(ls.<%=SourceTable[t].Columns[c].Name%> == true ? 1 : 0)<%
+						}
+						else if((SourceTable[t].Columns[c].DataType == DbType.Byte || 
+						SourceTable[t].Columns[c].DataType == DbType.Decimal ||
+						SourceTable[t].Columns[c].DataType == DbType.Double ||
+						SourceTable[t].Columns[c].DataType == DbType.Int32 ||
+						SourceTable[t].Columns[c].DataType == DbType.UInt64 ||
+						SourceTable[t].Columns[c].DataType == DbType.VarNumeric ||
+						SourceTable[t].Columns[c].DataType == DbType.Binary) 
+						&& SourceTable[t].Columns[c].AllowDBNull == true)
+						{%>(ls.<%=SourceTable[t].Columns[c].Name%> == null ? "null" : ls.<%=SourceTable[t].Columns[c].Name %>.ToString())<%
+						}else if(SourceTable[t].Columns[c].DataType == DbType.String && 
+						SourceTable[t].Columns[c].AllowDBNull == false)
+						{%>ls.<%=SourceTable[t].Columns[c].Name %>.Replace('\'','?')<%
+						}else
+						{%>ls.<%=SourceTable[t].Columns[c].Name%><% 
+						if((SourceTable[t].Columns[c].DataType == DbType.Date || 
+						SourceTable[t].Columns[c].DataType == DbType.DateTime || 
+						SourceTable[t].Columns[c].DataType == DbType.DateTime2) && 
+						SourceTable[t].Columns[c].AllowDBNull == false)
+						{
+						%>.ToString("yyyy.MM.dd HH:mm:ss")<%}
+						}%><%if(c < SourceTable[t].Columns.Count-1)
+						{%>,
+						<%}}
+						}%>);
+						
+						db.ExecuteCommand(string.Format("SET IDENTITY_INSERT dbo.{0} ON {1} SET IDENTITY_INSERT dbo.{0} OFF", tableName, command));
+												
+						//iliskili tablolar guncellenir
+						foreach (var tableRelation in tableRelations)
+					{
+						  	if (!(tableRelation.RelatedTable.ToUpper() == tableRelation.MainTable.ToUpper() &&
+                         		tableRelation.RelatedColumn.ToUpper() == tableRelation.MainColumn.ToUpper()))
+                            {
+                                updateQuery = "UPDATE " + tableRelation.RelatedTable +
+                                    " SET " + tableRelation.RelatedColumn + " = " + sayim +
+                                    " WHERE " + tableRelation.RelatedColumn + " = " + ls.ID.ToString();
+
+                                db.ExecuteCommand(updateQuery);
+                            }
+					}
+					
+						//ls.ID li Eski datalar silinecek.
+						db.<%=SourceTable[t].Name%>.DeleteOnSubmit(ls);
+						db.SubmitChanges();
+					
+					//En son sayim 1 artirilacak
+					sayim++;
+					}
+				}
+				
+				db.ExecuteCommand("DBCC CHECKIDENT(<%=SourceTable[t].Name%>,reseed,10000)");
+				db.ID_UPDATE_TABLE_INDEXES_ON_OFF(tableName, "ON");
+            }
+		}
+		#endregion
+<%}%>

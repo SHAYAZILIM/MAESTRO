@@ -1,0 +1,108 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AVPUpdater.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="KontrolTipi" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="KontrolGunu" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="KontrolSaati" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">01/01/2012 17:00:00</Value>
+    </Setting>
+    <Setting Name="ProgramiGuncelle" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="TablolariGuncelle" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="VerileriGuncelle" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ViewleriGuncelle" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ProcedureleriGuncelle" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="TriggerlariGuncelle" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ProgramYedekKlasoru" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ProjeYedek</Value>
+    </Setting>
+    <Setting Name="SQLYedekKlasoru" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SQLYedek</Value>
+    </Setting>
+    <Setting Name="SunucuAdresi" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ftp://94.138.206.50</Value>
+    </Setting>
+    <Setting Name="FunctionlariGuncelle" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="cnString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">data source=94.138.206.50\SQLEXPRESS;database=AVPYONETIM;uid=avp;pwd=PASSWRD1;</Value>
+    </Setting>
+    <Setting Name="CetvelleriGuncelle" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="RaporlariGuncelle" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="SablonlariGuncelle" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ftpUid" Type="System.String" Scope="User">
+      <Value Profile="(Default)">aykutbastug</Value>
+    </Setting>
+    <Setting Name="ftpPwd" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PASSWRD1</Value>
+    </Setting>
+    <Setting Name="SqlYedekAlindi" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ProgramYedekAlindi" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="DosyaIndirmeYapildi" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="DosyaGuncellemeYapildi" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="TabloGuncellemeYapildi" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="TanimGuncellemeYapildi" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="CetvelGuncellemeYapildi" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="RaporGuncellemeYapildi" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="SablonGuncellemeYapildi" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="KeyGuncellemeYapildi" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ViewGuncellemeYapildi" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ProcedureGuncellemeYapildi" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="FunctionGuncellemeYapildi" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="TriggerGuncellemeYapildi" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="VeritabaniYedegiAlinsin" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

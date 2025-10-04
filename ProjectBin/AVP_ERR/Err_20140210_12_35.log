@@ -1,0 +1,12 @@
+[ERROR LOG V1]
+
+Time = 10.02.2014 00:35:20 
+Source = System.String (-1620878838)
+Version = 1.0.0.0 
+Culture = tr-TR 
+
+Exception:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at AvukatProDegiskenler.Icra.Degiskenler.GetAlacakNedenleri(AV001_TD_BIL_FOY foy, TextControl txControl, TextField field) in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Editor\Degiskenler\Icra\Degiskenler.cs:line 92
+[/ERROR LOG V1]
+

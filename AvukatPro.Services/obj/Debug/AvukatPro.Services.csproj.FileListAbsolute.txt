@@ -1,0 +1,27 @@
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatPro.Services\obj\Debug\AvukatPro.Services.csprojResolveAssemblyReference.cache
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBin\Resources\DevExpress.XtraGrid.Appearances.xml
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBin\Resources\DevExpress.XtraVerticalGrid.Appearances.xml
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBin\Resources\DevExpress.XtraTreeList.Appearances.xml
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBin\AvukatPro.Services.dll.config
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBin\AvukatPro.Services.dll
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBin\AvukatPro.Services.pdb
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatPro.Services\obj\Debug\AvukatPro.Services.dll
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatPro.Services\obj\Debug\AvukatPro.Services.pdb
+D:\dogan\AdimAdimDavaKaydi\ProjectBin\Resources\DevExpress.XtraGrid.Appearances.xml
+D:\dogan\AdimAdimDavaKaydi\ProjectBin\Resources\DevExpress.XtraVerticalGrid.Appearances.xml
+D:\dogan\AdimAdimDavaKaydi\ProjectBin\Resources\DevExpress.XtraTreeList.Appearances.xml
+D:\dogan\AdimAdimDavaKaydi\ProjectBin\AvukatPro.Services.dll.config
+D:\dogan\AdimAdimDavaKaydi\ProjectBin\AvukatPro.Services.dll
+D:\dogan\AdimAdimDavaKaydi\ProjectBin\AvukatPro.Services.pdb
+D:\dogan\AdimAdimDavaKaydi\AvukatPro.Services\obj\Debug\AvukatPro.Services.csprojResolveAssemblyReference.cache
+D:\dogan\AdimAdimDavaKaydi\AvukatPro.Services\obj\Debug\AvukatPro.Services.dll
+D:\dogan\AdimAdimDavaKaydi\AvukatPro.Services\obj\Debug\AvukatPro.Services.pdb
+D:\emre adım adım\AdimAdimDavaKaydi\ProjectBin\Resources\DevExpress.XtraGrid.Appearances.xml
+D:\emre adım adım\AdimAdimDavaKaydi\ProjectBin\Resources\DevExpress.XtraVerticalGrid.Appearances.xml
+D:\emre adım adım\AdimAdimDavaKaydi\ProjectBin\Resources\DevExpress.XtraTreeList.Appearances.xml
+D:\emre adım adım\AdimAdimDavaKaydi\ProjectBin\AvukatPro.Services.dll.config
+D:\emre adım adım\AdimAdimDavaKaydi\ProjectBin\AvukatPro.Services.dll
+D:\emre adım adım\AdimAdimDavaKaydi\ProjectBin\AvukatPro.Services.pdb
+D:\emre adım adım\AdimAdimDavaKaydi\AvukatPro.Services\obj\Debug\AvukatPro.Services.csprojResolveAssemblyReference.cache
+D:\emre adım adım\AdimAdimDavaKaydi\AvukatPro.Services\obj\Debug\AvukatPro.Services.dll
+D:\emre adım adım\AdimAdimDavaKaydi\AvukatPro.Services\obj\Debug\AvukatPro.Services.pdb

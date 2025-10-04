@@ -1,0 +1,13 @@
+[ERROR LOG V1]
+
+Time = 09.01.2014 19:14:03 
+Source = AdimAdimDavaKaydi.frmDavaDosyaKayitForm (58842024)
+Version = 1.0.0.0 
+Culture = tr-TR 
+
+Exception:
+System.InvalidOperationException: Nullable object must have a value.
+   at System.Nullable`1.get_Value()
+   at AdimAdimDavaKaydi.frmDavaDosyaKayitForm.rLueDavaKonusu_ButtonClick(Object sender, ButtonPressedEventArgs e)
+[/ERROR LOG V1]
+

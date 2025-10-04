@@ -1,0 +1,54 @@
+2014-06-30 10:01:50.8530 Hata 
+ Unable to cast object of type 'System.DBNull' to type 'System.String'. System.InvalidCastException InvalidCastException System.InvalidCastException: Unable to cast object of type 'System.DBNull' to type 'System.String'.
+   at AvukatProLib2.Data.Bases.TDI_BIL_KULLANICI_LISTESIProviderBaseCore.Fill(IDataReader reader, TList`1 rows, Int32 start, Int32 pageLength)
+   at AvukatProLib2.Data.SqlClient.SqlTDI_BIL_KULLANICI_LISTESIProviderBase.GetByKULLANICI_ADIKULLANICI_SIFRESIKULLANICI_SUBE_ID(TransactionManager transactionManager, String kULLANICI_ADI, String kULLANICI_SIFRESI, Int32 kULLANICI_SUBE_ID, Int32 start, Int32 pageLength, Int32& count)
+   at AvukatProLib2.Data.Bases.TDI_BIL_KULLANICI_LISTESIProviderBaseCore.GetByKULLANICI_ADIKULLANICI_SIFRESIKULLANICI_SUBE_ID(String kULLANICI_ADI, String kULLANICI_SIFRESI, Int32 kULLANICI_SUBE_ID)
+   at AdimAdimDavaKaydi.AnaForm.frmIntro.simpleButton1_Click(Object sender, EventArgs e) in d:\dogan\AdimAdimDavaKaydi\AdimAdimDavaKaydi\AnaForm\frmIntro.cs:line 81
+   at AdimAdimDavaKaydi.AnaForm.frmIntro.pictureEdit1_MouseClick(Object sender, MouseEventArgs e) in d:\dogan\AdimAdimDavaKaydi\AdimAdimDavaKaydi\AnaForm\frmIntro.cs:line 841
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at DevExpress.Utils.Controls.ControlBase.WndProc(Message& m)
+   at DevExpress.XtraEditors.BaseControl.WndProc(Message& msg)
+   at DevExpress.XtraEditors.BaseEdit.WndProc(Message& m)
+   at DevExpress.XtraEditors.PictureEdit.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam) AvukatProLib2.Entities.TList`1[AvukatProLib2.Entities.TDI_BIL_KULLANICI_LISTESI] Fill(System.Data.IDataReader, AvukatProLib2.Entities.TList`1[AvukatProLib2.Entities.TDI_BIL_KULLANICI_LISTESI], Int32, Int32)    at AvukatProLib2.Data.Bases.TDI_BIL_KULLANICI_LISTESIProviderBaseCore.Fill(IDataReader reader, TList`1 rows, Int32 start, Int32 pageLength)
+   at AvukatProLib2.Data.SqlClient.SqlTDI_BIL_KULLANICI_LISTESIProviderBase.GetByKULLANICI_ADIKULLANICI_SIFRESIKULLANICI_SUBE_ID(TransactionManager transactionManager, String kULLANICI_ADI, String kULLANICI_SIFRESI, Int32 kULLANICI_SUBE_ID, Int32 start, Int32 pageLength, Int32& count)
+   at AvukatProLib2.Data.Bases.TDI_BIL_KULLANICI_LISTESIProviderBaseCore.GetByKULLANICI_ADIKULLANICI_SIFRESIKULLANICI_SUBE_ID(String kULLANICI_ADI, String kULLANICI_SIFRESI, Int32 kULLANICI_SUBE_ID)
+   at AdimAdimDavaKaydi.AnaForm.frmIntro.simpleButton1_Click(Object sender, EventArgs e) in d:\dogan\AdimAdimDavaKaydi\AdimAdimDavaKaydi\AnaForm\frmIntro.cs:line 81
+   at AdimAdimDavaKaydi.AnaForm.frmIntro.pictureEdit1_MouseClick(Object sender, MouseEventArgs e) in d:\dogan\AdimAdimDavaKaydi\AdimAdimDavaKaydi\AnaForm\frmIntro.cs:line 841
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at DevExpress.Utils.Controls.ControlBase.WndProc(Message& m)
+   at DevExpress.XtraEditors.BaseControl.WndProc(Message& msg)
+   at DevExpress.XtraEditors.BaseEdit.WndProc(Message& m)
+   at DevExpress.XtraEditors.PictureEdit.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+2014-06-30 10:07:52.9478 Hata 
+ Unable to cast object of type 'System.DBNull' to type 'System.String'. System.InvalidCastException InvalidCastException System.InvalidCastException: Unable to cast object of type 'System.DBNull' to type 'System.String'.
+   at AvukatProLib2.Data.Bases.TDI_BIL_KULLANICI_LISTESIProviderBaseCore.Fill(IDataReader reader, TList`1 rows, Int32 start, Int32 pageLength)
+   at AvukatProLib2.Data.SqlClient.SqlTDI_BIL_KULLANICI_LISTESIProviderBase.GetByKULLANICI_ADIKULLANICI_SIFRESIKULLANICI_SUBE_ID(TransactionManager transactionManager, String kULLANICI_ADI, String kULLANICI_SIFRESI, Int32 kULLANICI_SUBE_ID, Int32 start, Int32 pageLength, Int32& count)
+   at AvukatProLib2.Data.Bases.TDI_BIL_KULLANICI_LISTESIProviderBaseCore.GetByKULLANICI_ADIKULLANICI_SIFRESIKULLANICI_SUBE_ID(String kULLANICI_ADI, String kULLANICI_SIFRESI, Int32 kULLANICI_SUBE_ID)
+   at AdimAdimDavaKaydi.AnaForm.frmIntro.simpleButton1_Click(Object sender, EventArgs e) in d:\dogan\AdimAdimDavaKaydi\AdimAdimDavaKaydi\AnaForm\frmIntro.cs:line 81
+   at AdimAdimDavaKaydi.AnaForm.frmIntro.pictureEdit1_MouseClick(Object sender, MouseEventArgs e) in d:\dogan\AdimAdimDavaKaydi\AdimAdimDavaKaydi\AnaForm\frmIntro.cs:line 841
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at DevExpress.Utils.Controls.ControlBase.WndProc(Message& m)
+   at DevExpress.XtraEditors.BaseControl.WndProc(Message& msg)
+   at DevExpress.XtraEditors.BaseEdit.WndProc(Message& m)
+   at DevExpress.XtraEditors.PictureEdit.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam) AvukatProLib2.Entities.TList`1[AvukatProLib2.Entities.TDI_BIL_KULLANICI_LISTESI] Fill(System.Data.IDataReader, AvukatProLib2.Entities.TList`1[AvukatProLib2.Entities.TDI_BIL_KULLANICI_LISTESI], Int32, Int32)    at AvukatProLib2.Data.Bases.TDI_BIL_KULLANICI_LISTESIProviderBaseCore.Fill(IDataReader reader, TList`1 rows, Int32 start, Int32 pageLength)
+   at AvukatProLib2.Data.SqlClient.SqlTDI_BIL_KULLANICI_LISTESIProviderBase.GetByKULLANICI_ADIKULLANICI_SIFRESIKULLANICI_SUBE_ID(TransactionManager transactionManager, String kULLANICI_ADI, String kULLANICI_SIFRESI, Int32 kULLANICI_SUBE_ID, Int32 start, Int32 pageLength, Int32& count)
+   at AvukatProLib2.Data.Bases.TDI_BIL_KULLANICI_LISTESIProviderBaseCore.GetByKULLANICI_ADIKULLANICI_SIFRESIKULLANICI_SUBE_ID(String kULLANICI_ADI, String kULLANICI_SIFRESI, Int32 kULLANICI_SUBE_ID)
+   at AdimAdimDavaKaydi.AnaForm.frmIntro.simpleButton1_Click(Object sender, EventArgs e) in d:\dogan\AdimAdimDavaKaydi\AdimAdimDavaKaydi\AnaForm\frmIntro.cs:line 81
+   at AdimAdimDavaKaydi.AnaForm.frmIntro.pictureEdit1_MouseClick(Object sender, MouseEventArgs e) in d:\dogan\AdimAdimDavaKaydi\AdimAdimDavaKaydi\AnaForm\frmIntro.cs:line 841
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at DevExpress.Utils.Controls.ControlBase.WndProc(Message& m)
+   at DevExpress.XtraEditors.BaseControl.WndProc(Message& msg)
+   at DevExpress.XtraEditors.BaseEdit.WndProc(Message& m)
+   at DevExpress.XtraEditors.PictureEdit.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)

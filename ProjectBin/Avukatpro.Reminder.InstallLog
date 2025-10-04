@@ -1,0 +1,15 @@
+﻿'D:\dogan\AdimAdimDavaKaydi\ProjectBin\Avukatpro.Reminder.exe' derlemesi yükleniyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   assemblypath = D:\dogan\AdimAdimDavaKaydi\ProjectBin\Avukatpro.Reminder.exe
+   i = 
+   logfile = D:\dogan\AdimAdimDavaKaydi\ProjectBin\Avukatpro.Reminder.InstallLog
+D:\dogan\AdimAdimDavaKaydi\ProjectBin\Avukatpro.Reminder.exe derlemesinde RunInstallerAttribute.Yes özniteliğine sahip ortak yükleyiciler bulunamadı.
+'D:\dogan\AdimAdimDavaKaydi\ProjectBin\Avukatpro.Reminder.exe' derlemesi tamamlanıyor.
+Etkilenen parametreler şunlardır:
+   logtoconsole = 
+   assemblypath = D:\dogan\AdimAdimDavaKaydi\ProjectBin\Avukatpro.Reminder.exe
+   i = 
+   logfile = D:\dogan\AdimAdimDavaKaydi\ProjectBin\Avukatpro.Reminder.InstallLog
+D:\dogan\AdimAdimDavaKaydi\ProjectBin\Avukatpro.Reminder.exe derlemesinde RunInstallerAttribute.Yes özniteliğine sahip ortak yükleyiciler bulunamadı.
+Yükleyici olmadığından InstallState dosyası kaldırılmalı.

@@ -1,0 +1,14 @@
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBin\SetupFormalari.exe.config
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBin\SetupFormalari.exe
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBin\SetupFormalari.pdb
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\SetupFormalari\obj\Debug\SetupFormalari.Form1.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\SetupFormalari\obj\Debug\SetupFormalari.csproj.GenerateResource.Cache
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\SetupFormalari\obj\Debug\SetupFormalari.exe
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\SetupFormalari\obj\Debug\SetupFormalari.pdb
+D:\dogan\AdimAdimDavaKaydi\ProjectBin\SetupFormalari.exe.config
+D:\dogan\AdimAdimDavaKaydi\ProjectBin\SetupFormalari.exe
+D:\dogan\AdimAdimDavaKaydi\ProjectBin\SetupFormalari.pdb
+D:\dogan\AdimAdimDavaKaydi\SetupFormalari\obj\Debug\SetupFormalari.Form1.resources
+D:\dogan\AdimAdimDavaKaydi\SetupFormalari\obj\Debug\SetupFormalari.csproj.GenerateResource.Cache
+D:\dogan\AdimAdimDavaKaydi\SetupFormalari\obj\Debug\SetupFormalari.exe
+D:\dogan\AdimAdimDavaKaydi\SetupFormalari\obj\Debug\SetupFormalari.pdb

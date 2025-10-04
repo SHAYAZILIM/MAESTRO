@@ -1,0 +1,48 @@
+﻿namespace AdimAdimDavaKaydi.Entegrasyon
+{
+    public class EnumsParametre
+    {
+        public enum DovizTip
+        {
+            AED,
+            ATS,
+            AUD,
+            BEF,
+            BHD,
+            CAD,
+            CHF,
+            CZK,
+            DEM,
+            DKK,
+            EGP,
+            ESP,
+            EUR,
+            FIM,
+            FRF,
+            GBP,
+            GRD,
+            HUF,
+            IEP,
+            ITL,
+            JPY,
+            KWD,
+            LYD,
+            MAD,
+            NLG,
+            NOK,
+            OMR,
+            PLN,
+            PTE,
+            QAR,
+            ROL,
+            RUB,
+            SAR,
+            SEK,
+            SKK,
+            TL,
+            USD,
+            XAU,
+            ZAR
+        }
+    }
+}

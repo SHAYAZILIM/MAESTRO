@@ -1,0 +1,16 @@
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBin\Avukatpro.Reminder.exe.config
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBin\Avukatpro.Reminder.exe
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBin\Avukatpro.Reminder.pdb
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\Avukatpro.Reminder\obj\Debug\Avukatpro.Reminder.csprojResolveAssemblyReference.cache
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\Avukatpro.Reminder\obj\Debug\Interop.SMSMakinesi.dll
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\Avukatpro.Reminder\obj\Debug\Avukatpro.Reminder.csproj.ResolveComReference.cache
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\Avukatpro.Reminder\obj\Debug\Avukatpro.Reminder.exe
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\Avukatpro.Reminder\obj\Debug\Avukatpro.Reminder.pdb
+D:\dogan\AdimAdimDavaKaydi\ProjectBin\Avukatpro.Reminder.exe.config
+D:\dogan\AdimAdimDavaKaydi\ProjectBin\Avukatpro.Reminder.exe
+D:\dogan\AdimAdimDavaKaydi\ProjectBin\Avukatpro.Reminder.pdb
+D:\dogan\AdimAdimDavaKaydi\Avukatpro.Reminder\obj\Debug\Avukatpro.Reminder.csprojResolveAssemblyReference.cache
+D:\dogan\AdimAdimDavaKaydi\Avukatpro.Reminder\obj\Debug\Interop.SMSMakinesi.dll
+D:\dogan\AdimAdimDavaKaydi\Avukatpro.Reminder\obj\Debug\Avukatpro.Reminder.csproj.ResolveComReference.cache
+D:\dogan\AdimAdimDavaKaydi\Avukatpro.Reminder\obj\Debug\Avukatpro.Reminder.exe
+D:\dogan\AdimAdimDavaKaydi\Avukatpro.Reminder\obj\Debug\Avukatpro.Reminder.pdb

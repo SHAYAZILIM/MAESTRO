@@ -1,0 +1,2 @@
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\AVPLisans.dll
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AVPLisans\obj\Release\AVPLisans.dll

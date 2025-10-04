@@ -1,0 +1,24 @@
+[ERROR LOG V1]
+
+Time = 09.01.2014 00:25:46 
+Source = AdimAdimDavaKaydi.AnaForm.frmIntro (15510466)
+Version = 1.0.0.0 
+Culture = tr-TR 
+
+Exception:
+System.Data.SqlClient.SqlException: Cannot open database "RAZ" requested by the login. The login failed.
+Login failed for user 'sa'.
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Linq.SqlClient.SqlConnectionManager.UseConnection(IConnectionUser user)
+   at System.Data.Linq.SqlClient.SqlProvider.get_IsSqlCe()
+   at System.Data.Linq.SqlClient.SqlProvider.InitializeProviderMode()
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.Table`1.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.Count[TSource](IQueryable`1 source)
+   at AdimAdimDavaKaydi.AnaForm.frmIntro.<>c__DisplayClass5.<Application_Idle>b__4(Object param0, DoWorkEventArgs param1) in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AdimAdimDavaKaydi\AnaForm\frmIntro.cs:line 321
+   at System.ComponentModel.BackgroundWorker.WorkerThreadStart(Object argument)
+[/ERROR LOG V1]
+

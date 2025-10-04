@@ -1,0 +1,7 @@
+2014-04-29 23:41:50.0773 Hata 
+ Nullable object must have a value. System.InvalidOperationException InvalidOperationException System.InvalidOperationException: Nullable object must have a value.
+   at System.Nullable`1.get_Value()
+   at AdimAdimDavaKaydi.frmDavaDosyaKayitForm.setFoy(AV001_TD_BIL_FOY foy)
+   at AdimAdimDavaKaydi.frmDavaDosyaKayitForm.set_MyFoy(AV001_TD_BIL_FOY value) T get_Value()    at System.Nullable`1.get_Value()
+   at AdimAdimDavaKaydi.frmDavaDosyaKayitForm.setFoy(AV001_TD_BIL_FOY foy)
+   at AdimAdimDavaKaydi.frmDavaDosyaKayitForm.set_MyFoy(AV001_TD_BIL_FOY value)

@@ -1,0 +1,491 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A994128B-10EC-4C61-8804-7F38984EDF63}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AvukatProRaporlar.Raport.Util</RootNamespace>
+    <AssemblyName>AvukatProRaporlar.Raport.Util</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\ProjectBin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\ProjectBinRelease\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\ProjectBin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\AvukatProRaporlar.Raport.Util.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\AvukatProRaporlar.Raport.Util.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Charts.v12.1.Core, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      
+    </Reference>
+    <Reference Include="DevExpress.Data.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      
+    </Reference>
+    <Reference Include="DevExpress.PivotGrid.v12.1.Core, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      
+    </Reference>
+    <Reference Include="DevExpress.Printing.v12.1.Core, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      
+    </Reference>
+    <Reference Include="DevExpress.Utils.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v12.1.UI, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      
+    </Reference>
+    <Reference Include="DevExpress.XtraPivotGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      
+    </Reference>
+    <Reference Include="DevExpress.XtraVerticalGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AuthHelperBase.cs" />
+    <Compile Include="Bilgi.cs" />
+    <Compile Include="ChartDesigner.cs" />
+    <Compile Include="compGridDovizSummary.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="compGridDovizSummary.designer.cs">
+      <DependentUpon>compGridDovizSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Connection.cs" />
+    <Compile Include="DataNavigatorExtended.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DegerTipi.cs" />
+    <Compile Include="DovizHelper.cs" />
+    <Compile Include="ExtendedGridControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFiltreYonetim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFiltreYonetim.designer.cs">
+      <DependentUpon>frmFiltreYonetim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmXGridStyleChooser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmXGridStyleChooser.designer.cs">
+      <DependentUpon>frmXGridStyleChooser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GridAyar.cs" />
+    <Compile Include="Inits.Ext.cs" />
+    <Compile Include="Inits\Enums.cs" />
+    <Compile Include="Inits\InitsEx.cs" />
+    <Compile Include="Kimlikci.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resource1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RssReader.cs" />
+    <Compile Include="Tools.cs" />
+    <Compile Include="ucChartDesignerControlPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucChartDesignerControlPanel.designer.cs">
+      <DependentUpon>ucChartDesignerControlPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\DovizAPI\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DataNavigatorExtended.resx">
+      <DependentUpon>DataNavigatorExtended.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFiltreYonetim.resx">
+      <DependentUpon>frmFiltreYonetim.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmXGridStyleChooser.resx">
+      <DependentUpon>frmXGridStyleChooser.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resource1.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucChartDesignerControlPanel.resx">
+      <DependentUpon>ucChartDesignerControlPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ayar_40x40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\belgeler40x40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buro_istatistikleri40x40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dnext_12x12_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dnext_12x12_cevir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dnext_12x12_delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dnext_12x12_editor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dnext_12x12_email.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dnext_12x12_excel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dnext_12x12_first.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dnext_12x12_fscreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dnext_12x12_getir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dnext_12x12_last.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dnext_12x12_next.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dnext_12x12_previous.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dnext_12x12_printer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dnext_12x12_tick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EV-40X40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\excel03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\favorite-22x22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gonder12x12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gonder40x40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gorusmeler40x40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hesapla_40x40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\html.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iliskili_dosyalar_red_40x40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kapat_40x40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kutuphane2_40x40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kutuphane_40x40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mahkeme_40x40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mail2_40X40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\meslek_rehberi40x40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Micr_Office_Word_40x40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pdf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pdf_40x40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\posta2-40x40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\proje40x40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\projeicon_40x40.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\savcilik_40x40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sihirbaz1_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sihirbaz2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tablo_40x40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\takip_islemleri40x40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\taraf_renklerini_belirle40x40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tarihce.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yardim.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yazdir_40x40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ayar_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\DataSources\System.Data.DataSet.datasource" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\DovizAPI\AVP_NG_DOVIZ_SOAP_API_NENC.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://www.avukatpro.com/AVPNG/AVP_NG_DOVIZ_SOAP_API_NENC.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\DovizAPI\</RelPath>
+      <UpdateFromURL>http://www.avukatpro.com/AVPNG/AVP_NG_DOVIZ_SOAP_API_NENC.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>AvukatProRaporlar_Raport_Util_com_avukatpro_www_AVP_NG_DOVIZ_SOAP_API_NENC</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\DovizAPI\AVP_NG_DOVIZ_SOAP_API_NENC.disco" />
+    <None Include="Web References\DovizAPI\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AvukatProLib\AvukatProLib.csproj">
+      <Project>{1cb2fd39-210c-426f-a8ba-d00079508fe3}</Project>
+      <Name>AvukatProLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BelgeUtil\EkDllBelgeUtil.csproj">
+      <Project>{38b1efe6-73c2-4c8a-a8d9-2c7023015f35}</Project>
+      <Name>EkDllBelgeUtil</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RaporDataSource\RaporDataSource.csproj">
+      <Project>{91b54e7e-0eee-43e5-a217-b43f1cce08a2}</Project>
+      <Name>RaporDataSource</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

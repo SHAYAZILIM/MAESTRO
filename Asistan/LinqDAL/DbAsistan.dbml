@@ -1,0 +1,461 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="DOLU" Class="DbAsistanDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=192.9.0.222;Initial Catalog=DOLU;User ID=sa" SettingsObjectName="Asistan.Properties.Settings" SettingsPropertyName="DOLUConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.AV001_TDI_BIL_CARI" Member="AV001_TDI_BIL_CARIs">
+    <Type Name="AV001_TDI_BIL_CARI">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="KOD" Type="System.String" DbType="NVarChar(16) NOT NULL" CanBeNull="false" />
+      <Column Name="AD" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="UNVAN" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="EMAIL_1" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="EMAIL_2" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Association Name="AV001_TDI_BIL_CARI_TDI_BIL_KULLANICI_LISTESI" Member="TDI_BIL_KULLANICI_LISTESIs" ThisKey="ID" OtherKey="CARI_ID" Type="TDI_BIL_KULLANICI_LISTESI" />
+      <Association Name="AV001_TDI_BIL_CARI_NN_IS_CARI" Member="NN_IS_CARIs" ThisKey="ID" OtherKey="CARI_ID" Type="NN_IS_CARI" />
+      <Association Name="AV001_TDI_BIL_CARI_AV001_TDI_BIL_IS_TARAF" Member="AV001_TDI_BIL_IS_TARAFs" ThisKey="ID" OtherKey="CARI_ID" Type="AV001_TDI_BIL_IS_TARAF" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TDI_BIL_KULLANICI_LISTESI" Member="TDI_BIL_KULLANICI_LISTESIs">
+    <Type Name="TDI_BIL_KULLANICI_LISTESI">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="KULLANICI_ADI" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="KULLANICI_SIFRESI" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="CARI_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="EMAIL" Type="System.String" DbType="NVarChar(200) NOT NULL" CanBeNull="false" />
+      <Association Name="TDI_BIL_KULLANICI_LISTESI_TDIE_BIL_KULLANICI_GENEL_AYAR" Member="TDIE_BIL_KULLANICI_GENEL_AYARs" ThisKey="ID" OtherKey="KULLANICI_ID" Type="TDIE_BIL_KULLANICI_GENEL_AYAR" />
+      <Association Name="TDI_BIL_KULLANICI_LISTESI_TDI_KOD_ADLI_BIRIM_ADLIYE" Member="TDI_KOD_ADLI_BIRIM_ADLIYEs" ThisKey="ID" OtherKey="KONTROL_KIM_ID" Type="TDI_KOD_ADLI_BIRIM_ADLIYE" />
+      <Association Name="TDI_BIL_KULLANICI_LISTESI_TDI_KOD_ADLI_BIRIM_GOREV" Member="TDI_KOD_ADLI_BIRIM_GOREVs" ThisKey="ID" OtherKey="KONTROL_KIM_ID" Type="TDI_KOD_ADLI_BIRIM_GOREV" />
+      <Association Name="TDI_BIL_KULLANICI_LISTESI_TDI_KOD_ADLI_BIRIM_NO" Member="TDI_KOD_ADLI_BIRIM_NOs" ThisKey="ID" OtherKey="KONTROL_KIM_ID" Type="TDI_KOD_ADLI_BIRIM_NO" />
+      <Association Name="TDI_BIL_KULLANICI_LISTESI_TDI_KOD_MUHASEBE_HAREKET_ALT_KATEGORI" Member="TDI_KOD_MUHASEBE_HAREKET_ALT_KATEGORIs" ThisKey="ID" OtherKey="KONTROL_KIM_ID" Type="TDI_KOD_MUHASEBE_HAREKET_ALT_KATEGORI" />
+      <Association Name="AV001_TDI_BIL_CARI_TDI_BIL_KULLANICI_LISTESI" Member="AV001_TDI_BIL_CARI" ThisKey="CARI_ID" OtherKey="ID" Type="AV001_TDI_BIL_CARI" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NN_IS_CARI" Member="NN_IS_CARIs">
+    <Type Name="NN_IS_CARI">
+      <Column Name="IS_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CARI_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="AV001_TDI_BIL_CARI_NN_IS_CARI" Member="AV001_TDI_BIL_CARI" ThisKey="CARI_ID" OtherKey="ID" Type="AV001_TDI_BIL_CARI" IsForeignKey="true" />
+      <Association Name="AV001_TDI_BIL_I_NN_IS_CARI" Member="AV001_TDI_BIL_I" ThisKey="IS_ID" OtherKey="ID" Type="AV001_TDI_BIL_I" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.AV001_TDI_BIL_IS" Member="AV001_TDI_BIL_Is">
+    <Type Name="AV001_TDI_BIL_I">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="KATEGORI_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="YAPILACAK_IS" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="ADLI_BIRIM_ADLIYE_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ADLI_BIRIM_GOREV_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ADLI_BIRIM_NO_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FORM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TABLO_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MODUL_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DURUM" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="MUHASEBELESTIRILSIN_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="HATIRLATILSIN_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="AJANDADA_GORUNSUN_MU" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="TIP" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BITIS_TARIHI" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="BASLANGIC_TARIHI" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ONGORULEN_BITIS_TARIHI" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="YER" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="KONU" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="ACIKLAMA" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="KOSUL" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="HER_GUN_MU" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="STATU_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ETIKET_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TARAFLAR" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="HATIRLATMA_BILGISI" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="TEKRARLAMA_BILGISI" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="IS_NO" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ESAS_NO" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="REFERANS_NO" Type="System.String" DbType="NVarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="STAMP" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="ONCELIK_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="HATIRLATMA_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ZAMAN_KOSULU" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Association Name="AV001_TDI_BIL_I_NN_IS_CARI" Member="NN_IS_CARIs" ThisKey="ID" OtherKey="IS_ID" Type="NN_IS_CARI" />
+      <Association Name="AV001_TDI_BIL_I_AV001_TDI_BIL_IS_TARAF" Member="AV001_TDI_BIL_IS_TARAFs" ThisKey="ID" OtherKey="IS_ID" Type="AV001_TDI_BIL_IS_TARAF" />
+      <Association Name="AV001_TDI_BIL_I_NN_IS_ARAKARAR" Member="NN_IS_ARAKARARs" ThisKey="ID" OtherKey="IS_ID" Type="NN_IS_ARAKARAR" />
+      <Association Name="AV001_TDI_BIL_I_NN_IS_TEBLIGAT_MUHATAB" Member="NN_IS_TEBLIGAT_MUHATABs" ThisKey="ID" OtherKey="IS_ID" Type="NN_IS_TEBLIGAT_MUHATAB" />
+      <Association Name="AV001_TDI_BIL_I_NN_IS_BELGE" Member="NN_IS_BELGEs" ThisKey="ID" OtherKey="IS_ID" Type="NN_IS_BELGE" />
+      <Association Name="AV001_TDI_BIL_I_NN_IS_CELSE" Member="NN_IS_CELSEs" ThisKey="ID" OtherKey="IS_ID" Type="NN_IS_CELSE" />
+      <Association Name="AV001_TDI_BIL_I_NN_IS_DAVA_FOY" Member="NN_IS_DAVA_FOYs" ThisKey="ID" OtherKey="IS_ID" Type="NN_IS_DAVA_FOY" />
+      <Association Name="AV001_TDI_BIL_I_NN_IS_DAVA_NEDEN" Member="NN_IS_DAVA_NEDENs" ThisKey="ID" OtherKey="IS_ID" Type="NN_IS_DAVA_NEDEN" />
+      <Association Name="AV001_TDI_BIL_I_NN_IS_DAVA_TARAF" Member="NN_IS_DAVA_TARAFs" ThisKey="ID" OtherKey="IS_ID" Type="NN_IS_DAVA_TARAF" />
+      <Association Name="AV001_TDI_BIL_I_NN_IS_GORUSME" Member="NN_IS_GORUSMEs" ThisKey="ID" OtherKey="IS_ID" Type="NN_IS_GORUSME" />
+      <Association Name="AV001_TDI_BIL_I_NN_IS_HACIZ" Member="NN_IS_HACIZs" ThisKey="ID" OtherKey="IS_ID" Type="NN_IS_HACIZ" />
+      <Association Name="AV001_TDI_BIL_I_NN_IS_HATIRLATMA" Member="NN_IS_HATIRLATMAs" ThisKey="ID" OtherKey="IS_ID" Type="NN_IS_HATIRLATMA" />
+      <Association Name="AV001_TDI_BIL_I_NN_IS_HAZIRLIK" Member="NN_IS_HAZIRLIKs" ThisKey="ID" OtherKey="IS_ID" Type="NN_IS_HAZIRLIK" />
+      <Association Name="AV001_TDI_BIL_I_NN_IS_HAZIRLIK_TARAF" Member="NN_IS_HAZIRLIK_TARAFs" ThisKey="ID" OtherKey="IS_ID" Type="NN_IS_HAZIRLIK_TARAF" />
+      <Association Name="AV001_TDI_BIL_I_NN_IS_ICRA_FOY" Member="NN_IS_ICRA_FOYs" ThisKey="ID" OtherKey="IS_ID" Type="NN_IS_ICRA_FOY" />
+      <Association Name="AV001_TDI_BIL_I_NN_IS_ICRA_TARAF" Member="NN_IS_ICRA_TARAFs" ThisKey="ID" OtherKey="IS_ID" Type="NN_IS_ICRA_TARAF" />
+      <Association Name="AV001_TDI_BIL_I_NN_IS_MESAJ" Member="NN_IS_MESAJs" ThisKey="ID" OtherKey="IS_ID" Type="NN_IS_MESAJ" />
+      <Association Name="AV001_TDI_BIL_I_NN_IS_MUHASEBE" Member="NN_IS_MUHASEBEs" ThisKey="ID" OtherKey="IS_ID" Type="NN_IS_MUHASEBE" />
+      <Association Name="AV001_TDI_BIL_I_NN_IS_POLICE" Member="NN_IS_POLICEs" ThisKey="ID" OtherKey="IS_ID" Type="NN_IS_POLICE" />
+      <Association Name="AV001_TDI_BIL_I_NN_IS_POLICE_HASAR" Member="NN_IS_POLICE_HASARs" ThisKey="ID" OtherKey="IS_ID" Type="NN_IS_POLICE_HASAR" />
+      <Association Name="AV001_TDI_BIL_I_NN_IS_RUCU" Member="NN_IS_RUCUs" ThisKey="ID" OtherKey="IS_ID" Type="NN_IS_RUCU" />
+      <Association Name="AV001_TDI_BIL_I_NN_IS_RUCU_TARAF" Member="NN_IS_RUCU_TARAFs" ThisKey="ID" OtherKey="IS_ID" Type="NN_IS_RUCU_TARAF" />
+      <Association Name="AV001_TDI_BIL_I_NN_IS_SATI" Member="NN_IS_SATIs" ThisKey="ID" OtherKey="IS_ID" Type="NN_IS_SATI" />
+      <Association Name="AV001_TDI_BIL_I_NN_IS_SOZLESME" Member="NN_IS_SOZLESMEs" ThisKey="ID" OtherKey="IS_ID" Type="NN_IS_SOZLESME" />
+      <Association Name="AV001_TDI_BIL_I_NN_IS_SOZLESME_TARAF" Member="NN_IS_SOZLESME_TARAFs" ThisKey="ID" OtherKey="IS_ID" Type="NN_IS_SOZLESME_TARAF" />
+      <Association Name="AV001_TDI_BIL_I_NN_IS_TAAHHUT" Member="NN_IS_TAAHHUTs" ThisKey="ID" OtherKey="IS_ID" Type="NN_IS_TAAHHUT" />
+      <Association Name="AV001_TDI_BIL_I_NN_IS_TEBLIGAT" Member="NN_IS_TEBLIGATs" ThisKey="ID" OtherKey="IS_ID" Type="NN_IS_TEBLIGAT" />
+      <Association Name="TDI_KOD_ADLI_BIRIM_ADLIYE_AV001_TDI_BIL_I" Member="TDI_KOD_ADLI_BIRIM_ADLIYE" ThisKey="ADLI_BIRIM_ADLIYE_ID" OtherKey="ID" Type="TDI_KOD_ADLI_BIRIM_ADLIYE" IsForeignKey="true" />
+      <Association Name="TDI_KOD_ADLI_BIRIM_GOREV_AV001_TDI_BIL_I" Member="TDI_KOD_ADLI_BIRIM_GOREV" ThisKey="ADLI_BIRIM_GOREV_ID" OtherKey="ID" Type="TDI_KOD_ADLI_BIRIM_GOREV" IsForeignKey="true" />
+      <Association Name="TDI_KOD_ADLI_BIRIM_NO_AV001_TDI_BIL_I" Member="TDI_KOD_ADLI_BIRIM_NO" ThisKey="ADLI_BIRIM_NO_ID" OtherKey="ID" Type="TDI_KOD_ADLI_BIRIM_NO" IsForeignKey="true" />
+      <Association Name="TDI_KOD_MUHASEBE_HAREKET_ALT_KATEGORI_AV001_TDI_BIL_I" Member="TDI_KOD_MUHASEBE_HAREKET_ALT_KATEGORI" ThisKey="KATEGORI_ID" OtherKey="ID" Type="TDI_KOD_MUHASEBE_HAREKET_ALT_KATEGORI" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.AV001_TDI_BIL_IS_TARAF" Member="AV001_TDI_BIL_IS_TARAFs">
+    <Type Name="AV001_TDI_BIL_IS_TARAF">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="IS_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CARI_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CARI_ADI" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="IS_TARAF_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IS_TARAF" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Association Name="AV001_TDI_BIL_IS_TARAF_AV001_TDI_BIL_HATIRLAT" Member="AV001_TDI_BIL_HATIRLATs" ThisKey="ID" OtherKey="IS_TARAF_ID" Type="AV001_TDI_BIL_HATIRLAT" Cardinality="One" />
+      <Association Name="AV001_TDI_BIL_CARI_AV001_TDI_BIL_IS_TARAF" Member="AV001_TDI_BIL_CARI" ThisKey="CARI_ID" OtherKey="ID" Type="AV001_TDI_BIL_CARI" IsForeignKey="true" />
+      <Association Name="AV001_TDI_BIL_I_AV001_TDI_BIL_IS_TARAF" Member="AV001_TDI_BIL_I" ThisKey="IS_ID" OtherKey="ID" Type="AV001_TDI_BIL_I" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.AV001_TDI_BIL_HATIRLAT" Member="AV001_TDI_BIL_HATIRLATs">
+    <Type Name="AV001_TDI_BIL_HATIRLAT">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="KULLANICI_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="REFERANS_NO" Type="System.String" DbType="NVarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="IS_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="HATIRLATSIN_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="PERIYOD_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PERIYOD" Type="System.String" DbType="NVarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="BASLAMA_TARIHI" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="BITIS_TARIHI" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="ACIKLAMA" Type="System.String" DbType="NVarChar(1000) NOT NULL" CanBeNull="false" />
+      <Column Name="IS_TARAF_ID" Type="System.Int32" DbType="Int" CanBeNull="false" />
+      <Column Name="HATIRLATMA_ARALIG" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="HATIRLATMA_TIPI" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="PERIYOT_TIPI" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TEKRAR" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ERTELEME" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ERTELEME_ZAMAN" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AKTIF" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="AV001_TDI_BIL_HATIRLAT_NN_IS_HATIRLATMA" Member="NN_IS_HATIRLATMAs" ThisKey="ID" OtherKey="HATIRLATMA_ID" Type="NN_IS_HATIRLATMA" />
+      <Association Name="AV001_TDI_BIL_IS_TARAF_AV001_TDI_BIL_HATIRLAT" Member="AV001_TDI_BIL_IS_TARAF" ThisKey="IS_TARAF_ID" OtherKey="ID" Type="AV001_TDI_BIL_IS_TARAF" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NN_IS_ARAKARAR" Member="NN_IS_ARAKARARs">
+    <Type Name="NN_IS_ARAKARAR">
+      <Column Name="IS_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ARAKARAR_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="AV001_TDI_BIL_I_NN_IS_ARAKARAR" Member="AV001_TDI_BIL_I" ThisKey="IS_ID" OtherKey="ID" Type="AV001_TDI_BIL_I" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NN_IS_TEBLIGAT_MUHATAB" Member="NN_IS_TEBLIGAT_MUHATABs">
+    <Type Name="NN_IS_TEBLIGAT_MUHATAB">
+      <Column Name="IS_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TEBLIGAT_MUHATAB_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="AV001_TDI_BIL_I_NN_IS_TEBLIGAT_MUHATAB" Member="AV001_TDI_BIL_I" ThisKey="IS_ID" OtherKey="ID" Type="AV001_TDI_BIL_I" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NN_IS_BELGE" Member="NN_IS_BELGEs">
+    <Type Name="NN_IS_BELGE">
+      <Column Name="IS_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="BELGE_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="AV001_TDI_BIL_I_NN_IS_BELGE" Member="AV001_TDI_BIL_I" ThisKey="IS_ID" OtherKey="ID" Type="AV001_TDI_BIL_I" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NN_IS_CELSE" Member="NN_IS_CELSEs">
+    <Type Name="NN_IS_CELSE">
+      <Column Name="IS_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CELSE_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="AV001_TDI_BIL_I_NN_IS_CELSE" Member="AV001_TDI_BIL_I" ThisKey="IS_ID" OtherKey="ID" Type="AV001_TDI_BIL_I" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NN_IS_DAVA_FOY" Member="NN_IS_DAVA_FOYs">
+    <Type Name="NN_IS_DAVA_FOY">
+      <Column Name="IS_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="DAVA_FOY_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="AV001_TDI_BIL_I_NN_IS_DAVA_FOY" Member="AV001_TDI_BIL_I" ThisKey="IS_ID" OtherKey="ID" Type="AV001_TDI_BIL_I" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NN_IS_DAVA_NEDEN" Member="NN_IS_DAVA_NEDENs">
+    <Type Name="NN_IS_DAVA_NEDEN">
+      <Column Name="IS_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="DAVA_NEDEN_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="AV001_TDI_BIL_I_NN_IS_DAVA_NEDEN" Member="AV001_TDI_BIL_I" ThisKey="IS_ID" OtherKey="ID" Type="AV001_TDI_BIL_I" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NN_IS_DAVA_TARAF" Member="NN_IS_DAVA_TARAFs">
+    <Type Name="NN_IS_DAVA_TARAF">
+      <Column Name="IS_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="DAVA_TARAF_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="AV001_TDI_BIL_I_NN_IS_DAVA_TARAF" Member="AV001_TDI_BIL_I" ThisKey="IS_ID" OtherKey="ID" Type="AV001_TDI_BIL_I" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NN_IS_GORUSME" Member="NN_IS_GORUSMEs">
+    <Type Name="NN_IS_GORUSME">
+      <Column Name="IS_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="GORUSME_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="AV001_TDI_BIL_I_NN_IS_GORUSME" Member="AV001_TDI_BIL_I" ThisKey="IS_ID" OtherKey="ID" Type="AV001_TDI_BIL_I" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NN_IS_HACIZ" Member="NN_IS_HACIZs">
+    <Type Name="NN_IS_HACIZ">
+      <Column Name="IS_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="HACIZ_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="AV001_TDI_BIL_I_NN_IS_HACIZ" Member="AV001_TDI_BIL_I" ThisKey="IS_ID" OtherKey="ID" Type="AV001_TDI_BIL_I" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NN_IS_HATIRLATMA" Member="NN_IS_HATIRLATMAs">
+    <Type Name="NN_IS_HATIRLATMA">
+      <Column Name="IS_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="HATIRLATMA_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="AV001_TDI_BIL_HATIRLAT_NN_IS_HATIRLATMA" Member="AV001_TDI_BIL_HATIRLAT" ThisKey="HATIRLATMA_ID" OtherKey="ID" Type="AV001_TDI_BIL_HATIRLAT" IsForeignKey="true" />
+      <Association Name="AV001_TDI_BIL_I_NN_IS_HATIRLATMA" Member="AV001_TDI_BIL_I" ThisKey="IS_ID" OtherKey="ID" Type="AV001_TDI_BIL_I" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NN_IS_HAZIRLIK" Member="NN_IS_HAZIRLIKs">
+    <Type Name="NN_IS_HAZIRLIK">
+      <Column Name="IS_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="HAZIRLIK_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="AV001_TDI_BIL_I_NN_IS_HAZIRLIK" Member="AV001_TDI_BIL_I" ThisKey="IS_ID" OtherKey="ID" Type="AV001_TDI_BIL_I" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NN_IS_HAZIRLIK_TARAF" Member="NN_IS_HAZIRLIK_TARAFs">
+    <Type Name="NN_IS_HAZIRLIK_TARAF">
+      <Column Name="IS_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="HAZIRLIK_TARAF_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="AV001_TDI_BIL_I_NN_IS_HAZIRLIK_TARAF" Member="AV001_TDI_BIL_I" ThisKey="IS_ID" OtherKey="ID" Type="AV001_TDI_BIL_I" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NN_IS_ICRA_FOY" Member="NN_IS_ICRA_FOYs">
+    <Type Name="NN_IS_ICRA_FOY">
+      <Column Name="IS_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ICRA_FOY_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="AV001_TDI_BIL_I_NN_IS_ICRA_FOY" Member="AV001_TDI_BIL_I" ThisKey="IS_ID" OtherKey="ID" Type="AV001_TDI_BIL_I" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NN_IS_ICRA_TARAF" Member="NN_IS_ICRA_TARAFs">
+    <Type Name="NN_IS_ICRA_TARAF">
+      <Column Name="IS_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ICRA_TARAF_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="AV001_TDI_BIL_I_NN_IS_ICRA_TARAF" Member="AV001_TDI_BIL_I" ThisKey="IS_ID" OtherKey="ID" Type="AV001_TDI_BIL_I" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NN_IS_MESAJ" Member="NN_IS_MESAJs">
+    <Type Name="NN_IS_MESAJ">
+      <Column Name="IS_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MESAJ_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="AV001_TDI_BIL_I_NN_IS_MESAJ" Member="AV001_TDI_BIL_I" ThisKey="IS_ID" OtherKey="ID" Type="AV001_TDI_BIL_I" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NN_IS_MUHASEBE" Member="NN_IS_MUHASEBEs">
+    <Type Name="NN_IS_MUHASEBE">
+      <Column Name="IS_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MUHASEBE_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="AV001_TDI_BIL_I_NN_IS_MUHASEBE" Member="AV001_TDI_BIL_I" ThisKey="IS_ID" OtherKey="ID" Type="AV001_TDI_BIL_I" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NN_IS_POLICE" Member="NN_IS_POLICEs">
+    <Type Name="NN_IS_POLICE">
+      <Column Name="IS_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="POLICE_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="AV001_TDI_BIL_I_NN_IS_POLICE" Member="AV001_TDI_BIL_I" ThisKey="IS_ID" OtherKey="ID" Type="AV001_TDI_BIL_I" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NN_IS_POLICE_HASAR" Member="NN_IS_POLICE_HASARs">
+    <Type Name="NN_IS_POLICE_HASAR">
+      <Column Name="IS_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="POLICE_HASAR_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="AV001_TDI_BIL_I_NN_IS_POLICE_HASAR" Member="AV001_TDI_BIL_I" ThisKey="IS_ID" OtherKey="ID" Type="AV001_TDI_BIL_I" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NN_IS_RUCU" Member="NN_IS_RUCUs">
+    <Type Name="NN_IS_RUCU">
+      <Column Name="IS_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="RUCU_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="AV001_TDI_BIL_I_NN_IS_RUCU" Member="AV001_TDI_BIL_I" ThisKey="IS_ID" OtherKey="ID" Type="AV001_TDI_BIL_I" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NN_IS_RUCU_TARAF" Member="NN_IS_RUCU_TARAFs">
+    <Type Name="NN_IS_RUCU_TARAF">
+      <Column Name="IS_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="RUCU_TARAF_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="AV001_TDI_BIL_I_NN_IS_RUCU_TARAF" Member="AV001_TDI_BIL_I" ThisKey="IS_ID" OtherKey="ID" Type="AV001_TDI_BIL_I" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NN_IS_SATIS" Member="NN_IS_SATIs">
+    <Type Name="NN_IS_SATI">
+      <Column Name="IS_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SATIS_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="AV001_TDI_BIL_I_NN_IS_SATI" Member="AV001_TDI_BIL_I" ThisKey="IS_ID" OtherKey="ID" Type="AV001_TDI_BIL_I" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NN_IS_SOZLESME" Member="NN_IS_SOZLESMEs">
+    <Type Name="NN_IS_SOZLESME">
+      <Column Name="IS_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SOZLESME_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="AV001_TDI_BIL_I_NN_IS_SOZLESME" Member="AV001_TDI_BIL_I" ThisKey="IS_ID" OtherKey="ID" Type="AV001_TDI_BIL_I" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NN_IS_SOZLESME_TARAF" Member="NN_IS_SOZLESME_TARAFs">
+    <Type Name="NN_IS_SOZLESME_TARAF">
+      <Column Name="IS_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SOZLESME_TARAF_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="AV001_TDI_BIL_I_NN_IS_SOZLESME_TARAF" Member="AV001_TDI_BIL_I" ThisKey="IS_ID" OtherKey="ID" Type="AV001_TDI_BIL_I" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NN_IS_TAAHHUT" Member="NN_IS_TAAHHUTs">
+    <Type Name="NN_IS_TAAHHUT">
+      <Column Name="IS_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TAAHHUT_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="AV001_TDI_BIL_I_NN_IS_TAAHHUT" Member="AV001_TDI_BIL_I" ThisKey="IS_ID" OtherKey="ID" Type="AV001_TDI_BIL_I" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NN_IS_TEBLIGAT" Member="NN_IS_TEBLIGATs">
+    <Type Name="NN_IS_TEBLIGAT">
+      <Column Name="TEBLIGAT_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="IS_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="AV001_TDI_BIL_I_NN_IS_TEBLIGAT" Member="AV001_TDI_BIL_I" ThisKey="IS_ID" OtherKey="ID" Type="AV001_TDI_BIL_I" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TDIE_BIL_KULLANICI_GENEL_AYAR" Member="TDIE_BIL_KULLANICI_GENEL_AYARs">
+    <Type Name="TDIE_BIL_KULLANICI_GENEL_AYAR">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="SIRKET_ADI" Type="System.String" DbType="NVarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="KULLANICI_ADI" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="HOST" Type="System.String" DbType="NVarChar(80)" CanBeNull="true" />
+      <Column Name="PORT" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MAIL_KULLANICI_ADI" Type="System.String" DbType="NVarChar(80)" CanBeNull="true" />
+      <Column Name="MAIL_KULLANICI_SIFRE" Type="System.String" DbType="NVarChar(80)" CanBeNull="true" />
+      <Column Name="SSL_KULLAN" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="KULLANICI_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SUBE_KOD_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="VARSAYILAN_GUVENLIK" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="TDI_BIL_KULLANICI_LISTESI_TDIE_BIL_KULLANICI_GENEL_AYAR" Member="TDI_BIL_KULLANICI_LISTESI" ThisKey="KULLANICI_ID" OtherKey="ID" Type="TDI_BIL_KULLANICI_LISTESI" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TDI_KOD_ADLI_BIRIM_ADLIYE" Member="TDI_KOD_ADLI_BIRIM_ADLIYEs">
+    <Type Name="TDI_KOD_ADLI_BIRIM_ADLIYE">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ADLIYE" Type="System.String" DbType="NVarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="IL_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IL" Type="System.String" DbType="NVarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="ILCE_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ILCE" Type="System.String" DbType="NVarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="ULKE_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ULKE" Type="System.String" DbType="NVarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="BOLGE_NO" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="SUBE_KODU" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="ADMIN_KAYIT_MI" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_NE_ZAMAN" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_VERSIYON" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STAMP" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SUBE_KOD_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TDI_KOD_ADLI_BIRIM_ADLIYE_AV001_TDI_BIL_I" Member="AV001_TDI_BIL_Is" ThisKey="ID" OtherKey="ADLI_BIRIM_ADLIYE_ID" Type="AV001_TDI_BIL_I" />
+      <Association Name="TDI_BIL_KULLANICI_LISTESI_TDI_KOD_ADLI_BIRIM_ADLIYE" Member="TDI_BIL_KULLANICI_LISTESI" ThisKey="KONTROL_KIM_ID" OtherKey="ID" Type="TDI_BIL_KULLANICI_LISTESI" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TDI_KOD_ADLI_BIRIM_GOREV" Member="TDI_KOD_ADLI_BIRIM_GOREVs">
+    <Type Name="TDI_KOD_ADLI_BIRIM_GOREV">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ADLI_BIRIM_BOLUM_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ADLI_BIRIM_BOLUM_KOD" Type="System.String" DbType="NVarChar(2) NOT NULL" CanBeNull="false" />
+      <Column Name="GOREV" Type="System.String" DbType="NVarChar(6) NOT NULL" CanBeNull="false" />
+      <Column Name="ACIKLAMA" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="MAHKEME_GRUP_KODU" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="VEKALET_UCR_GRUP_KODU" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SUBE_KODU" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="ADMIN_KAYIT_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_NE_ZAMAN" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_VERSIYON" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STAMP" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SUBE_KOD_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TDI_KOD_ADLI_BIRIM_GOREV_AV001_TDI_BIL_I" Member="AV001_TDI_BIL_Is" ThisKey="ID" OtherKey="ADLI_BIRIM_GOREV_ID" Type="AV001_TDI_BIL_I" />
+      <Association Name="TDI_BIL_KULLANICI_LISTESI_TDI_KOD_ADLI_BIRIM_GOREV" Member="TDI_BIL_KULLANICI_LISTESI" ThisKey="KONTROL_KIM_ID" OtherKey="ID" Type="TDI_BIL_KULLANICI_LISTESI" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TDI_KOD_ADLI_BIRIM_NO" Member="TDI_KOD_ADLI_BIRIM_NOs">
+    <Type Name="TDI_KOD_ADLI_BIRIM_NO">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NO" Type="System.String" DbType="NVarChar(4) NOT NULL" CanBeNull="false" />
+      <Column Name="SUBE_KODU" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="ADMIN_KAYIT_MI" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_NE_ZAMAN" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_VERSIYON" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STAMP" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SUBE_KOD_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TDI_KOD_ADLI_BIRIM_NO_AV001_TDI_BIL_I" Member="AV001_TDI_BIL_Is" ThisKey="ID" OtherKey="ADLI_BIRIM_NO_ID" Type="AV001_TDI_BIL_I" />
+      <Association Name="TDI_BIL_KULLANICI_LISTESI_TDI_KOD_ADLI_BIRIM_NO" Member="TDI_BIL_KULLANICI_LISTESI" ThisKey="KONTROL_KIM_ID" OtherKey="ID" Type="TDI_BIL_KULLANICI_LISTESI" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TDI_KOD_MUHASEBE_HAREKET_ALT_KATEGORI" Member="TDI_KOD_MUHASEBE_HAREKET_ALT_KATEGORIs">
+    <Type Name="TDI_KOD_MUHASEBE_HAREKET_ALT_KATEGORI">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ANA_KATEGORI_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ANA_KATEGORI" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="ALT_KATEGORI" Type="System.String" DbType="NVarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="MANUAL_KAYIT_YAPABILIR_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="MAKTU_VEKALET_KOD_NO" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="HESAPLANACAKMI_KDV" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="HESAPLANACAKMI_STOPAJ_SSDF" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="ICINDEMI_KDV" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="ICINDEMI_STOPAJ_SSDF" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="DEGISTIREBILIRMI_HESAPLANACAKMI_KDV" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="DEGISTIREBILIRMI_HESAPLANACAKMI_STOPAJ_SSDF" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="DEGISTIREBILIRMI_ICINDEMI_KDV" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="DEGISTIREBILIRMI_ICINDEMI_STOPAJ_SSDF" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="TEKDUZEN_HESAP_KOD" Type="System.String" DbType="NVarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="KDV_TUR_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="KDV_TUR" Type="System.String" DbType="NVarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="ICON" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="SUBE_KODU" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="ADMIN_KAYIT_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_NE_ZAMAN" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_VERSIYON" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STAMP" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="TO_HESAP_CETVEL_YERI" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TS_HESAP_CETVEL_YERI" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DO_HESAP_CETVEL_YERI" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DS_HESAP_CETVEL_YERI" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="KOLAY_SIRA" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="GORUSME_MI" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="KONTROL_KIM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SUBE_KOD_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TDI_KOD_MUHASEBE_HAREKET_ALT_KATEGORI_AV001_TDI_BIL_I" Member="AV001_TDI_BIL_Is" ThisKey="ID" OtherKey="KATEGORI_ID" Type="AV001_TDI_BIL_I" />
+      <Association Name="TDI_BIL_KULLANICI_LISTESI_TDI_KOD_MUHASEBE_HAREKET_ALT_KATEGORI" Member="TDI_BIL_KULLANICI_LISTESI" ThisKey="KONTROL_KIM_ID" OtherKey="ID" Type="TDI_BIL_KULLANICI_LISTESI" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.per_AV001_TDI_BIL_IS_Asistan" Member="per_AV001_TDI_BIL_IS_Asistans">
+    <Type Name="per_AV001_TDI_BIL_IS_Asistan">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="HATIRLATILSIN_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="ACIKLAMA" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="AJANDADA_GORUNSUN_MU" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="ADLIYE" Type="System.String" DbType="NVarChar(32)" CanBeNull="true" />
+      <Column Name="GOREV" Type="System.String" DbType="NVarChar(6)" CanBeNull="true" />
+      <Column Name="NO" Type="System.String" DbType="NVarChar(4)" CanBeNull="true" />
+      <Column Name="BASLANGIC_TARIHI" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="BITIS_TARIHI" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DURUM" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="ESAS_NO" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="IS_NO" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="HATIRLATMA_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ONGORULEN_BITIS_TARIHI" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="YAPILACAK_IS" Type="System.String" DbType="NVarChar(4000)" CanBeNull="true" />
+      <Column Name="ETIKET_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="YER" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="HATIRLATMA_BILGISI" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="TEKRARLAMA_BILGISI" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="TIP" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ALT_KATEGORI" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="KONU" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,16 @@
+[ERROR LOG V1]
+
+Time = 12.01.2014 02:13:24 
+Source = System.RuntimeType (177588472)
+Version = 1.0.0.0 
+Culture = tr-TR 
+
+Exception:
+System.ArgumentNullException: The argument entity, can not be null.
+Parameter name: entity
+   at AvukatProLib2.Data.Bases.EntityProviderBaseCore`2.DeepLoad(TransactionManager mgr, Entity entity, Boolean deep, DeepLoadType deepLoadType, Type[] childTypes)
+   at AvukatProLib2.Data.Bases.EntityProviderBaseCore`2.DeepLoad(Entity entity, Boolean deep, DeepLoadType deepLoadType, Type[] childTypes)
+   at AdimAdimDavaKaydi.Forms.frmKlasorYeni.frm_SozlesmeKaydedildi(Object sender, SozlesmeFoyKaydedildiEventArgs e) in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Forms\frmKlasorYeni.cs:line 3165
+   at AdimAdimDavaKaydi.Sozlesme.Forms.frmSozlesmeKayitLayout.Kaydet(AV001_TDI_BIL_SOZLESME sozlesme) in d:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Sozlesme\Forms\frmSozlesmeKayitLayout.cs:line 1206
+[/ERROR LOG V1]
+

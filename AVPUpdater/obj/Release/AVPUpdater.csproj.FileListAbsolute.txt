@@ -1,0 +1,8 @@
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\AVPUpdater.exe.config
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\AVPUpdater.exe
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AVPUpdater\obj\Release\AVPUpdater.frmAyarlar.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AVPUpdater\obj\Release\AVPUpdater.frmFTPBilgileri.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AVPUpdater\obj\Release\AVPUpdater.csproj.GenerateResource.Cache
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AVPUpdater\obj\Release\AVPUpdater.exe.licenses
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AVPUpdater\obj\Release\AVPUpdater.exe
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AVPUpdater\obj\Release\AVPUpdater.csprojResolveAssemblyReference.cache

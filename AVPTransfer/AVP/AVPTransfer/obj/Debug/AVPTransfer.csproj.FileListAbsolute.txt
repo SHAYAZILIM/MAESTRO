@@ -1,0 +1,45 @@
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBin\AVPTransfer.exe.config
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBin\AVPTransfer.exe
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBin\AVPTransfer.pdb
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.frmAutoExport.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.frmCheck.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.frmChild.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.frmConnect.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.frmExport1.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.frmMain.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.GenerateColumnList.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.csproj.GenerateResource.Cache
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.exe.licenses
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.exe
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.pdb
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.csprojResolveAssemblyReference.cache
+D:\dogan\AdimAdimDavaKaydi\ProjectBin\AVPTransfer.exe.config
+D:\dogan\AdimAdimDavaKaydi\ProjectBin\AVPTransfer.exe
+D:\dogan\AdimAdimDavaKaydi\ProjectBin\AVPTransfer.pdb
+D:\dogan\AdimAdimDavaKaydi\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.csprojResolveAssemblyReference.cache
+D:\dogan\AdimAdimDavaKaydi\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.frmAutoExport.resources
+D:\dogan\AdimAdimDavaKaydi\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.frmCheck.resources
+D:\dogan\AdimAdimDavaKaydi\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.frmChild.resources
+D:\dogan\AdimAdimDavaKaydi\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.frmConnect.resources
+D:\dogan\AdimAdimDavaKaydi\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.frmExport1.resources
+D:\dogan\AdimAdimDavaKaydi\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.frmMain.resources
+D:\dogan\AdimAdimDavaKaydi\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.GenerateColumnList.resources
+D:\dogan\AdimAdimDavaKaydi\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.csproj.GenerateResource.Cache
+D:\dogan\AdimAdimDavaKaydi\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.exe.licenses
+D:\dogan\AdimAdimDavaKaydi\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.exe
+D:\dogan\AdimAdimDavaKaydi\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.pdb
+D:\emre adım adım\AdimAdimDavaKaydi\ProjectBin\AVPTransfer.exe.config
+D:\emre adım adım\AdimAdimDavaKaydi\ProjectBin\AVPTransfer.exe
+D:\emre adım adım\AdimAdimDavaKaydi\ProjectBin\AVPTransfer.pdb
+D:\emre adım adım\AdimAdimDavaKaydi\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.csprojResolveAssemblyReference.cache
+D:\emre adım adım\AdimAdimDavaKaydi\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.frmAutoExport.resources
+D:\emre adım adım\AdimAdimDavaKaydi\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.frmCheck.resources
+D:\emre adım adım\AdimAdimDavaKaydi\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.frmChild.resources
+D:\emre adım adım\AdimAdimDavaKaydi\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.frmConnect.resources
+D:\emre adım adım\AdimAdimDavaKaydi\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.frmExport1.resources
+D:\emre adım adım\AdimAdimDavaKaydi\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.frmMain.resources
+D:\emre adım adım\AdimAdimDavaKaydi\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.GenerateColumnList.resources
+D:\emre adım adım\AdimAdimDavaKaydi\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.csproj.GenerateResource.Cache
+D:\emre adım adım\AdimAdimDavaKaydi\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.exe.licenses
+D:\emre adım adım\AdimAdimDavaKaydi\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.exe
+D:\emre adım adım\AdimAdimDavaKaydi\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.pdb

@@ -1,0 +1,2044 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tarih.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <assembly alias="DevExpress.Utils.v12.1" name="DevExpress.Utils.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="tarih.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="rlueCariAlacakli.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rlueCariAlacakli.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="rlueOdemeTip.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rlueOdemeTip.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="rlueHarAnaKat.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rlueHarAnaKat.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="rlueHarAltKat.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rlueHarAltKat.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="rlueDoviz.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rlueDoviz.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="tutar.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="oran.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rlueCariMuvekkil.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rlueCariMuvekkil.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="aciklama.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="aciklama.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <metadata name="MyRepository.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="rlueCariPersonel.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rlueCariPersonel.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="rlueCariBorclu.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rlueCariBorclu.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="rlueMasrafAvansTip.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rlueMasrafAvansTip.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="rlueBorcluAlacakli.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rlueBorcluAlacakli.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="rLueOnayDurum.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rLueOnayDurum.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="rLueSubeKod.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rLueSubeKod.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="colTARIH.Caption" xml:space="preserve">
+    <value>Tarih</value>
+  </data>
+  <data name="colTARIH.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colTARIH.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="colTARIH.Width" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <data name="colKULLANICI_BELGE_NO.Caption" xml:space="preserve">
+    <value>Belge No</value>
+  </data>
+  <data name="colKULLANICI_BELGE_NO.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colKULLANICI_BELGE_NO.VisibleIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="colKULLANICI_BELGE_NO.Width" type="System.Int32, mscorlib">
+    <value>105</value>
+  </data>
+  <data name="colBORC_ALACAK_ID.Caption" xml:space="preserve">
+    <value>A/B</value>
+  </data>
+  <data name="colBORC_ALACAK_ID.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colBORC_ALACAK_ID.VisibleIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="colBORC_ALACAK_ID.Width" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="colODEME_TIP_ID.Caption" xml:space="preserve">
+    <value>Ödeme Tip</value>
+  </data>
+  <data name="colHAREKET_ANA_KATEGORI_ID.Caption" xml:space="preserve">
+    <value>Ana Kategori</value>
+  </data>
+  <data name="colHAREKET_ANA_KATEGORI_ID.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colHAREKET_ANA_KATEGORI_ID.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="colHAREKET_ANA_KATEGORI_ID.Width" type="System.Int32, mscorlib">
+    <value>147</value>
+  </data>
+  <data name="colHAREKET_ALT_KATEGORI_ID.Caption" xml:space="preserve">
+    <value>Alt Kategori</value>
+  </data>
+  <data name="colHAREKET_ALT_KATEGORI_ID.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colHAREKET_ALT_KATEGORI_ID.VisibleIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="colHAREKET_ALT_KATEGORI_ID.Width" type="System.Int32, mscorlib">
+    <value>131</value>
+  </data>
+  <data name="colADET.Caption" xml:space="preserve">
+    <value>Adet</value>
+  </data>
+  <data name="colADET.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colADET.VisibleIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="colADET.Width" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="colKDV_DAHIL.Caption" xml:space="preserve">
+    <value>KDV Dahil</value>
+  </data>
+  <data name="colKDV_ORAN.Caption" xml:space="preserve">
+    <value>Oran</value>
+  </data>
+  <data name="colKDV_TUTAR.Caption" xml:space="preserve">
+    <value>KDV Tutar</value>
+  </data>
+  <data name="colSTOPAJ_SSDF_DAHIL.Caption" xml:space="preserve">
+    <value>Stopaj SSDF </value>
+  </data>
+  <data name="colSTOPAJ_ORAN.Caption" xml:space="preserve">
+    <value>Stopaj Oran</value>
+  </data>
+  <data name="colSSDF_ORAN.Caption" xml:space="preserve">
+    <value>SSDF Oran</value>
+  </data>
+  <data name="colSTOPAJ_SSDF_TUTAR.Caption" xml:space="preserve">
+    <value>SSDF Tutar</value>
+  </data>
+  <data name="colTOPLAM_TUTAR.Caption" xml:space="preserve">
+    <value>Toplam Tutar</value>
+  </data>
+  <data name="colGENEL_TOPLAM.Caption" xml:space="preserve">
+    <value>Genel Toplam</value>
+  </data>
+  <data name="colGENEL_TOPLAM.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colGENEL_TOPLAM.VisibleIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="colGENEL_TOPLAM.Width" type="System.Int32, mscorlib">
+    <value>114</value>
+  </data>
+  <data name="colTUM_MUVEKKILLERE_PAYLASTIR.Caption" xml:space="preserve">
+    <value>Müvekille Payet</value>
+  </data>
+  <data name="colMUVEKKIL_CARI_ID.Caption" xml:space="preserve">
+    <value>Müvekkile Payet</value>
+  </data>
+  <data name="colINCELENDI.Caption" xml:space="preserve">
+    <value>İncelendi</value>
+  </data>
+  <data name="colONAY_TARIHI.Caption" xml:space="preserve">
+    <value>Onay T.</value>
+  </data>
+  <data name="colONAY_NO.Caption" xml:space="preserve">
+    <value>Onay no</value>
+  </data>
+  <data name="colONAY_DURUM.Caption" xml:space="preserve">
+    <value>Onay Durum</value>
+  </data>
+  <data name="colACIKLAMA.Caption" xml:space="preserve">
+    <value>Açıklama</value>
+  </data>
+  <data name="colACIKLAMA.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colACIKLAMA.VisibleIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="colACIKLAMA.Width" type="System.Int32, mscorlib">
+    <value>191</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="gridMasrafAvans.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="gridMasrafAvans.EmbeddedNavigator.CustomButtons" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="gridMasrafAvans.EmbeddedNavigator.CustomButtons1" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="gridMasrafAvans.EmbeddedNavigator.CustomButtons2" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gridMasrafAvans.EmbeddedNavigator.CustomButtons3" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gridMasrafAvans.EmbeddedNavigator.CustomButtons4" xml:space="preserve">
+    <value>Kolay Kayıt</value>
+  </data>
+  <data name="gridMasrafAvans.EmbeddedNavigator.CustomButtons5" xml:space="preserve">
+    <value>ccbKOLAYKAYIT</value>
+  </data>
+  <data name="gridMasrafAvans.EmbeddedNavigator.CustomButtons6" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="gridMasrafAvans.EmbeddedNavigator.CustomButtons7" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="gridMasrafAvans.EmbeddedNavigator.CustomButtons8" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gridMasrafAvans.EmbeddedNavigator.CustomButtons9" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gridMasrafAvans.EmbeddedNavigator.CustomButtons10" xml:space="preserve">
+    <value>Yeni Kayıt</value>
+  </data>
+  <data name="gridMasrafAvans.EmbeddedNavigator.CustomButtons11" xml:space="preserve">
+    <value>FormAc</value>
+  </data>
+  <data name="gridMasrafAvans.EmbeddedNavigator.CustomButtons12" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="gridMasrafAvans.EmbeddedNavigator.CustomButtons13" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="gridMasrafAvans.EmbeddedNavigator.CustomButtons14" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gridMasrafAvans.EmbeddedNavigator.CustomButtons15" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="gridMasrafAvans.EmbeddedNavigator.CustomButtons16" xml:space="preserve">
+    <value>Düzenle</value>
+  </data>
+  <data name="gridMasrafAvans.EmbeddedNavigator.CustomButtons17" xml:space="preserve">
+    <value>KaydıDuzenle</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="gridMasrafAvans.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="colMuhasebelestirilecekMi.Caption" xml:space="preserve">
+    <value>Muhasebelestirilecek mi</value>
+  </data>
+  <data name="colOnaylandi.Caption" xml:space="preserve">
+    <value>Onaylandı</value>
+  </data>
+  <data name="colMA_ACIKLAMA.Caption" xml:space="preserve">
+    <value>MA Açıklama</value>
+  </data>
+  <data name="colMA_BORCLU_CARI_ID.Caption" xml:space="preserve">
+    <value> Borçlu</value>
+  </data>
+  <data name="colMA_CARI_ID.Caption" xml:space="preserve">
+    <value>Masraf Yapan</value>
+  </data>
+  <data name="colMA_CARI_ID.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colMA_CARI_ID.VisibleIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="colMA_CARI_ID.Width" type="System.Int32, mscorlib">
+    <value>263</value>
+  </data>
+  <data name="colMA_KAYIT_TARIHI.Caption" xml:space="preserve">
+    <value>Tarih</value>
+  </data>
+  <data name="colMA_KAYIT_TARIHI.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colMA_KAYIT_TARIHI.VisibleIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="colMA_KAYIT_TARIHI.Width" type="System.Int32, mscorlib">
+    <value>109</value>
+  </data>
+  <data name="colMA_KLASOR_KODU.Caption" xml:space="preserve">
+    <value>MA Klasör Kodu</value>
+  </data>
+  <data name="colMA_KLASOR_KODU.Width" type="System.Int32, mscorlib">
+    <value>86</value>
+  </data>
+  <data name="colMA_MASRAF_AVANS_TIP.Caption" xml:space="preserve">
+    <value>MA Masraf Avans Tip</value>
+  </data>
+  <data name="colMA_MASRAF_AVANS_TIP.Width" type="System.Int32, mscorlib">
+    <value>113</value>
+  </data>
+  <data name="colMA_REFERANS_NO.Caption" xml:space="preserve">
+    <value>Referans No</value>
+  </data>
+  <data name="colMA_REFERANS_NO.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colMA_REFERANS_NO.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="colMA_REFERANS_NO.Width" type="System.Int32, mscorlib">
+    <value>116</value>
+  </data>
+  <data name="colTARIH1.Caption" xml:space="preserve">
+    <value>Tarih</value>
+  </data>
+  <data name="colKULLANICI_BELGE_NO1.Caption" xml:space="preserve">
+    <value>Kullanıcı Belge No</value>
+  </data>
+  <data name="colKULLANICI_BELGE_NO1.Width" type="System.Int32, mscorlib">
+    <value>137</value>
+  </data>
+  <data name="colBORC_ALACAK_ID1.Caption" xml:space="preserve">
+    <value>B/A</value>
+  </data>
+  <data name="colODEME_TIP_ID1.Caption" xml:space="preserve">
+    <value>Ödeme Tip</value>
+  </data>
+  <data name="colHAREKET_ANA_KATEGORI_ID1.Caption" xml:space="preserve">
+    <value>M Ana Kat</value>
+  </data>
+  <data name="colHAREKET_ALT_KATEGORI_ID1.Caption" xml:space="preserve">
+    <value>M Alt Kat</value>
+  </data>
+  <data name="colADET1.Caption" xml:space="preserve">
+    <value>Adet</value>
+  </data>
+  <data name="colBIRIM_FIYAT.Caption" xml:space="preserve">
+    <value>Birim Fiyat</value>
+  </data>
+  <data name="colBIRIM_FIYAT.SummaryItem.DisplayFormat" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="colBIRIM_FIYAT.ToolTip" xml:space="preserve">
+    <value>Toplam</value>
+  </data>
+  <data name="colBIRIM_FIYAT_DOVIZ_ID.Caption" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="colBIRIM_FIYAT_DOVIZ_ID.CustomizationCaption" xml:space="preserve">
+    <value>Birim Fiyat Döviz Tipi</value>
+  </data>
+  <data name="colBIRIM_FIYAT_DOVIZ_ID.SummaryItem.DisplayFormat" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="colKDV_DAHIL1.Caption" xml:space="preserve">
+    <value>KDV Dahil</value>
+  </data>
+  <data name="colKDV_ORAN1.Caption" xml:space="preserve">
+    <value>KDV Oranı</value>
+  </data>
+  <data name="colKDV_TUTAR1.Caption" xml:space="preserve">
+    <value>KDV Tutar</value>
+  </data>
+  <data name="colSTOPAJ_SSDF_DAHIL1.Caption" xml:space="preserve">
+    <value>Stop SSDF Dahil</value>
+  </data>
+  <data name="repositoryItemCheckEdit1.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="repositoryItemCheckEdit1.DisplayValueChecked" xml:space="preserve">
+    <value>Stopaj SSDF Dahil</value>
+  </data>
+  <data name="repositoryItemCheckEdit1.DisplayValueUnchecked" xml:space="preserve">
+    <value>Stopaj SSDF Hariç</value>
+  </data>
+  <data name="colSTOPAJ_ORAN1.Caption" xml:space="preserve">
+    <value>Stopaj Oran</value>
+  </data>
+  <data name="colSSDF_ORAN1.Caption" xml:space="preserve">
+    <value>SSDF Oran</value>
+  </data>
+  <data name="colSTOPAJ_SSDF_TUTAR1.Caption" xml:space="preserve">
+    <value>Stop SSDF Tutar</value>
+  </data>
+  <data name="colTOPLAM_TUTAR1.Caption" xml:space="preserve">
+    <value>Toplam Tutar (YTL)</value>
+  </data>
+  <data name="colTOPLAM_TUTAR1.SummaryItem.DisplayFormat" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="colTOPLAM_TUTAR1.ToolTip" xml:space="preserve">
+    <value>Toplam</value>
+  </data>
+  <data name="colTOPLAM_TUTAR1.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colTOPLAM_TUTAR1.VisibleIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="colTOPLAM_TUTAR1.Width" type="System.Int32, mscorlib">
+    <value>126</value>
+  </data>
+  <data name="colTOPLAM_TUTAR_DOVIZ_ID.Caption" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="colTOPLAM_TUTAR_DOVIZ_ID.CustomizationCaption" xml:space="preserve">
+    <value>Toplam Tutar Döviz Tip</value>
+  </data>
+  <data name="colTOPLAM_TUTAR_DOVIZ_ID.SummaryItem.DisplayFormat" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="colGENEL_TOPLAM1.Caption" xml:space="preserve">
+    <value>Genel Toplam</value>
+  </data>
+  <data name="colGENEL_TOPLAM1.SummaryItem.DisplayFormat" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="colGENEL_TOPLAM1.ToolTip" xml:space="preserve">
+    <value>Toplam</value>
+  </data>
+  <data name="colGENEL_TOPLAM_DOVIZ_ID.Caption" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="colGENEL_TOPLAM_DOVIZ_ID.CustomizationCaption" xml:space="preserve">
+    <value>Genel Toplam Döviz Tip</value>
+  </data>
+  <data name="colGENEL_TOPLAM_DOVIZ_ID.SummaryItem.DisplayFormat" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="colTUM_MUVEKKILLERE_PAYLASTIR1.Caption" xml:space="preserve">
+    <value>Müvekkiller Paylaştır</value>
+  </data>
+  <data name="repositoryItemCheckEdit2.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="repositoryItemCheckEdit2.DisplayValueChecked" xml:space="preserve">
+    <value>Tüm Müvekkillere Paylaştır</value>
+  </data>
+  <data name="repositoryItemCheckEdit2.DisplayValueUnchecked" xml:space="preserve">
+    <value>    </value>
+  </data>
+  <data name="colMUVEKKIL_CARI_ID1.Caption" xml:space="preserve">
+    <value>Müvekkil</value>
+  </data>
+  <data name="colINCELENDI1.Caption" xml:space="preserve">
+    <value>İncelendi</value>
+  </data>
+  <data name="repositoryItemCheckEdit3.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="repositoryItemCheckEdit3.DisplayValueChecked" xml:space="preserve">
+    <value>İncelendi </value>
+  </data>
+  <data name="repositoryItemCheckEdit3.DisplayValueUnchecked" xml:space="preserve">
+    <value>İncelenmedi</value>
+  </data>
+  <data name="colONAY_TARIHI1.Caption" xml:space="preserve">
+    <value>Onay T</value>
+  </data>
+  <data name="colONAY_NO1.Caption" xml:space="preserve">
+    <value>Onay No</value>
+  </data>
+  <data name="colONAY_DURUM1.Caption" xml:space="preserve">
+    <value>Onay Durum</value>
+  </data>
+  <data name="colACIKLAMA1.Caption" xml:space="preserve">
+    <value>Açıklama</value>
+  </data>
+  <data name="colKAYIT_TARIHI.Caption" xml:space="preserve">
+    <value>Kayıt T</value>
+  </data>
+  <data name="colSUBE_KODU.Caption" xml:space="preserve">
+    <value>Şube Kodu</value>
+  </data>
+  <data name="colKONTROL_KIM.Caption" xml:space="preserve">
+    <value>Kontrol Kim</value>
+  </data>
+  <data name="colIsSelected.Caption" xml:space="preserve">
+    <value>Seç</value>
+  </data>
+  <data name="colIsSelected.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colIsSelected.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gwMasrafAvans.GroupPanelText" xml:space="preserve">
+    <value>Verileri Gruplamak İçin Başlıkları Buraya Sürükleyin</value>
+  </data>
+  <assembly alias="DevExpress.Data.v12.1" name="DevExpress.Data.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="gwMasrafAvans.GroupSummary" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Count</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary1" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gwMasrafAvans.GroupSummary3" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary4" xml:space="preserve">
+    <value>BIRIM_FIYAT</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary5" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary6" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary7" xml:space="preserve">
+    <value>BIRIM_FIYAT_DOVIZ_ID</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary8" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary9" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary10" xml:space="preserve">
+    <value>TOPLAM_TUTAR</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary11" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary12" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary13" xml:space="preserve">
+    <value>TOPLAM_TUTAR_DOVIZ_ID</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary14" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary15" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary16" xml:space="preserve">
+    <value>GENEL_TOPLAM</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary17" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary18" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary19" xml:space="preserve">
+    <value>GENEL_TOPLAM_DOVIZ_ID</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary20" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary21" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Count</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary22" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary23" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gwMasrafAvans.GroupSummary24" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary25" xml:space="preserve">
+    <value>BIRIM_FIYAT</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary26" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary27" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary28" xml:space="preserve">
+    <value>BIRIM_FIYAT_DOVIZ_ID</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary29" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary30" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary31" xml:space="preserve">
+    <value>TOPLAM_TUTAR</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary32" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary33" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary34" xml:space="preserve">
+    <value>TOPLAM_TUTAR_DOVIZ_ID</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary35" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary36" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary37" xml:space="preserve">
+    <value>GENEL_TOPLAM</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary38" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary39" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary40" xml:space="preserve">
+    <value>GENEL_TOPLAM_DOVIZ_ID</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary41" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary42" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Count</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary43" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary44" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gwMasrafAvans.GroupSummary45" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary46" xml:space="preserve">
+    <value>BIRIM_FIYAT</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary47" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary48" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary49" xml:space="preserve">
+    <value>BIRIM_FIYAT_DOVIZ_ID</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary50" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary51" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary52" xml:space="preserve">
+    <value>TOPLAM_TUTAR</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary53" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary54" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary55" xml:space="preserve">
+    <value>TOPLAM_TUTAR_DOVIZ_ID</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary56" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary57" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary58" xml:space="preserve">
+    <value>GENEL_TOPLAM</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary59" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary60" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary61" xml:space="preserve">
+    <value>GENEL_TOPLAM_DOVIZ_ID</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary62" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary63" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary64" xml:space="preserve">
+    <value>BIRIM_FIYAT</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary65" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary66" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary67" xml:space="preserve">
+    <value>BIRIM_FIYAT_DOVIZ_ID</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary68" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary69" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary70" xml:space="preserve">
+    <value>TOPLAM_TUTAR</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary71" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary72" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary73" xml:space="preserve">
+    <value>TOPLAM_TUTAR_DOVIZ_ID</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary74" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary75" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary76" xml:space="preserve">
+    <value>GENEL_TOPLAM</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary77" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary78" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary79" xml:space="preserve">
+    <value>GENEL_TOPLAM_DOVIZ_ID</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary80" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary81" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary82" xml:space="preserve">
+    <value>BIRIM_FIYAT</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary83" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary84" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary85" xml:space="preserve">
+    <value>BIRIM_FIYAT_DOVIZ_ID</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary86" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary87" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary88" xml:space="preserve">
+    <value>TOPLAM_TUTAR</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary89" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary90" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary91" xml:space="preserve">
+    <value>TOPLAM_TUTAR_DOVIZ_ID</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary92" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary93" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary94" xml:space="preserve">
+    <value>GENEL_TOPLAM</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary95" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary96" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary97" xml:space="preserve">
+    <value>GENEL_TOPLAM_DOVIZ_ID</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary98" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary99" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary100" xml:space="preserve">
+    <value>BIRIM_FIYAT</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary101" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary102" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary103" xml:space="preserve">
+    <value>BIRIM_FIYAT_DOVIZ_ID</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary104" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary105" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary106" xml:space="preserve">
+    <value>TOPLAM_TUTAR</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary107" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary108" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary109" xml:space="preserve">
+    <value>TOPLAM_TUTAR_DOVIZ_ID</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary110" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary111" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary112" xml:space="preserve">
+    <value>GENEL_TOPLAM</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary113" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary114" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary115" xml:space="preserve">
+    <value>GENEL_TOPLAM_DOVIZ_ID</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary116" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary117" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary118" xml:space="preserve">
+    <value>BIRIM_FIYAT</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary119" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary120" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary121" xml:space="preserve">
+    <value>BIRIM_FIYAT_DOVIZ_ID</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary122" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary123" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary124" xml:space="preserve">
+    <value>TOPLAM_TUTAR</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary125" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary126" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary127" xml:space="preserve">
+    <value>TOPLAM_TUTAR_DOVIZ_ID</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary128" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary129" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary130" xml:space="preserve">
+    <value>GENEL_TOPLAM</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary131" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary132" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary133" xml:space="preserve">
+    <value>GENEL_TOPLAM_DOVIZ_ID</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary134" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary135" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary136" xml:space="preserve">
+    <value>BIRIM_FIYAT</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary137" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary138" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary139" xml:space="preserve">
+    <value>BIRIM_FIYAT_DOVIZ_ID</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary140" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary141" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary142" xml:space="preserve">
+    <value>TOPLAM_TUTAR</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary143" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary144" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary145" xml:space="preserve">
+    <value>TOPLAM_TUTAR_DOVIZ_ID</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary146" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary147" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary148" xml:space="preserve">
+    <value>GENEL_TOPLAM</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary149" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary150" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary151" xml:space="preserve">
+    <value>GENEL_TOPLAM_DOVIZ_ID</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary152" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary153" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary154" xml:space="preserve">
+    <value>BIRIM_FIYAT</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary155" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary156" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary157" xml:space="preserve">
+    <value>BIRIM_FIYAT_DOVIZ_ID</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary158" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary159" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary160" xml:space="preserve">
+    <value>TOPLAM_TUTAR</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary161" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary162" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary163" xml:space="preserve">
+    <value>TOPLAM_TUTAR_DOVIZ_ID</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary164" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary165" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary166" xml:space="preserve">
+    <value>GENEL_TOPLAM</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary167" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary168" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary169" xml:space="preserve">
+    <value>GENEL_TOPLAM_DOVIZ_ID</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary170" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary171" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary172" xml:space="preserve">
+    <value>BIRIM_FIYAT</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary173" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary174" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary175" xml:space="preserve">
+    <value>BIRIM_FIYAT_DOVIZ_ID</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary176" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary177" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary178" xml:space="preserve">
+    <value>TOPLAM_TUTAR</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary179" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary180" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary181" xml:space="preserve">
+    <value>TOPLAM_TUTAR_DOVIZ_ID</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary182" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary183" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary184" xml:space="preserve">
+    <value>GENEL_TOPLAM</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary185" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary186" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary187" xml:space="preserve">
+    <value>GENEL_TOPLAM_DOVIZ_ID</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary188" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary189" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary190" xml:space="preserve">
+    <value>BIRIM_FIYAT</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary191" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary192" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary193" xml:space="preserve">
+    <value>BIRIM_FIYAT_DOVIZ_ID</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary194" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary195" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary196" xml:space="preserve">
+    <value>TOPLAM_TUTAR</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary197" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary198" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary199" xml:space="preserve">
+    <value>TOPLAM_TUTAR_DOVIZ_ID</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary200" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary201" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary202" xml:space="preserve">
+    <value>GENEL_TOPLAM</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary203" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary204" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary205" xml:space="preserve">
+    <value>GENEL_TOPLAM_DOVIZ_ID</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary206" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary207" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary208" xml:space="preserve">
+    <value>BIRIM_FIYAT</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary209" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary210" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary211" xml:space="preserve">
+    <value>BIRIM_FIYAT_DOVIZ_ID</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary212" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary213" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary214" xml:space="preserve">
+    <value>TOPLAM_TUTAR</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary215" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary216" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary217" xml:space="preserve">
+    <value>TOPLAM_TUTAR_DOVIZ_ID</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary218" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary219" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary220" xml:space="preserve">
+    <value>GENEL_TOPLAM</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary221" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary222" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary223" xml:space="preserve">
+    <value>GENEL_TOPLAM_DOVIZ_ID</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary224" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary225" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary226" xml:space="preserve">
+    <value>BIRIM_FIYAT</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary227" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary228" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary229" xml:space="preserve">
+    <value>BIRIM_FIYAT_DOVIZ_ID</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary230" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary231" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary232" xml:space="preserve">
+    <value>GENEL_TOPLAM</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary233" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary234" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary235" xml:space="preserve">
+    <value>GENEL_TOPLAM_DOVIZ_ID</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary236" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary237" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary238" xml:space="preserve">
+    <value>BIRIM_FIYAT</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary239" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary240" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary241" xml:space="preserve">
+    <value>BIRIM_FIYAT_DOVIZ_ID</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary242" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary243" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary244" xml:space="preserve">
+    <value>GENEL_TOPLAM</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary245" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary246" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary247" xml:space="preserve">
+    <value>GENEL_TOPLAM_DOVIZ_ID</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary248" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary249" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary250" xml:space="preserve">
+    <value>BIRIM_FIYAT</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary251" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary252" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary253" xml:space="preserve">
+    <value>BIRIM_FIYAT_DOVIZ_ID</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary254" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary255" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary256" xml:space="preserve">
+    <value>GENEL_TOPLAM</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary257" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary258" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary259" xml:space="preserve">
+    <value>GENEL_TOPLAM_DOVIZ_ID</value>
+  </data>
+  <data name="gwMasrafAvans.GroupSummary260" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gwMasrafAvans.NewItemRowText" xml:space="preserve">
+    <value>Yeni Kayıt Eklemek İçin Tıklayınız..</value>
+  </data>
+  <data name="gridMasrafAvans.Size" type="System.Drawing.Size, System.Drawing">
+    <value>703, 497</value>
+  </data>
+  <data name="gridMasrafAvans.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;gridMasrafAvans.Name" xml:space="preserve">
+    <value>gridMasrafAvans</value>
+  </data>
+  <data name="&gt;&gt;gridMasrafAvans.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedGridControl, avpng, Version=1.1.6.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;gridMasrafAvans.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gridMasrafAvans.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gridView1.GroupSummary" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Sum</value>
+  </data>
+  <data name="gridView1.GroupSummary1" xml:space="preserve">
+    <value>BIRIM_FIYAT</value>
+  </data>
+  <data name="gridView1.GroupSummary2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridView1.GroupSummary3" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Sum</value>
+  </data>
+  <data name="gridView1.GroupSummary4" xml:space="preserve">
+    <value>TOPLAM_TUTAR</value>
+  </data>
+  <data name="gridView1.GroupSummary5" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridView1.GroupSummary6" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Sum</value>
+  </data>
+  <data name="gridView1.GroupSummary7" xml:space="preserve">
+    <value>GENEL_TOPLAM</value>
+  </data>
+  <data name="gridView1.GroupSummary8" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridView1.ViewCaption" xml:space="preserve">
+    <value>Masraf Avans Detay</value>
+  </data>
+  <metadata name="dockManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>135, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>64</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>703, 497</value>
+  </data>
+  <data name="&gt;&gt;tarih.Name" xml:space="preserve">
+    <value>tarih</value>
+  </data>
+  <data name="&gt;&gt;tarih.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemDateEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rlueCariAlacakli.Name" xml:space="preserve">
+    <value>rlueCariAlacakli</value>
+  </data>
+  <data name="&gt;&gt;rlueCariAlacakli.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rlueOdemeTip.Name" xml:space="preserve">
+    <value>rlueOdemeTip</value>
+  </data>
+  <data name="&gt;&gt;rlueOdemeTip.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rlueHarAnaKat.Name" xml:space="preserve">
+    <value>rlueHarAnaKat</value>
+  </data>
+  <data name="&gt;&gt;rlueHarAnaKat.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rlueHarAltKat.Name" xml:space="preserve">
+    <value>rlueHarAltKat</value>
+  </data>
+  <data name="&gt;&gt;rlueHarAltKat.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rlueDoviz.Name" xml:space="preserve">
+    <value>rlueDoviz</value>
+  </data>
+  <data name="&gt;&gt;rlueDoviz.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;tutar.Name" xml:space="preserve">
+    <value>tutar</value>
+  </data>
+  <data name="&gt;&gt;tutar.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemSpinEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;oran.Name" xml:space="preserve">
+    <value>oran</value>
+  </data>
+  <data name="&gt;&gt;oran.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemSpinEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rlueCariMuvekkil.Name" xml:space="preserve">
+    <value>rlueCariMuvekkil</value>
+  </data>
+  <data name="&gt;&gt;rlueCariMuvekkil.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;aciklama.Name" xml:space="preserve">
+    <value>aciklama</value>
+  </data>
+  <data name="&gt;&gt;aciklama.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemMemoExEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;MyRepository.Name" xml:space="preserve">
+    <value>MyRepository</value>
+  </data>
+  <data name="&gt;&gt;MyRepository.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.PersistentRepository, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rlueCariPersonel.Name" xml:space="preserve">
+    <value>rlueCariPersonel</value>
+  </data>
+  <data name="&gt;&gt;rlueCariPersonel.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rlueCariBorclu.Name" xml:space="preserve">
+    <value>rlueCariBorclu</value>
+  </data>
+  <data name="&gt;&gt;rlueCariBorclu.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rlueMasrafAvansTip.Name" xml:space="preserve">
+    <value>rlueMasrafAvansTip</value>
+  </data>
+  <data name="&gt;&gt;rlueMasrafAvansTip.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rlueBorcluAlacakli.Name" xml:space="preserve">
+    <value>rlueBorcluAlacakli</value>
+  </data>
+  <data name="&gt;&gt;rlueBorcluAlacakli.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rLueOnayDurum.Name" xml:space="preserve">
+    <value>rLueOnayDurum</value>
+  </data>
+  <data name="&gt;&gt;rLueOnayDurum.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rLueSubeKod.Name" xml:space="preserve">
+    <value>rLueSubeKod</value>
+  </data>
+  <data name="&gt;&gt;rLueSubeKod.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridView1.Name" xml:space="preserve">
+    <value>gridView1</value>
+  </data>
+  <data name="&gt;&gt;gridView1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colTARIH.Name" xml:space="preserve">
+    <value>colTARIH</value>
+  </data>
+  <data name="&gt;&gt;colTARIH.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colKULLANICI_BELGE_NO.Name" xml:space="preserve">
+    <value>colKULLANICI_BELGE_NO</value>
+  </data>
+  <data name="&gt;&gt;colKULLANICI_BELGE_NO.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colBORC_ALACAK_ID.Name" xml:space="preserve">
+    <value>colBORC_ALACAK_ID</value>
+  </data>
+  <data name="&gt;&gt;colBORC_ALACAK_ID.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colODEME_TIP_ID.Name" xml:space="preserve">
+    <value>colODEME_TIP_ID</value>
+  </data>
+  <data name="&gt;&gt;colODEME_TIP_ID.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colHAREKET_ANA_KATEGORI_ID.Name" xml:space="preserve">
+    <value>colHAREKET_ANA_KATEGORI_ID</value>
+  </data>
+  <data name="&gt;&gt;colHAREKET_ANA_KATEGORI_ID.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colHAREKET_ALT_KATEGORI_ID.Name" xml:space="preserve">
+    <value>colHAREKET_ALT_KATEGORI_ID</value>
+  </data>
+  <data name="&gt;&gt;colHAREKET_ALT_KATEGORI_ID.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colADET.Name" xml:space="preserve">
+    <value>colADET</value>
+  </data>
+  <data name="&gt;&gt;colADET.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colKDV_DAHIL.Name" xml:space="preserve">
+    <value>colKDV_DAHIL</value>
+  </data>
+  <data name="&gt;&gt;colKDV_DAHIL.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colKDV_ORAN.Name" xml:space="preserve">
+    <value>colKDV_ORAN</value>
+  </data>
+  <data name="&gt;&gt;colKDV_ORAN.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colKDV_TUTAR.Name" xml:space="preserve">
+    <value>colKDV_TUTAR</value>
+  </data>
+  <data name="&gt;&gt;colKDV_TUTAR.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colSTOPAJ_SSDF_DAHIL.Name" xml:space="preserve">
+    <value>colSTOPAJ_SSDF_DAHIL</value>
+  </data>
+  <data name="&gt;&gt;colSTOPAJ_SSDF_DAHIL.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colSTOPAJ_ORAN.Name" xml:space="preserve">
+    <value>colSTOPAJ_ORAN</value>
+  </data>
+  <data name="&gt;&gt;colSTOPAJ_ORAN.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colSSDF_ORAN.Name" xml:space="preserve">
+    <value>colSSDF_ORAN</value>
+  </data>
+  <data name="&gt;&gt;colSSDF_ORAN.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colSTOPAJ_SSDF_TUTAR.Name" xml:space="preserve">
+    <value>colSTOPAJ_SSDF_TUTAR</value>
+  </data>
+  <data name="&gt;&gt;colSTOPAJ_SSDF_TUTAR.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colTOPLAM_TUTAR.Name" xml:space="preserve">
+    <value>colTOPLAM_TUTAR</value>
+  </data>
+  <data name="&gt;&gt;colTOPLAM_TUTAR.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colGENEL_TOPLAM.Name" xml:space="preserve">
+    <value>colGENEL_TOPLAM</value>
+  </data>
+  <data name="&gt;&gt;colGENEL_TOPLAM.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colTUM_MUVEKKILLERE_PAYLASTIR.Name" xml:space="preserve">
+    <value>colTUM_MUVEKKILLERE_PAYLASTIR</value>
+  </data>
+  <data name="&gt;&gt;colTUM_MUVEKKILLERE_PAYLASTIR.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colMUVEKKIL_CARI_ID.Name" xml:space="preserve">
+    <value>colMUVEKKIL_CARI_ID</value>
+  </data>
+  <data name="&gt;&gt;colMUVEKKIL_CARI_ID.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colINCELENDI.Name" xml:space="preserve">
+    <value>colINCELENDI</value>
+  </data>
+  <data name="&gt;&gt;colINCELENDI.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colONAY_TARIHI.Name" xml:space="preserve">
+    <value>colONAY_TARIHI</value>
+  </data>
+  <data name="&gt;&gt;colONAY_TARIHI.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colONAY_NO.Name" xml:space="preserve">
+    <value>colONAY_NO</value>
+  </data>
+  <data name="&gt;&gt;colONAY_NO.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colONAY_DURUM.Name" xml:space="preserve">
+    <value>colONAY_DURUM</value>
+  </data>
+  <data name="&gt;&gt;colONAY_DURUM.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colACIKLAMA.Name" xml:space="preserve">
+    <value>colACIKLAMA</value>
+  </data>
+  <data name="&gt;&gt;colACIKLAMA.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gwMasrafAvans.Name" xml:space="preserve">
+    <value>gwMasrafAvans</value>
+  </data>
+  <data name="&gt;&gt;gwMasrafAvans.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colMuhasebelestirilecekMi.Name" xml:space="preserve">
+    <value>colMuhasebelestirilecekMi</value>
+  </data>
+  <data name="&gt;&gt;colMuhasebelestirilecekMi.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colOnaylandi.Name" xml:space="preserve">
+    <value>colOnaylandi</value>
+  </data>
+  <data name="&gt;&gt;colOnaylandi.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colMA_ACIKLAMA.Name" xml:space="preserve">
+    <value>colMA_ACIKLAMA</value>
+  </data>
+  <data name="&gt;&gt;colMA_ACIKLAMA.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colMA_BORCLU_CARI_ID.Name" xml:space="preserve">
+    <value>colMA_BORCLU_CARI_ID</value>
+  </data>
+  <data name="&gt;&gt;colMA_BORCLU_CARI_ID.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colMA_CARI_ID.Name" xml:space="preserve">
+    <value>colMA_CARI_ID</value>
+  </data>
+  <data name="&gt;&gt;colMA_CARI_ID.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colMA_KAYIT_TARIHI.Name" xml:space="preserve">
+    <value>colMA_KAYIT_TARIHI</value>
+  </data>
+  <data name="&gt;&gt;colMA_KAYIT_TARIHI.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colMA_KLASOR_KODU.Name" xml:space="preserve">
+    <value>colMA_KLASOR_KODU</value>
+  </data>
+  <data name="&gt;&gt;colMA_KLASOR_KODU.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colMA_MASRAF_AVANS_TIP.Name" xml:space="preserve">
+    <value>colMA_MASRAF_AVANS_TIP</value>
+  </data>
+  <data name="&gt;&gt;colMA_MASRAF_AVANS_TIP.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colMA_REFERANS_NO.Name" xml:space="preserve">
+    <value>colMA_REFERANS_NO</value>
+  </data>
+  <data name="&gt;&gt;colMA_REFERANS_NO.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colTARIH1.Name" xml:space="preserve">
+    <value>colTARIH1</value>
+  </data>
+  <data name="&gt;&gt;colTARIH1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colKULLANICI_BELGE_NO1.Name" xml:space="preserve">
+    <value>colKULLANICI_BELGE_NO1</value>
+  </data>
+  <data name="&gt;&gt;colKULLANICI_BELGE_NO1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colBORC_ALACAK_ID1.Name" xml:space="preserve">
+    <value>colBORC_ALACAK_ID1</value>
+  </data>
+  <data name="&gt;&gt;colBORC_ALACAK_ID1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colODEME_TIP_ID1.Name" xml:space="preserve">
+    <value>colODEME_TIP_ID1</value>
+  </data>
+  <data name="&gt;&gt;colODEME_TIP_ID1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colHAREKET_ANA_KATEGORI_ID1.Name" xml:space="preserve">
+    <value>colHAREKET_ANA_KATEGORI_ID1</value>
+  </data>
+  <data name="&gt;&gt;colHAREKET_ANA_KATEGORI_ID1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colHAREKET_ALT_KATEGORI_ID1.Name" xml:space="preserve">
+    <value>colHAREKET_ALT_KATEGORI_ID1</value>
+  </data>
+  <data name="&gt;&gt;colHAREKET_ALT_KATEGORI_ID1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colADET1.Name" xml:space="preserve">
+    <value>colADET1</value>
+  </data>
+  <data name="&gt;&gt;colADET1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colBIRIM_FIYAT.Name" xml:space="preserve">
+    <value>colBIRIM_FIYAT</value>
+  </data>
+  <data name="&gt;&gt;colBIRIM_FIYAT.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colBIRIM_FIYAT_DOVIZ_ID.Name" xml:space="preserve">
+    <value>colBIRIM_FIYAT_DOVIZ_ID</value>
+  </data>
+  <data name="&gt;&gt;colBIRIM_FIYAT_DOVIZ_ID.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colKDV_DAHIL1.Name" xml:space="preserve">
+    <value>colKDV_DAHIL1</value>
+  </data>
+  <data name="&gt;&gt;colKDV_DAHIL1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colKDV_ORAN1.Name" xml:space="preserve">
+    <value>colKDV_ORAN1</value>
+  </data>
+  <data name="&gt;&gt;colKDV_ORAN1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colKDV_TUTAR1.Name" xml:space="preserve">
+    <value>colKDV_TUTAR1</value>
+  </data>
+  <data name="&gt;&gt;colKDV_TUTAR1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colSTOPAJ_SSDF_DAHIL1.Name" xml:space="preserve">
+    <value>colSTOPAJ_SSDF_DAHIL1</value>
+  </data>
+  <data name="&gt;&gt;colSTOPAJ_SSDF_DAHIL1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemCheckEdit1.Name" xml:space="preserve">
+    <value>repositoryItemCheckEdit1</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemCheckEdit1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colSTOPAJ_ORAN1.Name" xml:space="preserve">
+    <value>colSTOPAJ_ORAN1</value>
+  </data>
+  <data name="&gt;&gt;colSTOPAJ_ORAN1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colSSDF_ORAN1.Name" xml:space="preserve">
+    <value>colSSDF_ORAN1</value>
+  </data>
+  <data name="&gt;&gt;colSSDF_ORAN1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colSTOPAJ_SSDF_TUTAR1.Name" xml:space="preserve">
+    <value>colSTOPAJ_SSDF_TUTAR1</value>
+  </data>
+  <data name="&gt;&gt;colSTOPAJ_SSDF_TUTAR1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colTOPLAM_TUTAR1.Name" xml:space="preserve">
+    <value>colTOPLAM_TUTAR1</value>
+  </data>
+  <data name="&gt;&gt;colTOPLAM_TUTAR1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colTOPLAM_TUTAR_DOVIZ_ID.Name" xml:space="preserve">
+    <value>colTOPLAM_TUTAR_DOVIZ_ID</value>
+  </data>
+  <data name="&gt;&gt;colTOPLAM_TUTAR_DOVIZ_ID.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colGENEL_TOPLAM1.Name" xml:space="preserve">
+    <value>colGENEL_TOPLAM1</value>
+  </data>
+  <data name="&gt;&gt;colGENEL_TOPLAM1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colGENEL_TOPLAM_DOVIZ_ID.Name" xml:space="preserve">
+    <value>colGENEL_TOPLAM_DOVIZ_ID</value>
+  </data>
+  <data name="&gt;&gt;colGENEL_TOPLAM_DOVIZ_ID.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colTUM_MUVEKKILLERE_PAYLASTIR1.Name" xml:space="preserve">
+    <value>colTUM_MUVEKKILLERE_PAYLASTIR1</value>
+  </data>
+  <data name="&gt;&gt;colTUM_MUVEKKILLERE_PAYLASTIR1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemCheckEdit2.Name" xml:space="preserve">
+    <value>repositoryItemCheckEdit2</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemCheckEdit2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colMUVEKKIL_CARI_ID1.Name" xml:space="preserve">
+    <value>colMUVEKKIL_CARI_ID1</value>
+  </data>
+  <data name="&gt;&gt;colMUVEKKIL_CARI_ID1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colINCELENDI1.Name" xml:space="preserve">
+    <value>colINCELENDI1</value>
+  </data>
+  <data name="&gt;&gt;colINCELENDI1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemCheckEdit3.Name" xml:space="preserve">
+    <value>repositoryItemCheckEdit3</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemCheckEdit3.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colONAY_TARIHI1.Name" xml:space="preserve">
+    <value>colONAY_TARIHI1</value>
+  </data>
+  <data name="&gt;&gt;colONAY_TARIHI1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colONAY_NO1.Name" xml:space="preserve">
+    <value>colONAY_NO1</value>
+  </data>
+  <data name="&gt;&gt;colONAY_NO1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colONAY_DURUM1.Name" xml:space="preserve">
+    <value>colONAY_DURUM1</value>
+  </data>
+  <data name="&gt;&gt;colONAY_DURUM1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colACIKLAMA1.Name" xml:space="preserve">
+    <value>colACIKLAMA1</value>
+  </data>
+  <data name="&gt;&gt;colACIKLAMA1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colKAYIT_TARIHI.Name" xml:space="preserve">
+    <value>colKAYIT_TARIHI</value>
+  </data>
+  <data name="&gt;&gt;colKAYIT_TARIHI.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colSUBE_KODU.Name" xml:space="preserve">
+    <value>colSUBE_KODU</value>
+  </data>
+  <data name="&gt;&gt;colSUBE_KODU.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colKONTROL_KIM.Name" xml:space="preserve">
+    <value>colKONTROL_KIM</value>
+  </data>
+  <data name="&gt;&gt;colKONTROL_KIM.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colIsSelected.Name" xml:space="preserve">
+    <value>colIsSelected</value>
+  </data>
+  <data name="&gt;&gt;colIsSelected.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;dockManager1.Name" xml:space="preserve">
+    <value>dockManager1</value>
+  </data>
+  <data name="&gt;&gt;dockManager1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Docking.DockManager, DevExpress.XtraBars.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;compGridDovizSummary1.Name" xml:space="preserve">
+    <value>compGridDovizSummary1</value>
+  </data>
+  <data name="&gt;&gt;compGridDovizSummary1.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.compGridDovizSummary, avpng, Version=1.1.6.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ucMasraflar</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.BaseClasses.AvpXUserControl, avpng, Version=1.1.6.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <metadata name="compGridDovizSummary1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>259, 17</value>
+  </metadata>
+  <data name="compGridDovizSummary1.YasakliAlanlar" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAEAQAAAH9TeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5MaXN0YDFbW1N5
+        c3RlbS5TdHJpbmcsIG1zY29ybGliLCBWZXJzaW9uPTIuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVi
+        bGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OV1dAwAAAAZfaXRlbXMFX3NpemUIX3ZlcnNpb24GAAAI
+        CAkCAAAAAAAAAAAAAAARAgAAAAAAAAAL
+</value>
+  </data>
+</root>

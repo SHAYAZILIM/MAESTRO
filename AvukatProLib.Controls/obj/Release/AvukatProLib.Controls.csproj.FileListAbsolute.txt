@@ -1,0 +1,15 @@
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\Resources\DevExpress.XtraGrid.Appearances.xml
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\Resources\DevExpress.XtraVerticalGrid.Appearances.xml
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\Resources\DevExpress.XtraTreeList.Appearances.xml
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\AvukatProLib.Controls.dll.config
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\AvukatProLib.Controls.dll
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\AvukatProLib.Controls.XmlSerializers.dll
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatProLib.Controls\obj\Release\AvukatProLib.Controls.csprojResolveAssemblyReference.cache
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatProLib.Controls\obj\Release\AvukatProLib.Controls.Cast.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatProLib.Controls\obj\Release\AvukatProLib.Controls.frmXGridStyleChooser.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatProLib.Controls\obj\Release\AvukatProLib.Controls.GridResimleri.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatProLib.Controls\obj\Release\AvukatProLib.Controls.Form1.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatProLib.Controls\obj\Release\AvukatProLib.Controls.csproj.GenerateResource.Cache
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatProLib.Controls\obj\Release\AvukatProLib.Controls.dll.licenses
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatProLib.Controls\obj\Release\AvukatProLib.Controls.dll
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatProLib.Controls\obj\Release\AvukatProLib.Controls.XmlSerializers.dll

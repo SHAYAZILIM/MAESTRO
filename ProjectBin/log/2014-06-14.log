@@ -1,0 +1,91 @@
+2014-06-14 12:47:32.6415 Hata 
+ Object reference not set to an instance of an object. System.NullReferenceException NullReferenceException System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdimAdimDavaKaydi.DavaTakip.frmDavaTakip.ucBelgeKayitUfak1_BelgeKaydedildi(Object sender, BelgeKaydedildiEventArgs e) in d:\dogan\AdimAdimDavaKaydi\AdimAdimDavaKaydi\DavaTakip\frmDavaTakip.cs:line 865
+   at AdimAdimDavaKaydi.Belge.UserControls.ucBelgeKayitUfak.Save(AV001_TDIE_BIL_BELGE belgeSave) in d:\dogan\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Belge\UserControls\ucBelgeKayitUfak.cs:line 1214 Void ucBelgeKayitUfak1_BelgeKaydedildi(System.Object, BelgeKaydedildiEventArgs)    at AdimAdimDavaKaydi.DavaTakip.frmDavaTakip.ucBelgeKayitUfak1_BelgeKaydedildi(Object sender, BelgeKaydedildiEventArgs e) in d:\dogan\AdimAdimDavaKaydi\AdimAdimDavaKaydi\DavaTakip\frmDavaTakip.cs:line 865
+   at AdimAdimDavaKaydi.Belge.UserControls.ucBelgeKayitUfak.Save(AV001_TDIE_BIL_BELGE belgeSave) in d:\dogan\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Belge\UserControls\ucBelgeKayitUfak.cs:line 1214
+2014-06-14 12:49:14.9613 Hata 
+ Object reference not set to an instance of an object. System.NullReferenceException NullReferenceException System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdimAdimDavaKaydi.DavaTakip.frmDavaTakip.ucBelgeKayitUfak1_BelgeKaydedildi(Object sender, BelgeKaydedildiEventArgs e) in d:\dogan\AdimAdimDavaKaydi\AdimAdimDavaKaydi\DavaTakip\frmDavaTakip.cs:line 865
+   at AdimAdimDavaKaydi.Belge.UserControls.ucBelgeKayitUfak.Save(AV001_TDIE_BIL_BELGE belgeSave) in d:\dogan\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Belge\UserControls\ucBelgeKayitUfak.cs:line 1214 Void ucBelgeKayitUfak1_BelgeKaydedildi(System.Object, BelgeKaydedildiEventArgs)    at AdimAdimDavaKaydi.DavaTakip.frmDavaTakip.ucBelgeKayitUfak1_BelgeKaydedildi(Object sender, BelgeKaydedildiEventArgs e) in d:\dogan\AdimAdimDavaKaydi\AdimAdimDavaKaydi\DavaTakip\frmDavaTakip.cs:line 865
+   at AdimAdimDavaKaydi.Belge.UserControls.ucBelgeKayitUfak.Save(AV001_TDIE_BIL_BELGE belgeSave) in d:\dogan\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Belge\UserControls\ucBelgeKayitUfak.cs:line 1214
+2014-06-14 13:48:51.3489 Hata 
+ Object reference not set to an instance of an object. System.NullReferenceException NullReferenceException System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdimAdimDavaKaydi.DavaTakip.frmDavaTakip.ucBelgeKayitUfak1_BelgeKaydedildi(Object sender, BelgeKaydedildiEventArgs e) in d:\dogan\AdimAdimDavaKaydi\AdimAdimDavaKaydi\DavaTakip\frmDavaTakip.cs:line 865
+   at AdimAdimDavaKaydi.Belge.UserControls.ucBelgeKayitUfak.Save(AV001_TDIE_BIL_BELGE belgeSave) in d:\dogan\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Belge\UserControls\ucBelgeKayitUfak.cs:line 1214 Void ucBelgeKayitUfak1_BelgeKaydedildi(System.Object, BelgeKaydedildiEventArgs)    at AdimAdimDavaKaydi.DavaTakip.frmDavaTakip.ucBelgeKayitUfak1_BelgeKaydedildi(Object sender, BelgeKaydedildiEventArgs e) in d:\dogan\AdimAdimDavaKaydi\AdimAdimDavaKaydi\DavaTakip\frmDavaTakip.cs:line 865
+   at AdimAdimDavaKaydi.Belge.UserControls.ucBelgeKayitUfak.Save(AV001_TDIE_BIL_BELGE belgeSave) in d:\dogan\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Belge\UserControls\ucBelgeKayitUfak.cs:line 1214
+2014-06-14 14:42:20.0894 Hata 
+ Object reference not set to an instance of an object. System.NullReferenceException NullReferenceException System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdimAdimDavaKaydi.DavaTakip.frmDavaTakip.ucBelgeKayitUfak1_BelgeKaydedildi(Object sender, BelgeKaydedildiEventArgs e) in d:\dogan\AdimAdimDavaKaydi\AdimAdimDavaKaydi\DavaTakip\frmDavaTakip.cs:line 865
+   at AdimAdimDavaKaydi.Belge.UserControls.ucBelgeKayitUfak.Save(AV001_TDIE_BIL_BELGE belgeSave) in d:\dogan\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Belge\UserControls\ucBelgeKayitUfak.cs:line 1214 Void ucBelgeKayitUfak1_BelgeKaydedildi(System.Object, BelgeKaydedildiEventArgs)    at AdimAdimDavaKaydi.DavaTakip.frmDavaTakip.ucBelgeKayitUfak1_BelgeKaydedildi(Object sender, BelgeKaydedildiEventArgs e) in d:\dogan\AdimAdimDavaKaydi\AdimAdimDavaKaydi\DavaTakip\frmDavaTakip.cs:line 865
+   at AdimAdimDavaKaydi.Belge.UserControls.ucBelgeKayitUfak.Save(AV001_TDIE_BIL_BELGE belgeSave) in d:\dogan\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Belge\UserControls\ucBelgeKayitUfak.cs:line 1214
+2014-06-14 15:46:46.7386 Hata 
+ Unable to cast object of type 'System.DBNull' to type 'System.String'. System.InvalidCastException InvalidCastException System.InvalidCastException: Unable to cast object of type 'System.DBNull' to type 'System.String'.
+   at AvukatProLib2.Data.Bases.TDI_BIL_KULLANICI_LISTESIProviderBaseCore.Fill(IDataReader reader, TList`1 rows, Int32 start, Int32 pageLength)
+   at AvukatProLib2.Data.SqlClient.SqlTDI_BIL_KULLANICI_LISTESIProviderBase.GetAll(TransactionManager transactionManager, Int32 start, Int32 pageLength, Int32& count)
+   at AvukatProLib2.Data.Bases.EntityProviderBaseCore`2.GetAll(TransactionManager mgr, Int32 start, Int32 pageLength)
+   at AvukatProLib2.Data.Bases.EntityProviderBaseCore`2.GetAll(TransactionManager mgr)
+   at AvukatProLib2.Data.Bases.EntityProviderBaseCore`2.GetAll()
+   at BelgeUtil.Inits.KontrolKimGetir(RepositoryItemLookUpEdit lue) in d:\dogan\AdimAdimDavaKaydi\BelgeUtil\Inits.Ext.cs:line 1395
+   at AdimAdimDavaKaydi.UserControls.UcDava.ucDavaGenelNotlar.ucDavaGenelNotlar_Load(Object sender, EventArgs e) in d:\dogan\AdimAdimDavaKaydi\AdimAdimDavaKaydi\UserControls\UcDava\ucDavaGenelNotlar.cs:line 46
+   at System.Windows.Forms.UserControl.OnLoad(EventArgs e)
+   at DevExpress.XtraEditors.XtraUserControl.OnLoad(EventArgs e)
+   at AdimAdimDavaKaydi.Util.BaseClasses.AvpXUserControl.OnLoad(EventArgs e) in d:\dogan\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Util\BaseClasses\AvpXUserControl.cs:line 65
+   at System.Windows.Forms.UserControl.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.ControlCollection.Add(Control value)
+   at AdimAdimDavaKaydi.DavaTakip.ucDavaGridler.CreateUcGenelNotlar() in d:\dogan\AdimAdimDavaKaydi\AdimAdimDavaKaydi\DavaTakip\ucDavaGridler.Designer.cs:line 1007
+   at AdimAdimDavaKaydi.DavaTakip.ucDavaGridler.ucDavaGridler_Load(Object sender, EventArgs e) in d:\dogan\AdimAdimDavaKaydi\AdimAdimDavaKaydi\DavaTakip\ucDavaGridler.cs:line 146
+   at System.Windows.Forms.UserControl.OnLoad(EventArgs e)
+   at DevExpress.XtraEditors.XtraUserControl.OnLoad(EventArgs e)
+   at AdimAdimDavaKaydi.Util.BaseClasses.AvpXUserControl.OnLoad(EventArgs e) in d:\dogan\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Util\BaseClasses\AvpXUserControl.cs:line 65
+   at System.Windows.Forms.UserControl.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.SetVisibleCore(Boolean value)
+   at System.Windows.Forms.Control.set_Visible(Boolean value)
+   at DevExpress.XtraTab.XtraTabPage.set_Visible(Boolean value)
+   at DevExpress.XtraTab.XtraTabControl.UpdatePageSelection()
+   at DevExpress.XtraTab.XtraTabControl.OnHandleCreated(EventArgs e)
+   at System.Windows.Forms.Control.WmCreate(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at DevExpress.Utils.Controls.ControlBase.WndProc(Message& m)
+   at DevExpress.XtraTab.XtraTabControl.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam) AvukatProLib2.Entities.TList`1[AvukatProLib2.Entities.TDI_BIL_KULLANICI_LISTESI] Fill(System.Data.IDataReader, AvukatProLib2.Entities.TList`1[AvukatProLib2.Entities.TDI_BIL_KULLANICI_LISTESI], Int32, Int32)    at AvukatProLib2.Data.Bases.TDI_BIL_KULLANICI_LISTESIProviderBaseCore.Fill(IDataReader reader, TList`1 rows, Int32 start, Int32 pageLength)
+   at AvukatProLib2.Data.SqlClient.SqlTDI_BIL_KULLANICI_LISTESIProviderBase.GetAll(TransactionManager transactionManager, Int32 start, Int32 pageLength, Int32& count)
+   at AvukatProLib2.Data.Bases.EntityProviderBaseCore`2.GetAll(TransactionManager mgr, Int32 start, Int32 pageLength)
+   at AvukatProLib2.Data.Bases.EntityProviderBaseCore`2.GetAll(TransactionManager mgr)
+   at AvukatProLib2.Data.Bases.EntityProviderBaseCore`2.GetAll()
+   at BelgeUtil.Inits.KontrolKimGetir(RepositoryItemLookUpEdit lue) in d:\dogan\AdimAdimDavaKaydi\BelgeUtil\Inits.Ext.cs:line 1395
+   at AdimAdimDavaKaydi.UserControls.UcDava.ucDavaGenelNotlar.ucDavaGenelNotlar_Load(Object sender, EventArgs e) in d:\dogan\AdimAdimDavaKaydi\AdimAdimDavaKaydi\UserControls\UcDava\ucDavaGenelNotlar.cs:line 46
+   at System.Windows.Forms.UserControl.OnLoad(EventArgs e)
+   at DevExpress.XtraEditors.XtraUserControl.OnLoad(EventArgs e)
+   at AdimAdimDavaKaydi.Util.BaseClasses.AvpXUserControl.OnLoad(EventArgs e) in d:\dogan\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Util\BaseClasses\AvpXUserControl.cs:line 65
+   at System.Windows.Forms.UserControl.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.ControlCollection.Add(Control value)
+   at AdimAdimDavaKaydi.DavaTakip.ucDavaGridler.CreateUcGenelNotlar() in d:\dogan\AdimAdimDavaKaydi\AdimAdimDavaKaydi\DavaTakip\ucDavaGridler.Designer.cs:line 1007
+   at AdimAdimDavaKaydi.DavaTakip.ucDavaGridler.ucDavaGridler_Load(Object sender, EventArgs e) in d:\dogan\AdimAdimDavaKaydi\AdimAdimDavaKaydi\DavaTakip\ucDavaGridler.cs:line 146
+   at System.Windows.Forms.UserControl.OnLoad(EventArgs e)
+   at DevExpress.XtraEditors.XtraUserControl.OnLoad(EventArgs e)
+   at AdimAdimDavaKaydi.Util.BaseClasses.AvpXUserControl.OnLoad(EventArgs e) in d:\dogan\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Util\BaseClasses\AvpXUserControl.cs:line 65
+   at System.Windows.Forms.UserControl.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.SetVisibleCore(Boolean value)
+   at System.Windows.Forms.Control.set_Visible(Boolean value)
+   at DevExpress.XtraTab.XtraTabPage.set_Visible(Boolean value)
+   at DevExpress.XtraTab.XtraTabControl.UpdatePageSelection()
+   at DevExpress.XtraTab.XtraTabControl.OnHandleCreated(EventArgs e)
+   at System.Windows.Forms.Control.WmCreate(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at DevExpress.Utils.Controls.ControlBase.WndProc(Message& m)
+   at DevExpress.XtraTab.XtraTabControl.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)

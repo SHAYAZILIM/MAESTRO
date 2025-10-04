@@ -1,0 +1,12 @@
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\AVPTransfer.exe.config
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\AVPTransfer.exe
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AVPTransfer\AVP\AVPTransfer\obj\Release\AVPTransfer.frmAutoExport.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AVPTransfer\AVP\AVPTransfer\obj\Release\AVPTransfer.frmCheck.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AVPTransfer\AVP\AVPTransfer\obj\Release\AVPTransfer.frmChild.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AVPTransfer\AVP\AVPTransfer\obj\Release\AVPTransfer.frmConnect.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AVPTransfer\AVP\AVPTransfer\obj\Release\AVPTransfer.frmExport1.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AVPTransfer\AVP\AVPTransfer\obj\Release\AVPTransfer.frmMain.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AVPTransfer\AVP\AVPTransfer\obj\Release\AVPTransfer.GenerateColumnList.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AVPTransfer\AVP\AVPTransfer\obj\Release\AVPTransfer.csproj.GenerateResource.Cache
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AVPTransfer\AVP\AVPTransfer\obj\Release\AVPTransfer.exe.licenses
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AVPTransfer\AVP\AVPTransfer\obj\Release\AVPTransfer.exe

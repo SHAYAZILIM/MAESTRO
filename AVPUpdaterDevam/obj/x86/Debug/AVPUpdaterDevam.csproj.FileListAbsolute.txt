@@ -1,0 +1,7 @@
+D:\dogan\AdimAdimDavaKaydi\ProjectBin\AVPUpdaterDevam.exe.config
+D:\dogan\AdimAdimDavaKaydi\ProjectBin\AVPUpdaterDevam.exe
+D:\dogan\AdimAdimDavaKaydi\ProjectBin\AVPUpdaterDevam.pdb
+D:\dogan\AdimAdimDavaKaydi\AVPUpdaterDevam\obj\x86\Debug\AVPUpdaterDevam.Form1.resources
+D:\dogan\AdimAdimDavaKaydi\AVPUpdaterDevam\obj\x86\Debug\AVPUpdaterDevam.csproj.GenerateResource.Cache
+D:\dogan\AdimAdimDavaKaydi\AVPUpdaterDevam\obj\x86\Debug\AVPUpdaterDevam.exe
+D:\dogan\AdimAdimDavaKaydi\AVPUpdaterDevam\obj\x86\Debug\AVPUpdaterDevam.pdb

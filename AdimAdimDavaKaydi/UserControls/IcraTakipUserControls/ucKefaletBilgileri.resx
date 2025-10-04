@@ -1,0 +1,606 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="multiEditorRowProperties1.Caption" xml:space="preserve">
+    <value>Kefalet Miktarı</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tutar.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="multiEditorRowProperties1.Width" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="multiEditorRowProperties2.Caption" xml:space="preserve">
+    <value>Brm.</value>
+  </data>
+  <assembly alias="DevExpress.Utils.v12.1" name="DevExpress.Utils.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="rLueDovizID.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="multiEditorRowProperties2.Width" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="gridKefaletBilgileri.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="gridKefaletBilgileri.EmbeddedNavigator.CustomButtons" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="gridKefaletBilgileri.EmbeddedNavigator.CustomButtons1" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="gridKefaletBilgileri.EmbeddedNavigator.CustomButtons2" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gridKefaletBilgileri.EmbeddedNavigator.CustomButtons3" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gridKefaletBilgileri.EmbeddedNavigator.CustomButtons4" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridKefaletBilgileri.EmbeddedNavigator.CustomButtons5" xml:space="preserve">
+    <value>FormdanEkle</value>
+  </data>
+  <data name="gridKefaletBilgileri.EmbeddedNavigator.CustomButtons6" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="gridKefaletBilgileri.EmbeddedNavigator.CustomButtons7" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="gridKefaletBilgileri.EmbeddedNavigator.CustomButtons8" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gridKefaletBilgileri.EmbeddedNavigator.CustomButtons9" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gridKefaletBilgileri.EmbeddedNavigator.CustomButtons10" xml:space="preserve">
+    <value>Kayıt Duzenle</value>
+  </data>
+  <data name="gridKefaletBilgileri.EmbeddedNavigator.CustomButtons11" xml:space="preserve">
+    <value>KayitDuzenle</value>
+  </data>
+  <metadata name="MyRepository.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="rLueCariID.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="rLueCariID.Buttons1" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Plus</value>
+  </data>
+  <data name="rLueCariID.Buttons2" xml:space="preserve">
+    <value>Yeni Kişi Ekle</value>
+  </data>
+  <data name="rLueCariID.Buttons3" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="rLueCariID.Buttons4" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rLueCariID.Buttons5" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rLueCariID.Buttons6" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <assembly alias="DevExpress.XtraEditors.v12.1" name="DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="rLueCariID.Buttons7" type="DevExpress.XtraEditors.ImageLocation, DevExpress.XtraEditors.v12.1">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="rLueCariID.Buttons8" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="rLueCariID.Buttons9" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueCariID.Buttons10" xml:space="preserve">
+    <value>YeniKayit</value>
+  </data>
+  <data name="rLueCariID.Buttons11" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="rLueCariID.Buttons12" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rLueKefaletKapsamID.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="tarih.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tarih.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="aciklama.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="aciklama.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="gridKefaletBilgileri.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="colKEFIL_OLAN_CARI_ADI.Caption" xml:space="preserve">
+    <value>Kefil</value>
+  </data>
+  <data name="colKEFIL_OLAN_CARI_ADI.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colKEFIL_OLAN_CARI_ADI.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="colKEFIL_OLAN_CARI_ADI.Width" type="System.Int32, mscorlib">
+    <value>116</value>
+  </data>
+  <data name="colKEFALET_TARIHI.Caption" xml:space="preserve">
+    <value>Kefalet T</value>
+  </data>
+  <data name="colKEFALET_TARIHI.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colKEFALET_TARIHI.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="colKEFALET_TARIHI.Width" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="colKEFALET_KAPSAMI.Caption" xml:space="preserve">
+    <value>Kapsamı</value>
+  </data>
+  <data name="colKEFALET_KAPSAMI.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colKEFALET_KAPSAMI.VisibleIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="colKEFALET_KAPSAMI.Width" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="colKEFALET_MIKTAR_DOVIZ.CustomizationCaption" xml:space="preserve">
+    <value>Kefalet Miktarı Para Birimi</value>
+  </data>
+  <data name="colKEFALET_MIKTAR_DOVIZ.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colKEFALET_MIKTAR_DOVIZ.VisibleIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="colKEFALET_MIKTAR_DOVIZ.Width" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="colKEFALET_MIKTARI.Caption" xml:space="preserve">
+    <value>Tutar</value>
+  </data>
+  <data name="colKEFALET_MIKTARI.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colKEFALET_MIKTARI.VisibleIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="colKEFALET_MIKTARI.Width" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="colACIKLAMA4.Caption" xml:space="preserve">
+    <value>Açıklama</value>
+  </data>
+  <data name="colACIKLAMA4.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colACIKLAMA4.VisibleIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="colACIKLAMA4.Width" type="System.Int32, mscorlib">
+    <value>81</value>
+  </data>
+  <data name="gwKefaletBilgileri.GroupPanelText" xml:space="preserve">
+    <value>Verileri Gruplamak İçin Başlıkları Buraya Sürükleyin</value>
+  </data>
+  <assembly alias="DevExpress.Data.v12.1" name="DevExpress.Data.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="gwKefaletBilgileri.GroupSummary" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Sum</value>
+  </data>
+  <data name="gwKefaletBilgileri.GroupSummary1" xml:space="preserve">
+    <value>KEFALET_MIKTARI</value>
+  </data>
+  <data name="gwKefaletBilgileri.GroupSummary2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gwKefaletBilgileri.NewItemRowText" xml:space="preserve">
+    <value>Yeni Kayıt Eklemek İçin Tıklayınız..</value>
+  </data>
+  <data name="gridKefaletBilgileri.Size" type="System.Drawing.Size, System.Drawing">
+    <value>526, 288</value>
+  </data>
+  <data name="gridKefaletBilgileri.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;gridKefaletBilgileri.Name" xml:space="preserve">
+    <value>gridKefaletBilgileri</value>
+  </data>
+  <data name="&gt;&gt;gridKefaletBilgileri.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedGridControl, avpng, Version=1.1.6.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;gridKefaletBilgileri.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gridKefaletBilgileri.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="vGKafalet.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="vGKafalet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 2</value>
+  </data>
+  <data name="vGKafalet.RecordWidth" type="System.Int32, mscorlib">
+    <value>143</value>
+  </data>
+  <data name="vGKafalet.RowHeaderWidth" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="rowKEFIL_OLAN_CARI_ID.Name" xml:space="preserve">
+    <value>rowKEFIL_OLAN_CARI_ID</value>
+  </data>
+  <data name="rowKEFIL_OLAN_CARI_ID.Properties.Caption" xml:space="preserve">
+    <value>Kefil</value>
+  </data>
+  <data name="rowKEFALET_TARIHI.Name" xml:space="preserve">
+    <value>rowKEFALET_TARIHI</value>
+  </data>
+  <data name="rowKEFALET_TARIHI.Properties.Caption" xml:space="preserve">
+    <value>Kefalet T</value>
+  </data>
+  <data name="rowKEFALET_KAPSAM_ID.Name" xml:space="preserve">
+    <value>rowKEFALET_KAPSAM_ID</value>
+  </data>
+  <data name="rowKEFALET_KAPSAM_ID.Properties.Caption" xml:space="preserve">
+    <value>Kefalet Kapsamı</value>
+  </data>
+  <data name="mRowKefMiktar.Name" xml:space="preserve">
+    <value>mRowKefMiktar</value>
+  </data>
+  <data name="rowACIKLAMA.Name" xml:space="preserve">
+    <value>rowACIKLAMA</value>
+  </data>
+  <data name="rowACIKLAMA.Properties.Caption" xml:space="preserve">
+    <value>Açıklama</value>
+  </data>
+  <data name="vGKafalet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>522, 260</value>
+  </data>
+  <data name="vGKafalet.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;vGKafalet.Name" xml:space="preserve">
+    <value>vGKafalet</value>
+  </data>
+  <data name="&gt;&gt;vGKafalet.Type" xml:space="preserve">
+    <value>DevExpress.XtraVerticalGrid.VGridControl, DevExpress.XtraVerticalGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;vGKafalet.Parent" xml:space="preserve">
+    <value>panelControl1</value>
+  </data>
+  <data name="&gt;&gt;vGKafalet.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dnKefalet.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="dnKefalet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 262</value>
+  </data>
+  <data name="dnKefalet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>522, 24</value>
+  </data>
+  <data name="dnKefalet.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="dnKefalet.Text" xml:space="preserve">
+    <value>dataNavigatorExtended1</value>
+  </data>
+  <data name="dnKefalet.TextLocation" type="DevExpress.XtraEditors.NavigatorButtonsTextLocation, DevExpress.XtraEditors.v12.1">
+    <value>Center</value>
+  </data>
+  <data name="dnKefalet.TextStringFormat" xml:space="preserve">
+    <value>Kayıt {0} / {1}</value>
+  </data>
+  <data name="&gt;&gt;dnKefalet.Name" xml:space="preserve">
+    <value>dnKefalet</value>
+  </data>
+  <data name="&gt;&gt;dnKefalet.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.DataNavigatorExtended, avpng, Version=1.1.6.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;dnKefalet.Parent" xml:space="preserve">
+    <value>panelControl1</value>
+  </data>
+  <data name="&gt;&gt;dnKefalet.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panelControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panelControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>526, 288</value>
+  </data>
+  <data name="panelControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;panelControl1.Name" xml:space="preserve">
+    <value>panelControl1</value>
+  </data>
+  <data name="&gt;&gt;panelControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelControl1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>78</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>526, 288</value>
+  </data>
+  <data name="&gt;&gt;multiEditorRowProperties1.Name" xml:space="preserve">
+    <value>multiEditorRowProperties1</value>
+  </data>
+  <data name="&gt;&gt;multiEditorRowProperties1.Type" xml:space="preserve">
+    <value>DevExpress.XtraVerticalGrid.Rows.MultiEditorRowProperties, DevExpress.XtraVerticalGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;tutar.Name" xml:space="preserve">
+    <value>tutar</value>
+  </data>
+  <data name="&gt;&gt;tutar.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemSpinEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;multiEditorRowProperties2.Name" xml:space="preserve">
+    <value>multiEditorRowProperties2</value>
+  </data>
+  <data name="&gt;&gt;multiEditorRowProperties2.Type" xml:space="preserve">
+    <value>DevExpress.XtraVerticalGrid.Rows.MultiEditorRowProperties, DevExpress.XtraVerticalGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rLueDovizID.Name" xml:space="preserve">
+    <value>rLueDovizID</value>
+  </data>
+  <data name="&gt;&gt;rLueDovizID.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;MyRepository.Name" xml:space="preserve">
+    <value>MyRepository</value>
+  </data>
+  <data name="&gt;&gt;MyRepository.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.PersistentRepository, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rLueCariID.Name" xml:space="preserve">
+    <value>rLueCariID</value>
+  </data>
+  <data name="&gt;&gt;rLueCariID.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rLueKefaletKapsamID.Name" xml:space="preserve">
+    <value>rLueKefaletKapsamID</value>
+  </data>
+  <data name="&gt;&gt;rLueKefaletKapsamID.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;tarih.Name" xml:space="preserve">
+    <value>tarih</value>
+  </data>
+  <data name="&gt;&gt;tarih.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemDateEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;aciklama.Name" xml:space="preserve">
+    <value>aciklama</value>
+  </data>
+  <data name="&gt;&gt;aciklama.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemMemoExEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gwKefaletBilgileri.Name" xml:space="preserve">
+    <value>gwKefaletBilgileri</value>
+  </data>
+  <data name="&gt;&gt;gwKefaletBilgileri.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colKEFIL_OLAN_CARI_ADI.Name" xml:space="preserve">
+    <value>colKEFIL_OLAN_CARI_ADI</value>
+  </data>
+  <data name="&gt;&gt;colKEFIL_OLAN_CARI_ADI.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colKEFALET_TARIHI.Name" xml:space="preserve">
+    <value>colKEFALET_TARIHI</value>
+  </data>
+  <data name="&gt;&gt;colKEFALET_TARIHI.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colKEFALET_KAPSAMI.Name" xml:space="preserve">
+    <value>colKEFALET_KAPSAMI</value>
+  </data>
+  <data name="&gt;&gt;colKEFALET_KAPSAMI.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colKEFALET_MIKTAR_DOVIZ.Name" xml:space="preserve">
+    <value>colKEFALET_MIKTAR_DOVIZ</value>
+  </data>
+  <data name="&gt;&gt;colKEFALET_MIKTAR_DOVIZ.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colKEFALET_MIKTARI.Name" xml:space="preserve">
+    <value>colKEFALET_MIKTARI</value>
+  </data>
+  <data name="&gt;&gt;colKEFALET_MIKTARI.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colACIKLAMA4.Name" xml:space="preserve">
+    <value>colACIKLAMA4</value>
+  </data>
+  <data name="&gt;&gt;colACIKLAMA4.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rowKEFIL_OLAN_CARI_ID.Name" xml:space="preserve">
+    <value>rowKEFIL_OLAN_CARI_ID</value>
+  </data>
+  <data name="&gt;&gt;rowKEFIL_OLAN_CARI_ID.Type" xml:space="preserve">
+    <value>DevExpress.XtraVerticalGrid.Rows.EditorRow, DevExpress.XtraVerticalGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rowKEFALET_TARIHI.Name" xml:space="preserve">
+    <value>rowKEFALET_TARIHI</value>
+  </data>
+  <data name="&gt;&gt;rowKEFALET_TARIHI.Type" xml:space="preserve">
+    <value>DevExpress.XtraVerticalGrid.Rows.EditorRow, DevExpress.XtraVerticalGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rowKEFALET_KAPSAM_ID.Name" xml:space="preserve">
+    <value>rowKEFALET_KAPSAM_ID</value>
+  </data>
+  <data name="&gt;&gt;rowKEFALET_KAPSAM_ID.Type" xml:space="preserve">
+    <value>DevExpress.XtraVerticalGrid.Rows.EditorRow, DevExpress.XtraVerticalGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;mRowKefMiktar.Name" xml:space="preserve">
+    <value>mRowKefMiktar</value>
+  </data>
+  <data name="&gt;&gt;mRowKefMiktar.Type" xml:space="preserve">
+    <value>DevExpress.XtraVerticalGrid.Rows.MultiEditorRow, DevExpress.XtraVerticalGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rowACIKLAMA.Name" xml:space="preserve">
+    <value>rowACIKLAMA</value>
+  </data>
+  <data name="&gt;&gt;rowACIKLAMA.Type" xml:space="preserve">
+    <value>DevExpress.XtraVerticalGrid.Rows.EditorRow, DevExpress.XtraVerticalGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ucKefaletBilgileri</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.BaseClasses.AvpXUserControl, avpng, Version=1.1.6.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

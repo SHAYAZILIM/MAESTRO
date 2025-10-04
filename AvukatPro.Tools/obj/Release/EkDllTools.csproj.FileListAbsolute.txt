@@ -1,0 +1,2 @@
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\AvpDllAvukatPro.Tools.dll
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatPro.Tools\obj\Release\AvpDllAvukatPro.Tools.dll

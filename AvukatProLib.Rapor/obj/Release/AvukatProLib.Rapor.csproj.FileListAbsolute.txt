@@ -1,0 +1,15 @@
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\AvukatProLib.Rapor.exe.config
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\AvukatProLib.Rapor.exe.manifest
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\AvukatProLib.Rapor.application
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\AvukatProLib.Rapor.exe
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatProLib.Rapor\obj\Release\AvukatProLib.Rapor.csprojResolveAssemblyReference.cache
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatProLib.Rapor\obj\Release\AvukatProLib.Rapor.Forms.frmGiris.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatProLib.Rapor\obj\Release\AdimAdimDavaKaydi.UserControls.ucRapor.ucChartDesignerControlPanel.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatProLib.Rapor\obj\Release\AvukatProLib.Rapor.csproj.GenerateResource.Cache
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatProLib.Rapor\obj\Release\AvukatProLib.Rapor.exe.licenses
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatProLib.Rapor\obj\Release\AvukatProLib.Rapor.exe.manifest
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatProLib.Rapor\obj\Release\AvukatProLib.Rapor.application
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AvukatProLib.Rapor\obj\Release\AvukatProLib.Rapor.exe
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\Resources\DevExpress.XtraGrid.Appearances.xml
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\Resources\DevExpress.XtraVerticalGrid.Appearances.xml
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\Resources\DevExpress.XtraTreeList.Appearances.xml

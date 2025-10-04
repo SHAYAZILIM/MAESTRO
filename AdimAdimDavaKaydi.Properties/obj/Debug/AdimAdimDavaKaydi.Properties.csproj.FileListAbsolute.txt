@@ -1,0 +1,36 @@
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBin\Resources\DevExpress.XtraGrid.Appearances.xml
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBin\Resources\DevExpress.XtraVerticalGrid.Appearances.xml
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBin\Resources\DevExpress.XtraTreeList.Appearances.xml
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBin\AdimAdimDavaKaydi.Properties.dll
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBin\AdimAdimDavaKaydi.Properties.pdb
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AdimAdimDavaKaydi.Properties\obj\Debug\AdimAdimDavaKaydi.Properties.Properties.Resources.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AdimAdimDavaKaydi.Properties\obj\Debug\AdimAdimDavaKaydi.Properties.ResourcesSqlQuery.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AdimAdimDavaKaydi.Properties\obj\Debug\AdimAdimDavaKaydi.Properties.XRDesignRibbonControllerResources.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AdimAdimDavaKaydi.Properties\obj\Debug\AdimAdimDavaKaydi.Properties.csproj.GenerateResource.Cache
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AdimAdimDavaKaydi.Properties\obj\Debug\AdimAdimDavaKaydi.Properties.dll
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AdimAdimDavaKaydi.Properties\obj\Debug\AdimAdimDavaKaydi.Properties.pdb
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AdimAdimDavaKaydi.Properties\obj\Debug\AdimAdimDavaKaydi.Properties.csprojResolveAssemblyReference.cache
+D:\dogan\AdimAdimDavaKaydi\ProjectBin\Resources\DevExpress.XtraGrid.Appearances.xml
+D:\dogan\AdimAdimDavaKaydi\ProjectBin\Resources\DevExpress.XtraVerticalGrid.Appearances.xml
+D:\dogan\AdimAdimDavaKaydi\ProjectBin\Resources\DevExpress.XtraTreeList.Appearances.xml
+D:\dogan\AdimAdimDavaKaydi\ProjectBin\AdimAdimDavaKaydi.Properties.dll
+D:\dogan\AdimAdimDavaKaydi\ProjectBin\AdimAdimDavaKaydi.Properties.pdb
+D:\dogan\AdimAdimDavaKaydi\AdimAdimDavaKaydi.Properties\obj\Debug\AdimAdimDavaKaydi.Properties.Properties.Resources.resources
+D:\dogan\AdimAdimDavaKaydi\AdimAdimDavaKaydi.Properties\obj\Debug\AdimAdimDavaKaydi.Properties.ResourcesSqlQuery.resources
+D:\dogan\AdimAdimDavaKaydi\AdimAdimDavaKaydi.Properties\obj\Debug\AdimAdimDavaKaydi.Properties.XRDesignRibbonControllerResources.resources
+D:\dogan\AdimAdimDavaKaydi\AdimAdimDavaKaydi.Properties\obj\Debug\AdimAdimDavaKaydi.Properties.csproj.GenerateResource.Cache
+D:\dogan\AdimAdimDavaKaydi\AdimAdimDavaKaydi.Properties\obj\Debug\AdimAdimDavaKaydi.Properties.dll
+D:\dogan\AdimAdimDavaKaydi\AdimAdimDavaKaydi.Properties\obj\Debug\AdimAdimDavaKaydi.Properties.pdb
+D:\dogan\AdimAdimDavaKaydi\AdimAdimDavaKaydi.Properties\obj\Debug\AdimAdimDavaKaydi.Properties.csprojResolveAssemblyReference.cache
+D:\emre adım adım\AdimAdimDavaKaydi\ProjectBin\Resources\DevExpress.XtraGrid.Appearances.xml
+D:\emre adım adım\AdimAdimDavaKaydi\ProjectBin\Resources\DevExpress.XtraVerticalGrid.Appearances.xml
+D:\emre adım adım\AdimAdimDavaKaydi\ProjectBin\Resources\DevExpress.XtraTreeList.Appearances.xml
+D:\emre adım adım\AdimAdimDavaKaydi\ProjectBin\AdimAdimDavaKaydi.Properties.dll
+D:\emre adım adım\AdimAdimDavaKaydi\ProjectBin\AdimAdimDavaKaydi.Properties.pdb
+D:\emre adım adım\AdimAdimDavaKaydi\AdimAdimDavaKaydi.Properties\obj\Debug\AdimAdimDavaKaydi.Properties.csprojResolveAssemblyReference.cache
+D:\emre adım adım\AdimAdimDavaKaydi\AdimAdimDavaKaydi.Properties\obj\Debug\AdimAdimDavaKaydi.Properties.Properties.Resources.resources
+D:\emre adım adım\AdimAdimDavaKaydi\AdimAdimDavaKaydi.Properties\obj\Debug\AdimAdimDavaKaydi.Properties.ResourcesSqlQuery.resources
+D:\emre adım adım\AdimAdimDavaKaydi\AdimAdimDavaKaydi.Properties\obj\Debug\AdimAdimDavaKaydi.Properties.XRDesignRibbonControllerResources.resources
+D:\emre adım adım\AdimAdimDavaKaydi\AdimAdimDavaKaydi.Properties\obj\Debug\AdimAdimDavaKaydi.Properties.csproj.GenerateResource.Cache
+D:\emre adım adım\AdimAdimDavaKaydi\AdimAdimDavaKaydi.Properties\obj\Debug\AdimAdimDavaKaydi.Properties.dll
+D:\emre adım adım\AdimAdimDavaKaydi\AdimAdimDavaKaydi.Properties\obj\Debug\AdimAdimDavaKaydi.Properties.pdb

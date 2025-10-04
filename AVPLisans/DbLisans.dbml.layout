@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 12.25, 8.5" name="DbLisans">
+  <DataContextMoniker Name="/DbLisansDataContext" />
+  <nestedChildShapes>
+    <classShape Id="cbd13608-d76e-4626-85c3-219dea26d8af" absoluteBounds="4.75, 2.625, 2, 3.0683211263020826">
+      <DataClassMoniker Name="/DbLisansDataContext/TMYS_MUSTERI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0ee93708-68d6-4d30-91a5-b25c42ee8f82" absoluteBounds="4.765, 3.085, 1.9700000000000002, 2.508321126302083" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="47a85d93-52a4-468e-98e5-3d144d471087" absoluteBounds="1.75, 3.75, 2, 1.9178898111979166">
+      <DataClassMoniker Name="/DbLisansDataContext/TMYS_URUN_ANAHTARI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="be6c2b40-2572-4bfa-b0a3-c9d71a1dccce" absoluteBounds="1.7650000000000001, 4.21, 1.9700000000000002, 1.3578898111979165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4.75 : 4.70894490559896); (3.75 : 4.70894490559896)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DbLisansDataContext/TMYS_MUSTERI/TMYS_MUSTERI_TMYS_URUN_ANAHTARI" />
+      <nodes>
+        <classShapeMoniker Id="cbd13608-d76e-4626-85c3-219dea26d8af" />
+        <classShapeMoniker Id="47a85d93-52a4-468e-98e5-3d144d471087" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="c9cde6ab-07e2-4b3f-bf5e-fb2551980593" absoluteBounds="1.25, 0.75, 2, 1.5891951497395831">
+      <DataClassMoniker Name="/DbLisansDataContext/CS_KOD_PAKET" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8cfec95a-bb6b-4ab5-b279-570366820023" absoluteBounds="1.2650000000000001, 1.21, 1.9700000000000002, 1.0291951497395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.5 : 2.33919514973958); (2.5 : 3.75)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DbLisansDataContext/CS_KOD_PAKET/CS_KOD_PAKET_TMYS_URUN_ANAHTARI" />
+      <nodes>
+        <classShapeMoniker Id="c9cde6ab-07e2-4b3f-bf5e-fb2551980593" />
+        <classShapeMoniker Id="47a85d93-52a4-468e-98e5-3d144d471087" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="a8c49c77-10b4-4be7-b757-b870660e56da" absoluteBounds="5, 1, 2, 1.0961531575520833">
+      <DataClassMoniker Name="/DbLisansDataContext/CS_KOD_PAKET_NN_FORM" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3608b3ce-8720-4f0c-9ab4-ffee9bbf2427" absoluteBounds="5.015, 1.46, 1.9700000000000002, 0.53615315755208326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.25 : 1.54807657877604); (5 : 1.54807657877604)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DbLisansDataContext/CS_KOD_PAKET/CS_KOD_PAKET_CS_KOD_PAKET_NN_FORM" />
+      <nodes>
+        <classShapeMoniker Id="c9cde6ab-07e2-4b3f-bf5e-fb2551980593" />
+        <classShapeMoniker Id="a8c49c77-10b4-4be7-b757-b870660e56da" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="db420b7f-7726-44c4-93ac-a965764e7afe" absoluteBounds="10, 2, 2, 3.3970157877604166">
+      <DataClassMoniker Name="/DbLisansDataContext/CS_KOD_FORM_LISTESI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="23dda75a-1316-4bdd-86a2-dba9c16da5fe" absoluteBounds="10.015, 2.46, 1.9700000000000002, 2.8370157877604165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(11 : 2); (11 : 1.4999995); (7 : 1.4999995)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DbLisansDataContext/CS_KOD_FORM_LISTESI/CS_KOD_FORM_LISTESI_CS_KOD_PAKET_NN_FORM" />
+      <nodes>
+        <classShapeMoniker Id="db420b7f-7726-44c4-93ac-a965764e7afe" />
+        <classShapeMoniker Id="a8c49c77-10b4-4be7-b757-b870660e56da" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

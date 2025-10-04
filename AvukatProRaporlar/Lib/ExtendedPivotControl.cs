@@ -1,0 +1,96 @@
+using DevExpress.XtraEditors.Repository;
+using DevExpress.XtraPivotGrid;
+using System;
+using System.Collections.Generic;
+
+namespace AvukatProRaporlar.Lib
+{
+    public class ExtendedPivotControl : PivotGridControl
+    {
+        public ExtendedPivotControl()
+        {   //DevExpress v2012 Upgrade
+            //this.ShowMenu += ExtendedPivotControl_ShowMenu;
+            this.EditValueChanged += ExtendedPivotControl_EditValueChanged;
+            this.CustomEditValue += ExtendedPivotControl_CustomEditValue;
+
+            this.FieldValueDisplayText += new PivotFieldDisplayTextEventHandler(ExtendedPivotControl_FieldValueDisplayText);
+
+            bar.ShowTitle = true;
+            bar.Maximum = 100;
+            bar.Minimum = 0;
+            bar.Step = 1;
+            bar.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+        }
+
+        private List<PivotGridField> asilOranlananlarListesi = new List<PivotGridField>();
+
+        private RepositoryItemProgressBar bar = new RepositoryItemProgressBar();
+
+        private List<PivotGridField> oranlananlarListesi = new List<PivotGridField>();
+
+        private void ChangeCellValue(EditValueChangedEventArgs e, decimal oldValue, decimal newValue)
+        {
+            if (e.DataField.Tag is PivotGridField)
+            {
+                PivotGridField asilField = e.DataField.Tag as PivotGridField;
+
+                PivotDrillDownDataSource ds = e.CreateDrillDownDataSource();
+                decimal differance = newValue - oldValue;
+                decimal factor = (differance == newValue) ? (differance / ds.RowCount) : (differance / oldValue);
+                for (int i = 0; i < ds.RowCount; i++)
+                {
+                    decimal value = Convert.ToDecimal(ds[i][asilField]);
+                    ds[i][asilField] = value * (1m + factor);
+                }
+            }
+        }
+
+        private void ExtendedPivotControl_CustomEditValue(object sender, CustomEditValueEventArgs e)
+        {
+            if (oranlananlarListesi.Contains(e.DataField))
+            {
+                e.Value = Convert.ToDouble(e.Value) * 100f;
+            }
+        }
+
+        private void ExtendedPivotControl_EditValueChanged(object sender, EditValueChangedEventArgs e)
+        {
+            if (asilOranlananlarListesi.Contains(e.DataField))
+            {
+                ChangeCellValue(e, Convert.ToDecimal(e.Value), Convert.ToDecimal(e.Editor.EditValue));
+            }
+            if (oranlananlarListesi.Contains(e.DataField))
+            {
+                if (e.DataField.Tag is PivotGridField)
+                {
+                    PivotGridField asilField = e.DataField.Tag as PivotGridField;
+                    decimal c0 = Convert.ToDecimal(e.GetCellValue(asilField));
+                    decimal p0 = Convert.ToDecimal(e.RowIndex);
+                    decimal p1 = Convert.ToDecimal(e.Editor.EditValue);
+                    decimal newValue = (p0 == 0m || p1 == 0m) ? 0m : c0 * (100m / p0 - 1m) / (100m / p1 - 1m);
+
+                    ChangeCellValue(e, c0, newValue);
+                }
+            }
+        }
+
+        private void ExtendedPivotControl_FieldValueDisplayText(object sender, PivotFieldDisplayTextEventArgs e)
+        {
+            try
+            {
+                if (e.Field != null && e.Field.FieldEdit != null && e.Field.FieldEdit is RepositoryItemLookUpEdit)
+                {
+                    if (e.Value == null)
+                    {
+                        e.DisplayText = "";
+                    }
+                    else
+                        e.DisplayText = (e.Field.FieldEdit as RepositoryItemLookUpEdit).GetDisplayValueByKeyValue(e.Value).ToString();
+                }
+            }
+            catch 
+            {
+            }
+        }
+    }
+}

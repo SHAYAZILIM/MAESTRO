@@ -1,0 +1,2839 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="splitContainerControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="splitContainerControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ucBelgeDolasim1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ucBelgeDolasim1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ucBelgeDolasim1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ucBelgeDolasim1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ucBelgeDolasim1.Name" xml:space="preserve">
+    <value>ucBelgeDolasim1</value>
+  </data>
+  <data name="&gt;&gt;ucBelgeDolasim1.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Belge.UserControls.ucBelgeDolasim, avpng, Version=1.1.6.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucBelgeDolasim1.Parent" xml:space="preserve">
+    <value>splitContainerControl1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;ucBelgeDolasim1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="splitContainerControl1.Panel1.Text" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="ucBelgeOnizleme1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ucBelgeOnizleme1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ucBelgeOnizleme1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>555, 412</value>
+  </data>
+  <data name="ucBelgeOnizleme1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ucBelgeOnizleme1.Name" xml:space="preserve">
+    <value>ucBelgeOnizleme1</value>
+  </data>
+  <data name="&gt;&gt;ucBelgeOnizleme1.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Belge.UserControls.ucBelgeOnizleme, avpng, Version=1.1.6.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucBelgeOnizleme1.Parent" xml:space="preserve">
+    <value>splitContainerControl1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;ucBelgeOnizleme1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnProgram.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="btnProgram.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 412</value>
+  </data>
+  <data name="btnProgram.Size" type="System.Drawing.Size, System.Drawing">
+    <value>555, 23</value>
+  </data>
+  <data name="btnProgram.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnProgram.Text" xml:space="preserve">
+    <value>Programda Aç</value>
+  </data>
+  <data name="&gt;&gt;btnProgram.Name" xml:space="preserve">
+    <value>btnProgram</value>
+  </data>
+  <data name="&gt;&gt;btnProgram.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnProgram.Parent" xml:space="preserve">
+    <value>splitContainerControl1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;btnProgram.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="splitContainerControl1.Panel2.Text" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="splitContainerControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>555, 435</value>
+  </data>
+  <data name="splitContainerControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="splitContainerControl1.Text" xml:space="preserve">
+    <value>splitContainerControl1</value>
+  </data>
+  <data name="&gt;&gt;splitContainerControl1.Name" xml:space="preserve">
+    <value>splitContainerControl1</value>
+  </data>
+  <data name="&gt;&gt;splitContainerControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SplitContainerControl, DevExpress.Utils.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;splitContainerControl1.Parent" xml:space="preserve">
+    <value>dockPanel3_Container</value>
+  </data>
+  <data name="&gt;&gt;splitContainerControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cardView1.CardCaptionFormat" xml:space="preserve">
+    <value>Kayıt {0}</value>
+  </data>
+  <data name="gridColumn2.Caption" xml:space="preserve">
+    <value>Sıfat</value>
+  </data>
+  <assembly alias="DevExpress.Utils.v12.1" name="DevExpress.Utils.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="rLueBelgeSifatKodID.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="gridColumn2.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gridColumn2.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="CARI_ID.Caption" xml:space="preserve">
+    <value>Şahıs</value>
+  </data>
+  <data name="rLueCariID.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="CARI_ID.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CARI_ID.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <metadata name="aV001TDIEBILBELGEBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>246, 17</value>
+  </metadata>
+  <data name="grdBelge.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="grdBelge.EmbeddedNavigator.CustomButtons" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="grdBelge.EmbeddedNavigator.CustomButtons1" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="grdBelge.EmbeddedNavigator.CustomButtons2" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="grdBelge.EmbeddedNavigator.CustomButtons3" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="grdBelge.EmbeddedNavigator.CustomButtons4" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdBelge.EmbeddedNavigator.CustomButtons5" xml:space="preserve">
+    <value>FormdanEkle</value>
+  </data>
+  <data name="grdBelge.EmbeddedNavigator.CustomButtons6" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="grdBelge.EmbeddedNavigator.CustomButtons7" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="grdBelge.EmbeddedNavigator.CustomButtons8" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="grdBelge.EmbeddedNavigator.CustomButtons9" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="grdBelge.EmbeddedNavigator.CustomButtons10" xml:space="preserve">
+    <value>Düzenle</value>
+  </data>
+  <data name="grdBelge.EmbeddedNavigator.CustomButtons11" xml:space="preserve">
+    <value>KaydiDuzenle</value>
+  </data>
+  <metadata name="MyRepository.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>474, 17</value>
+  </metadata>
+  <data name="rLueBelgeTurID.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="rLueAdliBirimAdliyeID.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="rLueAdliBirimGorevID.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="rLueAdliBirimNoID.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="rLueOzelKodID.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="rLueBelgeAsamaID.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="grdBelge.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 2</value>
+  </data>
+  <data name="gridColumn1.Caption" xml:space="preserve">
+    <value>Seç</value>
+  </data>
+  <data name="repositoryItemCheckEdit1.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="gridColumn1.Width" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="colDOKUMAN_UZANTI.Caption" xml:space="preserve">
+    <value>Uzantı</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items1" xml:space="preserve">
+    <value>DOC</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items2" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items4" xml:space="preserve">
+    <value>DOCX</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items5" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items6" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items7" xml:space="preserve">
+    <value>MSG</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items8" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items9" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items10" xml:space="preserve">
+    <value>XLS</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items11" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items12" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items13" xml:space="preserve">
+    <value>XLSX</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items14" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items15" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items16" xml:space="preserve">
+    <value>PDF</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items17" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items18" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items19" xml:space="preserve">
+    <value>HTM</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items20" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items21" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items22" xml:space="preserve">
+    <value>HTML</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items23" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items24" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items25" xml:space="preserve">
+    <value>CSS</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items26" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items27" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items28" xml:space="preserve">
+    <value>JSP</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items29" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items30" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items31" xml:space="preserve">
+    <value>ASP</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items32" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items33" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items34" xml:space="preserve">
+    <value>ASPX</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items35" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items36" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items37" xml:space="preserve">
+    <value>PHP</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items38" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items39" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items40" xml:space="preserve">
+    <value>PHP3</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items41" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items42" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items43" xml:space="preserve">
+    <value>SWF</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items44" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items45" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items46" xml:space="preserve">
+    <value>GIF</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items47" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items48" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items49" xml:space="preserve">
+    <value>PDP</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items50" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items51" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items52" xml:space="preserve">
+    <value>RAW</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items53" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items54" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items55" xml:space="preserve">
+    <value>PCT</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items56" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items57" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items58" xml:space="preserve">
+    <value>PICT</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items59" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items60" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items61" xml:space="preserve">
+    <value>PXR</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items62" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items63" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items64" xml:space="preserve">
+    <value>PNG</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items65" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items66" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items67" xml:space="preserve">
+    <value>PBM</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items68" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items69" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items70" xml:space="preserve">
+    <value>PGM</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items71" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items72" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items73" xml:space="preserve">
+    <value>PBM</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items74" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items75" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items76" xml:space="preserve">
+    <value>PPM</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items77" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items78" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items79" xml:space="preserve">
+    <value>PRM</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items80" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items81" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items82" xml:space="preserve">
+    <value>PFM</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items83" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items84" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items85" xml:space="preserve">
+    <value>JPEG</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items86" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items87" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items88" xml:space="preserve">
+    <value>JPG</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items89" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items90" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items91" xml:space="preserve">
+    <value>BMP</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items92" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items93" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items94" xml:space="preserve">
+    <value>ICO</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items95" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items96" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items97" xml:space="preserve">
+    <value>DIP</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items98" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items99" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items100" xml:space="preserve">
+    <value>TIFF</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items101" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items102" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items103" xml:space="preserve">
+    <value>DCM</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items104" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items105" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items106" xml:space="preserve">
+    <value>DC3</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items107" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items108" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items109" xml:space="preserve">
+    <value>EPS</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items110" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items111" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items112" xml:space="preserve">
+    <value>PSB</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items113" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items114" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items115" xml:space="preserve">
+    <value>TGA</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items116" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items117" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items118" xml:space="preserve">
+    <value>VDG</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items119" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items120" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items121" xml:space="preserve">
+    <value>ICB</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items122" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items123" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items124" xml:space="preserve">
+    <value>VST</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items125" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items126" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items127" xml:space="preserve">
+    <value>MPEG</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items128" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items129" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items130" xml:space="preserve">
+    <value>MPG</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items131" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items132" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items133" xml:space="preserve">
+    <value>AVI</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items134" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items135" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items136" xml:space="preserve">
+    <value>DIVX</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items137" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items138" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items139" xml:space="preserve">
+    <value>RIP</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items140" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items141" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items142" xml:space="preserve">
+    <value>3GP</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items143" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items144" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items145" xml:space="preserve">
+    <value>MP4</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items146" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items147" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items148" xml:space="preserve">
+    <value>MOV</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items149" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items150" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items151" xml:space="preserve">
+    <value>ASF</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items152" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items153" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items154" xml:space="preserve">
+    <value>MPE</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items155" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items156" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items157" xml:space="preserve">
+    <value>GT</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items158" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items159" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items160" xml:space="preserve">
+    <value>SMV</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items161" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items162" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items163" xml:space="preserve">
+    <value>STR</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items164" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items165" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items166" xml:space="preserve">
+    <value>VFW</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items167" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items168" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items169" xml:space="preserve">
+    <value>WMV</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items170" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items171" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items172" xml:space="preserve">
+    <value>WAV</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items173" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items174" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items175" xml:space="preserve">
+    <value>MP3</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items176" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items177" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items178" xml:space="preserve">
+    <value>WMA</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items179" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items180" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items181" xml:space="preserve">
+    <value>XML</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items182" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items183" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items184" xml:space="preserve">
+    <value>XLST</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items185" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items186" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items187" xml:space="preserve">
+    <value>XAML</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items188" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items189" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items190" xml:space="preserve">
+    <value>XSL</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items191" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items192" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items193" xml:space="preserve">
+    <value>TXT</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items194" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items195" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items196" xml:space="preserve">
+    <value>RTF</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items197" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items198" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items199" xml:space="preserve">
+    <value>LOG</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items200" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items201" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items202" xml:space="preserve">
+    <value>CS</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items203" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items204" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items205" xml:space="preserve">
+    <value>doc</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items206" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items207" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items208" xml:space="preserve">
+    <value>docx</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items209" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items210" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items211" xml:space="preserve">
+    <value>msg</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items212" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items213" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items214" xml:space="preserve">
+    <value>xls</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items215" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items216" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items217" xml:space="preserve">
+    <value>xlsx</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items218" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items219" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items220" xml:space="preserve">
+    <value>pdf</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items221" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items222" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items223" xml:space="preserve">
+    <value>htm</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items224" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items225" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items226" xml:space="preserve">
+    <value>html</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items227" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items228" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items229" xml:space="preserve">
+    <value>css</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items230" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items231" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items232" xml:space="preserve">
+    <value>jsp</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items233" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items234" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items235" xml:space="preserve">
+    <value>asp</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items236" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items237" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items238" xml:space="preserve">
+    <value>aspx</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items239" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items240" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items241" xml:space="preserve">
+    <value>php</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items242" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items243" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items244" xml:space="preserve">
+    <value>php3</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items245" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items246" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items247" xml:space="preserve">
+    <value>swf</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items248" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items249" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items250" xml:space="preserve">
+    <value>gif</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items251" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items252" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items253" xml:space="preserve">
+    <value>pdp</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items254" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items255" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items256" xml:space="preserve">
+    <value>raw</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items257" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items258" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items259" xml:space="preserve">
+    <value>pct</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items260" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items261" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items262" xml:space="preserve">
+    <value>pict</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items263" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items264" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items265" xml:space="preserve">
+    <value>pxr</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items266" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items267" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items268" xml:space="preserve">
+    <value>png</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items269" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items270" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items271" xml:space="preserve">
+    <value>pbm</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items272" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items273" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items274" xml:space="preserve">
+    <value>pgm</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items275" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items276" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items277" xml:space="preserve">
+    <value>pbm</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items278" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items279" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items280" xml:space="preserve">
+    <value>ppm</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items281" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items282" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items283" xml:space="preserve">
+    <value>prm</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items284" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items285" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items286" xml:space="preserve">
+    <value>pfm</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items287" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items288" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items289" xml:space="preserve">
+    <value>jpeg</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items290" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items291" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items292" xml:space="preserve">
+    <value>jpg</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items293" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items294" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items295" xml:space="preserve">
+    <value>bmp</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items296" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items297" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items298" xml:space="preserve">
+    <value>ico</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items299" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items300" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items301" xml:space="preserve">
+    <value>dib</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items302" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items303" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items304" xml:space="preserve">
+    <value>tiff</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items305" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items306" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items307" xml:space="preserve">
+    <value>tif</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items308" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items309" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items310" xml:space="preserve">
+    <value>dcm</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items311" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items312" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items313" xml:space="preserve">
+    <value>dc3</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items314" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items315" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items316" xml:space="preserve">
+    <value>eps</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items317" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items318" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items319" xml:space="preserve">
+    <value>psb</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items320" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items321" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items322" xml:space="preserve">
+    <value>tga</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items323" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items324" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items325" xml:space="preserve">
+    <value>vdg</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items326" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items327" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items328" xml:space="preserve">
+    <value>icb</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items329" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items330" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items331" xml:space="preserve">
+    <value>vst</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items332" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items333" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items334" xml:space="preserve">
+    <value>Mpeg</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items335" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items336" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items337" xml:space="preserve">
+    <value>mpg</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items338" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items339" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items340" xml:space="preserve">
+    <value>avi</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items341" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items342" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items343" xml:space="preserve">
+    <value>divx</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items344" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items345" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items346" xml:space="preserve">
+    <value>rip</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items347" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items348" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items349" xml:space="preserve">
+    <value>3gp</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items350" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items351" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items352" xml:space="preserve">
+    <value>mp4</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items353" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items354" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items355" xml:space="preserve">
+    <value>mov</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items356" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items357" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items358" xml:space="preserve">
+    <value>asf</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items359" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items360" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items361" xml:space="preserve">
+    <value>mpe</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items362" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items363" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items364" xml:space="preserve">
+    <value>qt</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items365" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items366" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items367" xml:space="preserve">
+    <value>smv</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items368" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items369" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items370" xml:space="preserve">
+    <value>str</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items371" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items372" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items373" xml:space="preserve">
+    <value>vfw</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items374" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items375" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items376" xml:space="preserve">
+    <value>wmv</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items377" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items378" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items379" xml:space="preserve">
+    <value>wav</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items380" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items381" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items382" xml:space="preserve">
+    <value>mp3</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items383" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items384" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items385" xml:space="preserve">
+    <value>wma</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items386" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items387" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items388" xml:space="preserve">
+    <value>xml</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items389" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items390" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items391" xml:space="preserve">
+    <value>xlst</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items392" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items393" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items394" xml:space="preserve">
+    <value>xaml</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items395" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items396" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items397" xml:space="preserve">
+    <value>xsl</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items398" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items399" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items400" xml:space="preserve">
+    <value>txt</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items401" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items402" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items403" xml:space="preserve">
+    <value>rtf</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items404" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items405" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items406" xml:space="preserve">
+    <value>log</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items407" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items408" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items409" xml:space="preserve">
+    <value>cs</value>
+  </data>
+  <data name="rLueBelgeDosyaUzanti.Items410" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="colDOKUMAN_UZANTI.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colDOKUMAN_UZANTI.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="colDOKUMAN_UZANTI.Width" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="colBELGE_ADI.Caption" xml:space="preserve">
+    <value>Belge Adı</value>
+  </data>
+  <data name="colBELGE_ADI.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colBELGE_ADI.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="colBELGE_ADI.Width" type="System.Int32, mscorlib">
+    <value>265</value>
+  </data>
+  <data name="colBELGEYI_YAZAN_ID.Caption" xml:space="preserve">
+    <value>Ekleyen</value>
+  </data>
+  <data name="colBELGEYI_YAZAN_ID.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colBELGEYI_YAZAN_ID.VisibleIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="colBELGEYI_YAZAN_ID.Width" type="System.Int32, mscorlib">
+    <value>172</value>
+  </data>
+  <data name="colYAZILMA_TARIHI.Caption" xml:space="preserve">
+    <value>Eklenme Tarihi</value>
+  </data>
+  <data name="colYAZILMA_TARIHI.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colYAZILMA_TARIHI.VisibleIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="colYAZILMA_TARIHI.Width" type="System.Int32, mscorlib">
+    <value>122</value>
+  </data>
+  <data name="colACIKLAMA.Caption" xml:space="preserve">
+    <value>Açıklama</value>
+  </data>
+  <data name="colACIKLAMA.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colACIKLAMA.VisibleIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="colACIKLAMA.Width" type="System.Int32, mscorlib">
+    <value>205</value>
+  </data>
+  <data name="colBELGE_TUR_ID.Caption" xml:space="preserve">
+    <value>Belge Türü</value>
+  </data>
+  <data name="rlueBelgeTur.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rlueBelgeTur.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="BELGE_NO.Caption" xml:space="preserve">
+    <value>Belge No</value>
+  </data>
+  <data name="colDOSYA_ADI.Caption" xml:space="preserve">
+    <value>Dosya Adı</value>
+  </data>
+  <data name="ColTebligTarihi.Caption" xml:space="preserve">
+    <value>Tebliğ Tarihi</value>
+  </data>
+  <data name="colBELGE_REFERANS_NO.Caption" xml:space="preserve">
+    <value>Referans</value>
+  </data>
+  <data name="colBELGE_REFERANS_NO.Width" type="System.Int32, mscorlib">
+    <value>76</value>
+  </data>
+  <data name="gridColumn33.Caption" xml:space="preserve">
+    <value>K</value>
+  </data>
+  <data name="rLueKilitlimiResimli.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rLueKilitlimiResimli.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="gridColumn34.Caption" xml:space="preserve">
+    <value>İ</value>
+  </data>
+  <data name="rLueIzleResimli.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rLueIzleResimli.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="gridColumn35.Caption" xml:space="preserve">
+    <value>Ö</value>
+  </data>
+  <data name="rLueOnemliResimli.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rLueOnemliResimli.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="rLueBelgeTurResimli.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rLueBelgeTurResimli.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="rlueBelgeyiYazan.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rlueBelgeyiYazan.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="grdBelge.Size" type="System.Drawing.Size, System.Drawing">
+    <value>848, 458</value>
+  </data>
+  <data name="grdBelge.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;grdBelge.Name" xml:space="preserve">
+    <value>grdBelge</value>
+  </data>
+  <data name="&gt;&gt;grdBelge.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedGridControl, avpng, Version=1.1.6.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;grdBelge.Parent" xml:space="preserve">
+    <value>panelControl2</value>
+  </data>
+  <data name="&gt;&gt;grdBelge.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cardView1.ViewCaption" xml:space="preserve">
+    <value>Belge Tarafları</value>
+  </data>
+  <data name="cardView2.CardCaptionFormat" xml:space="preserve">
+    <value>Kayıt {0}</value>
+  </data>
+  <data name="gridColumn31.Caption" xml:space="preserve">
+    <value>Sıfat</value>
+  </data>
+  <data name="gridColumn31.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gridColumn31.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gridColumn32.Caption" xml:space="preserve">
+    <value>Şahıs</value>
+  </data>
+  <data name="gridColumn32.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gridColumn32.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <metadata name="contextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>592, 17</value>
+  </metadata>
+  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 22</value>
+  </data>
+  <data name="toolStripMenuItem1.Text" xml:space="preserve">
+    <value>Düzenle</value>
+  </data>
+  <data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 22</value>
+  </data>
+  <data name="toolStripMenuItem2.Text" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="toolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 22</value>
+  </data>
+  <data name="toolStripMenuItem3.Text" xml:space="preserve">
+    <value>Yeni</value>
+  </data>
+  <data name="toolStripMenuItem4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 22</value>
+  </data>
+  <data name="toolStripMenuItem4.Text" xml:space="preserve">
+    <value>Takip Ekranına Gönder</value>
+  </data>
+  <data name="contextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 92</value>
+  </data>
+  <data name="contextMenuStrip1.Text" xml:space="preserve">
+    <value>Seç</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStrip1.Name" xml:space="preserve">
+    <value>contextMenuStrip1</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="extendedGridControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="extendedGridControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 2</value>
+  </data>
+  <data name="layoutView1.CardCaptionFormat" xml:space="preserve">
+    <value>Kayıt {0}</value>
+  </data>
+  <data name="gridColumn3.Caption" xml:space="preserve">
+    <value>Referans</value>
+  </data>
+  <data name="gridColumn3.Width" type="System.Int32, mscorlib">
+    <value>76</value>
+  </data>
+  <data name="gridColumn4.Caption" xml:space="preserve">
+    <value>Belge Türü</value>
+  </data>
+  <data name="gridColumn5.Caption" xml:space="preserve">
+    <value>Belge Adı</value>
+  </data>
+  <data name="gridColumn6.Caption" xml:space="preserve">
+    <value>Tebligat No</value>
+  </data>
+  <data name="gridColumn6.Width" type="System.Int32, mscorlib">
+    <value>91</value>
+  </data>
+  <data name="gridColumn7.Caption" xml:space="preserve">
+    <value>Sözleşme No</value>
+  </data>
+  <data name="gridColumn7.Width" type="System.Int32, mscorlib">
+    <value>106</value>
+  </data>
+  <data name="gridColumn8.Caption" xml:space="preserve">
+    <value>Temsil No</value>
+  </data>
+  <data name="gridColumn9.Caption" xml:space="preserve">
+    <value>Kanıt No</value>
+  </data>
+  <data name="gridColumn10.Caption" xml:space="preserve">
+    <value>Esas No</value>
+  </data>
+  <data name="gridColumn11.Caption" xml:space="preserve">
+    <value>Muhasebe No</value>
+  </data>
+  <data name="gridColumn11.Width" type="System.Int32, mscorlib">
+    <value>103</value>
+  </data>
+  <data name="gridColumn12.Caption" xml:space="preserve">
+    <value>Mu. Ref. No</value>
+  </data>
+  <data name="gridColumn12.Width" type="System.Int32, mscorlib">
+    <value>103</value>
+  </data>
+  <data name="gridColumn13.Caption" xml:space="preserve">
+    <value>Adliye</value>
+  </data>
+  <data name="gridColumn14.Caption" xml:space="preserve">
+    <value>Görev</value>
+  </data>
+  <data name="gridColumn14.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="gridColumn15.Caption" xml:space="preserve">
+    <value>Birim No</value>
+  </data>
+  <data name="gridColumn16.Caption" xml:space="preserve">
+    <value>Açıklama</value>
+  </data>
+  <data name="gridColumn16.Width" type="System.Int32, mscorlib">
+    <value>130</value>
+  </data>
+  <data name="gridColumn17.Caption" xml:space="preserve">
+    <value>Dosya Adı</value>
+  </data>
+  <data name="gridColumn18.Caption" xml:space="preserve">
+    <value>Yazma T</value>
+  </data>
+  <data name="gridColumn19.Caption" xml:space="preserve">
+    <value>Belgeyi Yazan</value>
+  </data>
+  <data name="gridColumn19.Width" type="System.Int32, mscorlib">
+    <value>172</value>
+  </data>
+  <data name="gridColumn20.Caption" xml:space="preserve">
+    <value>Sorumlu</value>
+  </data>
+  <data name="gridColumn20.Width" type="System.Int32, mscorlib">
+    <value>161</value>
+  </data>
+  <data name="gridColumn21.Caption" xml:space="preserve">
+    <value>SABLON</value>
+  </data>
+  <data name="gridColumn22.Caption" xml:space="preserve">
+    <value>Özel Kod 1</value>
+  </data>
+  <data name="gridColumn23.Caption" xml:space="preserve">
+    <value>Özel Kod 2</value>
+  </data>
+  <data name="gridColumn24.Caption" xml:space="preserve">
+    <value>Özel Kod 3</value>
+  </data>
+  <data name="gridColumn25.Caption" xml:space="preserve">
+    <value>Özel Kod 4</value>
+  </data>
+  <data name="gridColumn26.Caption" xml:space="preserve">
+    <value>İçerik</value>
+  </data>
+  <data name="gridColumn27.Caption" xml:space="preserve">
+    <value>Uzantı</value>
+  </data>
+  <data name="gridColumn27.Width" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="gridColumn28.Caption" xml:space="preserve">
+    <value>Belge No</value>
+  </data>
+  <data name="gridColumn29.Caption" xml:space="preserve">
+    <value>Aşama</value>
+  </data>
+  <data name="gridColumn30.Caption" xml:space="preserve">
+    <value>Seç</value>
+  </data>
+  <data name="repositoryItemCheckEdit2.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="gridColumn30.Width" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="layoutViewCard1.CustomizationFormText" xml:space="preserve">
+    <value>layoutViewTemplateCard</value>
+  </data>
+  <data name="layoutViewCard1.Text" xml:space="preserve">
+    <value>TemplateCard</value>
+  </data>
+  <data name="extendedGridControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>848, 458</value>
+  </data>
+  <data name="extendedGridControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="extendedGridControl1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;extendedGridControl1.Name" xml:space="preserve">
+    <value>extendedGridControl1</value>
+  </data>
+  <data name="&gt;&gt;extendedGridControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;extendedGridControl1.Parent" xml:space="preserve">
+    <value>panelControl2</value>
+  </data>
+  <data name="&gt;&gt;extendedGridControl1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cardView2.ViewCaption" xml:space="preserve">
+    <value>Belge Tarafları</value>
+  </data>
+  <metadata name="dockManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="dockPanel3_Container.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 23</value>
+  </data>
+  <data name="dockPanel3_Container.Size" type="System.Drawing.Size, System.Drawing">
+    <value>555, 435</value>
+  </data>
+  <data name="dockPanel3_Container.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dockPanel3_Container.Name" xml:space="preserve">
+    <value>dockPanel3_Container</value>
+  </data>
+  <data name="&gt;&gt;dockPanel3_Container.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Docking.ControlContainer, DevExpress.XtraBars.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;dockPanel3_Container.Parent" xml:space="preserve">
+    <value>dockPanel3</value>
+  </data>
+  <data name="&gt;&gt;dockPanel3_Container.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dockPanel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="dockPanel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>563, 462</value>
+  </data>
+  <data name="dockPanel3.Text" xml:space="preserve">
+    <value>Belge Önizleme</value>
+  </data>
+  <data name="&gt;&gt;dockPanel3.Name" xml:space="preserve">
+    <value>dockPanel3</value>
+  </data>
+  <data name="&gt;&gt;dockPanel3.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Docking.DockPanel, DevExpress.XtraBars.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;dockPanel3.Parent" xml:space="preserve">
+    <value>hideContainerRight</value>
+  </data>
+  <data name="&gt;&gt;dockPanel3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="hideContainerRight.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="hideContainerRight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>852, 0</value>
+  </data>
+  <data name="hideContainerRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 462</value>
+  </data>
+  <data name="&gt;&gt;hideContainerRight.Name" xml:space="preserve">
+    <value>hideContainerRight</value>
+  </data>
+  <data name="&gt;&gt;hideContainerRight.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Docking.AutoHideContainer, DevExpress.XtraBars.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;hideContainerRight.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;hideContainerRight.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>104</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="panelControl2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panelControl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panelControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>852, 462</value>
+  </data>
+  <data name="panelControl2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panelControl2.Name" xml:space="preserve">
+    <value>panelControl2</value>
+  </data>
+  <data name="&gt;&gt;panelControl2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelControl2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelControl2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>871, 462</value>
+  </data>
+  <data name="&gt;&gt;cardView1.Name" xml:space="preserve">
+    <value>cardView1</value>
+  </data>
+  <data name="&gt;&gt;cardView1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Card.CardView, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn2.Name" xml:space="preserve">
+    <value>gridColumn2</value>
+  </data>
+  <data name="&gt;&gt;gridColumn2.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rLueBelgeSifatKodID.Name" xml:space="preserve">
+    <value>rLueBelgeSifatKodID</value>
+  </data>
+  <data name="&gt;&gt;rLueBelgeSifatKodID.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;CARI_ID.Name" xml:space="preserve">
+    <value>CARI_ID</value>
+  </data>
+  <data name="&gt;&gt;CARI_ID.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rLueCariID.Name" xml:space="preserve">
+    <value>rLueCariID</value>
+  </data>
+  <data name="&gt;&gt;rLueCariID.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;aV001TDIEBILBELGEBindingSource.Name" xml:space="preserve">
+    <value>aV001TDIEBILBELGEBindingSource</value>
+  </data>
+  <data name="&gt;&gt;aV001TDIEBILBELGEBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MyRepository.Name" xml:space="preserve">
+    <value>MyRepository</value>
+  </data>
+  <data name="&gt;&gt;MyRepository.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.PersistentRepository, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rLueBelgeTurID.Name" xml:space="preserve">
+    <value>rLueBelgeTurID</value>
+  </data>
+  <data name="&gt;&gt;rLueBelgeTurID.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rLueAdliBirimAdliyeID.Name" xml:space="preserve">
+    <value>rLueAdliBirimAdliyeID</value>
+  </data>
+  <data name="&gt;&gt;rLueAdliBirimAdliyeID.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rLueAdliBirimGorevID.Name" xml:space="preserve">
+    <value>rLueAdliBirimGorevID</value>
+  </data>
+  <data name="&gt;&gt;rLueAdliBirimGorevID.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rLueAdliBirimNoID.Name" xml:space="preserve">
+    <value>rLueAdliBirimNoID</value>
+  </data>
+  <data name="&gt;&gt;rLueAdliBirimNoID.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rLueOzelKodID.Name" xml:space="preserve">
+    <value>rLueOzelKodID</value>
+  </data>
+  <data name="&gt;&gt;rLueOzelKodID.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rLueBelgeAsamaID.Name" xml:space="preserve">
+    <value>rLueBelgeAsamaID</value>
+  </data>
+  <data name="&gt;&gt;rLueBelgeAsamaID.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridView1.Name" xml:space="preserve">
+    <value>gridView1</value>
+  </data>
+  <data name="&gt;&gt;gridView1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn1.Name" xml:space="preserve">
+    <value>gridColumn1</value>
+  </data>
+  <data name="&gt;&gt;gridColumn1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemCheckEdit1.Name" xml:space="preserve">
+    <value>repositoryItemCheckEdit1</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemCheckEdit1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colDOKUMAN_UZANTI.Name" xml:space="preserve">
+    <value>colDOKUMAN_UZANTI</value>
+  </data>
+  <data name="&gt;&gt;colDOKUMAN_UZANTI.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rLueBelgeDosyaUzanti.Name" xml:space="preserve">
+    <value>rLueBelgeDosyaUzanti</value>
+  </data>
+  <data name="&gt;&gt;rLueBelgeDosyaUzanti.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemImageComboBox, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colBELGE_ADI.Name" xml:space="preserve">
+    <value>colBELGE_ADI</value>
+  </data>
+  <data name="&gt;&gt;colBELGE_ADI.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colBELGEYI_YAZAN_ID.Name" xml:space="preserve">
+    <value>colBELGEYI_YAZAN_ID</value>
+  </data>
+  <data name="&gt;&gt;colBELGEYI_YAZAN_ID.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colYAZILMA_TARIHI.Name" xml:space="preserve">
+    <value>colYAZILMA_TARIHI</value>
+  </data>
+  <data name="&gt;&gt;colYAZILMA_TARIHI.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colACIKLAMA.Name" xml:space="preserve">
+    <value>colACIKLAMA</value>
+  </data>
+  <data name="&gt;&gt;colACIKLAMA.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colBELGE_TUR_ID.Name" xml:space="preserve">
+    <value>colBELGE_TUR_ID</value>
+  </data>
+  <data name="&gt;&gt;colBELGE_TUR_ID.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rlueBelgeTur.Name" xml:space="preserve">
+    <value>rlueBelgeTur</value>
+  </data>
+  <data name="&gt;&gt;rlueBelgeTur.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BELGE_NO.Name" xml:space="preserve">
+    <value>BELGE_NO</value>
+  </data>
+  <data name="&gt;&gt;BELGE_NO.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colDOSYA_ADI.Name" xml:space="preserve">
+    <value>colDOSYA_ADI</value>
+  </data>
+  <data name="&gt;&gt;colDOSYA_ADI.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ColTebligTarihi.Name" xml:space="preserve">
+    <value>ColTebligTarihi</value>
+  </data>
+  <data name="&gt;&gt;ColTebligTarihi.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colBELGE_REFERANS_NO.Name" xml:space="preserve">
+    <value>colBELGE_REFERANS_NO</value>
+  </data>
+  <data name="&gt;&gt;colBELGE_REFERANS_NO.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn33.Name" xml:space="preserve">
+    <value>gridColumn33</value>
+  </data>
+  <data name="&gt;&gt;gridColumn33.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rLueKilitlimiResimli.Name" xml:space="preserve">
+    <value>rLueKilitlimiResimli</value>
+  </data>
+  <data name="&gt;&gt;rLueKilitlimiResimli.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemImageComboBox, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn34.Name" xml:space="preserve">
+    <value>gridColumn34</value>
+  </data>
+  <data name="&gt;&gt;gridColumn34.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rLueIzleResimli.Name" xml:space="preserve">
+    <value>rLueIzleResimli</value>
+  </data>
+  <data name="&gt;&gt;rLueIzleResimli.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemImageComboBox, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn35.Name" xml:space="preserve">
+    <value>gridColumn35</value>
+  </data>
+  <data name="&gt;&gt;gridColumn35.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rLueOnemliResimli.Name" xml:space="preserve">
+    <value>rLueOnemliResimli</value>
+  </data>
+  <data name="&gt;&gt;rLueOnemliResimli.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemImageComboBox, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rLueBelgeTurResimli.Name" xml:space="preserve">
+    <value>rLueBelgeTurResimli</value>
+  </data>
+  <data name="&gt;&gt;rLueBelgeTurResimli.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemImageComboBox, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rlueBelgeyiYazan.Name" xml:space="preserve">
+    <value>rlueBelgeyiYazan</value>
+  </data>
+  <data name="&gt;&gt;rlueBelgeyiYazan.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridView2.Name" xml:space="preserve">
+    <value>gridView2</value>
+  </data>
+  <data name="&gt;&gt;gridView2.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;cardView2.Name" xml:space="preserve">
+    <value>cardView2</value>
+  </data>
+  <data name="&gt;&gt;cardView2.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Card.CardView, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn31.Name" xml:space="preserve">
+    <value>gridColumn31</value>
+  </data>
+  <data name="&gt;&gt;gridColumn31.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn32.Name" xml:space="preserve">
+    <value>gridColumn32</value>
+  </data>
+  <data name="&gt;&gt;gridColumn32.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem1.Name" xml:space="preserve">
+    <value>toolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem2.Name" xml:space="preserve">
+    <value>toolStripMenuItem2</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem3.Name" xml:space="preserve">
+    <value>toolStripMenuItem3</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem4.Name" xml:space="preserve">
+    <value>toolStripMenuItem4</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;layoutView1.Name" xml:space="preserve">
+    <value>layoutView1</value>
+  </data>
+  <data name="&gt;&gt;layoutView1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Layout.LayoutView, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn3.Name" xml:space="preserve">
+    <value>gridColumn3</value>
+  </data>
+  <data name="&gt;&gt;gridColumn3.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.LayoutViewColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn3_1.Name" xml:space="preserve">
+    <value>layoutViewField_gridColumn3_1</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn3_1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Layout.LayoutViewField, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn4.Name" xml:space="preserve">
+    <value>gridColumn4</value>
+  </data>
+  <data name="&gt;&gt;gridColumn4.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.LayoutViewColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn4_1.Name" xml:space="preserve">
+    <value>layoutViewField_gridColumn4_1</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn4_1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Layout.LayoutViewField, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn5.Name" xml:space="preserve">
+    <value>gridColumn5</value>
+  </data>
+  <data name="&gt;&gt;gridColumn5.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.LayoutViewColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn5_1.Name" xml:space="preserve">
+    <value>layoutViewField_gridColumn5_1</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn5_1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Layout.LayoutViewField, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn6.Name" xml:space="preserve">
+    <value>gridColumn6</value>
+  </data>
+  <data name="&gt;&gt;gridColumn6.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.LayoutViewColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn6_1.Name" xml:space="preserve">
+    <value>layoutViewField_gridColumn6_1</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn6_1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Layout.LayoutViewField, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn7.Name" xml:space="preserve">
+    <value>gridColumn7</value>
+  </data>
+  <data name="&gt;&gt;gridColumn7.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.LayoutViewColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn7_1.Name" xml:space="preserve">
+    <value>layoutViewField_gridColumn7_1</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn7_1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Layout.LayoutViewField, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn8.Name" xml:space="preserve">
+    <value>gridColumn8</value>
+  </data>
+  <data name="&gt;&gt;gridColumn8.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.LayoutViewColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn8_1.Name" xml:space="preserve">
+    <value>layoutViewField_gridColumn8_1</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn8_1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Layout.LayoutViewField, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn9.Name" xml:space="preserve">
+    <value>gridColumn9</value>
+  </data>
+  <data name="&gt;&gt;gridColumn9.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.LayoutViewColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn9_1.Name" xml:space="preserve">
+    <value>layoutViewField_gridColumn9_1</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn9_1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Layout.LayoutViewField, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn10.Name" xml:space="preserve">
+    <value>gridColumn10</value>
+  </data>
+  <data name="&gt;&gt;gridColumn10.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.LayoutViewColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn10_1.Name" xml:space="preserve">
+    <value>layoutViewField_gridColumn10_1</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn10_1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Layout.LayoutViewField, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn11.Name" xml:space="preserve">
+    <value>gridColumn11</value>
+  </data>
+  <data name="&gt;&gt;gridColumn11.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.LayoutViewColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn11_1.Name" xml:space="preserve">
+    <value>layoutViewField_gridColumn11_1</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn11_1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Layout.LayoutViewField, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn12.Name" xml:space="preserve">
+    <value>gridColumn12</value>
+  </data>
+  <data name="&gt;&gt;gridColumn12.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.LayoutViewColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn12_1.Name" xml:space="preserve">
+    <value>layoutViewField_gridColumn12_1</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn12_1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Layout.LayoutViewField, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn13.Name" xml:space="preserve">
+    <value>gridColumn13</value>
+  </data>
+  <data name="&gt;&gt;gridColumn13.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.LayoutViewColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn13_1.Name" xml:space="preserve">
+    <value>layoutViewField_gridColumn13_1</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn13_1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Layout.LayoutViewField, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn14.Name" xml:space="preserve">
+    <value>gridColumn14</value>
+  </data>
+  <data name="&gt;&gt;gridColumn14.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.LayoutViewColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn14_1.Name" xml:space="preserve">
+    <value>layoutViewField_gridColumn14_1</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn14_1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Layout.LayoutViewField, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn15.Name" xml:space="preserve">
+    <value>gridColumn15</value>
+  </data>
+  <data name="&gt;&gt;gridColumn15.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.LayoutViewColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn15_1.Name" xml:space="preserve">
+    <value>layoutViewField_gridColumn15_1</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn15_1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Layout.LayoutViewField, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn16.Name" xml:space="preserve">
+    <value>gridColumn16</value>
+  </data>
+  <data name="&gt;&gt;gridColumn16.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.LayoutViewColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn16_1.Name" xml:space="preserve">
+    <value>layoutViewField_gridColumn16_1</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn16_1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Layout.LayoutViewField, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn17.Name" xml:space="preserve">
+    <value>gridColumn17</value>
+  </data>
+  <data name="&gt;&gt;gridColumn17.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.LayoutViewColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn17_1.Name" xml:space="preserve">
+    <value>layoutViewField_gridColumn17_1</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn17_1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Layout.LayoutViewField, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn18.Name" xml:space="preserve">
+    <value>gridColumn18</value>
+  </data>
+  <data name="&gt;&gt;gridColumn18.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.LayoutViewColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn18_1.Name" xml:space="preserve">
+    <value>layoutViewField_gridColumn18_1</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn18_1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Layout.LayoutViewField, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn19.Name" xml:space="preserve">
+    <value>gridColumn19</value>
+  </data>
+  <data name="&gt;&gt;gridColumn19.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.LayoutViewColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn19_1.Name" xml:space="preserve">
+    <value>layoutViewField_gridColumn19_1</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn19_1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Layout.LayoutViewField, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn20.Name" xml:space="preserve">
+    <value>gridColumn20</value>
+  </data>
+  <data name="&gt;&gt;gridColumn20.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.LayoutViewColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn20_1.Name" xml:space="preserve">
+    <value>layoutViewField_gridColumn20_1</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn20_1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Layout.LayoutViewField, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn21.Name" xml:space="preserve">
+    <value>gridColumn21</value>
+  </data>
+  <data name="&gt;&gt;gridColumn21.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.LayoutViewColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn21_1.Name" xml:space="preserve">
+    <value>layoutViewField_gridColumn21_1</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn21_1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Layout.LayoutViewField, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn22.Name" xml:space="preserve">
+    <value>gridColumn22</value>
+  </data>
+  <data name="&gt;&gt;gridColumn22.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.LayoutViewColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn22_1.Name" xml:space="preserve">
+    <value>layoutViewField_gridColumn22_1</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn22_1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Layout.LayoutViewField, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn23.Name" xml:space="preserve">
+    <value>gridColumn23</value>
+  </data>
+  <data name="&gt;&gt;gridColumn23.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.LayoutViewColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn23_1.Name" xml:space="preserve">
+    <value>layoutViewField_gridColumn23_1</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn23_1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Layout.LayoutViewField, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn24.Name" xml:space="preserve">
+    <value>gridColumn24</value>
+  </data>
+  <data name="&gt;&gt;gridColumn24.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.LayoutViewColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn24_1.Name" xml:space="preserve">
+    <value>layoutViewField_gridColumn24_1</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn24_1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Layout.LayoutViewField, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn25.Name" xml:space="preserve">
+    <value>gridColumn25</value>
+  </data>
+  <data name="&gt;&gt;gridColumn25.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.LayoutViewColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn25_1.Name" xml:space="preserve">
+    <value>layoutViewField_gridColumn25_1</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn25_1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Layout.LayoutViewField, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn26.Name" xml:space="preserve">
+    <value>gridColumn26</value>
+  </data>
+  <data name="&gt;&gt;gridColumn26.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.LayoutViewColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn26_1.Name" xml:space="preserve">
+    <value>layoutViewField_gridColumn26_1</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn26_1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Layout.LayoutViewField, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn27.Name" xml:space="preserve">
+    <value>gridColumn27</value>
+  </data>
+  <data name="&gt;&gt;gridColumn27.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.LayoutViewColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn27_1.Name" xml:space="preserve">
+    <value>layoutViewField_gridColumn27_1</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn27_1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Layout.LayoutViewField, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn28.Name" xml:space="preserve">
+    <value>gridColumn28</value>
+  </data>
+  <data name="&gt;&gt;gridColumn28.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.LayoutViewColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn28_1.Name" xml:space="preserve">
+    <value>layoutViewField_gridColumn28_1</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn28_1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Layout.LayoutViewField, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn29.Name" xml:space="preserve">
+    <value>gridColumn29</value>
+  </data>
+  <data name="&gt;&gt;gridColumn29.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.LayoutViewColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn29_1.Name" xml:space="preserve">
+    <value>layoutViewField_gridColumn29_1</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn29_1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Layout.LayoutViewField, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn30.Name" xml:space="preserve">
+    <value>gridColumn30</value>
+  </data>
+  <data name="&gt;&gt;gridColumn30.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.LayoutViewColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemCheckEdit2.Name" xml:space="preserve">
+    <value>repositoryItemCheckEdit2</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemCheckEdit2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn30_1.Name" xml:space="preserve">
+    <value>layoutViewField_gridColumn30_1</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_gridColumn30_1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Layout.LayoutViewField, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutViewCard1.Name" xml:space="preserve">
+    <value>layoutViewCard1</value>
+  </data>
+  <data name="&gt;&gt;layoutViewCard1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Layout.LayoutViewCard, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridView4.Name" xml:space="preserve">
+    <value>gridView4</value>
+  </data>
+  <data name="&gt;&gt;gridView4.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;dockManager1.Name" xml:space="preserve">
+    <value>dockManager1</value>
+  </data>
+  <data name="&gt;&gt;dockManager1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Docking.DockManager, DevExpress.XtraBars.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ucbelgetakip</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.BaseClasses.AvpXUserControl, avpng, Version=1.1.6.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="webBrowser1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="webBrowser1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 250</value>
+  </data>
+  <data name="webBrowser1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;webBrowser1.Name" xml:space="preserve">
+    <value>webBrowser1</value>
+  </data>
+  <data name="&gt;&gt;webBrowser1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.WebBrowser, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;webBrowser1.Parent" xml:space="preserve">
+    <value>panelControl1</value>
+  </data>
+  <data name="&gt;&gt;webBrowser1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="textControl1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 10pt</value>
+  </data>
+  <data name="textControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="textControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 200</value>
+  </data>
+  <data name="textControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;textControl1.Name" xml:space="preserve">
+    <value>textControl1</value>
+  </data>
+  <data name="&gt;&gt;textControl1.Type" xml:space="preserve">
+    <value>TXTextControl.TextControl, TXTextControl, Version=14.0.600.500, Culture=neutral, PublicKeyToken=6b83fe9a75cfb638</value>
+  </data>
+  <data name="&gt;&gt;textControl1.Parent" xml:space="preserve">
+    <value>panelControl1</value>
+  </data>
+  <data name="&gt;&gt;textControl1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panelControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panelControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>658, 209</value>
+  </data>
+  <data name="panelControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;panelControl1.Name" xml:space="preserve">
+    <value>panelControl1</value>
+  </data>
+  <data name="&gt;&gt;panelControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelControl1.Parent" xml:space="preserve">
+    <value>dockPanel1_Container</value>
+  </data>
+  <data name="&gt;&gt;panelControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dockPanel1_Container.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 25</value>
+  </data>
+  <data name="dockPanel1_Container.Size" type="System.Drawing.Size, System.Drawing">
+    <value>658, 209</value>
+  </data>
+  <data name="dockPanel1_Container.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dockPanel1_Container.Name" xml:space="preserve">
+    <value>dockPanel1_Container</value>
+  </data>
+  <data name="&gt;&gt;dockPanel1_Container.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Docking.ControlContainer, DevExpress.XtraBars.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;dockPanel1_Container.Parent" xml:space="preserve">
+    <value>dockPanel1</value>
+  </data>
+  <data name="&gt;&gt;dockPanel1_Container.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dockPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 225</value>
+  </data>
+  <data name="dockPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>664, 237</value>
+  </data>
+  <data name="dockPanel1.Text" xml:space="preserve">
+    <value>Önizleme</value>
+  </data>
+  <data name="&gt;&gt;dockPanel1.Name" xml:space="preserve">
+    <value>dockPanel1</value>
+  </data>
+  <data name="&gt;&gt;dockPanel1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Docking.DockPanel, DevExpress.XtraBars.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="dockPanel2.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ucBelgeKayitUfak1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ucBelgeKayitUfak1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>331, 405</value>
+  </data>
+  <data name="ucBelgeKayitUfak1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ucBelgeKayitUfak1.Name" xml:space="preserve">
+    <value>ucBelgeKayitUfak1</value>
+  </data>
+  <data name="&gt;&gt;ucBelgeKayitUfak1.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Belge.UserControls.ucBelgeKayitUfak, avpng, Version=1.1.6.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucBelgeKayitUfak1.Parent" xml:space="preserve">
+    <value>dockPanel2_Container</value>
+  </data>
+  <data name="&gt;&gt;ucBelgeKayitUfak1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dockPanel2_Container.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="dockPanel2_Container.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 100</value>
+  </data>
+  <data name="dockPanel2_Container.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dockPanel2_Container.Name" xml:space="preserve">
+    <value>dockPanel2_Container</value>
+  </data>
+  <data name="&gt;&gt;dockPanel2_Container.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Docking.ControlContainer, DevExpress.XtraBars.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;dockPanel2_Container.Parent" xml:space="preserve">
+    <value>dockPanel2</value>
+  </data>
+  <data name="&gt;&gt;dockPanel2_Container.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dockPanel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="dockPanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>338, 462</value>
+  </data>
+  <data name="dockPanel2.Text" xml:space="preserve">
+    <value>Yeni Kayıt</value>
+  </data>
+  <data name="&gt;&gt;dockPanel2.Name" xml:space="preserve">
+    <value>dockPanel2</value>
+  </data>
+  <data name="&gt;&gt;dockPanel2.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Docking.DockPanel, DevExpress.XtraBars.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+</root>

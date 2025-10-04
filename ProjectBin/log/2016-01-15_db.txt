@@ -1,0 +1,168 @@
+2016-01-15 11:05:43.4791 
+ ERROR 
+ AVPUpdater.frmAyarlar.DirectoryCopy 
+ Dosya Kopyalama hatası : D:\dogan\AdimAdimDavaKaydi\ProjectBin\ABSqlConnection.dll 
+ İşlem, başka bir işlem tarafından kullanıldığından 'D:\dogan\AdimAdimDavaKaydi\ProjectBin\ABSqlConnection.dll' dosyasına erişemiyor. System.IO.IOException IOException System.IO.IOException: İşlem, başka bir işlem tarafından kullanıldığından 'D:\dogan\AdimAdimDavaKaydi\ProjectBin\ABSqlConnection.dll' dosyasına erişemiyor.
+   konum: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   konum: System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite)
+   konum: System.IO.FileInfo.CopyTo(String destFileName, Boolean overwrite)
+   konum: AVPUpdater.frmAyarlar.DirectoryCopy(String kaynakKlasör, String hedefKlasör, Boolean altKlasörlerdeKopyalansınMı) d:\dogan\AdimAdimDavaKaydi\AVPUpdater\frmAyarlar.cs içinde: satır 791 Void WinIOError(Int32, System.String)    konum: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   konum: System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite)
+   konum: System.IO.FileInfo.CopyTo(String destFileName, Boolean overwrite)
+   konum: AVPUpdater.frmAyarlar.DirectoryCopy(String kaynakKlasör, String hedefKlasör, Boolean altKlasörlerdeKopyalansınMı) d:\dogan\AdimAdimDavaKaydi\AVPUpdater\frmAyarlar.cs içinde: satır 791
+2016-01-15 11:06:46.1106 
+ ERROR 
+ AVPUpdater.frmAyarlar.DirectoryCopy 
+ Dosya Kopyalama hatası : D:\dogan\AdimAdimDavaKaydi\ProjectBin\ABSqlConnection.dll 
+ İşlem, başka bir işlem tarafından kullanıldığından 'D:\dogan\AdimAdimDavaKaydi\ProjectBin\ABSqlConnection.dll' dosyasına erişemiyor. System.IO.IOException IOException System.IO.IOException: İşlem, başka bir işlem tarafından kullanıldığından 'D:\dogan\AdimAdimDavaKaydi\ProjectBin\ABSqlConnection.dll' dosyasına erişemiyor.
+   konum: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   konum: System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite)
+   konum: System.IO.FileInfo.CopyTo(String destFileName, Boolean overwrite)
+   konum: AVPUpdater.frmAyarlar.DirectoryCopy(String kaynakKlasör, String hedefKlasör, Boolean altKlasörlerdeKopyalansınMı) d:\dogan\AdimAdimDavaKaydi\AVPUpdater\frmAyarlar.cs içinde: satır 791 Void WinIOError(Int32, System.String)    konum: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   konum: System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite)
+   konum: System.IO.FileInfo.CopyTo(String destFileName, Boolean overwrite)
+   konum: AVPUpdater.frmAyarlar.DirectoryCopy(String kaynakKlasör, String hedefKlasör, Boolean altKlasörlerdeKopyalansınMı) d:\dogan\AdimAdimDavaKaydi\AVPUpdater\frmAyarlar.cs içinde: satır 791
+2016-01-15 11:07:55.9656 
+ ERROR 
+ AVPUpdater.frmAyarlar.DirectoryCopy 
+ Dosya Kopyalama hatası : D:\dogan\AdimAdimDavaKaydi\ProjectBin\ABSqlConnection.dll 
+ İşlem, başka bir işlem tarafından kullanıldığından 'D:\dogan\AdimAdimDavaKaydi\ProjectBin\ABSqlConnection.dll' dosyasına erişemiyor. System.IO.IOException IOException System.IO.IOException: İşlem, başka bir işlem tarafından kullanıldığından 'D:\dogan\AdimAdimDavaKaydi\ProjectBin\ABSqlConnection.dll' dosyasına erişemiyor.
+   konum: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   konum: System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite)
+   konum: System.IO.FileInfo.CopyTo(String destFileName, Boolean overwrite)
+   konum: AVPUpdater.frmAyarlar.DirectoryCopy(String kaynakKlasör, String hedefKlasör, Boolean altKlasörlerdeKopyalansınMı) d:\dogan\AdimAdimDavaKaydi\AVPUpdater\frmAyarlar.cs içinde: satır 791 Void WinIOError(Int32, System.String)    konum: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   konum: System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite)
+   konum: System.IO.FileInfo.CopyTo(String destFileName, Boolean overwrite)
+   konum: AVPUpdater.frmAyarlar.DirectoryCopy(String kaynakKlasör, String hedefKlasör, Boolean altKlasörlerdeKopyalansınMı) d:\dogan\AdimAdimDavaKaydi\AVPUpdater\frmAyarlar.cs içinde: satır 791
+2016-01-15 11:20:09.0356 
+ ERROR 
+ AVPUpdater.frmAyarlar.DirectoryCopy 
+ Dosya Kopyalama hatası : D:\dogan\AdimAdimDavaKaydi\ProjectBin\ABSqlConnection.dll 
+ İşlem, başka bir işlem tarafından kullanıldığından 'D:\dogan\AdimAdimDavaKaydi\ProjectBin\ABSqlConnection.dll' dosyasına erişemiyor. System.IO.IOException IOException System.IO.IOException: İşlem, başka bir işlem tarafından kullanıldığından 'D:\dogan\AdimAdimDavaKaydi\ProjectBin\ABSqlConnection.dll' dosyasına erişemiyor.
+   konum: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   konum: System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite)
+   konum: System.IO.FileInfo.CopyTo(String destFileName, Boolean overwrite)
+   konum: AVPUpdater.frmAyarlar.DirectoryCopy(String kaynakKlasör, String hedefKlasör, Boolean altKlasörlerdeKopyalansınMı) d:\dogan\AdimAdimDavaKaydi\AVPUpdater\frmAyarlar.cs içinde: satır 791 Void WinIOError(Int32, System.String)    konum: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   konum: System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite)
+   konum: System.IO.FileInfo.CopyTo(String destFileName, Boolean overwrite)
+   konum: AVPUpdater.frmAyarlar.DirectoryCopy(String kaynakKlasör, String hedefKlasör, Boolean altKlasörlerdeKopyalansınMı) d:\dogan\AdimAdimDavaKaydi\AVPUpdater\frmAyarlar.cs içinde: satır 791
+2016-01-15 11:23:12.1550 
+ ERROR 
+ AVPUpdater.frmAyarlar.DirectoryCopy 
+ Dosya Kopyalama hatası : D:\dogan\AdimAdimDavaKaydi\ProjectBin\ABSqlConnection.dll 
+ İşlem, başka bir işlem tarafından kullanıldığından 'D:\dogan\AdimAdimDavaKaydi\ProjectBin\ABSqlConnection.dll' dosyasına erişemiyor. System.IO.IOException IOException System.IO.IOException: İşlem, başka bir işlem tarafından kullanıldığından 'D:\dogan\AdimAdimDavaKaydi\ProjectBin\ABSqlConnection.dll' dosyasına erişemiyor.
+   konum: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   konum: System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite)
+   konum: System.IO.FileInfo.CopyTo(String destFileName, Boolean overwrite)
+   konum: AVPUpdater.frmAyarlar.DirectoryCopy(String kaynakKlasör, String hedefKlasör, Boolean altKlasörlerdeKopyalansınMı) d:\dogan\AdimAdimDavaKaydi\AVPUpdater\frmAyarlar.cs içinde: satır 791 Void WinIOError(Int32, System.String)    konum: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   konum: System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite)
+   konum: System.IO.FileInfo.CopyTo(String destFileName, Boolean overwrite)
+   konum: AVPUpdater.frmAyarlar.DirectoryCopy(String kaynakKlasör, String hedefKlasör, Boolean altKlasörlerdeKopyalansınMı) d:\dogan\AdimAdimDavaKaydi\AVPUpdater\frmAyarlar.cs içinde: satır 791
+2016-01-15 11:23:51.9423 
+ ERROR 
+ AVPUpdater.frmAyarlar.DirectoryCopy 
+ Dosya Kopyalama hatası : D:\dogan\AdimAdimDavaKaydi\ProjectBin\ABSqlConnection.dll 
+ İşlem, başka bir işlem tarafından kullanıldığından 'D:\dogan\AdimAdimDavaKaydi\ProjectBin\ABSqlConnection.dll' dosyasına erişemiyor. System.IO.IOException IOException System.IO.IOException: İşlem, başka bir işlem tarafından kullanıldığından 'D:\dogan\AdimAdimDavaKaydi\ProjectBin\ABSqlConnection.dll' dosyasına erişemiyor.
+   konum: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   konum: System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite)
+   konum: System.IO.FileInfo.CopyTo(String destFileName, Boolean overwrite)
+   konum: AVPUpdater.frmAyarlar.DirectoryCopy(String kaynakKlasör, String hedefKlasör, Boolean altKlasörlerdeKopyalansınMı) d:\dogan\AdimAdimDavaKaydi\AVPUpdater\frmAyarlar.cs içinde: satır 791 Void WinIOError(Int32, System.String)    konum: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   konum: System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite)
+   konum: System.IO.FileInfo.CopyTo(String destFileName, Boolean overwrite)
+   konum: AVPUpdater.frmAyarlar.DirectoryCopy(String kaynakKlasör, String hedefKlasör, Boolean altKlasörlerdeKopyalansınMı) d:\dogan\AdimAdimDavaKaydi\AVPUpdater\frmAyarlar.cs içinde: satır 791
+2016-01-15 11:25:01.1453 
+ ERROR 
+ AVPUpdater.frmAyarlar.DirectoryCopy 
+ Dosya Kopyalama hatası : D:\dogan\AdimAdimDavaKaydi\ProjectBin\ABSqlConnection.dll 
+ İşlem, başka bir işlem tarafından kullanıldığından 'D:\dogan\AdimAdimDavaKaydi\ProjectBin\ABSqlConnection.dll' dosyasına erişemiyor. System.IO.IOException IOException System.IO.IOException: İşlem, başka bir işlem tarafından kullanıldığından 'D:\dogan\AdimAdimDavaKaydi\ProjectBin\ABSqlConnection.dll' dosyasına erişemiyor.
+   konum: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   konum: System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite)
+   konum: System.IO.FileInfo.CopyTo(String destFileName, Boolean overwrite)
+   konum: AVPUpdater.frmAyarlar.DirectoryCopy(String kaynakKlasör, String hedefKlasör, Boolean altKlasörlerdeKopyalansınMı) d:\dogan\AdimAdimDavaKaydi\AVPUpdater\frmAyarlar.cs içinde: satır 791 Void WinIOError(Int32, System.String)    konum: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   konum: System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite)
+   konum: System.IO.FileInfo.CopyTo(String destFileName, Boolean overwrite)
+   konum: AVPUpdater.frmAyarlar.DirectoryCopy(String kaynakKlasör, String hedefKlasör, Boolean altKlasörlerdeKopyalansınMı) d:\dogan\AdimAdimDavaKaydi\AVPUpdater\frmAyarlar.cs içinde: satır 791
+2016-01-15 11:34:36.1342 
+ ERROR 
+ AVPUpdater.frmAyarlar.DirectoryCopy 
+ Dosya Kopyalama hatası : D:\dogan\AdimAdimDavaKaydi\ProjectBin\ABSqlConnection.dll 
+ İşlem, başka bir işlem tarafından kullanıldığından 'D:\dogan\AdimAdimDavaKaydi\ProjectBin\ABSqlConnection.dll' dosyasına erişemiyor. System.IO.IOException IOException System.IO.IOException: İşlem, başka bir işlem tarafından kullanıldığından 'D:\dogan\AdimAdimDavaKaydi\ProjectBin\ABSqlConnection.dll' dosyasına erişemiyor.
+   konum: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   konum: System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite)
+   konum: System.IO.FileInfo.CopyTo(String destFileName, Boolean overwrite)
+   konum: AVPUpdater.frmAyarlar.DirectoryCopy(String kaynakKlasör, String hedefKlasör, Boolean altKlasörlerdeKopyalansınMı) d:\dogan\AdimAdimDavaKaydi\AVPUpdater\frmAyarlar.cs içinde: satır 791 Void WinIOError(Int32, System.String)    konum: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   konum: System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite)
+   konum: System.IO.FileInfo.CopyTo(String destFileName, Boolean overwrite)
+   konum: AVPUpdater.frmAyarlar.DirectoryCopy(String kaynakKlasör, String hedefKlasör, Boolean altKlasörlerdeKopyalansınMı) d:\dogan\AdimAdimDavaKaydi\AVPUpdater\frmAyarlar.cs içinde: satır 791
+2016-01-15 11:36:46.1006 
+ ERROR 
+ AVPUpdater.frmAyarlar.DirectoryCopy 
+ Dosya Kopyalama hatası : D:\dogan\AdimAdimDavaKaydi\ProjectBin\ABSqlConnection.dll 
+ İşlem, başka bir işlem tarafından kullanıldığından 'D:\dogan\AdimAdimDavaKaydi\ProjectBin\ABSqlConnection.dll' dosyasına erişemiyor. System.IO.IOException IOException System.IO.IOException: İşlem, başka bir işlem tarafından kullanıldığından 'D:\dogan\AdimAdimDavaKaydi\ProjectBin\ABSqlConnection.dll' dosyasına erişemiyor.
+   konum: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   konum: System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite)
+   konum: System.IO.FileInfo.CopyTo(String destFileName, Boolean overwrite)
+   konum: AVPUpdater.frmAyarlar.DirectoryCopy(String kaynakKlasör, String hedefKlasör, Boolean altKlasörlerdeKopyalansınMı) d:\dogan\AdimAdimDavaKaydi\AVPUpdater\frmAyarlar.cs içinde: satır 791 Void WinIOError(Int32, System.String)    konum: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   konum: System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite)
+   konum: System.IO.FileInfo.CopyTo(String destFileName, Boolean overwrite)
+   konum: AVPUpdater.frmAyarlar.DirectoryCopy(String kaynakKlasör, String hedefKlasör, Boolean altKlasörlerdeKopyalansınMı) d:\dogan\AdimAdimDavaKaydi\AVPUpdater\frmAyarlar.cs içinde: satır 791
+2016-01-15 11:38:09.0843 
+ ERROR 
+ AVPUpdater.frmAyarlar.DirectoryCopy 
+ Dosya Kopyalama hatası : D:\dogan\AdimAdimDavaKaydi\ProjectBin\ABSqlConnection.dll 
+ İşlem, başka bir işlem tarafından kullanıldığından 'D:\dogan\AdimAdimDavaKaydi\ProjectBin\ABSqlConnection.dll' dosyasına erişemiyor. System.IO.IOException IOException System.IO.IOException: İşlem, başka bir işlem tarafından kullanıldığından 'D:\dogan\AdimAdimDavaKaydi\ProjectBin\ABSqlConnection.dll' dosyasına erişemiyor.
+   konum: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   konum: System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite)
+   konum: System.IO.FileInfo.CopyTo(String destFileName, Boolean overwrite)
+   konum: AVPUpdater.frmAyarlar.DirectoryCopy(String kaynakKlasör, String hedefKlasör, Boolean altKlasörlerdeKopyalansınMı) d:\dogan\AdimAdimDavaKaydi\AVPUpdater\frmAyarlar.cs içinde: satır 791 Void WinIOError(Int32, System.String)    konum: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   konum: System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite)
+   konum: System.IO.FileInfo.CopyTo(String destFileName, Boolean overwrite)
+   konum: AVPUpdater.frmAyarlar.DirectoryCopy(String kaynakKlasör, String hedefKlasör, Boolean altKlasörlerdeKopyalansınMı) d:\dogan\AdimAdimDavaKaydi\AVPUpdater\frmAyarlar.cs içinde: satır 791
+2016-01-15 11:39:20.7224 
+ ERROR 
+ AVPUpdater.frmAyarlar.DirectoryCopy 
+ Dosya Kopyalama hatası : D:\dogan\AdimAdimDavaKaydi\ProjectBin\ABSqlConnection.dll 
+ İşlem, başka bir işlem tarafından kullanıldığından 'D:\dogan\AdimAdimDavaKaydi\ProjectBin\ABSqlConnection.dll' dosyasına erişemiyor. System.IO.IOException IOException System.IO.IOException: İşlem, başka bir işlem tarafından kullanıldığından 'D:\dogan\AdimAdimDavaKaydi\ProjectBin\ABSqlConnection.dll' dosyasına erişemiyor.
+   konum: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   konum: System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite)
+   konum: System.IO.FileInfo.CopyTo(String destFileName, Boolean overwrite)
+   konum: AVPUpdater.frmAyarlar.DirectoryCopy(String kaynakKlasör, String hedefKlasör, Boolean altKlasörlerdeKopyalansınMı) Void WinIOError(Int32, System.String)    konum: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   konum: System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite)
+   konum: System.IO.FileInfo.CopyTo(String destFileName, Boolean overwrite)
+   konum: AVPUpdater.frmAyarlar.DirectoryCopy(String kaynakKlasör, String hedefKlasör, Boolean altKlasörlerdeKopyalansınMı)
+2016-01-15 11:39:54.8274 
+ ERROR 
+ AVPUpdater.frmAyarlar.DirectoryCopy 
+ Dosya Kopyalama hatası : D:\dogan\AdimAdimDavaKaydi\ProjectBin\ABSqlConnection.dll 
+ İşlem, başka bir işlem tarafından kullanıldığından 'D:\dogan\AdimAdimDavaKaydi\ProjectBin\ABSqlConnection.dll' dosyasına erişemiyor. System.IO.IOException IOException System.IO.IOException: İşlem, başka bir işlem tarafından kullanıldığından 'D:\dogan\AdimAdimDavaKaydi\ProjectBin\ABSqlConnection.dll' dosyasına erişemiyor.
+   konum: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   konum: System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite)
+   konum: System.IO.FileInfo.CopyTo(String destFileName, Boolean overwrite)
+   konum: AVPUpdater.frmAyarlar.DirectoryCopy(String kaynakKlasör, String hedefKlasör, Boolean altKlasörlerdeKopyalansınMı) d:\dogan\AdimAdimDavaKaydi\AVPUpdater\frmAyarlar.cs içinde: satır 791 Void WinIOError(Int32, System.String)    konum: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   konum: System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite)
+   konum: System.IO.FileInfo.CopyTo(String destFileName, Boolean overwrite)
+   konum: AVPUpdater.frmAyarlar.DirectoryCopy(String kaynakKlasör, String hedefKlasör, Boolean altKlasörlerdeKopyalansınMı) d:\dogan\AdimAdimDavaKaydi\AVPUpdater\frmAyarlar.cs içinde: satır 791
+2016-01-15 11:50:55.4992 
+ ERROR 
+ AVPUpdater.frmAyarlar.DirectoryCopy 
+ Dosya Kopyalama hatası : D:\dogan\AdimAdimDavaKaydi\ProjectBin\ABSqlConnection.dll 
+ İşlem, başka bir işlem tarafından kullanıldığından 'D:\dogan\AdimAdimDavaKaydi\ProjectBin\ABSqlConnection.dll' dosyasına erişemiyor. System.IO.IOException IOException System.IO.IOException: İşlem, başka bir işlem tarafından kullanıldığından 'D:\dogan\AdimAdimDavaKaydi\ProjectBin\ABSqlConnection.dll' dosyasına erişemiyor.
+   konum: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   konum: System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite)
+   konum: System.IO.FileInfo.CopyTo(String destFileName, Boolean overwrite)
+   konum: AVPUpdater.frmAyarlar.DirectoryCopy(String kaynakKlasör, String hedefKlasör, Boolean altKlasörlerdeKopyalansınMı) d:\dogan\AdimAdimDavaKaydi\AVPUpdater\frmAyarlar.cs içinde: satır 791 Void WinIOError(Int32, System.String)    konum: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   konum: System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite)
+   konum: System.IO.FileInfo.CopyTo(String destFileName, Boolean overwrite)
+   konum: AVPUpdater.frmAyarlar.DirectoryCopy(String kaynakKlasör, String hedefKlasör, Boolean altKlasörlerdeKopyalansınMı) d:\dogan\AdimAdimDavaKaydi\AVPUpdater\frmAyarlar.cs içinde: satır 791
+2016-01-15 11:51:22.3587 
+ ERROR 
+ AVPUpdater.frmAyarlar.DirectoryCopy 
+ Dosya Kopyalama hatası : D:\dogan\AdimAdimDavaKaydi\ProjectBin\ABSqlConnection.dll 
+ İşlem, başka bir işlem tarafından kullanıldığından 'D:\dogan\AdimAdimDavaKaydi\ProjectBin\ABSqlConnection.dll' dosyasına erişemiyor. System.IO.IOException IOException System.IO.IOException: İşlem, başka bir işlem tarafından kullanıldığından 'D:\dogan\AdimAdimDavaKaydi\ProjectBin\ABSqlConnection.dll' dosyasına erişemiyor.
+   konum: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   konum: System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite)
+   konum: System.IO.FileInfo.CopyTo(String destFileName, Boolean overwrite)
+   konum: AVPUpdater.frmAyarlar.DirectoryCopy(String kaynakKlasör, String hedefKlasör, Boolean altKlasörlerdeKopyalansınMı) d:\dogan\AdimAdimDavaKaydi\AVPUpdater\frmAyarlar.cs içinde: satır 791 Void WinIOError(Int32, System.String)    konum: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   konum: System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite)
+   konum: System.IO.FileInfo.CopyTo(String destFileName, Boolean overwrite)
+   konum: AVPUpdater.frmAyarlar.DirectoryCopy(String kaynakKlasör, String hedefKlasör, Boolean altKlasörlerdeKopyalansınMı) d:\dogan\AdimAdimDavaKaydi\AVPUpdater\frmAyarlar.cs içinde: satır 791

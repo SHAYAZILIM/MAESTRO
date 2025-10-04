@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="AVP_MYS" Class="DbLisansDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=dns1.sanalhukukofisi.net;Initial Catalog=AVP_MYS;Persist Security Info=True;User ID=mysUser1" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="AVP_MYSConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.TMYS_MUSTERI" Member="TMYS_MUSTERIs">
+    <Type Name="TMYS_MUSTERI">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="EUID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="MUSTERI_TIPI" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="AD_SOYAD" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="KAYIT_TARIHI" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="DURUM" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="MODUL_NO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ICRA_KULLANICI" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DAVA_KULLANICI" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SORUSTURMA_KULLANICI" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="LISANS_BITIS_TARIHI" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ICRA_KAYIT_SAYISI" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DAVA_KAYIT_SAYISI" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SORUSTURMA_KAYIT_SAYISI" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TMYS_MUSTERI_TMYS_URUN_ANAHTARI" Member="TMYS_URUN_ANAHTARIs" ThisKey="ID" OtherKey="MUSTERI_ID" Type="TMYS_URUN_ANAHTARI" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TMYS_URUN_ANAHTARI" Member="TMYS_URUN_ANAHTARIs">
+    <Type Name="TMYS_URUN_ANAHTARI">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="URUN_ANAHTARI" Type="System.String" DbType="NVarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="MUSTERI_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="KAYIT_TARIHI" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="DURUM" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="EUID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="PAKET_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TMYS_MUSTERI_TMYS_URUN_ANAHTARI" Member="TMYS_MUSTERI" ThisKey="MUSTERI_ID" OtherKey="ID" Type="TMYS_MUSTERI" IsForeignKey="true" />
+      <Association Name="CS_KOD_PAKET_TMYS_URUN_ANAHTARI" Member="CS_KOD_PAKET" ThisKey="PAKET_ID" OtherKey="ID" Type="CS_KOD_PAKET" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CS_KOD_PAKET" Member="CS_KOD_PAKETs">
+    <Type Name="CS_KOD_PAKET">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="MODUL_NO" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PAKET_ADI" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="KAYIT_TARIHI" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="stamp" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Association Name="CS_KOD_PAKET_TMYS_URUN_ANAHTARI" Member="TMYS_URUN_ANAHTARIs" ThisKey="ID" OtherKey="PAKET_ID" Type="TMYS_URUN_ANAHTARI" />
+      <Association Name="CS_KOD_PAKET_CS_KOD_PAKET_NN_FORM" Member="CS_KOD_PAKET_NN_FORMs" ThisKey="ID" OtherKey="PAKET_ID" Type="CS_KOD_PAKET_NN_FORM" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CS_KOD_PAKET_NN_FORM" Member="CS_KOD_PAKET_NN_FORMs">
+    <Type Name="CS_KOD_PAKET_NN_FORM">
+      <Column Name="PAKET_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="FORM_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="CS_KOD_PAKET_CS_KOD_PAKET_NN_FORM" Member="CS_KOD_PAKET" ThisKey="PAKET_ID" OtherKey="ID" Type="CS_KOD_PAKET" IsForeignKey="true" />
+      <Association Name="CS_KOD_FORM_LISTESI_CS_KOD_PAKET_NN_FORM" Member="CS_KOD_FORM_LISTESI" ThisKey="FORM_ID" OtherKey="ID" Type="CS_KOD_FORM_LISTESI" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CS_KOD_FORM_LISTESI" Member="CS_KOD_FORM_LISTESIs">
+    <Type Name="CS_KOD_FORM_LISTESI">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FULL_ADI" Type="System.String" DbType="NVarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="FORM_ACIKLAMA" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="MENU_NESNE_ADI" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="SUZME_KRITER" Type="System.String" DbType="NVarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="FORM_GRUP_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DB_TABLO_ADI" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="BUTTON_GORUNUM_LIST" Type="System.String" DbType="NVarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="MODUL" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="MODUL2" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SUBE_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ADMIN_KAYIT_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_NE_ZAMAN" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_VERSIYON" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STAMP" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Association Name="CS_KOD_FORM_LISTESI_CS_KOD_PAKET_NN_FORM" Member="CS_KOD_PAKET_NN_FORMs" ThisKey="ID" OtherKey="FORM_ID" Type="CS_KOD_PAKET_NN_FORM" />
+    </Type>
+  </Table>
+</Database>

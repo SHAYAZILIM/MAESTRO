@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0D5C786F-38C6-45D3-8A9B-AB3C1DF876EE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AvukatProLib.Arama</RootNamespace>
+    <AssemblyName>AvukatProLib.Arama</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\ProjectBin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\ProjectBinRelease\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\ProjectBin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\AvukatProLib.Arama.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\AvukatProLib.Arama.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ABSqlConnection, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Libs\ABSqlConnection.dll</HintPath>
+    </Reference>
+    <Reference Include="AvukatProLib2.Data, Version=3.2.207.14135, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Libs\AvukatProLib2.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="AvukatProLib2.Entities, Version=3.2.207.14135, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Libs\AvukatProLib2.Entities.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AV001_TDI_BIL_CARI.Partial.cs" />
+    <Compile Include="AV001_TD_BIL_FOY.Partial.cs" />
+    <Compile Include="AV001_TI_BIL_FOY.Partial.cs" />
+    <Compile Include="AV001_TI_BIL_YAZDIRMA_AYARLARI.Partial.cs" />
+    <Compile Include="AV001_TI_BIL_YAZDIRMA_AYARLARI_DETAY.Partial.cs" />
+    <Compile Include="AvpDataContext.cs">
+      <DependentUpon>AvpDataContext.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="AvpDataContext.designer.cs">
+      <DependentUpon>AvpDataContext.dbml</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="BELGE_ARAMA.cs" />
+    <Compile Include="CARI_ARAMA.cs" />
+    <Compile Include="CARI_HESAP.cs" />
+    <Compile Include="GORUSME_ARAMA.cs" />
+    <Compile Include="ICRA_ARAMA.cs" />
+    <Compile Include="IS_TAMAMLANMA_SUREC.cs" />
+    <Compile Include="R_CARI_ARAMASorgu.cs" />
+    <Compile Include="DAVA_ARAMA.cs" />
+    <Compile Include="PredicateBuilder.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="R_DAVA_GENEL_ARAMASorgu.cs" />
+    <Compile Include="R_IS_ARAMASorgu.cs" />
+    <Compile Include="R_IS_ARAMA_SURECSorgu.cs" />
+    <Compile Include="R_TEMSIL_ARAMASorgu.cs" />
+    <Compile Include="TEBLIGAT_ARAMA.cs" />
+    <Compile Include="VEKALET_ARAMA.cs" />
+    <Compile Include="YAPILACAK_IS_ARAMA.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <Compile Include="AV001_TDIE_BIL_BELGE.Partial.cs" />
+    <Compile Include="AV001_TDIE_BIL_KIM_NEREDE_ARAMA.cs" />
+    <Compile Include="per_AV001_TDI_BIL_CARI_Asistan.Partial.cs" />
+    <Compile Include="per_DAVA_HIZLI_ARAMA.Sorgu.cs" />
+    <Compile Include="per_DAVA_NEDEN_POLICE.Sorgu.cs" />
+    <Compile Include="per_ICRA_HIZLI_ARAMA.Partial.cs" />
+    <Compile Include="per_ICRA_HIZLI_ARAMA_Sorgu.cs" />
+    <Compile Include="per_TAKIP_ALACAK_NEDEN.Partial.cs" />
+    <Compile Include="per_TDIE_KOD_TARAF_SIFAT.part.cs" />
+    <Compile Include="per_TDI_KOD_DAVA_ADI.part.cs" />
+    <Compile Include="per_TI_BIL_ILAM_MAHKEMESI.Part.cs" />
+    <Compile Include="per_TDI_BIL_BORCLU_MAL.cs" />
+    <Compile Include="per_TI_BIL_HACIZ_MASTER_MINIArama.cs" />
+    <Compile Include="per_AV001_TDIE_BIL_PROJE.Partial.cs" />
+    <Compile Include="per_AV001_TDI_BIL_GEMI_UCAK_ARAC.Partial.cs" />
+    <Compile Include="per_AV001_TDI_BIL_IS_Asistan.Partial.cs" />
+    <Compile Include="per_AV001_TD_BIL_FOY.Partial.cs" />
+    <Compile Include="per_AV001_TI_BIL_FOY.Partial.cs" />
+    <Compile Include="per_AV001_TI_BIL_ICRA_Arama.Partial.cs" />
+    <Compile Include="per_TDI_BIL_BORCLU_MALArama.cs" />
+    <Compile Include="per_TDI_BIL_ILETISIM.Partial.cs" />
+    <Compile Include="per_TI_BIL_ILAM_MAHKEMESIArama.cs" />
+    <Compile Include="per_TI_KOD_FORM_TIP.part.cs" />
+    <Compile Include="R_CARI_HESAP_MUVEKKIL.cs" />
+    <Compile Include="R_KIM_NEREDESorgu.cs" />
+    <Compile Include="R_MuallakRaporDavaNedeniBazinda.Partial.cs" />
+    <Compile Include="TebligatDetay.Partial.cs" />
+    <Compile Include="VDIE_BIL_SABLON_RAPOR.part.cs" />
+    <Compile Include="VDIE_BIL_SABLON_RAPOR.partial.cs" />
+    <Compile Include="VDI_KOD_BANKA_SUBE.Partial.cs" />
+    <Compile Include="VDI_KOD_BANKA_SUBE_Detay.Partial.cs" />
+    <Compile Include="VTD_DAVA_DOSYALAR.Partial.cs" />
+    <Compile Include="VTI_ICRA_DOSYALAR.Partial.cs" />
+    <Compile Include="per_AV001_TI_BIL_ICRA_AramaSorgu.cs" />
+    <Compile Include="per_DAVA_HIZLI_ARAMA.Partial.cs" />
+    <None Include="AvpDataContext.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>AvpDataContext.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Avukatpro.snk" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AvukatProLib\AvukatProLib.csproj">
+      <Project>{1cb2fd39-210c-426f-a8ba-d00079508fe3}</Project>
+      <Name>AvukatProLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AvpDataContext.dbml.layout">
+      <DependentUpon>AvpDataContext.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

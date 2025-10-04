@@ -1,0 +1,13 @@
+[ERROR LOG V1]
+
+Time = 14.06.2014 12:47:32 
+Source = AdimAdimDavaKaydi.Belge.UserControls.ucBelgeKayitUfak (38001462)
+Version = 1.0.0.0 
+Culture = tr-TR 
+
+Exception:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdimAdimDavaKaydi.DavaTakip.frmDavaTakip.ucBelgeKayitUfak1_BelgeKaydedildi(Object sender, BelgeKaydedildiEventArgs e) in d:\dogan\AdimAdimDavaKaydi\AdimAdimDavaKaydi\DavaTakip\frmDavaTakip.cs:line 865
+   at AdimAdimDavaKaydi.Belge.UserControls.ucBelgeKayitUfak.Save(AV001_TDIE_BIL_BELGE belgeSave) in d:\dogan\AdimAdimDavaKaydi\AdimAdimDavaKaydi\Belge\UserControls\ucBelgeKayitUfak.cs:line 1214
+[/ERROR LOG V1]
+

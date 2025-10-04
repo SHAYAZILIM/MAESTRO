@@ -1,0 +1,418 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11.625, 20" name="AvukatProView">
+  <DataContextMoniker Name="/AvukatProViewDataContext" />
+  <nestedChildShapes>
+    <classShape Id="06173d20-e7f4-4029-b18e-5a0ecc098e85" isExpanded="false" absoluteBounds="4.75, 0.5, 2, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/CS_KOD_FORM_KULLANICI_YETKI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b2bb6d08-fbac-40a4-901e-9e52beb4ff62" absoluteBounds="4.765, 0.96, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0f6f1ed0-d383-4b2c-8f2e-2dc936dc1068" isExpanded="false" absoluteBounds="7.25, 0.5, 2, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/CS_KOD_KULLANICI_GRUP_YETKI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="68759618-ff05-4d2f-a72f-edcbdf55a15f" absoluteBounds="7.265, 0.96, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="46078973-71bc-48e1-8a04-09dcefe0ac12" isExpanded="false" absoluteBounds="5, 1.25, 2, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/CS_KOD_FORM_LISTESI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1ca9b9f0-73d7-45d8-afc6-b5cd7c75d52e" absoluteBounds="5.015, 1.71, 1.9700000000000002, 3.3262125651041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.9062525 : 1.25); (5.9062525 : 0.95)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AvukatProViewDataContext/CS_KOD_FORM_LISTESI/CS_KOD_FORM_LISTESI_CS_KOD_FORM_KULLANICI_YETKI" />
+      <nodes>
+        <classShapeMoniker Id="46078973-71bc-48e1-8a04-09dcefe0ac12" />
+        <classShapeMoniker Id="06173d20-e7f4-4029-b18e-5a0ecc098e85" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7 : 1.25); (7.25 : 0.95)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AvukatProViewDataContext/CS_KOD_FORM_LISTESI/CS_KOD_FORM_LISTESI_CS_KOD_KULLANICI_GRUP_YETKI" />
+      <nodes>
+        <classShapeMoniker Id="46078973-71bc-48e1-8a04-09dcefe0ac12" />
+        <classShapeMoniker Id="0f6f1ed0-d383-4b2c-8f2e-2dc936dc1068" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="13a84a53-c80e-4d87-81e8-cbac50e01fbe" isExpanded="false" absoluteBounds="2.625, 0.5, 2, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/CS_KOD_FORM_GRUP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a5f60142-0ce5-45fe-ae6c-5648adcfb5e0" absoluteBounds="2.64, 0.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4.625 : 0.95); (5 : 1.25)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AvukatProViewDataContext/CS_KOD_FORM_GRUP/CS_KOD_FORM_GRUP_CS_KOD_FORM_LISTESI" />
+      <nodes>
+        <classShapeMoniker Id="13a84a53-c80e-4d87-81e8-cbac50e01fbe" />
+        <classShapeMoniker Id="46078973-71bc-48e1-8a04-09dcefe0ac12" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(3.30919230769231 : 0.95); (3.30919230769231 : 1.2); (3.95584615384615 : 1.2); (3.95584615384615 : 0.95)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AvukatProViewDataContext/CS_KOD_FORM_GRUP/CS_KOD_FORM_GRUP_CS_KOD_FORM_GRUP" />
+      <nodes>
+        <classShapeMoniker Id="13a84a53-c80e-4d87-81e8-cbac50e01fbe" />
+        <classShapeMoniker Id="13a84a53-c80e-4d87-81e8-cbac50e01fbe" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="a49bff45-60c3-417a-bd2b-959db1b73ad5" isExpanded="false" absoluteBounds="6.375, 4.5, 3, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/R_SORUSTURMA_GENEL_HESAPSIZ_RAPOR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="11966188-6ca1-42e3-b223-33aedbc6343a" absoluteBounds="6.39, 4.96, 2.9699999999999998, 4.095418294270833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="55af0c3b-0262-42f2-a0c1-143ce230a1bb" isExpanded="false" absoluteBounds="6.25, 2, 3.125, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/R_MASRAF_MODULIZE_RAPOR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="873a4c86-3e43-473b-bc59-010732d7aa9e" absoluteBounds="6.265, 2.46, 3.0949999999999998, 3.7108154296875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8113d657-41a3-415e-9f2f-99fb38c43f88" isExpanded="false" absoluteBounds="1.125, 4.5, 3.25, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/R_ICRA_GENEL_RAPOR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f90ba912-29d6-4914-b62c-0f3a44b711d8" absoluteBounds="1.14, 4.96, 3.2199999999999998, 15.441202799479166" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8fad8ed4-80c7-43ea-be21-e4a3685a80cb" isExpanded="false" absoluteBounds="6.375, 8, 3.25, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/R_RAPOR_BIRLESIK_TEMINAT_BILGILERI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b67864b6-4817-48af-8323-49bb12e7be14" absoluteBounds="6.39, 8.46, 3.2199999999999998, 6.403035481770833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9e9b44a7-8354-4584-ad49-de99dbad1c52" isExpanded="false" absoluteBounds="6.25, 6.5, 3.25, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/R_RAPOR_TUTUKLANMA_VE_GOZALTI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="54417017-ae77-48f6-945c-17752ffb9b89" absoluteBounds="6.265, 6.96, 3.2199999999999998, 5.249226888020833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f389bc4a-75a2-42fe-b4e2-58da45b3f9f3" isExpanded="false" absoluteBounds="1.125, 2, 3.25, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/R_DAVA_NEDEN_TARAFLI_RAPOR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d6e50470-8596-48ac-bf4a-8b5a715e8a4e" absoluteBounds="1.14, 2.46, 3.2199999999999998, 16.210408528645832" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7ddad74a-2eae-46d1-9cfd-8b3f88890d20" isExpanded="false" absoluteBounds="1.125, 3, 3.25, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/R_RAPOR_MASRAF_AVANS_BIRLESIK" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2fdc1c0d-1d38-49e0-af3b-16eb9eff6fc8" absoluteBounds="1.14, 3.46, 3.2199999999999998, 6.403035481770833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d699a5c9-caa3-436d-a9f1-5681f16c0e78" isExpanded="false" absoluteBounds="6.25, 5, 3.25, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/R_RAPOR_BORCLU_ODEME_BIRLESIK" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b3bcc58d-12dc-41ec-ab32-97092ccb7dab" absoluteBounds="6.265, 5.46, 3.2199999999999998, 5.6338297526041661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6df5f8dd-fb93-4a43-a008-f35601401087" isExpanded="false" absoluteBounds="6.5, 8.5, 2, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/R_RAPOR_ASAMALAR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ec6127b6-7b9c-4615-b516-dea61b2c1065" absoluteBounds="6.515, 8.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="129938e5-4ed3-4f58-9794-7caf272fab73" isExpanded="false" absoluteBounds="1.25, 8.625, 3.125, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/R_RAPOR_PROJE_DAVA" />
+      <nestedChildShapes>
+        <elementListCompartment Id="dc879817-dd73-4568-a0aa-f442bc654098" absoluteBounds="1.265, 9.085, 3.0949999999999998, 21.0179443359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8717924d-6455-4437-a6af-142c16341d02" isExpanded="false" absoluteBounds="1.25, 9.25, 2.875, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/R_RAPOR_PROJE_GENEL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f1c3bd88-3c86-4981-8374-2e4a61775780" absoluteBounds="1.265, 9.71, 2.8449999999999998, 17.5565185546875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f1e170f7-75b3-496f-b169-0c084a39a7bf" isExpanded="false" absoluteBounds="1.25, 9.875, 2.75, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/R_RAPOR_PROJE_ICRA" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d4bb85ca-04d1-4b1a-8a49-7c16bcc00632" absoluteBounds="1.265, 10.335, 2.7199999999999998, 23.9024658203125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c6976a5d-7b47-4670-9f15-0390a4f72196" isExpanded="false" absoluteBounds="1.375, 10.625, 3, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/R_RAPOR_PROJE_SORUSTURMA" />
+      <nestedChildShapes>
+        <elementListCompartment Id="77d06d5c-3c06-4750-98ac-a17e23cfbe82" absoluteBounds="1.39, 11.085, 2.9699999999999998, 19.671834309895832" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8d690b97-9d41-4610-9467-819652dd5a4d" isExpanded="false" absoluteBounds="0.5, 0.5, 2, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/TDI_KOD_RAPOR_MENU" />
+      <nestedChildShapes>
+        <elementListCompartment Id="52881b84-f66a-431c-8719-a0064935e7b1" absoluteBounds="0.51499999999999968, 0.96, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="60297ed6-c96f-4143-bb53-876126b8f6d1" isExpanded="false" absoluteBounds="1.125, 3.5, 3.25, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/R_TI_BANKALI_TARAFLI_SORUMLULU_HESAPLI_RAPOR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5e995f7c-797c-4b73-8996-f6d462260323" absoluteBounds="1.14, 3.96, 3.2199999999999998, 42.555704752604164" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="45dae890-311e-4bc7-98e3-d922d64e14d9" isExpanded="false" absoluteBounds="1.125, 5, 3.25, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/R_DAVA_PRATIK_ARAMA_RAPOR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="34f0a37c-1b94-4ca6-849c-d3c8f5872c63" absoluteBounds="1.14, 5.46, 3.2199999999999998, 9.6721598307291661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="56c5163b-209b-4e92-bd1c-a0b52ba6ae06" isExpanded="false" absoluteBounds="1.125, 2.5, 3.25, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/R_DURUSMA_DAVA_GENEL_TARAFLI_RAPOR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="49c1559f-6992-4b7e-8a43-d5a038185b37" absoluteBounds="1.14, 2.96, 3.2199999999999998, 10.249064127604166" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ca730e69-0376-4d0d-a9f9-0d810f21bef5" isExpanded="false" absoluteBounds="1.125, 6.5, 3.25, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/R_RAPOR_ICRA_BIRLESIK_DAVA_TAAHHUT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0d53e5d8-257f-4ee2-ba69-d7bf03503801" absoluteBounds="1.14, 6.96, 3.2199999999999998, 15.633504231770832" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="96dc379a-45d4-4c4c-a076-97abefc1e521" isExpanded="false" absoluteBounds="6.25, 7, 3.625, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/R_RAPOR_KIYMET_TAKDIRI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="92be2a5e-1ec4-46cd-8aab-3883f7ec500d" absoluteBounds="6.265, 7.46, 3.5949999999999998, 5.826131184895833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1f6ff2ea-413c-4b50-8d16-a0c9c52c71a5" isExpanded="false" absoluteBounds="1.125, 1.5, 3.125, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/R_ARA_KARAR_DAVA_GENEL_TARAFLI_RAPOR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="09d46ffb-60d9-4960-b2fa-0546b105c833" absoluteBounds="1.14, 1.96, 3.0949999999999998, 6.403035481770833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2094c6a0-4f80-4c58-98d3-11206f16f0e5" isExpanded="false" absoluteBounds="6.375, 7.5, 3.125, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/R_RAPOR_HACIZ_CHILD_ISTIHKAK" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c0700778-b877-447e-aaad-5dffe7b6582d" absoluteBounds="6.39, 7.96, 3.0949999999999998, 5.0569254557291661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9a6e517e-d12e-487d-8e7c-0cbcf8f62013" isExpanded="false" absoluteBounds="1.25, 7.5, 3.125, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/R_RAPOR_HACIZ_CHILD_ISTIRAK" />
+      <nestedChildShapes>
+        <elementListCompartment Id="12025648-7acc-4c24-b6a6-6c13a8332a06" absoluteBounds="1.265, 7.96, 3.0949999999999998, 5.826131184895833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6e41be23-bb80-42b5-944a-eaf8a5252a7b" isExpanded="false" absoluteBounds="1.125, 5.5, 3.25, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/R_HACIZLI_MALLAR_MASTER_CHILD_RAPOR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="30ea7f14-5734-441b-ad1a-6c559405e98c" absoluteBounds="1.14, 5.96, 3.2199999999999998, 12.172078450520832" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="566b82bb-8b45-4cf5-9614-78bf14b19c33" isExpanded="false" absoluteBounds="6.625, 9.125, 2, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/R_Master_IcraSatisGenel_Rapor" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5413c191-bcc5-49d0-b6d4-30ded490de80" absoluteBounds="6.64, 9.585, 1.9700000000000002, 6.5953369140625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3aac9987-a1e8-460b-a6c0-14bb4319f712" isExpanded="false" absoluteBounds="6.625, 9.75, 2, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/TDI_KOD_SEGMENT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="078a1fd3-12de-4795-8f65-0ca321a6c993" absoluteBounds="6.64, 10.21, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="745b8631-e469-41b1-a596-6396a0a0faa0" isExpanded="false" absoluteBounds="6.375, 4, 2.875, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/R_Master_IcraAlacakNedenItirazDavaAyrintili_RAPOR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="81a6ae9f-443f-4fb5-bf2c-de2d304b275c" absoluteBounds="6.39, 4.46, 2.8449999999999998, 13.902791341145832" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8473ba15-0a61-4ed1-aad5-aadbc5960a39" isExpanded="false" absoluteBounds="1.125, 4, 3.125, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/R_Master_BorcluMalBeyanDavaAyrintili_Rapor" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3a4a6e8d-e037-42b9-ab71-cd30fb4e3541" absoluteBounds="1.14, 4.46, 3.0949999999999998, 4.2877197265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="747502eb-0c49-4523-8a78-36505cc09650" isExpanded="false" absoluteBounds="6.375, 6, 2.875, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/R_Master_IcraBorcluTaahhutGenel_Rapor" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3c5939cf-56aa-49ca-9203-5b565dfe8b9d" absoluteBounds="6.39, 6.46, 2.8449999999999998, 6.5953369140625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8e0afc55-df5a-4693-8709-c3d1d8a08f9f" isExpanded="false" absoluteBounds="1.125, 7, 3, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/R_RAPOR_KREDI_ODEME_DURUM" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c13b485d-868f-4c31-87df-c65a90e0ca42" absoluteBounds="1.1399999999999997, 7.46, 2.9699999999999998, 19.2872314453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5cf65d59-a381-4c0e-b87a-a88fb7aa8637" isExpanded="false" absoluteBounds="1.25, 6, 3.125, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/R_RAPOR_KREDI_ODEME_DURUM_DETAYLI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e97f48f9-f5a1-42b8-967d-fb1719a0e9cc" absoluteBounds="1.265, 6.46, 3.0949999999999998, 8.9029541015625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="787a2a81-7866-42eb-84e1-cfa5b598c668" isExpanded="false" absoluteBounds="7.25, 1.5, 2, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/R_RAPOR_TUM_TAKIPLER_ICRA_DAVA" />
+      <nestedChildShapes>
+        <elementListCompartment Id="aa8d7d95-037f-4a20-af88-5d6703b1b8e2" absoluteBounds="7.265, 1.96, 1.9700000000000002, 4.2877197265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fed9231b-cf05-4f68-9a24-5d2873efe0cb" isExpanded="false" absoluteBounds="1.625, 8.125, 2, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/R_RAPOR_PROJE_ALACAK_NEDEN_TAKIPLI_TAKIPSIZ" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ee268d16-c301-432f-b737-384805f3f5d6" absoluteBounds="1.6400000000000001, 8.585, 1.9700000000000002, 18.518025716145832" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="76a182ca-8e31-404c-aa45-0489c73eda7d" isExpanded="false" absoluteBounds="6.375, 5.5, 2, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/R_TEMYIZ_TAKIP_RAPOR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d76c060c-7216-44f9-a91f-ba8c59378339" absoluteBounds="6.39, 5.96, 1.9700000000000002, 10.441365559895832" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fe98c58f-4c41-41e0-a04b-f4e39c2fc21f" isExpanded="false" absoluteBounds="6.375, 3.5, 2.75, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/R_KIYMETLI_EVRAK_TARAFLI_RAPOR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2fdf09d1-a02f-48e1-9c7d-b6af314b4378" absoluteBounds="6.39, 3.96, 2.7199999999999998, 6.2107340494791661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c87455e7-2201-461d-91e9-36087ad430cb" isExpanded="false" absoluteBounds="6.25, 2.5, 2.875, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/R_MASRAF_AVANS_DETAYLI_RAPOR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="060961fe-a293-41bf-bee3-ebb8cc07f26f" absoluteBounds="6.265, 2.96, 2.8449999999999998, 10.825968424479166" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d4c70907-32ec-4110-93f3-348174b36c28" isExpanded="false" absoluteBounds="6.5, 10.375, 2, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/R_RAPOR_PERSONEL_HESAP_DETAYLI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f8287143-a2f2-4111-8a5a-dc89926cff70" absoluteBounds="6.515, 10.835, 1.9700000000000002, 15.441202799479166" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f39757a0-ff90-4d31-8a80-2fa5f413f521" isExpanded="false" absoluteBounds="1.375, 11.25, 2, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/R_SERBEST_MESLEK_MAKBUZU_RAPOR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="679bf6fe-d342-42c1-94b4-5b25e3b77bf7" absoluteBounds="1.3900000000000001, 11.71, 1.9700000000000002, 5.0569254557291661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="599e8085-5dff-4140-8a02-007e9e4bb64c" isExpanded="false" absoluteBounds="1.375, 11.75, 2, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/R_SMMSIZ_DAVA_DOSYALARI_RAPOR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="796dff22-8816-4a50-bf83-fb4b19cbfbdc" absoluteBounds="1.3900000000000001, 12.21, 1.9700000000000002, 7.941446940104167" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f18106d7-fbbe-48cd-acdc-8eb524393ef6" isExpanded="false" absoluteBounds="1.375, 12.75, 2, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/R_SMMSIZ_SORUSTURMA_DOSYALARI_RAPOR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="05498ae3-6bf4-45ab-8d3a-da7ac0fa604f" absoluteBounds="1.3900000000000001, 13.21, 1.9700000000000002, 7.941446940104167" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="de0520cf-934e-4499-be78-21e159e9306d" isExpanded="false" absoluteBounds="1.375, 12.25, 2, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/R_SMMSIZ_ICRA_DOSYALARI_RAPOR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f44ecff3-6da6-4d2c-874b-b5443059d006" absoluteBounds="1.3900000000000001, 12.71, 1.9700000000000002, 5.249226888020833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a00b6ef6-ada5-4ea6-a438-e774c1f66d33" isExpanded="false" absoluteBounds="1.375, 13.375, 2, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/R_SMMSIZ_TUM_DOSYALAR_RAPOR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b3f48346-c964-42fe-a407-4a7d1aa87df4" absoluteBounds="1.3900000000000001, 13.835, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4b34ba2b-ca49-40f0-99ba-1add8eca34de" isExpanded="false" absoluteBounds="1.5, 14, 2, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/R_RAPOR_KASA_HAREKETLERI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ec967623-07d1-450b-8175-1e788608bacd" absoluteBounds="1.5150000000000001, 14.46, 1.9700000000000002, 3.1339111328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0fcdaac8-b851-46af-a1e8-81e870be147c" isExpanded="false" absoluteBounds="1.375, 14.5, 2, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/R_RAPOR_YAPILACAK_ISLER" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ee485843-65a2-444e-a5b3-6e56934799d5" absoluteBounds="1.3900000000000001, 14.96, 1.9700000000000002, 4.2877197265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="224b3215-9640-40b7-9e9d-526a0ca156a9" isExpanded="false" absoluteBounds="1.375, 15.125, 2, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/R_RAPOR_YAPILACAK_IS_SURE_DETAY" />
+      <nestedChildShapes>
+        <elementListCompartment Id="23b7ea4a-7f8e-40a0-952f-48b6d14d3e1c" absoluteBounds="1.3899999999999997, 15.585, 1.9700000000000002, 6.5953369140625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="88f0f309-bc09-4064-8ff3-16839ac37dab" isExpanded="false" absoluteBounds="1.375, 15.75, 3.25, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/R_RAPOR_YAPILACAK_IS_TAMAMLANMA_SURE_DETAYLI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="665e2a2f-1f49-4e44-97e9-1ff7fec531b9" absoluteBounds="1.39, 16.21, 3.2199999999999998, 5.826131184895833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f13bace1-d21f-47b7-bb5b-e2a4fe0e6c7f" isExpanded="false" absoluteBounds="6.375, 3, 2, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/R_HUKUM_TAKIP_RAPOR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8b220976-e21f-4b80-9fae-55ff03455441" absoluteBounds="6.39, 3.46, 1.9700000000000002, 13.325887044270832" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e68316e2-25f6-4e96-acf2-546001a7fa07" isExpanded="false" absoluteBounds="0.5, 1, 2, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/TDI_BIL_KULLANICI_SUBE_BILGILERI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="01e79874-b0b4-44fb-9f3b-b850689954b7" absoluteBounds="0.515, 1.46, 1.9700000000000002, 3.903116861979167" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7eae4714-ba38-4fed-891c-1968eb52c5ac" isExpanded="false" absoluteBounds="5, 3.625, 2, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/per_AV001_TDI_BIL_CARI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="96b2584c-c7d3-4d2d-bffd-56cd46d29968" absoluteBounds="5.015, 4.085, 1.9700000000000002, 4.2877197265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="12358e02-da50-4d9f-9fb2-539bb115a783" isExpanded="false" absoluteBounds="4.25, 8, 2, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/per_TDI_KOD_BANKA_SUBE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="03e24ac6-e761-4e44-b07e-dda4b02f348f" absoluteBounds="4.265, 8.46, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4ee09809-57ab-4d2f-ae24-0e2de42c3cf0" isExpanded="false" absoluteBounds="4.375, 9.5, 2, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/per_TDIE_KOD_PROJE_OZEL_KOD" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7ca39300-b8a7-47b6-9ede-e85969f941b5" absoluteBounds="4.3900000000000006, 9.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3a55e8fd-e6db-4f8d-a5ca-4e8b735a0eb3" isExpanded="false" absoluteBounds="1.5, 16.75, 2, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/per_TI_KOD_ALACAK_NEDEN" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e30f1092-6829-4b21-916a-51ce696dec3f" absoluteBounds="1.5150000000000001, 17.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3e060933-dbd3-49db-9170-7d659eb92990" isExpanded="false" absoluteBounds="4.5, 5, 2, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/per_TI_KOD_TAKIP_YOLU" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1a746aa3-c5f1-48d8-9702-265f14c5fcdc" absoluteBounds="4.515, 5.46, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="bce43a7d-98e0-4995-ac95-4a52a34e8a14" isExpanded="false" absoluteBounds="1.625, 17.375, 2, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/per_TDIE_KOD_PROJE_TIP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="50d10c68-5e64-4d50-8db8-2d18806bee84" absoluteBounds="1.6399999999999997, 17.835, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7033fd2d-2f73-466f-ac5e-319f6e4c49bb" absoluteBounds="9.375, 9.875, 2, 1.7708968098958344">
+      <DataClassMoniker Name="/AvukatProViewDataContext/per_TDI_KOD_KREDI_TIP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d385ae7e-fca8-4807-afd4-9539d0240f6d" absoluteBounds="9.39, 10.335, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a824bc8e-c7ad-4f0b-9d93-37275271f239" absoluteBounds="8.5, 12, 2, 1.7708968098958329">
+      <DataClassMoniker Name="/AvukatProViewDataContext/per_TDI_KOD_KREDI_GRUP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="065e020b-01bd-44e6-8c85-e91d78d42493" absoluteBounds="8.515, 12.46, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ee060a29-74b8-49ea-a818-64c8633de675" isExpanded="false" absoluteBounds="1.75, 19.25, 2, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/per_TDI_KOD_DOVIZ_TIP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9d49b0bd-0efd-4697-8f81-60b8a370c358" absoluteBounds="1.7650000000000001, 19.71, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3bc20491-a39c-4a90-ab98-f980388abad6" isExpanded="false" absoluteBounds="4.875, 12.5, 2, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/per_TDI_KOD_BANKA_SUBE1" />
+      <nestedChildShapes>
+        <elementListCompartment Id="49748b3e-44b2-4021-b7da-9994b68bfa30" absoluteBounds="4.89, 12.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c158c192-b7b5-43fd-9e24-686bad0997ae" isExpanded="false" absoluteBounds="5.5, 15.125, 2, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/KLASOR_DONEMSEL_RAPOR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="107cbbb8-5b37-4eb8-9f1c-a92a62dd9aaf" absoluteBounds="5.515, 15.585, 1.9700000000000002, 13.902791341145832" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="569a29f4-3838-4094-a1f5-07b42d7798c5" isExpanded="false" absoluteBounds="1.875, 18.25, 2, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/per_TDI_CET_GUNLUK_DOVIZ_KUR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f8668b83-fc57-4790-a3af-1641d664ef9e" absoluteBounds="1.8900000000000001, 18.71, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="de645ad4-4ce2-4bc0-95eb-d6bbceab3571" isExpanded="false" absoluteBounds="5.5, 14.375, 2, 0.45">
+      <DataClassMoniker Name="/AvukatProViewDataContext/DONEMSEL_TAKIPLI_ALACAKLAR_RAPORLAR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a2add862-76eb-44a3-8480-7dc6f4c9291c" absoluteBounds="5.515, 14.835, 1.9700000000000002, 12.748982747395832" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

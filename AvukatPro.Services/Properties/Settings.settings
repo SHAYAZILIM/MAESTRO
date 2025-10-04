@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AvukatPro.Services.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="AvukatPro_Services_pttSorgu_SorguService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://pttws.ptt.gov.tr/GonderiHareket/services/Sorgu</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

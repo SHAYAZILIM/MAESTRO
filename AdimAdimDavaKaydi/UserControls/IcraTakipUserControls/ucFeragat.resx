@@ -1,0 +1,883 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="gridFeragat.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="gridFeragat.EmbeddedNavigator.CustomButtons" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="gridFeragat.EmbeddedNavigator.CustomButtons1" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="gridFeragat.EmbeddedNavigator.CustomButtons2" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gridFeragat.EmbeddedNavigator.CustomButtons3" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gridFeragat.EmbeddedNavigator.CustomButtons4" xml:space="preserve">
+    <value>Yeni Kayıt Ekle</value>
+  </data>
+  <data name="gridFeragat.EmbeddedNavigator.CustomButtons5" xml:space="preserve">
+    <value>FormdanEkle</value>
+  </data>
+  <data name="gridFeragat.EmbeddedNavigator.CustomButtons6" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="gridFeragat.EmbeddedNavigator.CustomButtons7" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="gridFeragat.EmbeddedNavigator.CustomButtons8" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gridFeragat.EmbeddedNavigator.CustomButtons9" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gridFeragat.EmbeddedNavigator.CustomButtons10" xml:space="preserve">
+    <value>Kayıt Duzenle</value>
+  </data>
+  <data name="gridFeragat.EmbeddedNavigator.CustomButtons11" xml:space="preserve">
+    <value>Duzenle</value>
+  </data>
+  <metadata name="MyRepository.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="rLueFeragatAlacakNedenID.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <assembly alias="DevExpress.Utils.v12.1" name="DevExpress.Utils.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="rLueFeragatAlacakNedenID.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="rLueFeragatAlacakKalemID.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rLueFeragatAlacakKalemID.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="rLueDovizID.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rLueDovizID.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="rLueFeragatTipID.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rLueFeragatTipID.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="rLueFeragatKapsamID.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rLueFeragatKapsamID.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="gridFeragat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="colFERAGAT_KAPSAM.Caption" xml:space="preserve">
+    <value>Kapsamı</value>
+  </data>
+  <data name="colFERAGAT_KAPSAM.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colFERAGAT_KAPSAM.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="colFERAGAT_KAPSAM.Width" type="System.Int32, mscorlib">
+    <value>155</value>
+  </data>
+  <data name="colFERAGAT_TARIHI.Caption" xml:space="preserve">
+    <value>Feragat T</value>
+  </data>
+  <data name="colFERAGAT_TARIHI.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colFERAGAT_TARIHI.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="colFERAGAT_TARIHI.Width" type="System.Int32, mscorlib">
+    <value>83</value>
+  </data>
+  <data name="colFERAGAT_MIKTAR_DOVIZ.Caption" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="colFERAGAT_MIKTAR_DOVIZ.CustomizationCaption" xml:space="preserve">
+    <value>Feragat Miktar Döviz</value>
+  </data>
+  <data name="colFERAGAT_MIKTAR_DOVIZ.SummaryItem.DisplayFormat" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="colFERAGAT_MIKTAR_DOVIZ.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colFERAGAT_MIKTAR_DOVIZ.VisibleIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="colFERAGAT_MIKTAR_DOVIZ.Width" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="colFERAGAT_MIKTAR.Caption" xml:space="preserve">
+    <value>Tutar</value>
+  </data>
+  <data name="colFERAGAT_MIKTAR.SummaryItem.DisplayFormat" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="colFERAGAT_MIKTAR.ToolTip" xml:space="preserve">
+    <value>Toplam</value>
+  </data>
+  <data name="colFERAGAT_MIKTAR.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colFERAGAT_MIKTAR.VisibleIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="colFERAGAT_MIKTAR.Width" type="System.Int32, mscorlib">
+    <value>113</value>
+  </data>
+  <data name="colHARC_ICIN.Caption" xml:space="preserve">
+    <value>Harc İçin</value>
+  </data>
+  <data name="gwFeragat.GroupPanelText" xml:space="preserve">
+    <value>Verileri Gruplamak İçin Başlıkları Buraya Sürükleyin</value>
+  </data>
+  <assembly alias="DevExpress.Data.v12.1" name="DevExpress.Data.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="gwFeragat.GroupSummary" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Sum</value>
+  </data>
+  <data name="gwFeragat.GroupSummary1" xml:space="preserve">
+    <value>FERAGAT_MIKTAR</value>
+  </data>
+  <data name="gwFeragat.GroupSummary2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gwFeragat.GroupSummary3" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwFeragat.GroupSummary4" xml:space="preserve">
+    <value>FERAGAT_MIKTAR</value>
+  </data>
+  <data name="gwFeragat.GroupSummary5" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="gwFeragat.GroupSummary6" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwFeragat.GroupSummary7" xml:space="preserve">
+    <value>FERAGAT_MIKTAR_DOVIZ_ID</value>
+  </data>
+  <data name="gwFeragat.GroupSummary8" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gwFeragat.GroupSummary9" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwFeragat.GroupSummary10" xml:space="preserve">
+    <value>FERAGAT_MIKTAR</value>
+  </data>
+  <data name="gwFeragat.GroupSummary11" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="gwFeragat.GroupSummary12" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwFeragat.GroupSummary13" xml:space="preserve">
+    <value>FERAGAT_MIKTAR_DOVIZ_ID</value>
+  </data>
+  <data name="gwFeragat.GroupSummary14" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gwFeragat.GroupSummary15" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwFeragat.GroupSummary16" xml:space="preserve">
+    <value>FERAGAT_MIKTAR</value>
+  </data>
+  <data name="gwFeragat.GroupSummary17" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="gwFeragat.GroupSummary18" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwFeragat.GroupSummary19" xml:space="preserve">
+    <value>FERAGAT_MIKTAR_DOVIZ_ID</value>
+  </data>
+  <data name="gwFeragat.GroupSummary20" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gwFeragat.GroupSummary21" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwFeragat.GroupSummary22" xml:space="preserve">
+    <value>FERAGAT_MIKTAR</value>
+  </data>
+  <data name="gwFeragat.GroupSummary23" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="gwFeragat.GroupSummary24" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwFeragat.GroupSummary25" xml:space="preserve">
+    <value>FERAGAT_MIKTAR_DOVIZ_ID</value>
+  </data>
+  <data name="gwFeragat.GroupSummary26" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gwFeragat.GroupSummary27" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwFeragat.GroupSummary28" xml:space="preserve">
+    <value>FERAGAT_MIKTAR</value>
+  </data>
+  <data name="gwFeragat.GroupSummary29" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="gwFeragat.GroupSummary30" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwFeragat.GroupSummary31" xml:space="preserve">
+    <value>FERAGAT_MIKTAR_DOVIZ_ID</value>
+  </data>
+  <data name="gwFeragat.GroupSummary32" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gwFeragat.GroupSummary33" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwFeragat.GroupSummary34" xml:space="preserve">
+    <value>FERAGAT_MIKTAR</value>
+  </data>
+  <data name="gwFeragat.GroupSummary35" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="gwFeragat.GroupSummary36" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwFeragat.GroupSummary37" xml:space="preserve">
+    <value>FERAGAT_MIKTAR_DOVIZ_ID</value>
+  </data>
+  <data name="gwFeragat.GroupSummary38" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gwFeragat.GroupSummary39" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwFeragat.GroupSummary40" xml:space="preserve">
+    <value>FERAGAT_MIKTAR</value>
+  </data>
+  <data name="gwFeragat.GroupSummary41" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="gwFeragat.GroupSummary42" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwFeragat.GroupSummary43" xml:space="preserve">
+    <value>FERAGAT_MIKTAR_DOVIZ_ID</value>
+  </data>
+  <data name="gwFeragat.GroupSummary44" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gwFeragat.GroupSummary45" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwFeragat.GroupSummary46" xml:space="preserve">
+    <value>FERAGAT_MIKTAR</value>
+  </data>
+  <data name="gwFeragat.GroupSummary47" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="gwFeragat.GroupSummary48" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwFeragat.GroupSummary49" xml:space="preserve">
+    <value>FERAGAT_MIKTAR_DOVIZ_ID</value>
+  </data>
+  <data name="gwFeragat.GroupSummary50" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gwFeragat.GroupSummary51" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwFeragat.GroupSummary52" xml:space="preserve">
+    <value>FERAGAT_MIKTAR</value>
+  </data>
+  <data name="gwFeragat.GroupSummary53" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="gwFeragat.GroupSummary54" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwFeragat.GroupSummary55" xml:space="preserve">
+    <value>FERAGAT_MIKTAR_DOVIZ_ID</value>
+  </data>
+  <data name="gwFeragat.GroupSummary56" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gwFeragat.GroupSummary57" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwFeragat.GroupSummary58" xml:space="preserve">
+    <value>FERAGAT_MIKTAR</value>
+  </data>
+  <data name="gwFeragat.GroupSummary59" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="gwFeragat.GroupSummary60" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwFeragat.GroupSummary61" xml:space="preserve">
+    <value>FERAGAT_MIKTAR_DOVIZ_ID</value>
+  </data>
+  <data name="gwFeragat.GroupSummary62" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gwFeragat.GroupSummary63" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwFeragat.GroupSummary64" xml:space="preserve">
+    <value>FERAGAT_MIKTAR</value>
+  </data>
+  <data name="gwFeragat.GroupSummary65" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="gwFeragat.GroupSummary66" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwFeragat.GroupSummary67" xml:space="preserve">
+    <value>FERAGAT_MIKTAR_DOVIZ_ID</value>
+  </data>
+  <data name="gwFeragat.GroupSummary68" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gwFeragat.GroupSummary69" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwFeragat.GroupSummary70" xml:space="preserve">
+    <value>FERAGAT_MIKTAR</value>
+  </data>
+  <data name="gwFeragat.GroupSummary71" xml:space="preserve">
+    <value>{0:###,###,###,###,##0.00}</value>
+  </data>
+  <data name="gwFeragat.GroupSummary72" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v12.1">
+    <value>Custom</value>
+  </data>
+  <data name="gwFeragat.GroupSummary73" xml:space="preserve">
+    <value>FERAGAT_MIKTAR_DOVIZ_ID</value>
+  </data>
+  <data name="gwFeragat.GroupSummary74" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="rLueMahsupAltKategori.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rLueMahsupAltKategori.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="rLueMahsupKategori.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rLueMahsupKategori.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="rLueTarafCARI.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rLueTarafCARI.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="rLueIlam.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rLueIlam.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Combo</value>
+  </data>
+  <data name="gridFeragat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>709, 504</value>
+  </data>
+  <data name="gridFeragat.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="colTUTAR.Caption" xml:space="preserve">
+    <value>Tutar</value>
+  </data>
+  <data name="colTUTAR.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colTUTAR.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="colTUTAR.Width" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="colTUTAR_DOVIZ_ID.Caption" xml:space="preserve">
+    <value>Brm.</value>
+  </data>
+  <data name="colTUTAR_DOVIZ_ID.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colTUTAR_DOVIZ_ID.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="colTUTAR_DOVIZ_ID.Width" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="colODEME_KARSILIK_TUTAR.Caption" xml:space="preserve">
+    <value>Karşılık Tutar</value>
+  </data>
+  <data name="colODEME_KARSILIK_TUTAR.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colODEME_KARSILIK_TUTAR.VisibleIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="colODEME_KARSILIK_TUTAR.Width" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="colODEME_KARSILIK_TUTAR_DOVIZ_ID.Caption" xml:space="preserve">
+    <value>Brm.</value>
+  </data>
+  <data name="colODEME_KARSILIK_TUTAR_DOVIZ_ID.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colODEME_KARSILIK_TUTAR_DOVIZ_ID.VisibleIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="colODEME_KARSILIK_TUTAR_DOVIZ_ID.Width" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="colODEME_TARIHI.Caption" xml:space="preserve">
+    <value>Ödeme T</value>
+  </data>
+  <data name="colODEME_TARIHI.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colODEME_TARIHI.VisibleIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="colODEME_TARIHI.Width" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="colMAHSUP_ALT_KATEGORI_ID.Caption" xml:space="preserve">
+    <value>M. Alt Kategori</value>
+  </data>
+  <data name="colMAHSUP_ALT_KATEGORI_ID.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colMAHSUP_ALT_KATEGORI_ID.VisibleIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="colMAHSUP_ALT_KATEGORI_ID.Width" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="colMAHSUP_KATEGORI_ID.Caption" xml:space="preserve">
+    <value>M. Kategori</value>
+  </data>
+  <data name="colMAHSUP_KATEGORI_ID.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colMAHSUP_KATEGORI_ID.VisibleIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="colMAHSUP_KATEGORI_ID.Width" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="colALACAK_NEDEN_ID.Caption" xml:space="preserve">
+    <value>Alacak Neden</value>
+  </data>
+  <data name="colALACAK_NEDEN_ID.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colALACAK_NEDEN_ID.VisibleIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="colALACAK_NEDEN_ID.Width" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="colALACAK_NEDEN_TARAF_ID.Caption" xml:space="preserve">
+    <value>Taraf</value>
+  </data>
+  <data name="colALACAK_NEDEN_TARAF_ID.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colALACAK_NEDEN_TARAF_ID.VisibleIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="colALACAK_NEDEN_TARAF_ID.Width" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="colFOY_TARAF_ID.Caption" xml:space="preserve">
+    <value>Dosya Taraf</value>
+  </data>
+  <data name="colFOY_TARAF_ID.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colFOY_TARAF_ID.VisibleIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="colFOY_TARAF_ID.Width" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="colDAGILIM_TIPI.Caption" xml:space="preserve">
+    <value>Dağılım Tipi</value>
+  </data>
+  <data name="colDAGILIM_TIPI.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colDAGILIM_TIPI.VisibleIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="colDAGILIM_TIPI.Width" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="gwOdemeDagilim.ViewCaption" xml:space="preserve">
+    <value>Dağılım</value>
+  </data>
+  <data name="&gt;&gt;gridFeragat.Name" xml:space="preserve">
+    <value>gridFeragat</value>
+  </data>
+  <data name="&gt;&gt;gridFeragat.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.ExtendedGridControl, avpng, Version=1.1.5.34, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;gridFeragat.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gridFeragat.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="compGridDovizSummary1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>144, 12</value>
+  </metadata>
+  <data name="compGridDovizSummary1.YasakliAlanlar" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAEAQAAAH9TeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5MaXN0YDFbW1N5
+        c3RlbS5TdHJpbmcsIG1zY29ybGliLCBWZXJzaW9uPTIuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVi
+        bGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OV1dAwAAAAZfaXRlbXMFX3NpemUIX3ZlcnNpb24GAAAI
+        CAkCAAAAAAAAAAAAAAARAgAAAAAAAAAL
+</value>
+  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>90</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>709, 504</value>
+  </data>
+  <data name="&gt;&gt;gridView1.Name" xml:space="preserve">
+    <value>gridView1</value>
+  </data>
+  <data name="&gt;&gt;gridView1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;MyRepository.Name" xml:space="preserve">
+    <value>MyRepository</value>
+  </data>
+  <data name="&gt;&gt;MyRepository.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.PersistentRepository, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rLueFeragatAlacakNedenID.Name" xml:space="preserve">
+    <value>rLueFeragatAlacakNedenID</value>
+  </data>
+  <data name="&gt;&gt;rLueFeragatAlacakNedenID.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rLueFeragatAlacakKalemID.Name" xml:space="preserve">
+    <value>rLueFeragatAlacakKalemID</value>
+  </data>
+  <data name="&gt;&gt;rLueFeragatAlacakKalemID.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rLueDovizID.Name" xml:space="preserve">
+    <value>rLueDovizID</value>
+  </data>
+  <data name="&gt;&gt;rLueDovizID.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rLueFeragatTipID.Name" xml:space="preserve">
+    <value>rLueFeragatTipID</value>
+  </data>
+  <data name="&gt;&gt;rLueFeragatTipID.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rLueFeragatKapsamID.Name" xml:space="preserve">
+    <value>rLueFeragatKapsamID</value>
+  </data>
+  <data name="&gt;&gt;rLueFeragatKapsamID.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gwFeragat.Name" xml:space="preserve">
+    <value>gwFeragat</value>
+  </data>
+  <data name="&gt;&gt;gwFeragat.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colFERAGAT_KAPSAM.Name" xml:space="preserve">
+    <value>colFERAGAT_KAPSAM</value>
+  </data>
+  <data name="&gt;&gt;colFERAGAT_KAPSAM.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colFERAGAT_TARIHI.Name" xml:space="preserve">
+    <value>colFERAGAT_TARIHI</value>
+  </data>
+  <data name="&gt;&gt;colFERAGAT_TARIHI.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colFERAGAT_MIKTAR_DOVIZ.Name" xml:space="preserve">
+    <value>colFERAGAT_MIKTAR_DOVIZ</value>
+  </data>
+  <data name="&gt;&gt;colFERAGAT_MIKTAR_DOVIZ.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colFERAGAT_MIKTAR.Name" xml:space="preserve">
+    <value>colFERAGAT_MIKTAR</value>
+  </data>
+  <data name="&gt;&gt;colFERAGAT_MIKTAR.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rudTutar.Name" xml:space="preserve">
+    <value>rudTutar</value>
+  </data>
+  <data name="&gt;&gt;rudTutar.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemSpinEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colHARC_ICIN.Name" xml:space="preserve">
+    <value>colHARC_ICIN</value>
+  </data>
+  <data name="&gt;&gt;colHARC_ICIN.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rLueMahsupAltKategori.Name" xml:space="preserve">
+    <value>rLueMahsupAltKategori</value>
+  </data>
+  <data name="&gt;&gt;rLueMahsupAltKategori.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rLueMahsupKategori.Name" xml:space="preserve">
+    <value>rLueMahsupKategori</value>
+  </data>
+  <data name="&gt;&gt;rLueMahsupKategori.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rLueTarafCARI.Name" xml:space="preserve">
+    <value>rLueTarafCARI</value>
+  </data>
+  <data name="&gt;&gt;rLueTarafCARI.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rLueIlam.Name" xml:space="preserve">
+    <value>rLueIlam</value>
+  </data>
+  <data name="&gt;&gt;rLueIlam.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gwOdemeDagilim.Name" xml:space="preserve">
+    <value>gwOdemeDagilim</value>
+  </data>
+  <data name="&gt;&gt;gwOdemeDagilim.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colTUTAR.Name" xml:space="preserve">
+    <value>colTUTAR</value>
+  </data>
+  <data name="&gt;&gt;colTUTAR.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colTUTAR_DOVIZ_ID.Name" xml:space="preserve">
+    <value>colTUTAR_DOVIZ_ID</value>
+  </data>
+  <data name="&gt;&gt;colTUTAR_DOVIZ_ID.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colODEME_KARSILIK_TUTAR.Name" xml:space="preserve">
+    <value>colODEME_KARSILIK_TUTAR</value>
+  </data>
+  <data name="&gt;&gt;colODEME_KARSILIK_TUTAR.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colODEME_KARSILIK_TUTAR_DOVIZ_ID.Name" xml:space="preserve">
+    <value>colODEME_KARSILIK_TUTAR_DOVIZ_ID</value>
+  </data>
+  <data name="&gt;&gt;colODEME_KARSILIK_TUTAR_DOVIZ_ID.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colODEME_TARIHI.Name" xml:space="preserve">
+    <value>colODEME_TARIHI</value>
+  </data>
+  <data name="&gt;&gt;colODEME_TARIHI.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colMAHSUP_ALT_KATEGORI_ID.Name" xml:space="preserve">
+    <value>colMAHSUP_ALT_KATEGORI_ID</value>
+  </data>
+  <data name="&gt;&gt;colMAHSUP_ALT_KATEGORI_ID.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colMAHSUP_KATEGORI_ID.Name" xml:space="preserve">
+    <value>colMAHSUP_KATEGORI_ID</value>
+  </data>
+  <data name="&gt;&gt;colMAHSUP_KATEGORI_ID.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colALACAK_NEDEN_ID.Name" xml:space="preserve">
+    <value>colALACAK_NEDEN_ID</value>
+  </data>
+  <data name="&gt;&gt;colALACAK_NEDEN_ID.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colALACAK_NEDEN_TARAF_ID.Name" xml:space="preserve">
+    <value>colALACAK_NEDEN_TARAF_ID</value>
+  </data>
+  <data name="&gt;&gt;colALACAK_NEDEN_TARAF_ID.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colFOY_TARAF_ID.Name" xml:space="preserve">
+    <value>colFOY_TARAF_ID</value>
+  </data>
+  <data name="&gt;&gt;colFOY_TARAF_ID.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colDAGILIM_TIPI.Name" xml:space="preserve">
+    <value>colDAGILIM_TIPI</value>
+  </data>
+  <data name="&gt;&gt;colDAGILIM_TIPI.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v12.1, Version=12.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;compGridDovizSummary1.Name" xml:space="preserve">
+    <value>compGridDovizSummary1</value>
+  </data>
+  <data name="&gt;&gt;compGridDovizSummary1.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.compGridDovizSummary, avpng, Version=1.1.5.34, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ucFeragat</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>AdimAdimDavaKaydi.Util.BaseClasses.AvpXUserControl, avpng, Version=1.1.5.34, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

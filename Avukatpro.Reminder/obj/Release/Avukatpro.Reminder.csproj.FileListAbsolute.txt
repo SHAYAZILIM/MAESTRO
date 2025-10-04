@@ -1,0 +1,6 @@
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\Avukatpro.Reminder.exe.config
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\Avukatpro.Reminder.exe
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\Avukatpro.Reminder\obj\Release\Avukatpro.Reminder.csprojResolveAssemblyReference.cache
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\Avukatpro.Reminder\obj\Release\Interop.SMSMakinesi.dll
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\Avukatpro.Reminder\obj\Release\Avukatpro.Reminder.csproj.ResolveComReference.cache
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\Avukatpro.Reminder\obj\Release\Avukatpro.Reminder.exe

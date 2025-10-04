@@ -1,0 +1,8 @@
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\IdentityUpdate.exe.config
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\IdentityUpdate.exe
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\IdentityUpdate\obj\Release\IdentityUpdate.csprojResolveAssemblyReference.cache
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\IdentityUpdate\obj\Release\IdentityUpdate.Form1.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\IdentityUpdate\obj\Release\IdentityUpdate.Properties.Resources.resources
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\IdentityUpdate\obj\Release\IdentityUpdate.csproj.GenerateResource.Cache
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\IdentityUpdate\obj\Release\IdentityUpdate.exe.licenses
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\IdentityUpdate\obj\Release\IdentityUpdate.exe

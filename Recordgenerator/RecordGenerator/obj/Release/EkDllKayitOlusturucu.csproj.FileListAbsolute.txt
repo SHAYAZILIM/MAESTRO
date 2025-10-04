@@ -1,0 +1,3 @@
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\AvpDllRecordGenerator.dll
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\Recordgenerator\RecordGenerator\obj\Release\EkDllKayitOlusturucu.csprojResolveAssemblyReference.cache
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\Recordgenerator\RecordGenerator\obj\Release\AvpDllRecordGenerator.dll

@@ -1,0 +1,10 @@
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBin\AVPLisans.dll
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBin\AVPLisans.pdb
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AVPLisans\obj\Debug\AVPLisans.dll
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AVPLisans\obj\Debug\AVPLisans.pdb
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AVPLisans\obj\Debug\AVPLisans.csprojResolveAssemblyReference.cache
+D:\dogan\AdimAdimDavaKaydi\ProjectBin\AVPLisans.dll
+D:\dogan\AdimAdimDavaKaydi\ProjectBin\AVPLisans.pdb
+D:\dogan\AdimAdimDavaKaydi\AVPLisans\obj\Debug\AVPLisans.csprojResolveAssemblyReference.cache
+D:\dogan\AdimAdimDavaKaydi\AVPLisans\obj\Debug\AVPLisans.dll
+D:\dogan\AdimAdimDavaKaydi\AVPLisans\obj\Debug\AVPLisans.pdb

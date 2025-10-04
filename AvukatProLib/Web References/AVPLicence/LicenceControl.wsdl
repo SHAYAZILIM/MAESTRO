@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s1="http://microsoft.com/wsdl/types/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:import namespace="http://microsoft.com/wsdl/types/" />
+      <s:element name="CheckAll">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="licenceInfo" type="tns:LisansBilgisi" />
+            <s:element minOccurs="0" maxOccurs="1" name="versionInfo" type="tns:VersionInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="LisansBilgisi">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="PaketBilgileri" type="tns:ArrayOfPaketBilgisi" />
+          <s:element minOccurs="0" maxOccurs="1" name="PaketAdi" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="ModulNo" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ProductKey" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="LisansBitisTarihi" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="SorusturmaKayitSayisi" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="DavaKayitSayisi" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="IcraKayitSayisi" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="SorusturmaKullaniciSayisi" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="DavaKullaniciSayisi" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="IcraKullaniciSayisi" nillable="true" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="AdSoyad" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfPaketBilgisi">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="PaketBilgisi" nillable="true" type="tns:PaketBilgisi" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="PaketBilgisi">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="PaketAdi" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Aciklama" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FormListesi" type="tns:ArrayOfPaketForm" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfPaketForm">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="PaketForm" nillable="true" type="tns:PaketForm" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="PaketForm">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="FormAdi" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Text" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Aciklama" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="KontrolListesi" type="tns:ArrayOfPaketControl" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfPaketControl">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="PaketControl" nillable="true" type="tns:PaketControl" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="PaketControl">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Parent" type="tns:PaketControl" />
+          <s:element minOccurs="0" maxOccurs="1" name="KontrolAdi" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Text" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Aciklama" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TipAdi" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="RelativePath" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="UniqueId" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Gorunur" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="Aktif" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="Sepette_Goster" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="Yetkilendirmede_Kullan" type="s:boolean" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="VersionInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ExeVersion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DBVersionInfo" type="tns:TMYS_DB_SURUM" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="TMYS_DB_SURUM">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="SURUM" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SURUM_NOTLARI" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="INDIRME_ADRESI" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="CIKIS_TARIHI" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="BIR_ONCEKI_SURUM_GEREKLI" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="KAYIT_TARIHI" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="DURUM" type="s:unsignedByte" />
+          <s:element minOccurs="1" maxOccurs="1" name="EUID" type="s1:guid" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="CheckAllResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CheckAllResult" type="tns:Result" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Result">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="LicenceInfo" type="tns:LisansBilgisi" />
+          <s:element minOccurs="1" maxOccurs="1" name="IsDbUptoDate" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="IsExeUptoDate" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="DBVersionInfo" type="tns:TMYS_DB_SURUM" />
+          <s:element minOccurs="0" maxOccurs="1" name="ExeVersionInfo" type="tns:TMYS_EXE_SURUM" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="TMYS_EXE_SURUM">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="SURUM" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SURUM_NOTLARI" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="INDIRME_ADRESI" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="CIKIS_TARIHI" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="BIR_ONCEKI_SURUM_GEREKLI" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="KAYIT_TARIHI" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="DURUM" type="s:unsignedByte" />
+          <s:element minOccurs="1" maxOccurs="1" name="DB_SURUM_ID" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="EUID" type="s1:guid" />
+          <s:element minOccurs="0" maxOccurs="1" name="TMYS_DB_SURUM" type="tns:TMYS_DB_SURUM" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="CheckProductKey">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="productKey" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckProductKeyResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CheckProductKeyResult" type="tns:LisansBilgisi" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateWebTables">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="productKey" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="newExeVersion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="newDbVersion" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateWebTablesResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetAll">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="productKey" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAllResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAllResult" type="tns:ArrayOfCS_KOD_PAKET" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfCS_KOD_PAKET">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="CS_KOD_PAKET" nillable="true" type="tns:CS_KOD_PAKET" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="CS_KOD_PAKET">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="PARENT_ID" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="MODUL_NO" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="PAKET_ADI" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ACIKLAMA" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="KAYIT_TARIHI" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="stamp" type="s:short" />
+          <s:element minOccurs="1" maxOccurs="1" name="UNIQUE_ID" nillable="true" type="s1:guid" />
+          <s:element minOccurs="1" maxOccurs="1" name="ICRA_KULLANICI" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="DAVA_KULLANICI" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="SORUSTURMA_KULLANICI" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="ICRA_KAYIT_SAYISI" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="DAVA_KAYIT_SAYISI" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="SORUSTURMA_KAYIT_SAYISI" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="CS_KOD_KONTROL_OZELLIKLERIs" type="tns:ArrayOfCS_KOD_KONTROL_OZELLIKLERI" />
+          <s:element minOccurs="0" maxOccurs="1" name="CS_KOD_PAKETs" type="tns:ArrayOfCS_KOD_PAKET" />
+          <s:element minOccurs="0" maxOccurs="1" name="CS_KOD_PAKET_NN_FORMs" type="tns:ArrayOfCS_KOD_PAKET_NN_FORM" />
+          <s:element minOccurs="0" maxOccurs="1" name="TMYS_URUN_ANAHTARIs" type="tns:ArrayOfTMYS_URUN_ANAHTARI" />
+          <s:element minOccurs="0" maxOccurs="1" name="CS_KOD_PAKET1" type="tns:CS_KOD_PAKET" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfCS_KOD_KONTROL_OZELLIKLERI">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="CS_KOD_KONTROL_OZELLIKLERI" nillable="true" type="tns:CS_KOD_KONTROL_OZELLIKLERI" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="CS_KOD_KONTROL_OZELLIKLERI">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="KONTROL_ID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="PAKET_ID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="GORUNUR_MU" nillable="true" type="s:unsignedByte" />
+          <s:element minOccurs="1" maxOccurs="1" name="AKTIF_MI" nillable="true" type="s:unsignedByte" />
+          <s:element minOccurs="1" maxOccurs="1" name="SEPETTE_GOSTERILSIN_MI" nillable="true" type="s:unsignedByte" />
+          <s:element minOccurs="1" maxOccurs="1" name="YETKILENDIRMEDE_KULLANILSIN_MI" nillable="true" type="s:unsignedByte" />
+          <s:element minOccurs="0" maxOccurs="1" name="CS_KOD_KONTROL_LISTESI" type="tns:CS_KOD_KONTROL_LISTESI" />
+          <s:element minOccurs="0" maxOccurs="1" name="CS_KOD_PAKET" type="tns:CS_KOD_PAKET" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="CS_KOD_KONTROL_LISTESI">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="FORM_ID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="PARENT_ID" nillable="true" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="KONTROL_ADI" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="KONTROL_TEXT" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="KONTROL_ACIKLAMA" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TIP_ADI" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="UNIQUE_ID" nillable="true" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="SUZME_KRITER" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="SUBE_ID" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="ADMIN_KAYIT_MI" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="KONTROL_NE_ZAMAN" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="KONTROL_KIM_ID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="KONTROL_VERSIYON" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="STAMP" type="s:short" />
+          <s:element minOccurs="0" maxOccurs="1" name="CS_KOD_KONTROL_LISTESIs" type="tns:ArrayOfCS_KOD_KONTROL_LISTESI" />
+          <s:element minOccurs="0" maxOccurs="1" name="CS_KOD_KONTROL_OZELLIKLERIs" type="tns:ArrayOfCS_KOD_KONTROL_OZELLIKLERI" />
+          <s:element minOccurs="0" maxOccurs="1" name="CS_KOD_FORM_LISTESI" type="tns:CS_KOD_FORM_LISTESI" />
+          <s:element minOccurs="0" maxOccurs="1" name="CS_KOD_KONTROL_LISTESI1" type="tns:CS_KOD_KONTROL_LISTESI" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfCS_KOD_KONTROL_LISTESI">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="CS_KOD_KONTROL_LISTESI" nillable="true" type="tns:CS_KOD_KONTROL_LISTESI" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="CS_KOD_FORM_LISTESI">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="FULL_ADI" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FORM_TEXT" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FORM_ACIKLAMA" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MENU_NESNE_ADI" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SUZME_KRITER" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="FORM_GRUP_ID" nillable="true" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="DB_TABLO_ADI" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BUTTON_GORUNUM_LIST" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="MODUL" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="MODUL2" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="SUBE_ID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="ADMIN_KAYIT_MI" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="KONTROL_NE_ZAMAN" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="KONTROL_KIM_ID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="KONTROL_VERSIYON" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="STAMP" type="s:short" />
+          <s:element minOccurs="0" maxOccurs="1" name="CS_KOD_KONTROL_LISTESIs" type="tns:ArrayOfCS_KOD_KONTROL_LISTESI" />
+          <s:element minOccurs="0" maxOccurs="1" name="CS_KOD_PAKET_NN_FORMs" type="tns:ArrayOfCS_KOD_PAKET_NN_FORM" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfCS_KOD_PAKET_NN_FORM">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="CS_KOD_PAKET_NN_FORM" nillable="true" type="tns:CS_KOD_PAKET_NN_FORM" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="CS_KOD_PAKET_NN_FORM">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="PAKET_ID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="FORM_ID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="CS_KOD_FORM_LISTESI" type="tns:CS_KOD_FORM_LISTESI" />
+          <s:element minOccurs="0" maxOccurs="1" name="CS_KOD_PAKET" type="tns:CS_KOD_PAKET" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfTMYS_URUN_ANAHTARI">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="TMYS_URUN_ANAHTARI" nillable="true" type="tns:TMYS_URUN_ANAHTARI" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="TMYS_URUN_ANAHTARI">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="URUN_ANAHTARI" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MUSTERI_ANAHTARI" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="MUSTERI_ID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="KAYIT_TARIHI" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="DURUM" type="s:unsignedByte" />
+          <s:element minOccurs="1" maxOccurs="1" name="EUID" type="s1:guid" />
+          <s:element minOccurs="1" maxOccurs="1" name="PAKET_ID" nillable="true" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="CS_KOD_PAKET" type="tns:CS_KOD_PAKET" />
+          <s:element minOccurs="0" maxOccurs="1" name="TMYS_MUSTERI" type="tns:TMYS_MUSTERI" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="TMYS_MUSTERI">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="EUID" type="s1:guid" />
+          <s:element minOccurs="0" maxOccurs="1" name="MUSTERI_TIPI" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="KLASOR_YERI" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AD_SOYAD" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="YAZILIM_TURU" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="YAZILIM_TIP" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SERVER" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="KULLANICI" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SEHIR" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="SOZLESME_T_1" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="SOZLESME_T_2" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SOZLESME_T_3" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BAKIM_T_1" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BAKIM_T_2" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BAKIM_DURUMU" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EGITIM_DURUMU" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BEDAS" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BIREYSEL_BAKIM_ARANAN" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="TEKRAR_ARANACAK" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="GORUSME_NOT1" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="GORUSME_NOT2" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="GORUSME_NOT3" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="KAYIT_TARIHI" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="DURUM" type="s:unsignedByte" />
+          <s:element minOccurs="1" maxOccurs="1" name="MODUL_NO" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="ICRA_KULLANICI" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="DAVA_KULLANICI" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="SORUSTURMA_KULLANICI" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="LISANS_BITIS_TARIHI" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="ICRA_KAYIT_SAYISI" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="DAVA_KAYIT_SAYISI" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="SORUSTURMA_KAYIT_SAYISI" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="SON_GUNCELLEME_TARIHI" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="SON_EXE_VERSIYON" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SON_DB_VERSIYON" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TMYS_URUN_ANAHTARIs" type="tns:ArrayOfTMYS_URUN_ANAHTARI" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="CheckExeVersion">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="exeVersion" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckExeVersionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CheckExeVersionResult" type="tns:TMYS_EXE_SURUM" />
+            <s:element minOccurs="0" maxOccurs="1" name="dbVersionList" type="tns:ArrayOfTMYS_DB_SURUM" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfTMYS_DB_SURUM">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="TMYS_DB_SURUM" nillable="true" type="tns:TMYS_DB_SURUM" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="CheckDBVersion">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dbVersion" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckDBVersionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CheckDBVersionResult" type="tns:TMYS_DB_SURUM" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckUpdaterVersion">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="updaterVersion" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckUpdaterVersionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CheckUpdaterVersionResult" type="tns:TMYS_UPDATER_SURUM" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="TMYS_UPDATER_SURUM">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="SURUM" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SURUM_NOTLARI" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="INDIRME_ADRESI" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="CIKIS_TARIHI" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="BIR_ONCEKI_SURUM_GEREKLI" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="KAYIT_TARIHI" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="DURUM" type="s:unsignedByte" />
+          <s:element minOccurs="1" maxOccurs="1" name="EUID" type="s1:guid" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://microsoft.com/wsdl/types/">
+      <s:simpleType name="guid">
+        <s:restriction base="s:string">
+          <s:pattern value="[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}" />
+        </s:restriction>
+      </s:simpleType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="CheckAllSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckAll" />
+  </wsdl:message>
+  <wsdl:message name="CheckAllSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckAllResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckProductKeySoapIn">
+    <wsdl:part name="parameters" element="tns:CheckProductKey" />
+  </wsdl:message>
+  <wsdl:message name="CheckProductKeySoapOut">
+    <wsdl:part name="parameters" element="tns:CheckProductKeyResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateWebTablesSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateWebTables" />
+  </wsdl:message>
+  <wsdl:message name="UpdateWebTablesSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateWebTablesResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAllSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAll" />
+  </wsdl:message>
+  <wsdl:message name="GetAllSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAllResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckExeVersionSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckExeVersion" />
+  </wsdl:message>
+  <wsdl:message name="CheckExeVersionSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckExeVersionResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckDBVersionSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckDBVersion" />
+  </wsdl:message>
+  <wsdl:message name="CheckDBVersionSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckDBVersionResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckUpdaterVersionSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckUpdaterVersion" />
+  </wsdl:message>
+  <wsdl:message name="CheckUpdaterVersionSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckUpdaterVersionResponse" />
+  </wsdl:message>
+  <wsdl:portType name="LicenceControlSoap">
+    <wsdl:operation name="CheckAll">
+      <wsdl:input message="tns:CheckAllSoapIn" />
+      <wsdl:output message="tns:CheckAllSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckProductKey">
+      <wsdl:input message="tns:CheckProductKeySoapIn" />
+      <wsdl:output message="tns:CheckProductKeySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateWebTables">
+      <wsdl:input message="tns:UpdateWebTablesSoapIn" />
+      <wsdl:output message="tns:UpdateWebTablesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAll">
+      <wsdl:input message="tns:GetAllSoapIn" />
+      <wsdl:output message="tns:GetAllSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckExeVersion">
+      <wsdl:input message="tns:CheckExeVersionSoapIn" />
+      <wsdl:output message="tns:CheckExeVersionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckDBVersion">
+      <wsdl:input message="tns:CheckDBVersionSoapIn" />
+      <wsdl:output message="tns:CheckDBVersionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckUpdaterVersion">
+      <wsdl:input message="tns:CheckUpdaterVersionSoapIn" />
+      <wsdl:output message="tns:CheckUpdaterVersionSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="LicenceControlSoap" type="tns:LicenceControlSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CheckAll">
+      <soap:operation soapAction="http://tempuri.org/CheckAll" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckProductKey">
+      <soap:operation soapAction="http://tempuri.org/CheckProductKey" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateWebTables">
+      <soap:operation soapAction="http://tempuri.org/UpdateWebTables" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAll">
+      <soap:operation soapAction="http://tempuri.org/GetAll" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckExeVersion">
+      <soap:operation soapAction="http://tempuri.org/CheckExeVersion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckDBVersion">
+      <soap:operation soapAction="http://tempuri.org/CheckDBVersion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckUpdaterVersion">
+      <soap:operation soapAction="http://tempuri.org/CheckUpdaterVersion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="LicenceControlSoap12" type="tns:LicenceControlSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CheckAll">
+      <soap12:operation soapAction="http://tempuri.org/CheckAll" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckProductKey">
+      <soap12:operation soapAction="http://tempuri.org/CheckProductKey" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateWebTables">
+      <soap12:operation soapAction="http://tempuri.org/UpdateWebTables" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAll">
+      <soap12:operation soapAction="http://tempuri.org/GetAll" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckExeVersion">
+      <soap12:operation soapAction="http://tempuri.org/CheckExeVersion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckDBVersion">
+      <soap12:operation soapAction="http://tempuri.org/CheckDBVersion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckUpdaterVersion">
+      <soap12:operation soapAction="http://tempuri.org/CheckUpdaterVersion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="LicenceControl">
+    <wsdl:port name="LicenceControlSoap" binding="tns:LicenceControlSoap">
+      <soap:address location="http://avukatpro.com/AVPLisans/LicenceControl.asmx" />
+    </wsdl:port>
+    <wsdl:port name="LicenceControlSoap12" binding="tns:LicenceControlSoap12">
+      <soap12:address location="http://avukatpro.com/AVPLisans/LicenceControl.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

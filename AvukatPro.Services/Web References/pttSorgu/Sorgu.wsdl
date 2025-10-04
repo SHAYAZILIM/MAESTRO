@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:intf="http://hareket.ptt.gov.tr" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:impl="http://hareket.ptt.gov.tr" targetNamespace="http://hareket.ptt.gov.tr" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema xmlns="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://hareket.ptt.gov.tr">
+      <xsd:complexType name="InputTarih">
+        <xsd:sequence>
+          <xsd:element name="kullanici" nillable="true" type="xsd:string" />
+          <xsd:element name="kurum_rumuz" nillable="true" type="xsd:string" />
+          <xsd:element name="musteri_id" nillable="true" type="xsd:int" />
+          <xsd:element name="sifre" nillable="true" type="xsd:string" />
+          <xsd:element name="son_islem_tarihi" nillable="true" type="xsd:int" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="input" type="impl:InputTarih" />
+      <xsd:complexType name="Output">
+        <xsd:sequence>
+          <xsd:element name="agirlik" nillable="true" type="xsd:string" />
+          <xsd:element name="barkod_no" nillable="true" type="xsd:string" />
+          <xsd:element name="boy" nillable="true" type="xsd:string" />
+          <xsd:element name="deger_konulmus_ucret" nillable="true" type="xsd:string" />
+          <xsd:element name="desi" nillable="true" type="xsd:string" />
+          <xsd:element name="dosya_adi" nillable="true" type="xsd:string" />
+          <xsd:element name="ek_hizmet" nillable="true" type="xsd:string" />
+          <xsd:element name="en" nillable="true" type="xsd:string" />
+          <xsd:element name="gerceklesen_ziyaret_sayisi" nillable="true" type="xsd:string" />
+          <xsd:element name="gonderi_durum_aciklama" nillable="true" type="xsd:string" />
+          <xsd:element name="gonderi_durumu" nillable="true" type="xsd:string" />
+          <xsd:element name="iade_tarihi" nillable="true" type="xsd:string" />
+          <xsd:element name="kabul_il_ad" nillable="true" type="xsd:string" />
+          <xsd:element name="kabul_merkezi" nillable="true" type="xsd:string" />
+          <xsd:element name="kabul_saati" nillable="true" type="xsd:string" />
+          <xsd:element name="kabul_tarihi" nillable="true" type="xsd:string" />
+          <xsd:element name="musteri_id" nillable="true" type="xsd:string" />
+          <xsd:element name="musteri_referans_no" nillable="true" type="xsd:string" />
+          <xsd:element name="odeme_sartli_ucret" nillable="true" type="xsd:string" />
+          <xsd:element name="posta_ceki" nillable="true" type="xsd:string" />
+          <xsd:element name="ptt_teslim_tarihi" nillable="true" type="xsd:string" />
+          <xsd:element name="rezerve1" nillable="true" type="xsd:string" />
+          <xsd:element name="rezerve2" nillable="true" type="xsd:string" />
+          <xsd:element name="rezerve3" nillable="true" type="xsd:string" />
+          <xsd:element name="rezerve4" nillable="true" type="xsd:string" />
+          <xsd:element name="rezerve5" nillable="true" type="xsd:string" />
+          <xsd:element name="siparis_id" nillable="true" type="xsd:string" />
+          <xsd:element name="son_islem_il_adi" nillable="true" type="xsd:string" />
+          <xsd:element name="son_islem_merkez_adi" nillable="true" type="xsd:string" />
+          <xsd:element name="son_islem_saati" nillable="true" type="xsd:string" />
+          <xsd:element name="son_islem_tarihi" nillable="true" type="xsd:string" />
+          <xsd:element name="talimat_durum" nillable="true" type="xsd:string" />
+          <xsd:element name="teslim_alan" nillable="true" type="xsd:string" />
+          <xsd:element name="yukseklik" nillable="true" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOfOutput">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="item" type="impl:Output" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="OutputTum">
+        <xsd:sequence>
+          <xsd:element name="aciklama" nillable="true" type="xsd:string" />
+          <xsd:element name="barkod_devam" nillable="true" type="xsd:string" />
+          <xsd:element name="dongu" nillable="true" type="impl:ArrayOfOutput" />
+          <xsd:element name="rcode" nillable="true" type="xsd:int" />
+          <xsd:element name="sqlcode" nillable="true" type="xsd:int" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="gonderiHareketIslemTarihiSorguReturn" type="impl:OutputTum" />
+      <xsd:complexType name="InputBarkod">
+        <xsd:sequence>
+          <xsd:element name="barkod_devam" nillable="true" type="xsd:string" />
+          <xsd:element name="ilk_barkod" nillable="true" type="xsd:string" />
+          <xsd:element name="kullanici" nillable="true" type="xsd:string" />
+          <xsd:element name="kurum_rumuz" nillable="true" type="xsd:string" />
+          <xsd:element name="musteri_id" nillable="true" type="xsd:int" />
+          <xsd:element name="sifre" nillable="true" type="xsd:string" />
+          <xsd:element name="son_barkod" nillable="true" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="input1" type="impl:InputBarkod" />
+      <xsd:element name="gonderiHareketBarkodSorguReturn" type="impl:OutputTum" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="gonderiHareketIslemTarihiSorguResponse">
+    <wsdl:part name="gonderiHareketIslemTarihiSorguReturn" element="impl:gonderiHareketIslemTarihiSorguReturn" />
+  </wsdl:message>
+  <wsdl:message name="gonderiHareketBarkodSorguResponse">
+    <wsdl:part name="gonderiHareketBarkodSorguReturn" element="impl:gonderiHareketBarkodSorguReturn" />
+  </wsdl:message>
+  <wsdl:message name="gonderiHareketBarkodSorguRequest">
+    <wsdl:part name="input1" element="impl:input1" />
+  </wsdl:message>
+  <wsdl:message name="gonderiHareketIslemTarihiSorguRequest">
+    <wsdl:part name="input" element="impl:input" />
+  </wsdl:message>
+  <wsdl:portType name="Sorgu">
+    <wsdl:operation name="gonderiHareketIslemTarihiSorgu" parameterOrder="input">
+      <wsdl:input name="gonderiHareketIslemTarihiSorguRequest" message="impl:gonderiHareketIslemTarihiSorguRequest" />
+      <wsdl:output name="gonderiHareketIslemTarihiSorguResponse" message="impl:gonderiHareketIslemTarihiSorguResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="gonderiHareketBarkodSorgu" parameterOrder="input1">
+      <wsdl:input name="gonderiHareketBarkodSorguRequest" message="impl:gonderiHareketBarkodSorguRequest" />
+      <wsdl:output name="gonderiHareketBarkodSorguResponse" message="impl:gonderiHareketBarkodSorguResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SorguSoapBinding" type="impl:Sorgu">
+    <wsdlsoap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="gonderiHareketIslemTarihiSorgu">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="gonderiHareketIslemTarihiSorguRequest">
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="gonderiHareketIslemTarihiSorguResponse">
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="gonderiHareketBarkodSorgu">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="gonderiHareketBarkodSorguRequest">
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="gonderiHareketBarkodSorguResponse">
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SorguService">
+    <wsdl:port name="Sorgu" binding="impl:SorguSoapBinding">
+      <wsdlsoap:address location="http://pttws.ptt.gov.tr/GonderiHareket/services/Sorgu" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

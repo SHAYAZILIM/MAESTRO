@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="BOS" Class="AVPReminderDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=192.9.0.200;Initial Catalog=BOS;User ID=sa" SettingsObjectName="Avukatpro.Reminder.Properties.Settings" SettingsPropertyName="BOSConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.AV001_TDI_BIL_HATIRLAT" Member="AV001_TDI_BIL_HATIRLATs">
+    <Type Name="AV001_TDI_BIL_HATIRLAT">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="KULLANICI_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="REFERANS_NO" Type="System.String" DbType="NVarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="IS_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FIRMA_TABLO_KODU" Type="System.String" DbType="NVarChar(3) NOT NULL" CanBeNull="false" />
+      <Column Name="HATIRLATSIN_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="GUNLUK_UYARI_SAAT" Type="System.String" DbType="NVarChar(5) NOT NULL" CanBeNull="false" />
+      <Column Name="SONRAKI_UYARI_SAAT" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SONRAKI_UYARI_DAKIKA" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PERIYOD_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PERIYOD" Type="System.String" DbType="NVarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="BASLANGIC_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="BASLANGIC" Type="System.String" DbType="NVarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="PERIYODUN_SON_PATLAMASI_OLDU_MU" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="BIR_DEFA_PATLAMASI_OLDU_MU" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="BASLAMA_TARIHI" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="BASLAMA_SAATI" Type="System.String" DbType="NVarChar(5) NOT NULL" CanBeNull="false" />
+      <Column Name="BITIS_TARIHI" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="BITIS_SAATI" Type="System.String" DbType="NVarChar(5) NOT NULL" CanBeNull="false" />
+      <Column Name="ENSON_PATLADIGI_TARIH" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ENSON_PATLADIGI_SAATI" Type="System.String" DbType="NVarChar(5) NOT NULL" CanBeNull="false" />
+      <Column Name="GOSTERSIN_MI_2_SAAT_ONCE" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="ENSON_EXTRA_2_SAAT_ONCE" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="GOSTERSIN_MI_1_GUN_ONCE" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="ENSON_EXTRA_1_GUN_ONCE" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="OZEL_GUN_TARIHI" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="OZEL_GUN_AY" Type="System.String" DbType="NVarChar(2) NOT NULL" CanBeNull="false" />
+      <Column Name="OZEL_GUN_GUN" Type="System.String" DbType="NVarChar(2) NOT NULL" CanBeNull="false" />
+      <Column Name="ACIKLAMA" Type="System.String" DbType="NVarChar(1000) NOT NULL" CanBeNull="false" />
+      <Column Name="KAYIT_TARIHI" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="SUBE_KODU" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="ADMIN_KAYIT_MI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_NE_ZAMAN" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_VERSIYON" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STAMP" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="KONTROL_KIM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SUBE_KOD_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IS_TARAF_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="HATIRLATMA_ARALIG" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="HATIRLATMA_TIPI" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="PERIYOT_TIPI" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TEKRAR" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SECILEN_GUNLER" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="GUN" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ERTELEME" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ERTELEME_ZAMAN" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AKTIF" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.per_REMINDER" Member="per_REMINDERs">
+    <Type Name="per_REMINDER">
+      <Column Name="ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="HATIRLATILSIN_MI" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ACIKLAMA" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="BASLANGIC_TARIHI" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="HATIRLAT_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="HATIRLATMA_BASLAMA_TARIHI" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ENSON_EXTRA_1_GUN_ONCE" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="BITIS_TARIHI" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ONGORULEN_BITIS_TARIHI" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="YAPILACAK_IS" Type="System.String" DbType="NVarChar(4000)" CanBeNull="true" />
+      <Column Name="YER" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="HATIRLATMA_BILGISI" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="TEKRARLAMA_BILGISI" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="KONU" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="IS_TARAF" Type="System.String" DbType="NVarChar(64)" CanBeNull="true" />
+      <Column Name="CARI_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AD" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="CEP_TEL" Type="System.String" DbType="NVarChar(16)" CanBeNull="true" />
+      <Column Name="EMAIL_1" Type="System.String" DbType="NVarChar(64)" CanBeNull="true" />
+      <Column Name="HATIRLATMA_TIPI" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ZAMAN_KOSULU" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="DURUM" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="BELGE_ADI" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="BELGE_ACIKLAMA" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="DOSYA_ADI" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="THUMBNAIL" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="ICERIK" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="DOKUMAN_UZANTI" Type="System.String" DbType="NVarChar(16)" CanBeNull="true" />
+      <Column Name="BELGE_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FAX" Type="System.String" DbType="NVarChar(16)" CanBeNull="true" />
+      <Column Name="TC_KIMLIK_NO" Type="System.String" DbType="NVarChar(32)" CanBeNull="true" />
+      <Column Name="ADLIYE" Type="System.String" DbType="NVarChar(32)" CanBeNull="true" />
+      <Column Name="GOREV" Type="System.String" DbType="NVarChar(6)" CanBeNull="true" />
+      <Column Name="NO" Type="System.String" DbType="NVarChar(4)" CanBeNull="true" />
+      <Column Name="ESAS_NO" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ONCELIK_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="GUNLUK_UYARI_SAAT" Type="System.String" DbType="NVarChar(5)" CanBeNull="true" />
+      <Column Name="PERIYODUN_SON_PATLAMASI_OLDU_MU" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="BIR_DEFA_PATLAMASI_OLDU_MU" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="TEKRAR" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="GOSTERSIN_MI_1_GUN_ONCE" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

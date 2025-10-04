@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 10.75" name="AVPReminder">
+  <DataContextMoniker Name="/AVPReminderDataContext" />
+  <nestedChildShapes>
+    <classShape Id="cc90d370-cb09-42b1-ae0d-436568d34267" absoluteBounds="0.875, 0.5, 2, 10.0398583984375">
+      <DataClassMoniker Name="/AVPReminderDataContext/AV001_TDI_BIL_HATIRLAT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="99a2b1f7-2f66-4262-89d7-40bf32cb1a65" absoluteBounds="0.88999999999999968, 0.96, 1.9700000000000002, 9.4798583984375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="caa802b7-7b71-4fe4-a676-ae5c7124b99b" absoluteBounds="3.125, 0.5, 2, 8.6937483723958326">
+      <DataClassMoniker Name="/AVPReminderDataContext/per_REMINDER" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1e55e689-d4c5-4499-adfa-8c74ad7a51c3" absoluteBounds="3.14, 0.96, 1.9700000000000002, 8.1337483723958321" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

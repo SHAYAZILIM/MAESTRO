@@ -1,0 +1,3 @@
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\CustomAction.dll
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\CustomAction\obj\Release\CustomAction.csprojResolveAssemblyReference.cache
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\CustomAction\obj\Release\CustomAction.dll

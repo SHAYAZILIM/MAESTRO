@@ -1,0 +1,6 @@
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\AKT_TransferMasrafTahsilatDovizKurAuto.exe
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AKT_TransferMasrafTahsilatDovizKurAuto\obj\Release\AKT_TransferMasrafTahsilatDovizKurAuto.csprojResolveAssemblyReference.cache
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\AKT_TransferMasrafTahsilatDovizKurAuto\obj\Release\AKT_TransferMasrafTahsilatDovizKurAuto.exe
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\Resources\DevExpress.XtraGrid.Appearances.xml
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\Resources\DevExpress.XtraVerticalGrid.Appearances.xml
+D:\Aykut\aVUKATPRO\trunk\Base\AdimAdimDavaKaydi\ProjectBinRelease\Resources\DevExpress.XtraTreeList.Appearances.xml
