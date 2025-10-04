@@ -43,3 +43,15 @@ D:\emre adım adım\AdimAdimDavaKaydi\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPT
 D:\emre adım adım\AdimAdimDavaKaydi\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.exe.licenses
 D:\emre adım adım\AdimAdimDavaKaydi\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.exe
 D:\emre adım adım\AdimAdimDavaKaydi\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.pdb
+D:\SHAProjeler\MAESTRO\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.csprojResolveAssemblyReference.cache
+D:\SHAProjeler\MAESTRO\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.frmAutoExport.resources
+D:\SHAProjeler\MAESTRO\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.frmCheck.resources
+D:\SHAProjeler\MAESTRO\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.frmChild.resources
+D:\SHAProjeler\MAESTRO\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.frmConnect.resources
+D:\SHAProjeler\MAESTRO\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.frmExport1.resources
+D:\SHAProjeler\MAESTRO\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.frmMain.resources
+D:\SHAProjeler\MAESTRO\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.GenerateColumnList.resources
+D:\SHAProjeler\MAESTRO\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.csproj.GenerateResource.Cache
+D:\SHAProjeler\MAESTRO\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.exe.licenses
+D:\SHAProjeler\MAESTRO\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.exe
+D:\SHAProjeler\MAESTRO\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.pdb
