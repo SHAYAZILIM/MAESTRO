@@ -9,3 +9,9 @@ D:\dogan\AdimAdimDavaKaydi\ProjectBin\RaporDataSource.pdb
 D:\dogan\AdimAdimDavaKaydi\RaporDataSource\obj\Debug\RaporDataSource.dll
 D:\dogan\AdimAdimDavaKaydi\RaporDataSource\obj\Debug\RaporDataSource.pdb
 D:\dogan\AdimAdimDavaKaydi\RaporDataSource\obj\Debug\RaporDataSource.csprojResolveAssemblyReference.cache
+D:\SHAProjeler\MAESTRO\ProjectBin\RaporDataSource.dll.config
+D:\SHAProjeler\MAESTRO\ProjectBin\RaporDataSource.dll
+D:\SHAProjeler\MAESTRO\ProjectBin\RaporDataSource.pdb
+D:\SHAProjeler\MAESTRO\RaporDataSource\obj\Debug\RaporDataSource.csprojResolveAssemblyReference.cache
+D:\SHAProjeler\MAESTRO\RaporDataSource\obj\Debug\RaporDataSource.dll
+D:\SHAProjeler\MAESTRO\RaporDataSource\obj\Debug\RaporDataSource.pdb

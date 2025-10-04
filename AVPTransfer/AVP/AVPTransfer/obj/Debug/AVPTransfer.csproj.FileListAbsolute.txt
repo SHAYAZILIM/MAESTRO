@@ -55,3 +55,6 @@ D:\SHAProjeler\MAESTRO\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.csproj.
 D:\SHAProjeler\MAESTRO\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.exe.licenses
 D:\SHAProjeler\MAESTRO\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.exe
 D:\SHAProjeler\MAESTRO\AVPTransfer\AVP\AVPTransfer\obj\Debug\AVPTransfer.pdb
+D:\SHAProjeler\MAESTRO\ProjectBin\AVPTransfer.exe.config
+D:\SHAProjeler\MAESTRO\ProjectBin\AVPTransfer.exe
+D:\SHAProjeler\MAESTRO\ProjectBin\AVPTransfer.pdb

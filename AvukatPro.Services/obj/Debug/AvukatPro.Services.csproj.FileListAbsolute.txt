@@ -25,3 +25,12 @@ D:\emre adım adım\AdimAdimDavaKaydi\ProjectBin\AvukatPro.Services.pdb
 D:\emre adım adım\AdimAdimDavaKaydi\AvukatPro.Services\obj\Debug\AvukatPro.Services.csprojResolveAssemblyReference.cache
 D:\emre adım adım\AdimAdimDavaKaydi\AvukatPro.Services\obj\Debug\AvukatPro.Services.dll
 D:\emre adım adım\AdimAdimDavaKaydi\AvukatPro.Services\obj\Debug\AvukatPro.Services.pdb
+D:\SHAProjeler\MAESTRO\ProjectBin\Resources\DevExpress.XtraGrid.Appearances.xml
+D:\SHAProjeler\MAESTRO\ProjectBin\Resources\DevExpress.XtraVerticalGrid.Appearances.xml
+D:\SHAProjeler\MAESTRO\ProjectBin\Resources\DevExpress.XtraTreeList.Appearances.xml
+D:\SHAProjeler\MAESTRO\ProjectBin\AvukatPro.Services.dll.config
+D:\SHAProjeler\MAESTRO\ProjectBin\AvukatPro.Services.dll
+D:\SHAProjeler\MAESTRO\ProjectBin\AvukatPro.Services.pdb
+D:\SHAProjeler\MAESTRO\AvukatPro.Services\obj\Debug\AvukatPro.Services.csprojResolveAssemblyReference.cache
+D:\SHAProjeler\MAESTRO\AvukatPro.Services\obj\Debug\AvukatPro.Services.dll
+D:\SHAProjeler\MAESTRO\AvukatPro.Services\obj\Debug\AvukatPro.Services.pdb

@@ -37,3 +37,16 @@ D:\emre adım adım\AdimAdimDavaKaydi\BelgeUtil\obj\Debug\EkDllBelgeUtil.csproj.
 D:\emre adım adım\AdimAdimDavaKaydi\BelgeUtil\obj\Debug\AvpDllBelgeUtil.dll.licenses
 D:\emre adım adım\AdimAdimDavaKaydi\BelgeUtil\obj\Debug\AvpDllBelgeUtil.dll
 D:\emre adım adım\AdimAdimDavaKaydi\BelgeUtil\obj\Debug\AvpDllBelgeUtil.pdb
+D:\SHAProjeler\MAESTRO\ProjectBin\Resources\DevExpress.XtraGrid.Appearances.xml
+D:\SHAProjeler\MAESTRO\ProjectBin\Resources\DevExpress.XtraVerticalGrid.Appearances.xml
+D:\SHAProjeler\MAESTRO\ProjectBin\Resources\DevExpress.XtraTreeList.Appearances.xml
+D:\SHAProjeler\MAESTRO\ProjectBin\AvpDllBelgeUtil.dll.config
+D:\SHAProjeler\MAESTRO\ProjectBin\AvpDllBelgeUtil.dll
+D:\SHAProjeler\MAESTRO\ProjectBin\AvpDllBelgeUtil.pdb
+D:\SHAProjeler\MAESTRO\BelgeUtil\obj\Debug\EkDllBelgeUtil.csprojResolveAssemblyReference.cache
+D:\SHAProjeler\MAESTRO\BelgeUtil\obj\Debug\BelgeUtil.Stringler.resources
+D:\SHAProjeler\MAESTRO\BelgeUtil\obj\Debug\BelgeUtil.frmErrorHandler.resources
+D:\SHAProjeler\MAESTRO\BelgeUtil\obj\Debug\EkDllBelgeUtil.csproj.GenerateResource.Cache
+D:\SHAProjeler\MAESTRO\BelgeUtil\obj\Debug\AvpDllBelgeUtil.dll.licenses
+D:\SHAProjeler\MAESTRO\BelgeUtil\obj\Debug\AvpDllBelgeUtil.dll
+D:\SHAProjeler\MAESTRO\BelgeUtil\obj\Debug\AvpDllBelgeUtil.pdb

@@ -2889,3 +2889,14 @@ D:\SHAProjeler\MAESTRO\AdimAdimDavaKaydi\obj\Debug\AdimAdimDavaKaydi.IcraTakipFo
 D:\SHAProjeler\MAESTRO\AdimAdimDavaKaydi\obj\Debug\AdimAdimDavaKaydi.Muhasebe.rfrmMuhasebeGiris.tr.resources
 D:\SHAProjeler\MAESTRO\AdimAdimDavaKaydi\obj\Debug\AdimAdimDavaKaydi.csproj.GenerateResource.Cache
 D:\SHAProjeler\MAESTRO\AdimAdimDavaKaydi\obj\Debug\avpng.exe.licenses
+D:\SHAProjeler\MAESTRO\ProjectBin\Warnings.xml
+D:\SHAProjeler\MAESTRO\ProjectBin\Resources\DevExpress.XtraGrid.Appearances.xml
+D:\SHAProjeler\MAESTRO\ProjectBin\Resources\DevExpress.XtraVerticalGrid.Appearances.xml
+D:\SHAProjeler\MAESTRO\ProjectBin\Resources\DevExpress.XtraTreeList.Appearances.xml
+D:\SHAProjeler\MAESTRO\ProjectBin\Resx\DataNavigatortrTR.resx
+D:\SHAProjeler\MAESTRO\ProjectBin\avpng.exe
+D:\SHAProjeler\MAESTRO\ProjectBin\avpng.pdb
+D:\SHAProjeler\MAESTRO\ProjectBin\en\avpng.resources.dll
+D:\SHAProjeler\MAESTRO\ProjectBin\tr\avpng.resources.dll
+D:\SHAProjeler\MAESTRO\AdimAdimDavaKaydi\obj\Debug\en\avpng.resources.dll
+D:\SHAProjeler\MAESTRO\AdimAdimDavaKaydi\obj\Debug\tr\avpng.resources.dll

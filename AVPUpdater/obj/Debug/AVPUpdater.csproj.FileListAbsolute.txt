@@ -19,3 +19,14 @@ D:\dogan\AdimAdimDavaKaydi\AVPUpdater\obj\Debug\AVPUpdater.csproj.GenerateResour
 D:\dogan\AdimAdimDavaKaydi\AVPUpdater\obj\Debug\AVPUpdater.exe.licenses
 D:\dogan\AdimAdimDavaKaydi\AVPUpdater\obj\Debug\AVPUpdater.exe
 D:\dogan\AdimAdimDavaKaydi\AVPUpdater\obj\Debug\AVPUpdater.pdb
+D:\SHAProjeler\MAESTRO\ProjectBin\AVPUpdater.exe.config
+D:\SHAProjeler\MAESTRO\ProjectBin\AVPUpdater.exe
+D:\SHAProjeler\MAESTRO\ProjectBin\AVPUpdater.pdb
+D:\SHAProjeler\MAESTRO\AVPUpdater\obj\Debug\AVPUpdater.csprojResolveAssemblyReference.cache
+D:\SHAProjeler\MAESTRO\AVPUpdater\obj\Debug\AVPUpdater.frmAyarlar.resources
+D:\SHAProjeler\MAESTRO\AVPUpdater\obj\Debug\AVPUpdater.frmFTPBilgileri.resources
+D:\SHAProjeler\MAESTRO\AVPUpdater\obj\Debug\AVPUpdater.Properties.Resources.resources
+D:\SHAProjeler\MAESTRO\AVPUpdater\obj\Debug\AVPUpdater.csproj.GenerateResource.Cache
+D:\SHAProjeler\MAESTRO\AVPUpdater\obj\Debug\AVPUpdater.exe.licenses
+D:\SHAProjeler\MAESTRO\AVPUpdater\obj\Debug\AVPUpdater.exe
+D:\SHAProjeler\MAESTRO\AVPUpdater\obj\Debug\AVPUpdater.pdb

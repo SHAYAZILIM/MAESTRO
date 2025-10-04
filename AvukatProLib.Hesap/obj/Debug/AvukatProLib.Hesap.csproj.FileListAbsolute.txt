@@ -28,3 +28,14 @@ D:\emre adım adım\AdimAdimDavaKaydi\AvukatProLib.Hesap\obj\Debug\AvukatProLib.
 D:\emre adım adım\AdimAdimDavaKaydi\AvukatProLib.Hesap\obj\Debug\AvukatProLib.Hesap.csproj.GenerateResource.Cache
 D:\emre adım adım\AdimAdimDavaKaydi\AvukatProLib.Hesap\obj\Debug\AvukatProLib.Hesap.dll
 D:\emre adım adım\AdimAdimDavaKaydi\AvukatProLib.Hesap\obj\Debug\AvukatProLib.Hesap.pdb
+D:\SHAProjeler\MAESTRO\ProjectBin\Resources\DevExpress.XtraGrid.Appearances.xml
+D:\SHAProjeler\MAESTRO\ProjectBin\Resources\DevExpress.XtraVerticalGrid.Appearances.xml
+D:\SHAProjeler\MAESTRO\ProjectBin\Resources\DevExpress.XtraTreeList.Appearances.xml
+D:\SHAProjeler\MAESTRO\ProjectBin\AvukatProLib.Hesap.dll.config
+D:\SHAProjeler\MAESTRO\ProjectBin\AvukatProLib.Hesap.dll
+D:\SHAProjeler\MAESTRO\ProjectBin\AvukatProLib.Hesap.pdb
+D:\SHAProjeler\MAESTRO\AvukatProLib.Hesap\obj\Debug\AvukatProLib.Hesap.csprojResolveAssemblyReference.cache
+D:\SHAProjeler\MAESTRO\AvukatProLib.Hesap\obj\Debug\AvukatProLib.Hesap.Views.Resource1.resources
+D:\SHAProjeler\MAESTRO\AvukatProLib.Hesap\obj\Debug\AvukatProLib.Hesap.csproj.GenerateResource.Cache
+D:\SHAProjeler\MAESTRO\AvukatProLib.Hesap\obj\Debug\AvukatProLib.Hesap.dll
+D:\SHAProjeler\MAESTRO\AvukatProLib.Hesap\obj\Debug\AvukatProLib.Hesap.pdb

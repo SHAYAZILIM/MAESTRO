@@ -39,3 +39,14 @@ D:\emre adım adım\AdimAdimDavaKaydi\AvukatProLib\obj\Debug\AvukatProLib.Proper
 D:\emre adım adım\AdimAdimDavaKaydi\AvukatProLib\obj\Debug\AvukatProLib.csproj.GenerateResource.Cache
 D:\emre adım adım\AdimAdimDavaKaydi\AvukatProLib\obj\Debug\AvukatProLib.dll.licenses
 D:\emre adım adım\AdimAdimDavaKaydi\AvukatProLib\obj\Debug\AvukatProLib.dll
+D:\SHAProjeler\MAESTRO\AvukatProLib\obj\Debug\AvukatProLib.csprojResolveAssemblyReference.cache
+D:\SHAProjeler\MAESTRO\AvukatProLib\obj\Debug\AvukatProLib.DbBackup.frmRestore.resources
+D:\SHAProjeler\MAESTRO\AvukatProLib\obj\Debug\AvukatProLib.DbUpdate.frmDbBulkScriptExecuter.resources
+D:\SHAProjeler\MAESTRO\AvukatProLib\obj\Debug\AvukatProLib.GlobalResource.Stringler.resources
+D:\SHAProjeler\MAESTRO\AvukatProLib\obj\Debug\AvukatProLib.LisansYonetimi.frmLicenseActivation.resources
+D:\SHAProjeler\MAESTRO\AvukatProLib\obj\Debug\AvukatProLib.LisansYonetimi.frmLicenseWarning.resources
+D:\SHAProjeler\MAESTRO\AvukatProLib\obj\Debug\AvukatProLib.Mail.frmMailSender.resources
+D:\SHAProjeler\MAESTRO\AvukatProLib\obj\Debug\AvukatProLib.Properties.Resources.resources
+D:\SHAProjeler\MAESTRO\AvukatProLib\obj\Debug\AvukatProLib.csproj.GenerateResource.Cache
+D:\SHAProjeler\MAESTRO\AvukatProLib\obj\Debug\AvukatProLib.dll.licenses
+D:\SHAProjeler\MAESTRO\AvukatProLib\obj\Debug\AvukatProLib.dll

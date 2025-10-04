@@ -34,3 +34,15 @@ D:\emre adım adım\AdimAdimDavaKaydi\AdimAdimDavaKaydi.Properties\obj\Debug\Adi
 D:\emre adım adım\AdimAdimDavaKaydi\AdimAdimDavaKaydi.Properties\obj\Debug\AdimAdimDavaKaydi.Properties.csproj.GenerateResource.Cache
 D:\emre adım adım\AdimAdimDavaKaydi\AdimAdimDavaKaydi.Properties\obj\Debug\AdimAdimDavaKaydi.Properties.dll
 D:\emre adım adım\AdimAdimDavaKaydi\AdimAdimDavaKaydi.Properties\obj\Debug\AdimAdimDavaKaydi.Properties.pdb
+D:\SHAProjeler\MAESTRO\ProjectBin\Resources\DevExpress.XtraGrid.Appearances.xml
+D:\SHAProjeler\MAESTRO\ProjectBin\Resources\DevExpress.XtraVerticalGrid.Appearances.xml
+D:\SHAProjeler\MAESTRO\ProjectBin\Resources\DevExpress.XtraTreeList.Appearances.xml
+D:\SHAProjeler\MAESTRO\ProjectBin\AdimAdimDavaKaydi.Properties.dll
+D:\SHAProjeler\MAESTRO\ProjectBin\AdimAdimDavaKaydi.Properties.pdb
+D:\SHAProjeler\MAESTRO\AdimAdimDavaKaydi.Properties\obj\Debug\AdimAdimDavaKaydi.Properties.csprojResolveAssemblyReference.cache
+D:\SHAProjeler\MAESTRO\AdimAdimDavaKaydi.Properties\obj\Debug\AdimAdimDavaKaydi.Properties.Properties.Resources.resources
+D:\SHAProjeler\MAESTRO\AdimAdimDavaKaydi.Properties\obj\Debug\AdimAdimDavaKaydi.Properties.ResourcesSqlQuery.resources
+D:\SHAProjeler\MAESTRO\AdimAdimDavaKaydi.Properties\obj\Debug\AdimAdimDavaKaydi.Properties.XRDesignRibbonControllerResources.resources
+D:\SHAProjeler\MAESTRO\AdimAdimDavaKaydi.Properties\obj\Debug\AdimAdimDavaKaydi.Properties.csproj.GenerateResource.Cache
+D:\SHAProjeler\MAESTRO\AdimAdimDavaKaydi.Properties\obj\Debug\AdimAdimDavaKaydi.Properties.dll
+D:\SHAProjeler\MAESTRO\AdimAdimDavaKaydi.Properties\obj\Debug\AdimAdimDavaKaydi.Properties.pdb

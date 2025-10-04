@@ -16,3 +16,5 @@ D:\emre adım adım\AdimAdimDavaKaydi\ProjectBin\AvukatProLib.Arama.pdb
 D:\emre adım adım\AdimAdimDavaKaydi\AvukatProLib.Arama\obj\Debug\AvukatProLib.Arama.csprojResolveAssemblyReference.cache
 D:\emre adım adım\AdimAdimDavaKaydi\AvukatProLib.Arama\obj\Debug\AvukatProLib.Arama.dll
 D:\emre adım adım\AdimAdimDavaKaydi\AvukatProLib.Arama\obj\Debug\AvukatProLib.Arama.pdb
+D:\SHAProjeler\MAESTRO\AvukatProLib.Arama\obj\Debug\AvukatProLib.Arama.csprojResolveAssemblyReference.cache
+D:\SHAProjeler\MAESTRO\AvukatProLib.Arama\obj\Debug\AvukatProLib.Arama.dll
