@@ -1,0 +1,13 @@
+[ERROR LOG V1]
+
+Time = 06.10.2025 11:08:18 
+Source = AdimAdimDavaKaydi.Forms.Icra.frmIcraDosyaKayit (17868622)
+Version = 1.0.0.0 
+Culture = tr-TR 
+
+Exception:
+System.NullReferenceException: Nesne başvurusu bir nesnenin örneğine ayarlanmadı.
+   konum: AdimAdimDavaKaydi.Forms.Icra.frmIcraDosyaKayit.setFoy(AV001_TI_BIL_FOY foy) d:\SHAProjeler\MAESTRO\AdimAdimDavaKaydi\Forms\Icra\frmIcraDosyaKayit.cs içinde: satır 5418
+   konum: AdimAdimDavaKaydi.Forms.Icra.frmIcraDosyaKayit.set_myFoy(AV001_TI_BIL_FOY value) d:\SHAProjeler\MAESTRO\AdimAdimDavaKaydi\Forms\Icra\frmIcraDosyaKayit.cs içinde: satır 230
+[/ERROR LOG V1]
+

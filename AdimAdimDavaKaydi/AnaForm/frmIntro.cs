@@ -576,126 +576,127 @@ namespace AdimAdimDavaKaydi.AnaForm
 
         private void frmIntro_Load(object sender, EventArgs e)
         {
-            if (File.Exists(Application.StartupPath + "\\updating.tmp"))
-            {
-                if (MessageBox.Show("Maestro Güncellemesi devam etmektedir.\nBu yüzden programý kullanmamanýzý tavsiye ederiz.\nYinede devam etmek istiyor musunuz ?", "Uyarý-Soru", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) != System.Windows.Forms.DialogResult.Yes)
-                {
-                    Application.Exit();
-                    return;
-                }
-            }
-            if (cmpNfoList == null)
-                cmpNfoList = CompInfo.CmpNfoList;
-            CompInfo cmpNfo = cmpNfoList[0];
-            if (cmpNfo.Surum == "012014.004")
-            {
-                var filename = Path.Combine(Application.StartupPath, cmpNfo.Surum + ".txt");
-                if (!File.Exists(filename))
-                {
-                    File.WriteAllText(filename, cmpNfo.Versiyon);
-                    cmpNfo.Surum = "062013.007";
-                    CompInfo.Kaydet(cmpNfoList);
-                }
-            }
+            OpenMdiForm();
+            //if (File.Exists(Application.StartupPath + "\\updating.tmp"))
+            //{
+            //    if (MessageBox.Show("Maestro Güncellemesi devam etmektedir.\nBu yüzden programý kullanmamanýzý tavsiye ederiz.\nYinede devam etmek istiyor musunuz ?", "Uyarý-Soru", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) != System.Windows.Forms.DialogResult.Yes)
+            //    {
+            //        Application.Exit();
+            //        return;
+            //    }
+            //}
+            //if (cmpNfoList == null)
+            //    cmpNfoList = CompInfo.CmpNfoList;
+            //CompInfo cmpNfo = cmpNfoList[0];
+            //if (cmpNfo.Surum == "012014.004")
+            //{
+            //    var filename = Path.Combine(Application.StartupPath, cmpNfo.Surum + ".txt");
+            //    if (!File.Exists(filename))
+            //    {
+            //        File.WriteAllText(filename, cmpNfo.Versiyon);
+            //        cmpNfo.Surum = "062013.007";
+            //        CompInfo.Kaydet(cmpNfoList);
+            //    }
+            //}
 
-            Process[] prs = Process.GetProcesses();
-            bool varmi = false;
-            foreach (Process pr in prs)
-            {
-                if (pr.ProcessName == "AVPUpdater")
-                {
-                    varmi = true;
-                    break;
-                }
-            }
-            if (!varmi)
-                if (File.Exists(Application.StartupPath + "\\AVPUpdater.exe"))
-                {
-                    Process.Start(Application.StartupPath + "\\AVPUpdater.exe");
-                }
-            Thread.Sleep(1000);
+            //Process[] prs = Process.GetProcesses();
+            //bool varmi = false;
+            //foreach (Process pr in prs)
+            //{
+            //    if (pr.ProcessName == "AVPUpdater")
+            //    {
+            //        varmi = true;
+            //        break;
+            //    }
+            //}
+            //if (!varmi)
+            //    if (File.Exists(Application.StartupPath + "\\AVPUpdater.exe"))
+            //    {
+            //        Process.Start(Application.StartupPath + "\\AVPUpdater.exe");
+            //    }
+            //Thread.Sleep(1000);
 
-            try
-            {
-                AVPLicenceControl.PaketiGuncelle(Application.StartupPath);
-            }
-            catch { ;}
+            //try
+            //{
+            //    AVPLicenceControl.PaketiGuncelle(Application.StartupPath);
+            //}
+            //catch { ;}
 
-            if (File.Exists(Application.StartupPath + "\\temp.ab"))
-            {
-                FileStream fs = new FileStream(Application.StartupPath + "\\temp.ab", FileMode.Open);
-                StreamReader sr = new StreamReader(fs);
-                cmpNfo.BilgisayarID = sr.ReadLine();
-                cmpNfo.LisansNo = sr.ReadLine();
-                cmpNfo.BaslangicTarihi = Convert.ToDateTime(sr.ReadLine());
-                cmpNfo.BitisTarihi = Convert.ToDateTime(sr.ReadLine());
-                cmpNfo.ModulNo = sr.ReadLine();
-                cmpNfo.UrunAdi = sr.ReadLine();
-                cmpNfo.Versiyon = sr.ReadLine();
-                cmpNfo.Surum = sr.ReadLine();
+            //if (File.Exists(Application.StartupPath + "\\temp.ab"))
+            //{
+            //    FileStream fs = new FileStream(Application.StartupPath + "\\temp.ab", FileMode.Open);
+            //    StreamReader sr = new StreamReader(fs);
+            //    cmpNfo.BilgisayarID = sr.ReadLine();
+            //    cmpNfo.LisansNo = sr.ReadLine();
+            //    cmpNfo.BaslangicTarihi = Convert.ToDateTime(sr.ReadLine());
+            //    cmpNfo.BitisTarihi = Convert.ToDateTime(sr.ReadLine());
+            //    cmpNfo.ModulNo = sr.ReadLine();
+            //    cmpNfo.UrunAdi = sr.ReadLine();
+            //    cmpNfo.Versiyon = sr.ReadLine();
+            //    cmpNfo.Surum = sr.ReadLine();
 
-                cmpNfo.HAVeriTabani = sr.ReadLine();
-                cmpNfo.VeriTabaniSunucu = sr.ReadLine();
-                cmpNfo.VeriTabanýKullanicisi = sr.ReadLine();
+            //    cmpNfo.HAVeriTabani = sr.ReadLine();
+            //    cmpNfo.VeriTabaniSunucu = sr.ReadLine();
+            //    cmpNfo.VeriTabanýKullanicisi = sr.ReadLine();
 
-                string sfr = sr.ReadLine();
-                cmpNfo.VeriTabaniKullaniciSfr = sfr;
-                cmpNfo.SaKullaniciSfr = sfr;
-                cmpNfo.CompanyName = sr.ReadLine();
-                cmpNfo.UygulamaTipi = sr.ReadLine() == "Server" ? 0 : 1;
-                cmpNfo.YeniEski = sr.ReadLine();
-                sr.Close();
-                sr.Dispose();
-                fs.Close();
-                fs.Dispose();
-                CompInfo.Kaydet(cmpNfoList, Application.StartupPath);
-                File.Delete(Application.StartupPath + "\\temp.ab");
-            }
+            //    string sfr = sr.ReadLine();
+            //    cmpNfo.VeriTabaniKullaniciSfr = sfr;
+            //    cmpNfo.SaKullaniciSfr = sfr;
+            //    cmpNfo.CompanyName = sr.ReadLine();
+            //    cmpNfo.UygulamaTipi = sr.ReadLine() == "Server" ? 0 : 1;
+            //    cmpNfo.YeniEski = sr.ReadLine();
+            //    sr.Close();
+            //    sr.Dispose();
+            //    fs.Close();
+            //    fs.Dispose();
+            //    CompInfo.Kaydet(cmpNfoList, Application.StartupPath);
+            //    File.Delete(Application.StartupPath + "\\temp.ab");
+            //}
 
-            lblLisansNo.Text = cmpNfo.LisansNo;
-            lblSurumBilgisi.Text = cmpNfo.Versiyon + "." + cmpNfo.Surum;
+            //lblLisansNo.Text = cmpNfo.LisansNo;
+            //lblSurumBilgisi.Text = cmpNfo.Versiyon + "." + cmpNfo.Surum;
 
-            string ComputerInfo = "";
-            ManagementClass islemci;
-            islemci = new ManagementClass("Win32_ComputerSystemProduct");
-            foreach (ManagementObject cpu in islemci.GetInstances())
-            {
-                ComputerInfo = Convert.ToString(cpu["UUID"]);
-            }
+            //string ComputerInfo = "";
+            //ManagementClass islemci;
+            //islemci = new ManagementClass("Win32_ComputerSystemProduct");
+            //foreach (ManagementObject cpu in islemci.GetInstances())
+            //{
+            //    ComputerInfo = Convert.ToString(cpu["UUID"]);
+            //}
 
-            if (string.IsNullOrEmpty(cmpNfo.LisansNo) || ComputerInfo != cmpNfo.BilgisayarID)
-            {
-                bool sonuc = false;
-                frmSetLicence frmli = new frmSetLicence(cmpNfo, sonuc);
-                frmli.ShowDialog();
-                CompInfo.Kaydet(cmpNfoList, Application.StartupPath);
-            }
+            //if (string.IsNullOrEmpty(cmpNfo.LisansNo) || ComputerInfo != cmpNfo.BilgisayarID)
+            //{
+            //    bool sonuc = false;
+            //    frmSetLicence frmli = new frmSetLicence(cmpNfo, sonuc);
+            //    frmli.ShowDialog();
+            //    CompInfo.Kaydet(cmpNfoList, Application.StartupPath);
+            //}
 
-            if (string.IsNullOrEmpty(cmpNfo.LisansNo) || ComputerInfo != cmpNfo.BilgisayarID)
-            {
-                Application.Exit();
-                return;
-            }
+            //if (string.IsNullOrEmpty(cmpNfo.LisansNo) || ComputerInfo != cmpNfo.BilgisayarID)
+            //{
+            //    Application.Exit();
+            //    return;
+            //}
 
-            AVPLicenceControl.LisansKontrolu(Application.StartupPath);
+            //AVPLicenceControl.LisansKontrolu(Application.StartupPath);
 
-            string file = Application.StartupPath + "//Kontrol.txt";
-            if (File.Exists(file))
-                using (StreamReader sr = new StreamReader(@"Kontrol.txt"))
-                {
-                    if (sr.ReadLine() == "0")
-                    {
-                        MessageBox.Show("Programda güncelleme iþlemi yapýlýyor.\r\nGüncelleme bittikten sonra giriþ yapabilirsiniz.", "BÝLGÝ", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        Application.Exit();
-                    }
-                    else
-                    {
-                        FormLoad();
-                    }
-                }
-            else
-                FormLoad();
-            luePaketBilgisi.Enabled = false;
+            //string file = Application.StartupPath + "//Kontrol.txt";
+            //if (File.Exists(file))
+            //    using (StreamReader sr = new StreamReader(@"Kontrol.txt"))
+            //    {
+            //        if (sr.ReadLine() == "0")
+            //        {
+            //            MessageBox.Show("Programda güncelleme iþlemi yapýlýyor.\r\nGüncelleme bittikten sonra giriþ yapabilirsiniz.", "BÝLGÝ", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            //            Application.Exit();
+            //        }
+            //        else
+            //        {
+            //            FormLoad();
+            //        }
+            //    }
+            //else
+            //    FormLoad();
+            //luePaketBilgisi.Enabled = false;
         }
 
         private bool kullaniciGirebilirMi(int kullaniciId)

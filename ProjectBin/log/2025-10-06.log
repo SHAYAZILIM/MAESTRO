@@ -1,0 +1,153 @@
+2025-10-06 11:08:18.3283 Hata 
+ Nesne baþvurusu bir nesnenin örneðine ayarlanmadý. System.NullReferenceException NullReferenceException System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: AdimAdimDavaKaydi.Forms.Icra.frmIcraDosyaKayit.setFoy(AV001_TI_BIL_FOY foy) d:\SHAProjeler\MAESTRO\AdimAdimDavaKaydi\Forms\Icra\frmIcraDosyaKayit.cs içinde: satýr 5418
+   konum: AdimAdimDavaKaydi.Forms.Icra.frmIcraDosyaKayit.set_myFoy(AV001_TI_BIL_FOY value) d:\SHAProjeler\MAESTRO\AdimAdimDavaKaydi\Forms\Icra\frmIcraDosyaKayit.cs içinde: satýr 230 Void setFoy(AvukatProLib2.Entities.AV001_TI_BIL_FOY)    konum: AdimAdimDavaKaydi.Forms.Icra.frmIcraDosyaKayit.setFoy(AV001_TI_BIL_FOY foy) d:\SHAProjeler\MAESTRO\AdimAdimDavaKaydi\Forms\Icra\frmIcraDosyaKayit.cs içinde: satýr 5418
+   konum: AdimAdimDavaKaydi.Forms.Icra.frmIcraDosyaKayit.set_myFoy(AV001_TI_BIL_FOY value) d:\SHAProjeler\MAESTRO\AdimAdimDavaKaydi\Forms\Icra\frmIcraDosyaKayit.cs içinde: satýr 230
+2025-10-06 11:09:04.9445 Hata 
+ Sunucuyla baðlantý kurulurken að ile ilgili veya örneðe özel bir hata oluþtu. Sunucu bulunamadý veya sunucuya eriþilemiyor. Örnek adýnýn doðru olduðunu ve SQL Server'ýn uzak baðlantýlara izin verdiðini doðrulayýn. (provider: Adlandýrýlmýþ Kanal Saðlayýcýsý, error: 40 - SQL Server için baðlantý açýlamadý) System.Data.SqlClient.SqlException SqlException System.Data.SqlClient.SqlException: Sunucuyla baðlantý kurulurken að ile ilgili veya örneðe özel bir hata oluþtu. Sunucu bulunamadý veya sunucuya eriþilemiyor. Örnek adýnýn doðru olduðunu ve SQL Server'ýn uzak baðlantýlara izin verdiðini doðrulayýn. (provider: Adlandýrýlmýþ Kanal Saðlayýcýsý, error: 40 - SQL Server için baðlantý açýlamadý)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   konum: System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, SqlConnection owningObject, Boolean withFailover)
+   konum: System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject, Boolean withFailover)
+   konum: System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   konum: System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   konum: System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   konum: System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   konum: System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   konum: System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   konum: System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   konum: System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   konum: System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   konum: System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   konum: System.Data.SqlClient.SqlConnection.Open()
+   konum: System.Data.Common.DbDataAdapter.QuietOpen(IDbConnection connection, ConnectionState& originalState)
+   konum: System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   konum: System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   konum: System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   konum: ABSqlConnection.GetDataTable(String SqlCumlesi)
+   konum: AvukatPro.Services.Implementations.DevExpressService.CariDoldur_Bind(Object sender, Boolean IsSearchLookUpEdit, Nullable`1 tipi) d:\SHAProjeler\MAESTRO\AvukatPro.Services\Implementations\DevExpressService.cs içinde: satýr 915
+   konum: AvukatPro.Services.Implementations.DevExpressService.CariDoldur(RepositoryItemSearchLookUpEdit rslue, Nullable`1 tipi) d:\SHAProjeler\MAESTRO\AvukatPro.Services\Implementations\DevExpressService.cs içinde: satýr 208
+   konum: AdimAdimDavaKaydi.UserControls.ucAlacakNedenGirisi.InitsDoldur() d:\SHAProjeler\MAESTRO\AdimAdimDavaKaydi\UserControls\ucAlacakNedenGirisi.cs içinde: satýr 209
+   konum: AdimAdimDavaKaydi.UserControls.ucAlacakNedenGirisi.ucAlacakNedenGirisi_Load(Object sender, EventArgs e) d:\SHAProjeler\MAESTRO\AdimAdimDavaKaydi\UserControls\ucAlacakNedenGirisi.cs içinde: satýr 244
+   konum: System.Windows.Forms.UserControl.OnLoad(EventArgs e)
+   konum: DevExpress.XtraEditors.XtraUserControl.OnLoad(EventArgs e)
+   konum: AdimAdimDavaKaydi.Util.BaseClasses.AvpXUserControl.OnLoad(EventArgs e) d:\SHAProjeler\MAESTRO\AdimAdimDavaKaydi\Util\BaseClasses\AvpXUserControl.cs içinde: satýr 65
+   konum: System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   konum: System.Windows.Forms.Control.CreateControl()
+   konum: System.Windows.Forms.Control.ControlCollection.Add(Control value)
+   konum: AdimAdimDavaKaydi.Forms.Icra.frmIcraDosyaKayit.OnShown(EventArgs e) d:\SHAProjeler\MAESTRO\AdimAdimDavaKaydi\Forms\Icra\frmIcraDosyaKayit.cs içinde: satýr 1700 Void OnError(System.Data.SqlClient.SqlException, Boolean)    konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   konum: System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, SqlConnection owningObject, Boolean withFailover)
+   konum: System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject, Boolean withFailover)
+   konum: System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   konum: System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   konum: System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   konum: System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   konum: System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   konum: System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   konum: System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   konum: System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   konum: System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   konum: System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   konum: System.Data.SqlClient.SqlConnection.Open()
+   konum: System.Data.Common.DbDataAdapter.QuietOpen(IDbConnection connection, ConnectionState& originalState)
+   konum: System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   konum: System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   konum: System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   konum: ABSqlConnection.GetDataTable(String SqlCumlesi)
+   konum: AvukatPro.Services.Implementations.DevExpressService.CariDoldur_Bind(Object sender, Boolean IsSearchLookUpEdit, Nullable`1 tipi) d:\SHAProjeler\MAESTRO\AvukatPro.Services\Implementations\DevExpressService.cs içinde: satýr 915
+   konum: AvukatPro.Services.Implementations.DevExpressService.CariDoldur(RepositoryItemSearchLookUpEdit rslue, Nullable`1 tipi) d:\SHAProjeler\MAESTRO\AvukatPro.Services\Implementations\DevExpressService.cs içinde: satýr 208
+   konum: AdimAdimDavaKaydi.UserControls.ucAlacakNedenGirisi.InitsDoldur() d:\SHAProjeler\MAESTRO\AdimAdimDavaKaydi\UserControls\ucAlacakNedenGirisi.cs içinde: satýr 209
+   konum: AdimAdimDavaKaydi.UserControls.ucAlacakNedenGirisi.ucAlacakNedenGirisi_Load(Object sender, EventArgs e) d:\SHAProjeler\MAESTRO\AdimAdimDavaKaydi\UserControls\ucAlacakNedenGirisi.cs içinde: satýr 244
+   konum: System.Windows.Forms.UserControl.OnLoad(EventArgs e)
+   konum: DevExpress.XtraEditors.XtraUserControl.OnLoad(EventArgs e)
+   konum: AdimAdimDavaKaydi.Util.BaseClasses.AvpXUserControl.OnLoad(EventArgs e) d:\SHAProjeler\MAESTRO\AdimAdimDavaKaydi\Util\BaseClasses\AvpXUserControl.cs içinde: satýr 65
+   konum: System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   konum: System.Windows.Forms.Control.CreateControl()
+   konum: System.Windows.Forms.Control.ControlCollection.Add(Control value)
+   konum: AdimAdimDavaKaydi.Forms.Icra.frmIcraDosyaKayit.OnShown(EventArgs e) d:\SHAProjeler\MAESTRO\AdimAdimDavaKaydi\Forms\Icra\frmIcraDosyaKayit.cs içinde: satýr 1700
+2025-10-06 11:10:22.1838 Hata 
+ Nesne baþvurusu bir nesnenin örneðine ayarlanmadý. System.NullReferenceException NullReferenceException System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: BelgeUtil.Inits.perCariGetirKimlikIletisim(GridLookUpEdit glue) d:\SHAProjeler\MAESTRO\BelgeUtil\Inits.cs içinde: satýr 9767
+   konum: AdimAdimDavaKaydi.UserControls.ucKurumsalGirisEkraniLayout.glueAdi_Click(Object sender, EventArgs e) d:\SHAProjeler\MAESTRO\AdimAdimDavaKaydi\UserControls\ucKurumsalGirisEkraniLayout.cs içinde: satýr 521
+   konum: System.Windows.Forms.Control.OnClick(EventArgs e)
+   konum: System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   konum: System.Windows.Forms.Control.WndProc(Message& m)
+   konum: DevExpress.Utils.Controls.ControlBase.WndProc(Message& m)
+   konum: DevExpress.XtraEditors.BaseControl.WndProc(Message& msg)
+   konum: DevExpress.XtraEditors.BaseEdit.WndProc(Message& m)
+   konum: DevExpress.XtraEditors.TextEdit.WndProc(Message& msg)
+   konum: System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   konum: System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam) Void perCariGetirKimlikIletisim(DevExpress.XtraEditors.GridLookUpEdit)    konum: BelgeUtil.Inits.perCariGetirKimlikIletisim(GridLookUpEdit glue) d:\SHAProjeler\MAESTRO\BelgeUtil\Inits.cs içinde: satýr 9767
+   konum: AdimAdimDavaKaydi.UserControls.ucKurumsalGirisEkraniLayout.glueAdi_Click(Object sender, EventArgs e) d:\SHAProjeler\MAESTRO\AdimAdimDavaKaydi\UserControls\ucKurumsalGirisEkraniLayout.cs içinde: satýr 521
+   konum: System.Windows.Forms.Control.OnClick(EventArgs e)
+   konum: System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   konum: System.Windows.Forms.Control.WndProc(Message& m)
+   konum: DevExpress.Utils.Controls.ControlBase.WndProc(Message& m)
+   konum: DevExpress.XtraEditors.BaseControl.WndProc(Message& msg)
+   konum: DevExpress.XtraEditors.BaseEdit.WndProc(Message& m)
+   konum: DevExpress.XtraEditors.TextEdit.WndProc(Message& msg)
+   konum: System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   konum: System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+2025-10-06 11:10:27.8881 Hata 
+ Nesne baþvurusu bir nesnenin örneðine ayarlanmadý. System.NullReferenceException NullReferenceException System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: BelgeUtil.Inits.perCariGetirKimlikIletisim(GridLookUpEdit glue) d:\SHAProjeler\MAESTRO\BelgeUtil\Inits.cs içinde: satýr 9767
+   konum: AdimAdimDavaKaydi.UserControls.ucKurumsalGirisEkraniLayout.glueAdi_Click(Object sender, EventArgs e) d:\SHAProjeler\MAESTRO\AdimAdimDavaKaydi\UserControls\ucKurumsalGirisEkraniLayout.cs içinde: satýr 521
+   konum: System.Windows.Forms.Control.OnClick(EventArgs e)
+   konum: System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   konum: System.Windows.Forms.Control.WndProc(Message& m)
+   konum: DevExpress.Utils.Controls.ControlBase.WndProc(Message& m)
+   konum: DevExpress.XtraEditors.BaseControl.WndProc(Message& msg)
+   konum: DevExpress.XtraEditors.BaseEdit.WndProc(Message& m)
+   konum: DevExpress.XtraEditors.TextEdit.WndProc(Message& msg)
+   konum: System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   konum: System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam) Void perCariGetirKimlikIletisim(DevExpress.XtraEditors.GridLookUpEdit)    konum: BelgeUtil.Inits.perCariGetirKimlikIletisim(GridLookUpEdit glue) d:\SHAProjeler\MAESTRO\BelgeUtil\Inits.cs içinde: satýr 9767
+   konum: AdimAdimDavaKaydi.UserControls.ucKurumsalGirisEkraniLayout.glueAdi_Click(Object sender, EventArgs e) d:\SHAProjeler\MAESTRO\AdimAdimDavaKaydi\UserControls\ucKurumsalGirisEkraniLayout.cs içinde: satýr 521
+   konum: System.Windows.Forms.Control.OnClick(EventArgs e)
+   konum: System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   konum: System.Windows.Forms.Control.WndProc(Message& m)
+   konum: DevExpress.Utils.Controls.ControlBase.WndProc(Message& m)
+   konum: DevExpress.XtraEditors.BaseControl.WndProc(Message& msg)
+   konum: DevExpress.XtraEditors.BaseEdit.WndProc(Message& m)
+   konum: DevExpress.XtraEditors.TextEdit.WndProc(Message& msg)
+   konum: System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   konum: System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+2025-10-06 11:11:18.6533 Hata 
+ Sunucuyla baðlantý kurulurken að ile ilgili veya örneðe özel bir hata oluþtu. Sunucu bulunamadý veya sunucuya eriþilemiyor. Örnek adýnýn doðru olduðunu ve SQL Server'ýn uzak baðlantýlara izin verdiðini doðrulayýn. (provider: Adlandýrýlmýþ Kanal Saðlayýcýsý, error: 40 - SQL Server için baðlantý açýlamadý) System.Data.SqlClient.SqlException SqlException System.Data.SqlClient.SqlException: Sunucuyla baðlantý kurulurken að ile ilgili veya örneðe özel bir hata oluþtu. Sunucu bulunamadý veya sunucuya eriþilemiyor. Örnek adýnýn doðru olduðunu ve SQL Server'ýn uzak baðlantýlara izin verdiðini doðrulayýn. (provider: Adlandýrýlmýþ Kanal Saðlayýcýsý, error: 40 - SQL Server için baðlantý açýlamadý)
+   konum: System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   konum: System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   konum: System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   konum: System.Data.SqlClient.SqlConnection.Open()
+   konum: System.Data.Common.DbDataAdapter.QuietOpen(IDbConnection connection, ConnectionState& originalState)
+   konum: System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   konum: System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   konum: System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   konum: ABSqlConnection.GetDataTable(String SqlCumlesi)
+   konum: BelgeUtil.Inits.AdliBirimAdliyeGetir_Enter(Object sender, EventArgs e) d:\SHAProjeler\MAESTRO\BelgeUtil\Inits.cs içinde: satýr 819
+   konum: BelgeUtil.Inits.AdliBirimAdliyeGetir(RepositoryItemLookUpEdit lue) d:\SHAProjeler\MAESTRO\BelgeUtil\Inits.cs içinde: satýr 783
+   konum: AdimAdimDavaKaydi.Forms.Genel.frmTumDosyalardaArama.frmTumDosyalardaArama_Load(Object sender, EventArgs e) d:\SHAProjeler\MAESTRO\AdimAdimDavaKaydi\Forms\Genel\frmTumDosyalardaArama.cs içinde: satýr 37
+   konum: System.Windows.Forms.Form.OnLoad(EventArgs e)
+   konum: System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   konum: System.Windows.Forms.Control.CreateControl()
+   konum: System.Windows.Forms.Control.WmShowWindow(Message& m)
+   konum: System.Windows.Forms.Control.WndProc(Message& m)
+   konum: System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   konum: System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam) System.Data.ProviderBase.DbConnectionInternal GetConnection(System.Data.Common.DbConnection)    konum: System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   konum: System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   konum: System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   konum: System.Data.SqlClient.SqlConnection.Open()
+   konum: System.Data.Common.DbDataAdapter.QuietOpen(IDbConnection connection, ConnectionState& originalState)
+   konum: System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   konum: System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   konum: System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   konum: ABSqlConnection.GetDataTable(String SqlCumlesi)
+   konum: BelgeUtil.Inits.AdliBirimAdliyeGetir_Enter(Object sender, EventArgs e) d:\SHAProjeler\MAESTRO\BelgeUtil\Inits.cs içinde: satýr 819
+   konum: BelgeUtil.Inits.AdliBirimAdliyeGetir(RepositoryItemLookUpEdit lue) d:\SHAProjeler\MAESTRO\BelgeUtil\Inits.cs içinde: satýr 783
+   konum: AdimAdimDavaKaydi.Forms.Genel.frmTumDosyalardaArama.frmTumDosyalardaArama_Load(Object sender, EventArgs e) d:\SHAProjeler\MAESTRO\AdimAdimDavaKaydi\Forms\Genel\frmTumDosyalardaArama.cs içinde: satýr 37
+   konum: System.Windows.Forms.Form.OnLoad(EventArgs e)
+   konum: System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   konum: System.Windows.Forms.Control.CreateControl()
+   konum: System.Windows.Forms.Control.WmShowWindow(Message& m)
+   konum: System.Windows.Forms.Control.WndProc(Message& m)
+   konum: System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   konum: System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)

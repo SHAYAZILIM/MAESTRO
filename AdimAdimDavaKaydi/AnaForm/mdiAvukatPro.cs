@@ -3949,7 +3949,7 @@ namespace AdimAdimDavaKaydi.AnaForm
             }
 
             ///Önemli :   Döviz çekme kýsmý serversideservice içine aktarýlacak////
-            TList<TDI_CET_GUNLUK_DOVIZ_KUR> dvx = DataRepository.TDI_CET_GUNLUK_DOVIZ_KURProvider.GetBy_DovizID_TarihtenBuyuk(2, DateTime.Today.AddDays(-1));
+            /*TList<TDI_CET_GUNLUK_DOVIZ_KUR> dvx = DataRepository.TDI_CET_GUNLUK_DOVIZ_KURProvider.GetBy_DovizID_TarihtenBuyuk(2, DateTime.Today.AddDays(-1));
 
             if (dvx.Count == 0)
             {
@@ -3999,9 +3999,9 @@ namespace AdimAdimDavaKaydi.AnaForm
                         catch { ;}
                     }
                 }
-            }
+            }*/
 
-            ABDegiskenler.DegiskenleriDoldur();
+            //ABDegiskenler.DegiskenleriDoldur();
 
             foreach (ToolStripMenuItem item in ekranGorunumleriToolStripMenuItem.DropDownItems)
             {
